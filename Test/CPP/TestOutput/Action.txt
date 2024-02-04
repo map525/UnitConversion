@@ -1,0 +1,90 @@
+
+START UnitConversionUnitsTest February 04, 2024 13:38:27 Version : 1.0
+
+name: Force type: action valid: 1
+To System: SI From System: SI
+Action Types [action, force, massFlow, momentum, quadMoment]
+Action All Systems [SI, Scientific, a.u., CAN, FPS, Imperial, MKpS, MTS, UK, US, cgs]
+Action All Units [SI[J-sec], SI[joule-second], Scientific[planck], a.u.[au-of-action], a.u.[au-of-angular-momentum], 
+                  a.u.[aua], a.u.[auam], CAN[ounce-force], CAN[ozf], FPS[lbf], FPS[pdl], FPS[pound-force], 
+                  FPS[poundal], Imperial[kilopound-force], Imperial[kip-force], Imperial[kipf], Imperial[lbf], 
+                  Imperial[odl], Imperial[ouncedal], Imperial[pound-force], Imperial[tdl], Imperial[tondal], 
+                  MKpS[kgf], MKpS[kgp], MKpS[kgw], MKpS[kilogram-force], MKpS[kilogram-weight], MKpS[p], MKpS[pond], 
+                  MTS[funal], MTS[sn], MTS[sth], MTS[sthene], MTS[ton-force(metric)], SI[EN], SI[GN], SI[MN], SI[NH], 
+                  SI[N], SI[PN], SI[TN], SI[YN], SI[ZN], SI[aN], SI[attonewton], SI[cN], SI[centinewton], SI[dN], 
+                  SI[daN], SI[decacnewton], SI[decinewton], SI[exacnewton], SI[fN], SI[femtonewton], SI[giganewton], 
+                  SI[hN], SI[hectonewton], SI[kN], SI[kilonewton], SI[meganewton], SI[micronewton], SI[millinewton], 
+                  SI[nN], SI[nanonewton], SI[newton], SI[pN], SI[petanewton], SI[piconewton], SI[teranewton], SI[uN], 
+                  SI[yN], SI[yoctonewton], SI[yottanewton], SI[zN], SI[zeptonewton], SI[zettanewton], 
+                  Scientific[crinal], Scientific[slug-force], UK[ounce-force], UK[ozf], UK[ton-force(long)], 
+                  US[ounce-force], US[ozf], US[ton-force(short)], a.u.[au-of-force], a.u.[auf], cgs[dyn], cgs[dyne], 
+                  SI[N/m], SI[kg/sec], SI[kilogram-per-second], SI[newton-per-meter], Scientific[sumner-unit], 
+                  SI[N-sec], SI[newton-second], a.u.[au-of-linear-momentum], a.u.[aulm], cgs[bole], cgs[gcm/sec], 
+                  cgs[gramcentimeter-per-second], Imperial[bisquare-foot], Imperial[bisquare-inch], Imperial[ft4], 
+                  Imperial[in4], SI[bisquare-meter], SI[m4], US[barrel-mile], US[bbl-mi], US[mi4]]
+Action Systems [SI, Scientific, a.u.]
+Units Action [SI[J-sec], SI[joule-second], Scientific[planck], a.u.[au-of-action], a.u.[au-of-angular-momentum], 
+              a.u.[aua], a.u.[auam]]
+Action SI J-sec SI 1 1 joule-second kg.m2/s M.L2/T 0
+Action SI joule-second SI 1 1 joule-second kg.m2/s M.L2/T 0
+Action Scientific planck Scientific 1 1 planck kg.m2/s M.L2/T 0
+Action a.u. au-of-action a.u. 1 1.05457e-34 au-of-action kg.m2/s M.L2/T 0
+Action a.u. au-of-angular-momentum a.u. 1 1.05457e-34 au-of-angular-momentum kg.m2/s M.L2/T 0
+Action a.u. aua a.u. 1 1.05457e-34 au-of-action kg.m2/s M.L2/T 0
+Action a.u. auam a.u. 1 1.05457e-34 au-of-angular-momentum kg.m2/s M.L2/T 0
+
+name: Force type: action valid: 1
+action from SI J-sec to SI J-sec (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from SI J-sec to SI joule-second (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from SI J-sec to Scientific planck (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from SI J-sec to a.u. au-of-action (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI J-sec to a.u. au-of-angular-momentum (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI J-sec to a.u. aua (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI J-sec to a.u. auam (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI joule-second to SI J-sec (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from SI joule-second to SI joule-second (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from SI joule-second to Scientific planck (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from SI joule-second to a.u. au-of-action (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI joule-second to a.u. au-of-angular-momentum (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI joule-second to a.u. aua (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from SI joule-second to a.u. auam (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from Scientific planck to SI J-sec (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from Scientific planck to SI joule-second (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from Scientific planck to Scientific planck (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from Scientific planck to a.u. au-of-action (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from Scientific planck to a.u. au-of-angular-momentum (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from Scientific planck to a.u. aua (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from Scientific planck to a.u. auam (convert): PASS value: 1: 9482521562467258169125736481292288.000000 2: 9482521562467258169125736481292288.000000 3: 9482521562467258169125736481292288.000000
+action from a.u. au-of-action to SI J-sec (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. au-of-action to SI joule-second (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. au-of-action to Scientific planck (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. au-of-action to a.u. au-of-action (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-action to a.u. au-of-angular-momentum (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-action to a.u. aua (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-action to a.u. auam (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-angular-momentum to SI J-sec (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. au-of-angular-momentum to SI joule-second (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. au-of-angular-momentum to Scientific planck (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. au-of-angular-momentum to a.u. au-of-action (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-angular-momentum to a.u. au-of-angular-momentum (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-angular-momentum to a.u. aua (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. au-of-angular-momentum to a.u. auam (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. aua to SI J-sec (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. aua to SI joule-second (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. aua to Scientific planck (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. aua to a.u. au-of-action (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. aua to a.u. au-of-angular-momentum (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. aua to a.u. aua (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. aua to a.u. auam (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. auam to SI J-sec (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. auam to SI joule-second (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. auam to Scientific planck (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+action from a.u. auam to a.u. au-of-action (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. auam to a.u. au-of-angular-momentum (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. auam to a.u. aua (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+action from a.u. auam to a.u. auam (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 13:38:27 Duration: 0.117 Version : 1.0
+
+*********************************************************************************

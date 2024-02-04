@@ -1,0 +1,265 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:38:51 Version : 1.0
+
+
+name: VelAccJrk type: jerk valid: true
+To System: cgs From System: cgs
+Jerk Types [acceleration, jerk, velocity]
+
+Jerk All Systems [cgs, Imperial, SI, FPS, INT, Scientific, US, UK]
+
+Jerk All Units [cgs[Gal], Imperial[hand-per-square-second], SI[zeptometer-per-square-second], 
+                Imperial[foot-per-square-second], SI[pm/sec2], SI[micrometer-per-square-second], FPS[celo], INT[gee], 
+                INT[normal-acceleration], SI[ym/sec2], SI[km/sec2], SI[hm/sec2], Imperial[yd/sec2], Imperial[mi/sec2], 
+                SI[fm/sec2], SI[um/sec2], SI[mm/sec2], SI[nm/sec2], SI[zm/sec2], Scientific[leo], Imperial[ft/sec2], 
+                Imperial[furlong-per-square-second], SI[dm/sec2], SI[hectometer-per-square-second], 
+                Imperial[chain-per-square-second], cgs[galileo], Imperial[yard-per-square-second], 
+                SI[femtometer-per-square-second], SI[nanometer-per-square-second], SI[dam/sec2], Imperial[fur/sec2], 
+                Imperial[lea/sec2], SI[decimeter-per-square-second], Imperial[ch/sec2], 
+                Imperial[league-per-square-second], SI[millimeter-per-square-second], SI[kilometer-per-square-second], 
+                SI[decameter-per-square-second], SI[centimeter-per-square-second], FPS[foot-per-square-second], 
+                INT[g], Imperial[in/sec2], cgs[gal], Imperial[hd/sec2], FPS[ft/sec2], SI[cm/sec2], INT[gn], 
+                SI[am/sec2], SI[m/sec2], SI[attometer-per-square-second], SI[meter-per-square-second], 
+                SI[yoctometer-per-square-second], SI[picometer-per-square-second], Imperial[mile-per-square-second], 
+                Imperial[inch-per-square-second], SI[jolt], SI[jerk], Imperial[j], Imperial[J], Imperial[jolt], 
+                cgs[jerk], cgs[jolt], Imperial[jerk], SI[j], SI[J], cgs[j], cgs[J], SI[hm/min], 
+                SI[yoctometer-per-second], SI[kilometer-per-hour], SI[ym/day], SI[millimeter-per-second], SI[cm/yr], 
+                SI[nanometer-per-second], SI[am/mon], Imperial[chain-per-hour], SI[hm/day], SI[nm/sec], SI[nm/yr], 
+                SI[megameter-per-minute], Imperial[leag/hr], Imperial[chain-per-year], INT[M], SI[kilometer-per-day], 
+                cgs[cm/sec], SI[meter-per-hour], Imperial[mile-per-year], SI[ym/sec], FPS[fps], SI[ym/yr], 
+                Imperial[hand-per-month], Imperial[in/sec], SI[hm/sec], SI[Mm/yr], SI[nm/min], SI[pm/yr], 
+                SI[megameter-per-month], SI[nanometer-per-month], SI[cm/hr], SI[femtometer-per-day], 
+                FPS[foot-per-second], Imperial[inch-per-month], SI[nm/day], SI[m/mon], Imperial[leag/yr], SI[nm/hr], 
+                SI[attometer-per-day], SI[decimeter-per-month], Imperial[furlong-per-month], SI[dam/day], 
+                Scientific[milligram-per-square-decimeter-per-day], SI[dam/min], Imperial[leag/sec], SI[cm/day], 
+                Imperial[mile-per-hour], Scientific[lightspeed], SI[yoctometer-per-day], Imperial[foot-per-second], 
+                INT[noeud], SI[mm/mon], SI[fm/mon], Scientific[yard-per-minute], SI[cm/min], SI[nanometer-per-minute], 
+                SI[yoctometer-per-month], SI[zeptometer-per-day], SI[decameter-per-day], Imperial[fps], 
+                Imperial[furlong-per-day], SI[femtometer-per-hour], Imperial[mi/mon], Scientific[cm/s], 
+                SI[meter-per-minute], SI[decimeter-per-second], Scientific[Bz], Imperial[chain-per-day], 
+                SI[hectometer-per-hour], Imperial[league-per-second], SI[Mm/hr], Scientific[yard-per-hour], 
+                SI[centimeter-per-minute], Imperial[chain-per-second], SI[dam/sec], SI[megameter-per-second], 
+                SI[km/hr], Imperial[fur/hr], SI[meter-per-month], Imperial[ips], SI[nanometer-per-hour], 
+                Imperial[hand-per-minute], SI[decameter-per-minute], SI[dm/sec], Scientific[benz], SI[um/min], 
+                SI[meter-per-second], Imperial[foot-per-month], Imperial[league-per-hour], Imperial[leag/day], 
+                Imperial[hd/sec], Imperial[mph], SI[nanometer-per-day], Scientific[yd/hr], SI[Mm/day], SI[nm/mon], 
+                Imperial[in/yr], SI[yoctometer-per-minute], Imperial[fpm], Imperial[inch-per-second], 
+                Imperial[leag/min], SI[um/day], SI[dm/day], US[knot], Imperial[inch-per-minute], SI[Mm/min], INT[Ma], 
+                INT[mach], SI[dm/min], SI[um/sec], SI[yoctometer-per-hour], SI[cm/mon], INT[B], 
+                SI[centimeter-per-year], Imperial[furlong-per-hour], Imperial[in/min], SI[dam/hr], 
+                Imperial[foot-per-day], Imperial[in/day], SI[decameter-per-second], Imperial[mile-per-minute], 
+                SI[fm/min], Imperial[fur/min], Imperial[league-per-minute], Scientific[svedberg], Imperial[ft/mon], 
+                SI[meter-per-year], SI[micrometer-per-hour], Imperial[mi/yr], SI[dam/mon], cgs[centimeter-per-second], 
+                SI[km/yr], SI[femtometer-per-year], INT[nautical-mile-per-hour], Imperial[fur/day], SI[Mm/sec], 
+                Imperial[mpy], SI[attometer-per-minute], SI[pm/mon], Scientific[m/sec], Imperial[mil-per-year], 
+                Imperial[knot], INT[knot], Imperial[fur/sec], SI[centimeter-per-month], INT[kn], SI[fm/sec], 
+                SI[millimeter-per-day], SI[dam/yr], SI[dm/hr], FPS[ft/sec], Imperial[chain-per-minute], 
+                Imperial[foot-per-minute], SI[kilometer-per-year], Imperial[foot-per-year], SI[pm/hr], 
+                Scientific[yd/yr], SI[centimeter-per-day], SI[millimeter-per-minute], SI[zeptometer-per-minute], 
+                SI[fm/day], SI[micrometer-per-month], SI[nanometer-per-year], SI[decimeter0per-minute], 
+                Imperial[mi/hr], Imperial[hd/yr], Imperial[league-per-day], Imperial[hand-per-hour], Imperial[fph], 
+                SI[picometer-per-month], Scientific[yd/mon], SI[kilometer-per-second], SI[micrometer-per-year], 
+                SI[zm/yr], Imperial[mile-per-day], SI[km/min], Imperial[leag/mon], SI[m/yr], SI[decameter-per-hour], 
+                SI[zeptometer-per-month], SI[dm/yr], Imperial[mi/min], SI[decameter-per-month], 
+                Imperial[furlong-per-year], SI[picometer-per-minute], SI[dm/mon], SI[zm/mon], INT[bubnoff-unit], 
+                Imperial[hand-per-year], Imperial[mi/day], SI[mm/yr], Scientific[yard-per-month], 
+                Imperial[inch-per-day], SI[km/sec], SI[megameter-per-hour], SI[fm/hr], Scientific[yard-per-day], 
+                Imperial[foot-per-hour], SI[micrometer-per-second], SI[km/day], Imperial[fpy], Imperial[mi/sec], 
+                SI[Mm/mon], SI[zeptometer-per-year], SI[zm/hr], Imperial[hd/day], SI[hectometer-per-day], SI[fm/yr], 
+                SI[m/hr], Imperial[hd/min], SI[hm/hr], Imperial[fur/mon], SI[megameter-per-day], Imperial[in/mon], 
+                SI[zeptometer-per-hour], SI[millimeter-per-hour], SI[attometer-per-year], Imperial[ft/min], SI[whizz], 
+                SI[decimeter-per-year], Imperial[hd/hr], Imperial[ft/day], SI[pm/min], SI[um/hr], 
+                SI[kilometer-per-month], SI[millimeter-per-month], SI[micrometer-per-day], SI[yoctometer-per-year], 
+                SI[centimeter-per-hour], Scientific[mg/dm2-day], SI[zeptometer-per-second], INT[nmph], 
+                SI[attometer-per-second], SI[meter-per-day], SI[pm/day], Imperial[ch/mon], Imperial[fur/yy], US[kn], 
+                SI[decimeter-per-day], Imperial[kn], UK[cusec], INT[Nma], SI[pm/sec], SI[ym/mon], Imperial[in/hr], 
+                SI[kilometer-per-minute], SI[megameter-per-year], SI[hectometer-per-month], Imperial[inch-per-year], 
+                Imperial[hand-per-day], SI[hm/mon], Imperial[ch/sec], SI[um/yr], Scientific[yard-per-second], 
+                SI[am/min], SI[femtometer-per-second], SI[femtometer-per-month], Imperial[chain-per-month], SI[hm/yr], 
+                Scientific[kyne], Imperial[league-per-month], SI[micrometer-per-minute], SI[hectometer-per-minute], 
+                SI[m/sec], SI[km/mon], Imperial[mile-per-second], Imperial[ft/hr], SI[picometer-per-hour], SI[zm/min], 
+                Imperial[furlong-per-second], Imperial[inch-per-hour], Imperial[mile-per-month], 
+                Scientific[yard-per-year], SI[m/day], SI[am/sec], Imperial[ch/hr], Imperial[league-per-year], 
+                Imperial[ft/yr], SI[hectometer-per-year], Imperial[ft/sec], Imperial[fpd], SI[m/min], 
+                Scientific[yd/day], Scientific[yd/min], SI[attometer-per-month], SI[am/day], SI[mm/day], 
+                SI[picometer-per-year], SI[zm/sec], Scientific[speed-of-light], Imperial[hand-per-second], 
+                SI[picometer-per-second], SI[decameter-per-year], SI[hectometer-per-second], SI[decimeter-per-hour], 
+                Scientific[yd/sec], SI[ym/hr], Scientific[Sv], SI[femtometer-per-minute], SI[millimeter-per-year], 
+                SI[mm/min], Scientific[c], SI[am/yr], Imperial[furlong-per-minute], Imperial[ch/day], UK[kn], 
+                SI[um/mon], SI[zm/day], cgs[kine], SI[picometer-per-day], UK[knot], SI[mm/sec], SI[am/hr], INT[BU], 
+                SI[ym/min], Imperial[ch/min], SI[attometer-per-hour], SI[mm/hr], Imperial[ch/yr], Imperial[hd/mon]]
+
+Jerk Systems [SI, Imperial, cgs]
+
+Units Jerk [cgs[jerk], cgs[jolt], cgs[j], cgs[J], Imperial[j], Imperial[J], Imperial[jolt], Imperial[jerk], SI[jolt], 
+            SI[jerk], SI[j], SI[J]]
+
+Jerk SI jolt SI true 1.0 jolt m/s3 L/T3 0.0
+Jerk SI jerk SI true 1.0 jerk m/s3 L/T3 0.0
+Jerk SI j SI true 1.0 jolt m/s3 L/T3 0.0
+Jerk SI J SI true 1.0 jerk m/s3 L/T3 0.0
+Jerk Imperial j Imperial true 0.3048 jolt m/s3 L/T3 0.0
+Jerk Imperial J Imperial true 0.3048 jerk m/s3 L/T3 0.0
+Jerk Imperial jolt Imperial true 0.3048 jolt m/s3 L/T3 0.0
+Jerk Imperial jerk Imperial true 0.3048 jerk m/s3 L/T3 0.0
+Jerk cgs jerk cgs true 0.01 jerk m/s3 L/T3 0.0
+Jerk cgs jolt cgs true 0.01 jolt m/s3 L/T3 0.0
+Jerk cgs j cgs true 0.01 jolt m/s3 L/T3 0.0
+Jerk cgs J cgs true 0.01 jerk m/s3 L/T3 0.0
+
+
+name: VelAccJrk type: jerk valid: true
+jerk from SI jolt to SI jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jolt to SI jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jolt to SI j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jolt to SI J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jolt to Imperial j (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jolt to Imperial J (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jolt to Imperial jolt (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jolt to Imperial jerk (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jolt to cgs jerk (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jolt to cgs jolt (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jolt to cgs j (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jolt to cgs J (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jerk to SI jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jerk to SI jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jerk to SI j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jerk to SI J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI jerk to Imperial j (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jerk to Imperial J (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jerk to Imperial jolt (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jerk to Imperial jerk (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI jerk to cgs jerk (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jerk to cgs jolt (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jerk to cgs j (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI jerk to cgs J (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI j to SI jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI j to SI jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI j to SI j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI j to SI J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI j to Imperial j (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI j to Imperial J (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI j to Imperial jolt (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI j to Imperial jerk (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI j to cgs jerk (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI j to cgs jolt (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI j to cgs j (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI j to cgs J (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI J to SI jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI J to SI jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI J to SI j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI J to SI J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from SI J to Imperial j (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI J to Imperial J (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI J to Imperial jolt (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI J to Imperial jerk (convert): PASS value: 1: 3.280839895013123 2: 3.280839895013123 3: 3.280839895013123
+jerk from SI J to cgs jerk (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI J to cgs jolt (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI J to cgs j (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from SI J to cgs J (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+jerk from Imperial j to SI jolt (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial j to SI jerk (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial j to SI j (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial j to SI J (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial j to Imperial j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial j to Imperial J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial j to Imperial jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial j to Imperial jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial j to cgs jerk (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial j to cgs jolt (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial j to cgs j (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial j to cgs J (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial J to SI jolt (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial J to SI jerk (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial J to SI j (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial J to SI J (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial J to Imperial j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial J to Imperial J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial J to Imperial jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial J to Imperial jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial J to cgs jerk (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial J to cgs jolt (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial J to cgs j (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial J to cgs J (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jolt to SI jolt (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jolt to SI jerk (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jolt to SI j (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jolt to SI J (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jolt to Imperial j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jolt to Imperial J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jolt to Imperial jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jolt to Imperial jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jolt to cgs jerk (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jolt to cgs jolt (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jolt to cgs j (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jolt to cgs J (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jerk to SI jolt (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jerk to SI jerk (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jerk to SI j (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jerk to SI J (convert): PASS value: 1: 0.3048 2: 0.3048 3: 0.3048
+jerk from Imperial jerk to Imperial j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jerk to Imperial J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jerk to Imperial jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jerk to Imperial jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from Imperial jerk to cgs jerk (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jerk to cgs jolt (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jerk to cgs j (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from Imperial jerk to cgs J (convert): PASS value: 1: 30.48 2: 30.48 3: 30.48
+jerk from cgs jerk to SI jolt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jerk to SI jerk (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jerk to SI j (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jerk to SI J (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jerk to Imperial j (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jerk to Imperial J (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jerk to Imperial jolt (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jerk to Imperial jerk (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jerk to cgs jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jerk to cgs jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jerk to cgs j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jerk to cgs J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jolt to SI jolt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jolt to SI jerk (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jolt to SI j (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jolt to SI J (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs jolt to Imperial j (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jolt to Imperial J (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jolt to Imperial jolt (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jolt to Imperial jerk (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs jolt to cgs jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jolt to cgs jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jolt to cgs j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs jolt to cgs J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs j to SI jolt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs j to SI jerk (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs j to SI j (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs j to SI J (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs j to Imperial j (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs j to Imperial J (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs j to Imperial jolt (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs j to Imperial jerk (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs j to cgs jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs j to cgs jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs j to cgs j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs j to cgs J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs J to SI jolt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs J to SI jerk (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs J to SI j (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs J to SI J (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+jerk from cgs J to Imperial j (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs J to Imperial J (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs J to Imperial jolt (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs J to Imperial jerk (convert): PASS value: 1: 0.03280839895013123 2: 0.03280839895013123 3: 0.03280839895013123
+jerk from cgs J to cgs jerk (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs J to cgs jolt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs J to cgs j (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+jerk from cgs J to cgs J (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:38:51 Duration: 0:0:0:0.008 Version : 1.0
+
+
+********************************************************************************
+

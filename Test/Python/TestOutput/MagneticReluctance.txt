@@ -1,0 +1,405 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:28 Version : 1.0
+
+name: EM type: magneticReluctance valid: True
+To System: Scientific From System: Scientific
+MagneticReluctance Types [current, charge, magneticFieldStrength, permeability, magneticDipoleMoment, currentDensity, 
+                          surfaceChargeDensity, chargeDensity, magneticReluctance, electricElastance, 
+                          electricConductance, capacitance, conductivity, specificAcousticImpedance, 
+                          magneticInduction, inductance, potential, resistance, resistivity, acousticImpedance, 
+                          electricFieldStrength, magneticFluxDensity, electricFieldGradient, magneticPotential, 
+                          magneticPermeability]
+
+MagneticReluctance All Systems [cgs, IEUS, INT, MKSA, SI, a.u., Scientific, US, Imperial, MKS, UK, German, Si]
+
+MagneticReluctance All Units [cgs[abampere], cgs[aA], IEUS[ampere], INT[ampere], MKSA[ampere], MKSA[A], SI[ampere], 
+                              SI[A], IEUS[ampere(mean)], INT[ampere(mean)], SI[ampere-tum], SI[A-turn], SI[At], 
+                              a.u.[au-of-electric-curent], a.u.[auec], cgs[biot], cgs[Bi], cgs[emu-of-current], 
+                              cgs[emuc], Scientific[galvat], cgs[gilbert], cgs[Gb], Scientific[pragilbert], 
+                              cgs[statampere], cgs[statA], cgs[abcoulomb], cgs[aC], SI[ampere-hour], SI[A-hr], 
+                              a.u.[au-of-electric-charge], a.u.[aue], SI[coulomb], SI[C], IEUS[coulomb(int)], IEUS[C], 
+                              cgs[emu-of-charge], cgs[esu-of-charge], cgs[franklin], cgs[Fr], cgs[statcoulomb], 
+                              cgs[statC], SI[yottacoulomb], SI[YC], SI[zettacoulomb], SI[ZC], SI[exacoulomb], SI[EC], 
+                              SI[petacoulomb], SI[PC], SI[teracoulomb], SI[TC], SI[gigacoulomb], SI[GC], 
+                              SI[megacoulomb], SI[MC], SI[kilocoulomb], SI[kC], SI[hectocoulomb], SI[hC], 
+                              SI[decacoulomb], SI[daC], SI[decicoulomb], SI[dC], SI[centicoulomb], SI[cC], 
+                              SI[millicoulomb], SI[mC], SI[microcoulomb], SI[uC], SI[nanocoulomb], SI[nC], 
+                              SI[picocoulomb], SI[pC], SI[femtocoulomb], SI[fC], SI[attocoulomb], SI[aC], 
+                              SI[zeptocoulomb], SI[zC], SI[yoctocoulomb], SI[yC], SI[ampere-per-meter], SI[A/m], 
+                              Scientific[lenz], cgs[oersted], cgs[CE], cgs[ce], Scientific[praoersted], US[perm(0oC)], 
+                              US[perm(23oC)], SI[ampere-square-meter], SI[A-m2], a.u.[au-of-magnetic-dipole-moment], 
+                              a.u.[audpm], Scientific[magneton(bohr)], Scientific[uB], Scientific[B], 
+                              Scientific[bohr-magneton], Scientific[magneton(nuclear)], Scientific[uN], 
+                              Scientific[BN], Scientific[nuclear-magneton], Imperial[ampere-per-square-inch], 
+                              Imperial[A/in2], Imperial[ampere-per-square-foot], Imperial[A/ft2], 
+                              Imperial[ampere-per-square-yard], Imperial[A/yd2], 
+                              Imperial[milliampere-per-square-inch], Imperial[mA/in2], 
+                              Imperial[milliampere-per-square-foot], Imperial[mA/ft2], 
+                              Imperial[milliampere-per-square-yard], Imperial[mA/yd2], 
+                              Imperial[microampere-per-square-inch], Imperial[uA/in2], 
+                              Imperial[microampere-per-square-foot], Imperial[uA/ft2], 
+                              Imperial[microampere-per-square-yard], Imperial[uA/yd2], SI[ampere-per-square-meter], 
+                              SI[A/m2], SI[ampere-per-square-decimeter], SI[A/dm2], SI[ampere-per-square-centimeter], 
+                              SI[A/cm2], SI[ampere-per-square-millimeter], SI[A/mm2], 
+                              SI[ampere-per-square-micrometer], SI[A/um2], SI[ampere-per-square-nanometer], SI[A/nm2], 
+                              Scientific[milliampere-per-square-meter], Scientific[mA/m2], 
+                              SI[milliampere-per-square-decimeter], SI[mA/dm2], 
+                              Scientific[milliampere-per-square-centimeter], Scientific[mA/cm2], 
+                              Scientific[milliampere-per-square-millimeter], Scientific[mA/mm2], 
+                              Scientific[milliampere-per-square-micrometer], Scientific[mA/um2], 
+                              Scientific[milliampere-per-square-nanometer], Scientific[mA/nm2], 
+                              Scientific[microampere-per-square-meter], Scientific[uA/m2], 
+                              SI[microampere-per-square-decimeter], SI[uA/dm2], 
+                              Scientific[microampere-per-square-centimeter], Scientific[uA/cm2], 
+                              Scientific[microampere-per-square-millimeter], Scientific[uA/mm2], 
+                              Scientific[microampere-per-square-micrometer], Scientific[uA/um2], 
+                              Scientific[microampere-per-square-nanometer], Scientific[uA/nm2], 
+                              SI[coulomb-per-square-kilometer], SI[C/km2], SI[coulomb-per-square-meter], SI[C/m2], 
+                              SI[coulomb-per-square-centimeter], SI[C/cm2], SI[coulomb-per-square-millimeter], 
+                              SI[C/mm2], SI[coulomb-per-square-micrometer], SI[C/um2], 
+                              SI[coulomb-per-square-nanometer], SI[C/nm2], Scientific[coulomb-per-square-mile], 
+                              Scientific[C/mi2], Scientific[coulomb-per-square-yard], Scientific[C/yd2], 
+                              Scientific[coulomb-per-square-foot], Scientific[C/ft2], 
+                              Scientific[coulomb-per-square-inch], Scientific[C/in2], 
+                              a.u.[au-of-electric-charge-density], a.u.[auecd], SI[coulomb-per-cubic-kilometer], 
+                              SI[C/km3], SI[coulomb-per-cubic-meter], SI[C/m3], SI[coulomb-per-cubic-centimeter], 
+                              SI[C/cm3], SI[coulomb-per-cubic-millimeter], SI[C/mm3], 
+                              SI[coulomb-per-cubic-micrometer], SI[C/um3], SI[coulomb-per-cubic-nanometer], SI[C/nm3], 
+                              Scientific[coulomb-per-cubic-mile], Scientific[C/mi3], 
+                              Scientific[coulomb-per-cubic-yard], Scientific[C/yd3], 
+                              Scientific[coulomb-per-cubic-foot], Scientific[C/ft3], 
+                              Scientific[coulomb-per-cubic-inch], Scientific[C/in3], MKS[yrneh], SI[sturgeon], 
+                              Scientific[farad-per-square-second], Scientific[F/s2], 
+                              Scientific[farad-per-square-minute], Scientific[F/min2], 
+                              Scientific[farad-per-square-hour], Scientific[F/hr2], Scientific[farad-per-square-day], 
+                              Scientific[F/day2], Scientific[farad-per-square-month], Scientific[F/mon2], 
+                              Scientific[farad-per-square-year], Scientific[F/yr2], US[daraf], 
+                              Scientific[henry-per-square-second], Scientific[H/sec2], 
+                              Scientific[henry-per-square-minute], Scientific[H/min2], 
+                              Scientific[henry-per-square-hour], Scientific[H/hr2], Scientific[henry-per-square-day], 
+                              Scientific[H/day2], Scientific[henry-per-square-month], Scientific[H/mon2], 
+                              Scientific[henry-per-square-year], Scientific[H/yr2], 
+                              Imperial[ringing-equivalent-number], Imperial[REN], cgs[abmho], cgs[aS], cgs[1/aW], 
+                              cgs[emu-of-conductance], cgs[emu-S], cgs[esu-of-conductance], cgs[esu-S], cgs[statmho], 
+                              INT[mho], Scientific[gemmbo], SI[siemens], SI[S], SI[yottasiemens], SI[YS], 
+                              SI[zettasiemens], SI[ZS], SI[exacsiemens], SI[ES], SI[petasiemens], SI[PS], 
+                              SI[terasiemens], SI[TS], SI[gigasiemens], SI[GS], SI[megasiemens], SI[MS], 
+                              SI[kilosiemens], SI[kS], SI[hectosiemens], SI[hS], SI[decasiemens], SI[daS], 
+                              SI[decisiemens], SI[dS], SI[centisiemens], SI[cS], SI[millisiemens], SI[mS], 
+                              SI[microsiemens], SI[uS], SI[nanosiemens], SI[nS], SI[picosiemens], SI[pS], 
+                              SI[femtosiemens], SI[fS], SI[attosiemens], SI[aS], SI[zeptosiemens], SI[zS], 
+                              SI[yoctosiemens], SI[yS], cgs[abfarad], cgs[aF], cgs[emu-of-electric-capacitance], 
+                              cgs[emu-F], cgs[esu-of-capacitance], cgs[esu-F], cgs[statfarad], IEUS[farad], IEUS[F], 
+                              Imperial[centimeter], Imperial[cm], Scientific[jar], Scientific[puff], SI[farad], SI[F], 
+                              SI[yottafarad], SI[YF], SI[zettafarad], SI[ZF], SI[exacfarad], SI[EF], SI[petafarad], 
+                              SI[PF], SI[terafarad], SI[TF], SI[gigafarad], SI[GF], SI[megafarad], SI[MF], 
+                              SI[kilofarad], SI[kF], SI[hectofarad], SI[hF], SI[decafarad], SI[daF], SI[decifarad], 
+                              SI[dF], SI[centifarad], SI[cF], SI[millifarad], SI[mF], SI[microfarad], SI[uF], 
+                              SI[nanofarad], SI[nF], SI[picofarad], SI[pF], SI[femtofarad], SI[fF], SI[attofarad], 
+                              SI[aF], SI[zeptofarad], SI[zF], SI[yoctofarad], SI[yF], cgs[roc], MKSA[rom], 
+                              Scientific[reciprocal-ohm-per-inch], Scientific[roi], 
+                              Scientific[reciprocal-ohm-per-foot], Scientific[rof], 
+                              Scientific[reciprocal-ohm-per-centimeter], Scientific[roc], 
+                              Scientific[reciprocal-ohm-per-meter], Scientific[siemens-per-meter], Scientific[S/m], 
+                              cgs[rayl], MKSA[rayl], cgs[maxwell], cgs[Mx], Imperial[kapp-line], Imperial[unit-pole], 
+                              Scientific[debye], Scientific[D], SI[weber], SI[Wb], US[line], SI[yottaweber], SI[YWb], 
+                              SI[zettaweber], SI[ZWb], SI[exacweber], SI[EWb], SI[petaweber], SI[PWb], SI[teraweber], 
+                              SI[TWb], SI[gigaweber], SI[GWb], SI[megaweber], SI[MWb], SI[kiloweber], SI[kWb], 
+                              SI[hectoweber], SI[hWb], SI[decaweber], SI[daWb], SI[deciweber], SI[dWb], 
+                              SI[centiweber], SI[cWb], SI[milliweber], SI[mWb], SI[microweber], SI[uWb], 
+                              SI[nanoweber], SI[nWb], SI[picoweber], SI[pWb], SI[femtoweber], SI[fWb], SI[attoweber], 
+                              SI[aWb], SI[zeptoweber], SI[zWb], SI[yoctoweber], SI[yWb], cgs[abhenry], cgs[aH], 
+                              cgs[emu-of-inductance], cgs[emu-H], cgs[esu-of-inductance], cgs[esu-H], cgs[stathenry], 
+                              cgs[statH], IEUS[henry], IEUS[H], Scientific[centimeter], Scientific[cm], SI[henry], 
+                              SI[H], UK[mic], US[henry], US[H], US[henry(mean)], US[H(mean)], SI[yottahenry], SI[YH], 
+                              SI[zettahenry], SI[ZH], SI[exachenry], SI[EH], SI[petahenry], SI[PH], SI[terahenry], 
+                              SI[TH], SI[gigahenry], SI[GH], SI[megahenry], SI[MH], SI[kilochenry], SI[kH], 
+                              SI[hectohenry], SI[hH], SI[decachenry], SI[daH], SI[decihenry], SI[dH], SI[centihenry], 
+                              SI[cH], SI[millihenry], SI[mH], SI[microhenry], SI[uH], SI[nanohenry], SI[nH], 
+                              SI[picohenry], SI[pH], SI[femtohenry], SI[fH], SI[attohenry], SI[aH], SI[zeptohenry], 
+                              SI[zH], SI[yoctohenry], SI[yH], cgs[abvolt], cgs[aV], cgs[emu-of-electric-potential], 
+                              cgs[emu-V], cgs[esu-of-electric-potential], cgs[esu-V], cgs[statvolt], cgs[statV], 
+                              IEUS[volt], IEUS[V], IEUS[volt(mean)], IEUS[V(mean)], INT[daniell], INT[volt(mean)], 
+                              INT[V(mean)], SI[volt], SI[V], UK[crocodile], US[volt], US[V], SI[yottavolt], SI[YV], 
+                              SI[zettavolt], SI[ZV], SI[exacvolt], SI[EV], SI[petavolt], SI[PV], SI[teravolt], SI[TV], 
+                              SI[gigavolt], SI[GV], SI[megavolt], SI[MV], SI[kilocvolt], SI[kV], SI[hectovolt], 
+                              SI[hV], SI[decavolt], SI[daV], SI[decivolt], SI[dV], SI[centivolt], SI[cV], 
+                              SI[millivolt], SI[mV], SI[microvolt], SI[uV], SI[nanovolt], SI[nV], SI[picovolt], 
+                              SI[pV], SI[femtovolt], SI[fV], SI[attovolt], SI[aV], SI[zeptovolt], SI[zV], 
+                              SI[yoctovolt], SI[yV], cgs[abohm], cgs[aW], cgs[emu-of-resistance], cgs[emi-W], 
+                              cgs[esu-of-resistance], cgs[esu-W], cgs[statohm], German[siemens], IEUS[ohm], 
+                              IEUS[ohm(legal)], IEUS[ohm(mean)], Scientific[lenz(resistance)], SI[jacobi], SI[ohm], 
+                              SI[W], UK[preece], UK[wheatstone], US[ohm], US[ohm(legal)], US[ohm(mean)], SI[yottaohm], 
+                              SI[YW], SI[zettaohm], SI[ZW], SI[exacohm], SI[EW], SI[petaohm], SI[PW], SI[teraohm], 
+                              SI[TW], SI[gigaohm], SI[GW], SI[megaohm], SI[MW], SI[kiloohm], SI[kW], SI[hectoohm], 
+                              SI[hW], SI[decaohm], SI[daW], SI[deciohm], SI[dW], SI[centiohm], SI[cW], SI[milliohm], 
+                              SI[mW], SI[microohm], SI[uW], SI[nanoohm], SI[nW], SI[picoohm], SI[pW], SI[femtoohm], 
+                              SI[fW], SI[attoohm], SI[aW], SI[zeptoohm], SI[zW], SI[yoctoohm], SI[yW], 
+                              Imperial[ohm-circular-mil-per-foot], Imperial[W-cmi/ft], Imperial[ohm-cmi/ft], 
+                              INT[international-annealed-copper-standard], INT[IACS], SI[ohm-meter], SI[W-m], 
+                              SI[ohm-m], cgs[acoustic-ohm], cgs[ohm(acoustic)], cgs[ohm(mechanical)], 
+                              SI[ohm(mechanical)], SI[acoustic-ohm], SI[ohm(acoustic)], 
+                              a.u.[au-of-electric-field-strength], a.u.[auefs], a.u.[au-of-electric-potential], 
+                              a.u.[auep], SI[volt-per-kilometer], SI[V/km], SI[volt-per-meter], SI[V/m], 
+                              SI[volt-per-centimeter], SI[V/cm], SI[volt-per-millimeter], SI[V/mm], 
+                              SI[volt-per-micrometer], SI[V/um], SI[volt-per-nanometer], SI[V/nm], 
+                              SI[millivolt-per-meter], SI[mV/m], SI[millivolt-per-centimeter], SI[mV/cm], 
+                              SI[millivolt-per-millimeter], SI[mV/mm], SI[millivolt-per-micrometer], SI[mV/um], 
+                              SI[millivolt-per-nanometer], SI[mV/nm], SI[microvolt-per-meter], SI[uV/m], 
+                              SI[microvolt-per-centimeter], SI[uV/cm], SI[microvolt-per-millimeter], SI[uV/mm], 
+                              SI[microvolt-per-micrometer], SI[uV/um], SI[mircovolt-per-nanometer], SI[uV/nm], 
+                              Scientific[volt-per-mile], Scientific[V/mi], Scientific[volt-per-yard], 
+                              Scientific[V/yd], Scientific[volt-per-foot], Scientific[V/ft], 
+                              Scientific[volt-per-inch], Scientific[V/in], Scientific[millivolt-per-yard], 
+                              Scientific[mV/yd], Scientific[millivolt-per-foot], Scientific[mV/ft], 
+                              Scientific[millivolt-per-inch], Scientific[mV/in], Scientific[microvolt-per-yard], 
+                              Scientific[uV/yd], Scientific[microvolt-per-foot], Scientific[uV/ft], 
+                              Scientific[microvolt-per-inch], Scientific[uV/in], a.u.[au-of-magnetic-flux-density], 
+                              a.u.[aumfd], cgs[gauss], cgs[Gs], cgs[G], Scientific[gamma], Scientific[g], SI[tesla], 
+                              SI[T], SI[yottatesla], SI[YT], SI[zettatesla], SI[ZT], SI[exactesla], SI[ET], 
+                              SI[petatesla], SI[PT], SI[teratesla], SI[TT], SI[gigatesla], SI[GT], SI[megatesla], 
+                              SI[MT], SI[kiloctesla], SI[kT], SI[hectotesla], SI[hT], SI[decatesla], SI[daT], 
+                              SI[decitesla], SI[dT], SI[centitesla], SI[cT], SI[millitesla], SI[NT], SI[microtesla], 
+                              SI[uT], SI[nanotesla], SI[nT], SI[picotesla], SI[pT], SI[femtotesla], SI[fT], 
+                              SI[attotesla], SI[aT], SI[zeptotesla], SI[zT], SI[yoctotesla], SI[yT], 
+                              a.u.[au-of-electric-field-strength-gradient], a.u.[ao], a.u.[b], a.u.[auefsg], 
+                              cgs[townsend], cgs[Td], SI[weber-per-kilometer], SI[Wb/km], SI[weber-per-meter], 
+                              SI[Wb/m], Si[weber-per-centimeter], Si[Wb/cm], Si[weber-per-millimeter], Si[Wb/mm], 
+                              Si[weber-per-micrometer], Si[Wb/um], Si[weber-per-nanometer], Si[Wb/nm], 
+                              Scientific[weber-per-mile], Scientific[Wb/mi], Scientific[weber-per-yard], 
+                              Scientific[Wb/yd], Scientific[weber-per-foot], Scientific[Wb/ft], 
+                              Scientific[weber-per-inch], Scientific[Wb/in], SI[henry-per-kilometer], SI[H/km], 
+                              SI[henry-per-meter], SI[H/m], SI[henry-per-centimeter], SI[H/cm], 
+                              SI[henry-per-millimeter], SI[H/mm], SI[henry-per-micrometer], SI[H/um], 
+                              SI[henry-per-nanometer], SI[H/nm], Scientific[henry-per-mile], Scientific[H/mi], 
+                              Scientific[henry-per-yard], Scientific[H/yd], Scientific[henry-per-foot], 
+                              Scientific[H/ft], Scientific[henry-per-inch], Scientific[H/in]]
+
+MagneticReluctance Systems [MKS, SI, Scientific]
+
+Units MagneticReluctance [SI[sturgeon], Scientific[farad-per-square-second], Scientific[F/s2], 
+                          Scientific[farad-per-square-minute], Scientific[F/min2], Scientific[farad-per-square-hour], 
+                          Scientific[F/hr2], Scientific[farad-per-square-day], Scientific[F/day2], 
+                          Scientific[farad-per-square-month], Scientific[F/mon2], Scientific[farad-per-square-year], 
+                          Scientific[F/yr2], MKS[yrneh]]
+
+MagneticReluctance MKS yrneh MKS True 1.0 yrneh s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance SI sturgeon SI True 1.0 sturgeon s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific farad-per-square-second Scientific True 1.0 farad-per-square-second s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific F/s2 Scientific True 1.0 farad-per-square-second s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific farad-per-square-minute Scientific True 0.000277777777777778 farad-per-square-minute s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific F/min2 Scientific True 0.000277777777777778 farad-per-square-minute s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific farad-per-square-hour Scientific True 7.71604938271605e-08 farad-per-square-hour s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific F/hr2 Scientific True 7.71604938271605e-08 farad-per-square-hour s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific farad-per-square-day Scientific True 1.33959190672154e-10 farad-per-square-day s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific F/day2 Scientific True 1.33959190672154e-10 farad-per-square-day s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific farad-per-square-month Scientific True 1.48843545191282e-13 farad-per-square-month s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific F/mon2 Scientific True 1.48843545191282e-13 farad-per-square-month s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific farad-per-square-year Scientific True 1.00551090765362e-15 farad-per-square-year s2.A2/kg.m2 T2.I2/M.L2 0.0
+MagneticReluctance Scientific F/yr2 Scientific True 1.00551090765362e-15 farad-per-square-year s2.A2/kg.m2 T2.I2/M.L2 0.0
+
+
+name: EM type: magneticReluctance valid: True
+magneticReluctance from MKS yrneh to MKS yrneh (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from MKS yrneh to SI sturgeon (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from MKS yrneh to Scientific farad-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from MKS yrneh to Scientific F/s2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from MKS yrneh to Scientific farad-per-square-minute (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from MKS yrneh to Scientific F/min2 (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from MKS yrneh to Scientific farad-per-square-hour (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from MKS yrneh to Scientific F/hr2 (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from MKS yrneh to Scientific farad-per-square-day (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from MKS yrneh to Scientific F/day2 (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from MKS yrneh to Scientific farad-per-square-month (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from MKS yrneh to Scientific F/mon2 (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from MKS yrneh to Scientific farad-per-square-year (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from MKS yrneh to Scientific F/yr2 (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from SI sturgeon to MKS yrneh (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from SI sturgeon to SI sturgeon (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from SI sturgeon to Scientific farad-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from SI sturgeon to Scientific F/s2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from SI sturgeon to Scientific farad-per-square-minute (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from SI sturgeon to Scientific F/min2 (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from SI sturgeon to Scientific farad-per-square-hour (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from SI sturgeon to Scientific F/hr2 (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from SI sturgeon to Scientific farad-per-square-day (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from SI sturgeon to Scientific F/day2 (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from SI sturgeon to Scientific farad-per-square-month (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from SI sturgeon to Scientific F/mon2 (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from SI sturgeon to Scientific farad-per-square-year (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from SI sturgeon to Scientific F/yr2 (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from Scientific farad-per-square-second to MKS yrneh (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-second to SI sturgeon (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-second to Scientific farad-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-second to Scientific F/s2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-second to Scientific farad-per-square-minute (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from Scientific farad-per-square-second to Scientific F/min2 (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from Scientific farad-per-square-second to Scientific farad-per-square-hour (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from Scientific farad-per-square-second to Scientific F/hr2 (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from Scientific farad-per-square-second to Scientific farad-per-square-day (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from Scientific farad-per-square-second to Scientific F/day2 (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from Scientific farad-per-square-second to Scientific farad-per-square-month (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from Scientific farad-per-square-second to Scientific F/mon2 (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from Scientific farad-per-square-second to Scientific farad-per-square-year (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from Scientific farad-per-square-second to Scientific F/yr2 (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from Scientific F/s2 to MKS yrneh (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/s2 to SI sturgeon (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/s2 to Scientific farad-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/s2 to Scientific F/s2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/s2 to Scientific farad-per-square-minute (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from Scientific F/s2 to Scientific F/min2 (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+magneticReluctance from Scientific F/s2 to Scientific farad-per-square-hour (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from Scientific F/s2 to Scientific F/hr2 (convert): PASS value: 1: 12960000.0 2: 12960000.0 3: 12960000.0
+magneticReluctance from Scientific F/s2 to Scientific farad-per-square-day (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from Scientific F/s2 to Scientific F/day2 (convert): PASS value: 1: 7464959999.99998 2: 7464959999.99998 3: 7464959999.99998
+magneticReluctance from Scientific F/s2 to Scientific farad-per-square-month (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from Scientific F/s2 to Scientific F/mon2 (convert): PASS value: 1: 6718463999999.992 2: 6718463999999.992 3: 6718463999999.992
+magneticReluctance from Scientific F/s2 to Scientific farad-per-square-year (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from Scientific F/s2 to Scientific F/yr2 (convert): PASS value: 1: 994519296000000.8 2: 994519296000000.8 3: 994519296000000.8
+magneticReluctance from Scientific farad-per-square-minute to MKS yrneh (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific farad-per-square-minute to SI sturgeon (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific farad-per-square-minute to Scientific farad-per-square-second (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific farad-per-square-minute to Scientific F/s2 (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific farad-per-square-minute to Scientific farad-per-square-minute (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-minute to Scientific F/min2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-minute to Scientific farad-per-square-hour (convert): PASS value: 1: 3600.0000000000027 2: 3600.0000000000027 3: 3600.0000000000027
+magneticReluctance from Scientific farad-per-square-minute to Scientific F/hr2 (convert): PASS value: 1: 3600.0000000000027 2: 3600.0000000000027 3: 3600.0000000000027
+magneticReluctance from Scientific farad-per-square-minute to Scientific farad-per-square-day (convert): PASS value: 1: 2073599.999999996 2: 2073599.999999996 3: 2073599.999999996
+magneticReluctance from Scientific farad-per-square-minute to Scientific F/day2 (convert): PASS value: 1: 2073599.999999996 2: 2073599.999999996 3: 2073599.999999996
+magneticReluctance from Scientific farad-per-square-minute to Scientific farad-per-square-month (convert): PASS value: 1: 1866239999.9999993 2: 1866239999.9999993 3: 1866239999.9999993
+magneticReluctance from Scientific farad-per-square-minute to Scientific F/mon2 (convert): PASS value: 1: 1866239999.9999993 2: 1866239999.9999993 3: 1866239999.9999993
+magneticReluctance from Scientific farad-per-square-minute to Scientific farad-per-square-year (convert): PASS value: 1: 276255360000.0004 2: 276255360000.0004 3: 276255360000.0004
+magneticReluctance from Scientific farad-per-square-minute to Scientific F/yr2 (convert): PASS value: 1: 276255360000.0004 2: 276255360000.0004 3: 276255360000.0004
+magneticReluctance from Scientific F/min2 to MKS yrneh (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific F/min2 to SI sturgeon (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific F/min2 to Scientific farad-per-square-second (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific F/min2 to Scientific F/s2 (convert): PASS value: 1: 0.000277777777777778 2: 0.000277777777777778 3: 0.000277777777777778
+magneticReluctance from Scientific F/min2 to Scientific farad-per-square-minute (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/min2 to Scientific F/min2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/min2 to Scientific farad-per-square-hour (convert): PASS value: 1: 3600.0000000000027 2: 3600.0000000000027 3: 3600.0000000000027
+magneticReluctance from Scientific F/min2 to Scientific F/hr2 (convert): PASS value: 1: 3600.0000000000027 2: 3600.0000000000027 3: 3600.0000000000027
+magneticReluctance from Scientific F/min2 to Scientific farad-per-square-day (convert): PASS value: 1: 2073599.999999996 2: 2073599.999999996 3: 2073599.999999996
+magneticReluctance from Scientific F/min2 to Scientific F/day2 (convert): PASS value: 1: 2073599.999999996 2: 2073599.999999996 3: 2073599.999999996
+magneticReluctance from Scientific F/min2 to Scientific farad-per-square-month (convert): PASS value: 1: 1866239999.9999993 2: 1866239999.9999993 3: 1866239999.9999993
+magneticReluctance from Scientific F/min2 to Scientific F/mon2 (convert): PASS value: 1: 1866239999.9999993 2: 1866239999.9999993 3: 1866239999.9999993
+magneticReluctance from Scientific F/min2 to Scientific farad-per-square-year (convert): PASS value: 1: 276255360000.0004 2: 276255360000.0004 3: 276255360000.0004
+magneticReluctance from Scientific F/min2 to Scientific F/yr2 (convert): PASS value: 1: 276255360000.0004 2: 276255360000.0004 3: 276255360000.0004
+magneticReluctance from Scientific farad-per-square-hour to MKS yrneh (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific farad-per-square-hour to SI sturgeon (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific farad-per-square-hour to Scientific farad-per-square-second (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific farad-per-square-hour to Scientific F/s2 (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific farad-per-square-hour to Scientific farad-per-square-minute (convert): PASS value: 1: 0.00027777777777777756 2: 0.00027777777777777756 3: 0.00027777777777777756
+magneticReluctance from Scientific farad-per-square-hour to Scientific F/min2 (convert): PASS value: 1: 0.00027777777777777756 2: 0.00027777777777777756 3: 0.00027777777777777756
+magneticReluctance from Scientific farad-per-square-hour to Scientific farad-per-square-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-hour to Scientific F/hr2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-hour to Scientific farad-per-square-day (convert): PASS value: 1: 575.9999999999984 2: 575.9999999999984 3: 575.9999999999984
+magneticReluctance from Scientific farad-per-square-hour to Scientific F/day2 (convert): PASS value: 1: 575.9999999999984 2: 575.9999999999984 3: 575.9999999999984
+magneticReluctance from Scientific farad-per-square-hour to Scientific farad-per-square-month (convert): PASS value: 1: 518399.99999999936 2: 518399.99999999936 3: 518399.99999999936
+magneticReluctance from Scientific farad-per-square-hour to Scientific F/mon2 (convert): PASS value: 1: 518399.99999999936 2: 518399.99999999936 3: 518399.99999999936
+magneticReluctance from Scientific farad-per-square-hour to Scientific farad-per-square-year (convert): PASS value: 1: 76737600.00000006 2: 76737600.00000006 3: 76737600.00000006
+magneticReluctance from Scientific farad-per-square-hour to Scientific F/yr2 (convert): PASS value: 1: 76737600.00000006 2: 76737600.00000006 3: 76737600.00000006
+magneticReluctance from Scientific F/hr2 to MKS yrneh (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific F/hr2 to SI sturgeon (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific F/hr2 to Scientific farad-per-square-second (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific F/hr2 to Scientific F/s2 (convert): PASS value: 1: 7.71604938271605e-08 2: 7.71604938271605e-08 3: 7.71604938271605e-08
+magneticReluctance from Scientific F/hr2 to Scientific farad-per-square-minute (convert): PASS value: 1: 0.00027777777777777756 2: 0.00027777777777777756 3: 0.00027777777777777756
+magneticReluctance from Scientific F/hr2 to Scientific F/min2 (convert): PASS value: 1: 0.00027777777777777756 2: 0.00027777777777777756 3: 0.00027777777777777756
+magneticReluctance from Scientific F/hr2 to Scientific farad-per-square-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/hr2 to Scientific F/hr2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/hr2 to Scientific farad-per-square-day (convert): PASS value: 1: 575.9999999999984 2: 575.9999999999984 3: 575.9999999999984
+magneticReluctance from Scientific F/hr2 to Scientific F/day2 (convert): PASS value: 1: 575.9999999999984 2: 575.9999999999984 3: 575.9999999999984
+magneticReluctance from Scientific F/hr2 to Scientific farad-per-square-month (convert): PASS value: 1: 518399.99999999936 2: 518399.99999999936 3: 518399.99999999936
+magneticReluctance from Scientific F/hr2 to Scientific F/mon2 (convert): PASS value: 1: 518399.99999999936 2: 518399.99999999936 3: 518399.99999999936
+magneticReluctance from Scientific F/hr2 to Scientific farad-per-square-year (convert): PASS value: 1: 76737600.00000006 2: 76737600.00000006 3: 76737600.00000006
+magneticReluctance from Scientific F/hr2 to Scientific F/yr2 (convert): PASS value: 1: 76737600.00000006 2: 76737600.00000006 3: 76737600.00000006
+magneticReluctance from Scientific farad-per-square-day to MKS yrneh (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific farad-per-square-day to SI sturgeon (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific farad-per-square-day to Scientific farad-per-square-second (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific farad-per-square-day to Scientific F/s2 (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific farad-per-square-day to Scientific farad-per-square-minute (convert): PASS value: 1: 4.82253086419754e-07 2: 4.82253086419754e-07 3: 4.82253086419754e-07
+magneticReluctance from Scientific farad-per-square-day to Scientific F/min2 (convert): PASS value: 1: 4.82253086419754e-07 2: 4.82253086419754e-07 3: 4.82253086419754e-07
+magneticReluctance from Scientific farad-per-square-day to Scientific farad-per-square-hour (convert): PASS value: 1: 0.0017361111111111158 2: 0.0017361111111111158 3: 0.0017361111111111158
+magneticReluctance from Scientific farad-per-square-day to Scientific F/hr2 (convert): PASS value: 1: 0.0017361111111111158 2: 0.0017361111111111158 3: 0.0017361111111111158
+magneticReluctance from Scientific farad-per-square-day to Scientific farad-per-square-day (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-day to Scientific F/day2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-day to Scientific farad-per-square-month (convert): PASS value: 1: 900.0000000000014 2: 900.0000000000014 3: 900.0000000000014
+magneticReluctance from Scientific farad-per-square-day to Scientific F/mon2 (convert): PASS value: 1: 900.0000000000014 2: 900.0000000000014 3: 900.0000000000014
+magneticReluctance from Scientific farad-per-square-day to Scientific farad-per-square-year (convert): PASS value: 1: 133225.00000000047 2: 133225.00000000047 3: 133225.00000000047
+magneticReluctance from Scientific farad-per-square-day to Scientific F/yr2 (convert): PASS value: 1: 133225.00000000047 2: 133225.00000000047 3: 133225.00000000047
+magneticReluctance from Scientific F/day2 to MKS yrneh (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific F/day2 to SI sturgeon (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific F/day2 to Scientific farad-per-square-second (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific F/day2 to Scientific F/s2 (convert): PASS value: 1: 1.33959190672154e-10 2: 1.33959190672154e-10 3: 1.33959190672154e-10
+magneticReluctance from Scientific F/day2 to Scientific farad-per-square-minute (convert): PASS value: 1: 4.82253086419754e-07 2: 4.82253086419754e-07 3: 4.82253086419754e-07
+magneticReluctance from Scientific F/day2 to Scientific F/min2 (convert): PASS value: 1: 4.82253086419754e-07 2: 4.82253086419754e-07 3: 4.82253086419754e-07
+magneticReluctance from Scientific F/day2 to Scientific farad-per-square-hour (convert): PASS value: 1: 0.0017361111111111158 2: 0.0017361111111111158 3: 0.0017361111111111158
+magneticReluctance from Scientific F/day2 to Scientific F/hr2 (convert): PASS value: 1: 0.0017361111111111158 2: 0.0017361111111111158 3: 0.0017361111111111158
+magneticReluctance from Scientific F/day2 to Scientific farad-per-square-day (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/day2 to Scientific F/day2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/day2 to Scientific farad-per-square-month (convert): PASS value: 1: 900.0000000000014 2: 900.0000000000014 3: 900.0000000000014
+magneticReluctance from Scientific F/day2 to Scientific F/mon2 (convert): PASS value: 1: 900.0000000000014 2: 900.0000000000014 3: 900.0000000000014
+magneticReluctance from Scientific F/day2 to Scientific farad-per-square-year (convert): PASS value: 1: 133225.00000000047 2: 133225.00000000047 3: 133225.00000000047
+magneticReluctance from Scientific F/day2 to Scientific F/yr2 (convert): PASS value: 1: 133225.00000000047 2: 133225.00000000047 3: 133225.00000000047
+magneticReluctance from Scientific farad-per-square-month to MKS yrneh (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific farad-per-square-month to SI sturgeon (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific farad-per-square-month to Scientific farad-per-square-second (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific farad-per-square-month to Scientific F/s2 (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific farad-per-square-month to Scientific farad-per-square-minute (convert): PASS value: 1: 5.358367626886147e-10 2: 5.358367626886147e-10 3: 5.358367626886147e-10
+magneticReluctance from Scientific farad-per-square-month to Scientific F/min2 (convert): PASS value: 1: 5.358367626886147e-10 2: 5.358367626886147e-10 3: 5.358367626886147e-10
+magneticReluctance from Scientific farad-per-square-month to Scientific farad-per-square-hour (convert): PASS value: 1: 1.9290123456790145e-06 2: 1.9290123456790145e-06 3: 1.9290123456790145e-06
+magneticReluctance from Scientific farad-per-square-month to Scientific F/hr2 (convert): PASS value: 1: 1.9290123456790145e-06 2: 1.9290123456790145e-06 3: 1.9290123456790145e-06
+magneticReluctance from Scientific farad-per-square-month to Scientific farad-per-square-day (convert): PASS value: 1: 0.0011111111111111094 2: 0.0011111111111111094 3: 0.0011111111111111094
+magneticReluctance from Scientific farad-per-square-month to Scientific F/day2 (convert): PASS value: 1: 0.0011111111111111094 2: 0.0011111111111111094 3: 0.0011111111111111094
+magneticReluctance from Scientific farad-per-square-month to Scientific farad-per-square-month (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-month to Scientific F/mon2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-month to Scientific farad-per-square-year (convert): PASS value: 1: 148.02777777777806 2: 148.02777777777806 3: 148.02777777777806
+magneticReluctance from Scientific farad-per-square-month to Scientific F/yr2 (convert): PASS value: 1: 148.02777777777806 2: 148.02777777777806 3: 148.02777777777806
+magneticReluctance from Scientific F/mon2 to MKS yrneh (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific F/mon2 to SI sturgeon (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific F/mon2 to Scientific farad-per-square-second (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific F/mon2 to Scientific F/s2 (convert): PASS value: 1: 1.48843545191282e-13 2: 1.48843545191282e-13 3: 1.48843545191282e-13
+magneticReluctance from Scientific F/mon2 to Scientific farad-per-square-minute (convert): PASS value: 1: 5.358367626886147e-10 2: 5.358367626886147e-10 3: 5.358367626886147e-10
+magneticReluctance from Scientific F/mon2 to Scientific F/min2 (convert): PASS value: 1: 5.358367626886147e-10 2: 5.358367626886147e-10 3: 5.358367626886147e-10
+magneticReluctance from Scientific F/mon2 to Scientific farad-per-square-hour (convert): PASS value: 1: 1.9290123456790145e-06 2: 1.9290123456790145e-06 3: 1.9290123456790145e-06
+magneticReluctance from Scientific F/mon2 to Scientific F/hr2 (convert): PASS value: 1: 1.9290123456790145e-06 2: 1.9290123456790145e-06 3: 1.9290123456790145e-06
+magneticReluctance from Scientific F/mon2 to Scientific farad-per-square-day (convert): PASS value: 1: 0.0011111111111111094 2: 0.0011111111111111094 3: 0.0011111111111111094
+magneticReluctance from Scientific F/mon2 to Scientific F/day2 (convert): PASS value: 1: 0.0011111111111111094 2: 0.0011111111111111094 3: 0.0011111111111111094
+magneticReluctance from Scientific F/mon2 to Scientific farad-per-square-month (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/mon2 to Scientific F/mon2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/mon2 to Scientific farad-per-square-year (convert): PASS value: 1: 148.02777777777806 2: 148.02777777777806 3: 148.02777777777806
+magneticReluctance from Scientific F/mon2 to Scientific F/yr2 (convert): PASS value: 1: 148.02777777777806 2: 148.02777777777806 3: 148.02777777777806
+magneticReluctance from Scientific farad-per-square-year to MKS yrneh (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific farad-per-square-year to SI sturgeon (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific farad-per-square-year to Scientific farad-per-square-second (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific farad-per-square-year to Scientific F/s2 (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific farad-per-square-year to Scientific farad-per-square-minute (convert): PASS value: 1: 3.6198392675530295e-12 2: 3.6198392675530295e-12 3: 3.6198392675530295e-12
+magneticReluctance from Scientific farad-per-square-year to Scientific F/min2 (convert): PASS value: 1: 3.6198392675530295e-12 2: 3.6198392675530295e-12 3: 3.6198392675530295e-12
+magneticReluctance from Scientific farad-per-square-year to Scientific farad-per-square-hour (convert): PASS value: 1: 1.3031421363190916e-08 2: 1.3031421363190916e-08 3: 1.3031421363190916e-08
+magneticReluctance from Scientific farad-per-square-year to Scientific F/hr2 (convert): PASS value: 1: 1.3031421363190916e-08 2: 1.3031421363190916e-08 3: 1.3031421363190916e-08
+magneticReluctance from Scientific farad-per-square-year to Scientific farad-per-square-day (convert): PASS value: 1: 7.506098705197947e-06 2: 7.506098705197947e-06 3: 7.506098705197947e-06
+magneticReluctance from Scientific farad-per-square-year to Scientific F/day2 (convert): PASS value: 1: 7.506098705197947e-06 2: 7.506098705197947e-06 3: 7.506098705197947e-06
+magneticReluctance from Scientific farad-per-square-year to Scientific farad-per-square-month (convert): PASS value: 1: 0.006755488834678163 2: 0.006755488834678163 3: 0.006755488834678163
+magneticReluctance from Scientific farad-per-square-year to Scientific F/mon2 (convert): PASS value: 1: 0.006755488834678163 2: 0.006755488834678163 3: 0.006755488834678163
+magneticReluctance from Scientific farad-per-square-year to Scientific farad-per-square-year (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific farad-per-square-year to Scientific F/yr2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/yr2 to MKS yrneh (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific F/yr2 to SI sturgeon (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific F/yr2 to Scientific farad-per-square-second (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific F/yr2 to Scientific F/s2 (convert): PASS value: 1: 1.00551090765362e-15 2: 1.00551090765362e-15 3: 1.00551090765362e-15
+magneticReluctance from Scientific F/yr2 to Scientific farad-per-square-minute (convert): PASS value: 1: 3.6198392675530295e-12 2: 3.6198392675530295e-12 3: 3.6198392675530295e-12
+magneticReluctance from Scientific F/yr2 to Scientific F/min2 (convert): PASS value: 1: 3.6198392675530295e-12 2: 3.6198392675530295e-12 3: 3.6198392675530295e-12
+magneticReluctance from Scientific F/yr2 to Scientific farad-per-square-hour (convert): PASS value: 1: 1.3031421363190916e-08 2: 1.3031421363190916e-08 3: 1.3031421363190916e-08
+magneticReluctance from Scientific F/yr2 to Scientific F/hr2 (convert): PASS value: 1: 1.3031421363190916e-08 2: 1.3031421363190916e-08 3: 1.3031421363190916e-08
+magneticReluctance from Scientific F/yr2 to Scientific farad-per-square-day (convert): PASS value: 1: 7.506098705197947e-06 2: 7.506098705197947e-06 3: 7.506098705197947e-06
+magneticReluctance from Scientific F/yr2 to Scientific F/day2 (convert): PASS value: 1: 7.506098705197947e-06 2: 7.506098705197947e-06 3: 7.506098705197947e-06
+magneticReluctance from Scientific F/yr2 to Scientific farad-per-square-month (convert): PASS value: 1: 0.006755488834678163 2: 0.006755488834678163 3: 0.006755488834678163
+magneticReluctance from Scientific F/yr2 to Scientific F/mon2 (convert): PASS value: 1: 0.006755488834678163 2: 0.006755488834678163 3: 0.006755488834678163
+magneticReluctance from Scientific F/yr2 to Scientific farad-per-square-year (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticReluctance from Scientific F/yr2 to Scientific F/yr2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:28 Duration: 0:00:00.019947 Version : 1.0
+
+********************************************************************************

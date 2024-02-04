@@ -1,0 +1,823 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:32:53 Version : 1.0
+
+
+name: EM type: current valid: true
+To System: SI From System: SI
+Current Types [chargeDensity, inductance, permeability, specificAcousticImpedance, magneticInduction, 
+               electricFieldStrength, acousticImpedance, current, conductivity, magneticDipoleMoment, 
+               magneticPermeability, potential, electricElastance, charge, capacitance, magneticFieldStrength, 
+               currentDensity, surfaceChargeDensity, electricFieldGradient, electricConductance, magneticFluxDensity, 
+               resistance, magneticReluctance, magneticPotential, resistivity]
+
+Current All Systems [SI, Scientific, a.u., US, IEUS, cgs, UK, MKSA, Imperial, INT, German, MKS, Si]
+
+Current All Units [SI[C/mm3], SI[C/nm3], SI[coulomb-per-cubic-centimeter], Scientific[C/yd3], 
+                   SI[coulomb-per-cubic-kilometer], a.u.[au-of-electric-charge-density], SI[C/km3], 
+                   Scientific[coulomb-per-cubic-yard], SI[coulomb-per-cubic-millimeter], SI[C/um3], 
+                   SI[coulomb-per-cubic-micrometer], Scientific[coulomb-per-cubic-foot], SI[C/cm3], a.u.[auecd], 
+                   Scientific[C/mi3], Scientific[coulomb-per-cubic-mile], Scientific[C/ft3], 
+                   SI[coulomb-per-cubic-meter], Scientific[coulomb-per-cubic-inch], SI[coulomb-per-cubic-nanometer], 
+                   Scientific[C/in3], SI[C/m3], SI[aH], SI[cH], US[H], SI[kH], IEUS[H], SI[mH], SI[exachenry], 
+                   US[henry(mean)], SI[centihenry], SI[microhenry], cgs[esu-H], SI[femtohenry], SI[YH], SI[gigahenry], 
+                   SI[millihenry], cgs[esu-of-inductance], IEUS[henry], SI[zeptohenry], US[H(mean)], cgs[statH], 
+                   SI[H], cgs[stathenry], SI[uH], SI[yH], cgs[emu-H], SI[henry], cgs[aH], SI[yoctohenry], 
+                   SI[decachenry], SI[dH], SI[nanohenry], SI[fH], SI[hH], US[henry], SI[nH], SI[PH], SI[zettahenry], 
+                   SI[TH], Scientific[centimeter], UK[mic], SI[terahenry], SI[ZH], Scientific[cm], 
+                   cgs[emu-of-inductance], SI[petahenry], SI[EH], SI[kilochenry], SI[attohenry], cgs[abhenry], SI[GH], 
+                   SI[picohenry], SI[MH], SI[decihenry], SI[pH], SI[yottahenry], SI[megahenry], SI[zH], 
+                   SI[hectohenry], SI[daH], US[perm(0oC)], US[perm(23oC)], cgs[rayl], MKSA[rayl], SI[attoweber], 
+                   SI[petaweber], SI[nWb], SI[deciweber], SI[weber], SI[zeptoweber], cgs[Mx], SI[gigaweber], SI[yWb], 
+                   SI[yottaweber], SI[microweber], Imperial[unit-pole], SI[PWb], SI[fWb], SI[centiweber], 
+                   SI[zettaweber], Scientific[D], SI[ZWb], SI[milliweber], SI[TWb], SI[yoctoweber], SI[megaweber], 
+                   SI[kWb], SI[GWb], SI[zWb], SI[daWb], cgs[maxwell], SI[picoweber], SI[femtoweber], SI[cWb], 
+                   SI[hectoweber], SI[Wb], SI[hWb], SI[pWb], Scientific[debye], US[line], SI[dWb], SI[decaweber], 
+                   SI[mWb], SI[teraweber], SI[EWb], SI[uWb], SI[aWb], SI[kiloweber], SI[exacweber], SI[MWb], 
+                   Imperial[kapp-line], SI[nanoweber], SI[YWb], Scientific[millivolt-per-foot], SI[uV/mm], 
+                   Scientific[V/in], SI[volt-per-meter], SI[uV/um], Scientific[millivolt-per-inch], Scientific[V/ft], 
+                   SI[microvolt-per-millimeter], SI[millivolt-per-centimeter], SI[volt-per-millimeter], SI[V/cm], 
+                   SI[millivolt-per-micrometer], Scientific[volt-per-inch], Scientific[volt-per-foot], 
+                   Scientific[uV/yd], SI[V/km], SI[V/mm], SI[uV/cm], SI[millivolt-per-meter], 
+                   SI[millivolt-per-millimeter], SI[volt-per-micrometer], a.u.[auefs], SI[V/um], Scientific[mV/in], 
+                   Scientific[microvolt-per-inch], SI[mV/m], a.u.[au-of-electric-field-strength], 
+                   SI[mircovolt-per-nanometer], SI[volt-per-kilometer], Scientific[V/yd], Scientific[uV/in], 
+                   SI[mV/mm], SI[uV/m], SI[microvolt-per-micrometer], SI[mV/cm], Scientific[V/mi], Scientific[uV/ft], 
+                   SI[microvolt-per-centimeter], SI[volt-per-nanometer], SI[millivolt-per-nanometer], SI[uV/nm], 
+                   a.u.[au-of-electric-potential], SI[V/m], Scientific[volt-per-mile], Scientific[millivolt-per-yard], 
+                   Scientific[microvolt-per-yard], SI[mV/um], a.u.[auep], Scientific[mV/ft], 
+                   Scientific[microvolt-per-foot], SI[V/nm], SI[volt-per-centimeter], SI[microvolt-per-meter], 
+                   SI[mV/nm], Scientific[volt-per-yard], Scientific[mV/yd], cgs[ohm(acoustic)], cgs[ohm(mechanical)], 
+                   SI[ohm(acoustic)], SI[acoustic-ohm], cgs[acoustic-ohm], SI[ohm(mechanical)], MKSA[A], 
+                   a.u.[au-of-electric-curent], cgs[statA], IEUS[ampere], IEUS[ampere(mean)], INT[ampere(mean)], 
+                   Scientific[galvat], SI[ampere], SI[At], cgs[emu-of-current], cgs[biot], cgs[Gb], cgs[Bi], 
+                   cgs[statampere], cgs[abampere], a.u.[auec], SI[ampere-tum], INT[ampere], cgs[emuc], SI[A], 
+                   cgs[gilbert], SI[A-turn], cgs[aA], MKSA[ampere], Scientific[pragilbert], Scientific[rof], 
+                   Scientific[reciprocal-ohm-per-inch], Scientific[reciprocal-ohm-per-centimeter], 
+                   Scientific[siemens-per-meter], Scientific[reciprocal-ohm-per-foot], Scientific[roi], 
+                   Scientific[S/m], cgs[roc], MKSA[rom], Scientific[reciprocal-ohm-per-meter], Scientific[roc], 
+                   Scientific[uB], Scientific[magneton(nuclear)], Scientific[BN], Scientific[bohr-magneton], 
+                   a.u.[audpm], Scientific[B], SI[ampere-square-meter], Scientific[uN], 
+                   a.u.[au-of-magnetic-dipole-moment], Scientific[nuclear-magneton], SI[A-m2], 
+                   Scientific[magneton(bohr)], SI[henry-per-micrometer], Scientific[henry-per-foot], 
+                   SI[henry-per-centimeter], SI[H/m], SI[H/um], Scientific[henry-per-mile], Scientific[H/mi], 
+                   SI[H/nm], SI[H/mm], SI[H/km], Scientific[henry-per-yard], Scientific[H/ft], 
+                   SI[henry-per-kilometer], SI[henry-per-nanometer], SI[H/cm], Scientific[H/yd], 
+                   SI[henry-per-millimeter], Scientific[H/in], Scientific[henry-per-inch], SI[henry-per-meter], 
+                   SI[nV], SI[pV], SI[nanovolt], SI[picovolt], SI[zV], cgs[emu-V], SI[millivolt], SI[dV], 
+                   SI[femtovolt], SI[fV], SI[megavolt], SI[hV], INT[daniell], SI[daV], SI[decavolt], cgs[esu-V], 
+                   SI[centivolt], SI[YV], cgs[esu-of-electric-potential], SI[gigavolt], SI[yottavolt], SI[exacvolt], 
+                   SI[EV], SI[GV], SI[kilocvolt], SI[MV], cgs[abvolt], IEUS[volt(mean)], SI[microvolt], SI[zeptovolt], 
+                   SI[uV], SI[petavolt], INT[V(mean)], SI[yV], US[V], IEUS[V], SI[aV], SI[cV], cgs[statvolt], 
+                   UK[crocodile], cgs[emu-of-electric-potential], INT[volt(mean)], SI[kV], SI[mV], IEUS[V(mean)], 
+                   SI[PV], SI[TV], SI[hectovolt], SI[zettavolt], SI[yoctovolt], SI[ZV], IEUS[volt], SI[volt], 
+                   SI[teravolt], SI[decivolt], cgs[aV], SI[V], SI[attovolt], US[volt], cgs[statV], Scientific[H/sec2], 
+                   Scientific[H/day2], US[daraf], Scientific[H/yr2], Scientific[henry-per-square-day], 
+                   Scientific[henry-per-square-month], Scientific[henry-per-square-second], 
+                   Scientific[henry-per-square-hour], Scientific[H/mon2], Scientific[H/min2], 
+                   Scientific[henry-per-square-year], Scientific[henry-per-square-minute], Scientific[H/hr2], 
+                   SI[femtocoulomb], SI[zettacoulomb], cgs[Fr], SI[kC], SI[mC], SI[daC], a.u.[au-of-electric-charge], 
+                   SI[uC], SI[yC], SI[kilocoulomb], SI[decacoulomb], IEUS[C], cgs[esu-of-charge], cgs[aC], 
+                   SI[zeptocoulomb], SI[dC], SI[fC], SI[hC], a.u.[aue], SI[yottacoulomb], SI[PC], SI[TC], 
+                   cgs[abcoulomb], SI[ZC], cgs[statC], SI[attocoulomb], cgs[statcoulomb], SI[picocoulomb], 
+                   SI[teracoulomb], SI[decicoulomb], SI[C], SI[EC], SI[GC], IEUS[coulomb(int)], SI[petacoulomb], 
+                   SI[megacoulomb], SI[nC], SI[millicoulomb], SI[pC], SI[microcoulomb], SI[ampere-hour], 
+                   cgs[franklin], SI[zC], SI[hectocoulomb], SI[aC], SI[cC], cgs[emu-of-charge], SI[exacoulomb], 
+                   SI[MC], SI[nanocoulomb], SI[gigacoulomb], SI[A-hr], SI[coulomb], SI[yoctocoulomb], SI[YC], 
+                   SI[centicoulomb], cgs[aF], SI[dF], SI[fF], SI[hF], SI[exacfarad], SI[decafarad], SI[PF], 
+                   Imperial[centimeter], SI[TF], SI[microfarad], SI[gigafarad], SI[millifarad], SI[femtofarad], 
+                   SI[ZF], SI[petafarad], SI[EF], cgs[abfarad], SI[GF], SI[picofarad], SI[attofarad], SI[MF], 
+                   Scientific[puff], SI[daF], SI[nF], SI[pF], SI[yottafarad], SI[decifarad], SI[megafarad], SI[zF], 
+                   IEUS[F], SI[aF], SI[cF], SI[hectofarad], SI[nanofarad], cgs[esu-of-capacitance], SI[kF], SI[mF], 
+                   SI[yoctofarad], Imperial[cm], SI[kilofarad], SI[zeptofarad], SI[zettafarad], cgs[esu-F], SI[YF], 
+                   SI[terafarad], SI[F], IEUS[farad], SI[centifarad], SI[uF], cgs[statfarad], Scientific[jar], SI[yF], 
+                   cgs[emu-of-electric-capacitance], cgs[emu-F], SI[farad], Scientific[lenz], SI[ampere-per-meter], 
+                   SI[A/m], cgs[CE], cgs[ce], Scientific[praoersted], cgs[oersted], SI[ampere-per-square-micrometer], 
+                   Scientific[uA/m2], SI[A/cm2], Scientific[microampere-per-square-meter], 
+                   SI[ampere-per-square-decimeter], Scientific[microampere-per-square-millimeter], Imperial[mA/ft2], 
+                   Imperial[microampere-per-square-inch], SI[A/nm2], SI[ampere-per-square-centimeter], 
+                   Imperial[ampere-per-square-foot], Scientific[milliampere-per-square-nanometer], 
+                   SI[ampere-per-square-millimeter], SI[milliampere-per-square-decimeter], SI[mA/dm2], 
+                   Scientific[uA/nm2], Imperial[milliampere-per-square-inch], Scientific[mA/um2], SI[A/dm2], 
+                   Scientific[milliampere-per-square-centimeter], Imperial[ampere-per-square-inch], 
+                   Scientific[mA/mm2], Scientific[uA/cm2], Imperial[mA/yd2], Imperial[mA/in2], 
+                   Imperial[milliampere-per-square-yard], SI[A/m2], Imperial[microampere-per-square-foot], 
+                   Scientific[milliampere-per-square-meter], Scientific[uA/mm2], 
+                   Imperial[microampere-per-square-yard], Scientific[uA/um2], Imperial[uA/yd2], Scientific[mA/m2], 
+                   Scientific[milliampere-per-square-micrometer], Imperial[uA/ft2], 
+                   SI[microampere-per-square-decimeter], Scientific[mA/nm2], SI[uA/dm2], 
+                   Scientific[microampere-per-square-nanometer], Scientific[milliampere-per-square-millimeter], 
+                   SI[A/um2], Imperial[ampere-per-square-yard], Imperial[uA/in2], Imperial[A/in2], 
+                   SI[ampere-per-square-meter], Imperial[milliampere-per-square-foot], 
+                   Scientific[microampere-per-square-micrometer], SI[A/mm2], 
+                   Scientific[microampere-per-square-centimeter], Imperial[A/ft2], SI[ampere-per-square-nanometer], 
+                   Imperial[A/yd2], Scientific[mA/cm2], SI[C/nm2], Scientific[coulomb-per-square-foot], 
+                   SI[coulomb-per-square-centimeter], SI[coulomb-per-square-micrometer], Scientific[C/yd2], SI[C/km2], 
+                   Scientific[coulomb-per-square-inch], SI[C/mm2], SI[coulomb-per-square-meter], 
+                   SI[coulomb-per-square-kilometer], SI[C/um2], Scientific[coulomb-per-square-mile], SI[C/cm2], 
+                   Scientific[coulomb-per-square-yard], SI[coulomb-per-square-millimeter], Scientific[C/mi2], 
+                   Scientific[C/ft2], SI[coulomb-per-square-nanometer], Scientific[C/in2], SI[C/m2], a.u.[ao], 
+                   a.u.[au-of-electric-field-strength-gradient], a.u.[b], cgs[townsend], cgs[Td], a.u.[auefsg], 
+                   SI[PS], SI[megasiemens], SI[daS], SI[TS], SI[yottasiemens], SI[hectosiemens], 
+                   cgs[esu-of-conductance], SI[ZS], SI[decasiemens], SI[attosiemens], cgs[aS], SI[microsiemens], 
+                   SI[kilosiemens], SI[nS], SI[exacsiemens], SI[petasiemens], SI[pS], SI[zS], 
+                   Imperial[ringing-equivalent-number], Imperial[REN], SI[decisiemens], SI[zeptosiemens], 
+                   cgs[statmho], SI[picosiemens], SI[dS], SI[terasiemens], SI[fS], SI[hS], cgs[emu-of-conductance], 
+                   SI[MS], cgs[esu-S], SI[zettasiemens], SI[YS], Scientific[gemmbo], SI[millisiemens], SI[S], SI[ES], 
+                   SI[GS], SI[kS], SI[nanosiemens], SI[mS], SI[gigasiemens], SI[uS], cgs[emu-S], SI[yS], cgs[1/aW], 
+                   SI[aS], SI[cS], SI[femtosiemens], cgs[abmho], INT[mho], SI[centisiemens], SI[yoctosiemens], 
+                   SI[siemens], SI[kiloctesla], SI[uT], SI[exactesla], SI[yT], SI[aT], SI[cT], SI[kT], SI[millitesla], 
+                   SI[NT], SI[PT], SI[TT], SI[centitesla], SI[decatesla], SI[ZT], SI[femtotesla], SI[microtesla], 
+                   SI[T], SI[petatesla], SI[attotesla], SI[nT], SI[zeptotesla], a.u.[au-of-magnetic-flux-density], 
+                   SI[pT], SI[decitesla], a.u.[aumfd], SI[zT], cgs[gauss], SI[picotesla], SI[yottatesla], 
+                   SI[hectotesla], SI[dT], SI[fT], SI[megatesla], SI[hT], Scientific[g], SI[tesla], SI[MT], SI[daT], 
+                   SI[teratesla], SI[nanotesla], Scientific[gamma], SI[YT], SI[yoctotesla], cgs[Gs], cgs[G], 
+                   SI[zettatesla], SI[ET], SI[GT], SI[gigatesla], SI[PW], SI[daW], SI[milliohm], SI[ohm], 
+                   SI[microohm], SI[TW], SI[ZW], cgs[esu-of-resistance], SI[attoohm], SI[megaohm], SI[picoohm], 
+                   cgs[aW], SI[jacobi], SI[teraohm], IEUS[ohm(mean)], SI[pW], SI[zW], US[ohm(mean)], SI[deciohm], 
+                   SI[dW], Scientific[lenz(resistance)], SI[fW], cgs[statohm], SI[hW], SI[yottaohm], SI[decaohm], 
+                   SI[nW], SI[zeptoohm], SI[femtoohm], cgs[esu-W], SI[YW], UK[preece], SI[nanoohm], UK[wheatstone], 
+                   SI[petaohm], US[ohm(legal)], SI[centiohm], SI[EW], German[siemens], SI[exacohm], SI[GW], 
+                   SI[hectoohm], SI[kiloohm], SI[W], SI[MW], SI[uW], SI[yW], cgs[emi-W], cgs[emu-of-resistance], 
+                   SI[gigaohm], US[ohm], SI[aW], SI[zettaohm], IEUS[ohm], SI[cW], cgs[abohm], SI[kW], SI[yoctoohm], 
+                   IEUS[ohm(legal)], SI[mW], Scientific[F/s2], Scientific[farad-per-square-hour], Scientific[F/min2], 
+                   Scientific[farad-per-square-year], Scientific[F/yr2], Scientific[farad-per-square-minute], 
+                   Scientific[F/day2], SI[sturgeon], Scientific[farad-per-square-day], 
+                   Scientific[farad-per-square-second], Scientific[farad-per-square-month], MKS[yrneh], 
+                   Scientific[F/mon2], Scientific[F/hr2], Scientific[Wb/in], SI[weber-per-kilometer], 
+                   Scientific[Wb/yd], Si[Wb/cm], SI[Wb/m], Scientific[weber-per-foot], Si[weber-per-millimeter], 
+                   Scientific[Wb/mi], Si[Wb/mm], Si[Wb/nm], Si[weber-per-nanometer], SI[weber-per-meter], SI[Wb/km], 
+                   Si[Wb/um], Si[weber-per-centimeter], Scientific[weber-per-mile], Scientific[weber-per-inch], 
+                   Scientific[Wb/ft], Si[weber-per-micrometer], Scientific[weber-per-yard], SI[ohm-meter], 
+                   Imperial[ohm-circular-mil-per-foot], Imperial[ohm-cmi/ft], SI[W-m], Imperial[W-cmi/ft], SI[ohm-m], 
+                   INT[international-annealed-copper-standard], INT[IACS]]
+
+Current Systems [MKSA, a.u., cgs, IEUS, INT, Scientific, SI]
+
+Units Current [SI[ampere], SI[At], SI[ampere-tum], SI[A], SI[A-turn], Scientific[galvat], Scientific[pragilbert], 
+               a.u.[au-of-electric-curent], a.u.[auec], IEUS[ampere], IEUS[ampere(mean)], cgs[statA], 
+               cgs[emu-of-current], cgs[biot], cgs[Gb], cgs[Bi], cgs[statampere], cgs[abampere], cgs[emuc], 
+               cgs[gilbert], cgs[aA], MKSA[A], MKSA[ampere], INT[ampere(mean)], INT[ampere], MKSA[A], MKSA[ampere]]
+
+Current MKSA A MKSA true 1.0 ampere A I 0.0
+Current MKSA ampere MKSA true 1.0 ampere A I 0.0
+Current a.u. au-of-electric-curent a.u. true 0.00662361823749584 au-of-electric-curent A I 0.0
+Current a.u. auec a.u. true 0.00662361823749584 au-of-electric-curent A I 0.0
+Current cgs statA cgs true 3.33564095198152E-10 statampere A I 0.0
+Current cgs emu-of-current cgs true 10.0 emu-of-current A I 0.0
+Current cgs biot cgs true 10.0 biot A I 0.0
+Current cgs Gb cgs true 0.795774715459477 gilbert A I 0.0
+Current cgs Bi cgs true 10.0 biot A I 0.0
+Current cgs statampere cgs true 3.33564095198152E-10 statampere A I 0.0
+Current cgs abampere cgs true 10.0 abampere A I 0.0
+Current cgs emuc cgs true 10.0 emu-of-current A I 0.0
+Current cgs gilbert cgs true 0.795774715459477 gilbert A I 0.0
+Current cgs aA cgs true 10.0 abampere A I 0.0
+Current IEUS ampere IEUS true 0.999835 ampere A I 0.0
+Current IEUS ampere(mean) IEUS true 0.99985 ampere(mean) A I 0.0
+Current INT ampere(mean) INT true 0.99985 ampere(mean) A I 0.0
+Current INT ampere INT true 0.999835 ampere A I 0.0
+Current Scientific galvat Scientific true 1.0 galvat A I 0.0
+Current Scientific pragilbert Scientific true 12.5663706143592 pragilbert A I 0.0
+Current SI ampere SI true 1.0 ampere A I 0.0
+Current SI At SI true 1.0 ampere-tum A I 0.0
+Current SI ampere-tum SI true 1.0 ampere-tum A I 0.0
+Current SI A SI true 1.0 ampere A I 0.0
+Current SI A-turn SI true 1.0 ampere-tum A I 0.0
+
+
+name: EM type: current valid: true
+current from MKSA A to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from MKSA A to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from MKSA A to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from MKSA A to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA A to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA A to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from MKSA A to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA A to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from MKSA A to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA A to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA A to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from MKSA A to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA A to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from MKSA A to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from MKSA A to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from MKSA A to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from MKSA A to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from MKSA A to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA A to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from MKSA ampere to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from MKSA ampere to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from MKSA ampere to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA ampere to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA ampere to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from MKSA ampere to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA ampere to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from MKSA ampere to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA ampere to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA ampere to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from MKSA ampere to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from MKSA ampere to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from MKSA ampere to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from MKSA ampere to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from MKSA ampere to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from MKSA ampere to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from MKSA ampere to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from MKSA ampere to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from a.u. au-of-electric-curent to MKSA A (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to MKSA ampere (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to a.u. au-of-electric-curent (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from a.u. au-of-electric-curent to a.u. auec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from a.u. au-of-electric-curent to cgs statA (convert): PASS value: 1: 1.985710792272506E7 2: 1.985710792272506E7 3: 1.985710792272506E7
+current from a.u. au-of-electric-curent to cgs emu-of-current (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. au-of-electric-curent to cgs biot (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. au-of-electric-curent to cgs Gb (convert): PASS value: 1: 0.00832348415804012 2: 0.00832348415804012 3: 0.00832348415804012
+current from a.u. au-of-electric-curent to cgs Bi (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. au-of-electric-curent to cgs statampere (convert): PASS value: 1: 1.985710792272506E7 2: 1.985710792272506E7 3: 1.985710792272506E7
+current from a.u. au-of-electric-curent to cgs abampere (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. au-of-electric-curent to cgs emuc (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. au-of-electric-curent to cgs gilbert (convert): PASS value: 1: 0.00832348415804012 2: 0.00832348415804012 3: 0.00832348415804012
+current from a.u. au-of-electric-curent to cgs aA (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. au-of-electric-curent to IEUS ampere (convert): PASS value: 1: 0.006624711314862792 2: 0.006624711314862792 3: 0.006624711314862792
+current from a.u. au-of-electric-curent to IEUS ampere(mean) (convert): PASS value: 1: 0.006624611929285233 2: 0.006624611929285233 3: 0.006624611929285233
+current from a.u. au-of-electric-curent to INT ampere(mean) (convert): PASS value: 1: 0.006624611929285233 2: 0.006624611929285233 3: 0.006624611929285233
+current from a.u. au-of-electric-curent to INT ampere (convert): PASS value: 1: 0.006624711314862792 2: 0.006624711314862792 3: 0.006624711314862792
+current from a.u. au-of-electric-curent to Scientific galvat (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to Scientific pragilbert (convert): PASS value: 1: 5.270907918255441E-4 2: 5.270907918255441E-4 3: 5.270907918255441E-4
+current from a.u. au-of-electric-curent to SI ampere (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to SI At (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to SI ampere-tum (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to SI A (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. au-of-electric-curent to SI A-turn (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to MKSA A (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to MKSA ampere (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to a.u. au-of-electric-curent (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from a.u. auec to a.u. auec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from a.u. auec to cgs statA (convert): PASS value: 1: 1.985710792272506E7 2: 1.985710792272506E7 3: 1.985710792272506E7
+current from a.u. auec to cgs emu-of-current (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. auec to cgs biot (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. auec to cgs Gb (convert): PASS value: 1: 0.00832348415804012 2: 0.00832348415804012 3: 0.00832348415804012
+current from a.u. auec to cgs Bi (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. auec to cgs statampere (convert): PASS value: 1: 1.985710792272506E7 2: 1.985710792272506E7 3: 1.985710792272506E7
+current from a.u. auec to cgs abampere (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. auec to cgs emuc (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. auec to cgs gilbert (convert): PASS value: 1: 0.00832348415804012 2: 0.00832348415804012 3: 0.00832348415804012
+current from a.u. auec to cgs aA (convert): PASS value: 1: 6.62361823749584E-4 2: 6.62361823749584E-4 3: 6.62361823749584E-4
+current from a.u. auec to IEUS ampere (convert): PASS value: 1: 0.006624711314862792 2: 0.006624711314862792 3: 0.006624711314862792
+current from a.u. auec to IEUS ampere(mean) (convert): PASS value: 1: 0.006624611929285233 2: 0.006624611929285233 3: 0.006624611929285233
+current from a.u. auec to INT ampere(mean) (convert): PASS value: 1: 0.006624611929285233 2: 0.006624611929285233 3: 0.006624611929285233
+current from a.u. auec to INT ampere (convert): PASS value: 1: 0.006624711314862792 2: 0.006624711314862792 3: 0.006624711314862792
+current from a.u. auec to Scientific galvat (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to Scientific pragilbert (convert): PASS value: 1: 5.270907918255441E-4 2: 5.270907918255441E-4 3: 5.270907918255441E-4
+current from a.u. auec to SI ampere (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to SI At (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to SI ampere-tum (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to SI A (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from a.u. auec to SI A-turn (convert): PASS value: 1: 0.00662361823749584 2: 0.00662361823749584 3: 0.00662361823749584
+current from cgs statA to MKSA A (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to MKSA ampere (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to a.u. au-of-electric-curent (convert): PASS value: 1: 5.035980082757019E-8 2: 5.035980082757019E-8 3: 5.035980082757019E-8
+current from cgs statA to a.u. auec (convert): PASS value: 1: 5.035980082757019E-8 2: 5.035980082757019E-8 3: 5.035980082757019E-8
+current from cgs statA to cgs statA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs statA to cgs emu-of-current (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statA to cgs biot (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statA to cgs Gb (convert): PASS value: 1: 4.1916900439033617E-10 2: 4.1916900439033617E-10 3: 4.1916900439033617E-10
+current from cgs statA to cgs Bi (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statA to cgs statampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs statA to cgs abampere (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statA to cgs emuc (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statA to cgs gilbert (convert): PASS value: 1: 4.1916900439033617E-10 2: 4.1916900439033617E-10 3: 4.1916900439033617E-10
+current from cgs statA to cgs aA (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statA to IEUS ampere (convert): PASS value: 1: 3.3361914235664085E-10 2: 3.3361914235664085E-10 3: 3.3361914235664085E-10
+current from cgs statA to IEUS ampere(mean) (convert): PASS value: 1: 3.336141373187498E-10 2: 3.336141373187498E-10 3: 3.336141373187498E-10
+current from cgs statA to INT ampere(mean) (convert): PASS value: 1: 3.336141373187498E-10 2: 3.336141373187498E-10 3: 3.336141373187498E-10
+current from cgs statA to INT ampere (convert): PASS value: 1: 3.3361914235664085E-10 2: 3.3361914235664085E-10 3: 3.3361914235664085E-10
+current from cgs statA to Scientific galvat (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to Scientific pragilbert (convert): PASS value: 1: 2.654418729438066E-11 2: 2.654418729438066E-11 3: 2.654418729438066E-11
+current from cgs statA to SI ampere (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to SI At (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to SI ampere-tum (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to SI A (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statA to SI A-turn (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs emu-of-current to MKSA A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to MKSA ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to a.u. au-of-electric-curent (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs emu-of-current to a.u. auec (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs emu-of-current to cgs statA (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs emu-of-current to cgs emu-of-current (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emu-of-current to cgs biot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emu-of-current to cgs Gb (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs emu-of-current to cgs Bi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emu-of-current to cgs statampere (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs emu-of-current to cgs abampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emu-of-current to cgs emuc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emu-of-current to cgs gilbert (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs emu-of-current to cgs aA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emu-of-current to IEUS ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs emu-of-current to IEUS ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs emu-of-current to INT ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs emu-of-current to INT ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs emu-of-current to Scientific galvat (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to Scientific pragilbert (convert): PASS value: 1: 0.7957747154594749 2: 0.7957747154594749 3: 0.7957747154594749
+current from cgs emu-of-current to SI ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to SI At (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to SI ampere-tum (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to SI A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emu-of-current to SI A-turn (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to MKSA A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to MKSA ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to a.u. au-of-electric-curent (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs biot to a.u. auec (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs biot to cgs statA (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs biot to cgs emu-of-current (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs biot to cgs biot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs biot to cgs Gb (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs biot to cgs Bi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs biot to cgs statampere (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs biot to cgs abampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs biot to cgs emuc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs biot to cgs gilbert (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs biot to cgs aA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs biot to IEUS ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs biot to IEUS ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs biot to INT ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs biot to INT ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs biot to Scientific galvat (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to Scientific pragilbert (convert): PASS value: 1: 0.7957747154594749 2: 0.7957747154594749 3: 0.7957747154594749
+current from cgs biot to SI ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to SI At (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to SI ampere-tum (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to SI A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs biot to SI A-turn (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Gb to MKSA A (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to MKSA ampere (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to a.u. au-of-electric-curent (convert): PASS value: 1: 120.14199594938185 2: 120.14199594938185 3: 120.14199594938185
+current from cgs Gb to a.u. auec (convert): PASS value: 1: 120.14199594938185 2: 120.14199594938185 3: 120.14199594938185
+current from cgs Gb to cgs statA (convert): PASS value: 1: 2.385672579618472E9 2: 2.385672579618472E9 3: 2.385672579618472E9
+current from cgs Gb to cgs emu-of-current (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs Gb to cgs biot (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs Gb to cgs Gb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Gb to cgs Bi (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs Gb to cgs statampere (convert): PASS value: 1: 2.385672579618472E9 2: 2.385672579618472E9 3: 2.385672579618472E9
+current from cgs Gb to cgs abampere (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs Gb to cgs emuc (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs Gb to cgs gilbert (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Gb to cgs aA (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs Gb to IEUS ampere (convert): PASS value: 1: 0.7959060399560697 2: 0.7959060399560697 3: 0.7959060399560697
+current from cgs Gb to IEUS ampere(mean) (convert): PASS value: 1: 0.7958940995744131 2: 0.7958940995744131 3: 0.7958940995744131
+current from cgs Gb to INT ampere(mean) (convert): PASS value: 1: 0.7958940995744131 2: 0.7958940995744131 3: 0.7958940995744131
+current from cgs Gb to INT ampere (convert): PASS value: 1: 0.7959060399560697 2: 0.7959060399560697 3: 0.7959060399560697
+current from cgs Gb to Scientific galvat (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to Scientific pragilbert (convert): PASS value: 1: 0.06332573977646098 2: 0.06332573977646098 3: 0.06332573977646098
+current from cgs Gb to SI ampere (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to SI At (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to SI ampere-tum (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to SI A (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Gb to SI A-turn (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs Bi to MKSA A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to MKSA ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to a.u. au-of-electric-curent (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs Bi to a.u. auec (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs Bi to cgs statA (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs Bi to cgs emu-of-current (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Bi to cgs biot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Bi to cgs Gb (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs Bi to cgs Bi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Bi to cgs statampere (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs Bi to cgs abampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Bi to cgs emuc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Bi to cgs gilbert (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs Bi to cgs aA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs Bi to IEUS ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs Bi to IEUS ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs Bi to INT ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs Bi to INT ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs Bi to Scientific galvat (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to Scientific pragilbert (convert): PASS value: 1: 0.7957747154594749 2: 0.7957747154594749 3: 0.7957747154594749
+current from cgs Bi to SI ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to SI At (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to SI ampere-tum (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to SI A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs Bi to SI A-turn (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs statampere to MKSA A (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to MKSA ampere (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to a.u. au-of-electric-curent (convert): PASS value: 1: 5.035980082757019E-8 2: 5.035980082757019E-8 3: 5.035980082757019E-8
+current from cgs statampere to a.u. auec (convert): PASS value: 1: 5.035980082757019E-8 2: 5.035980082757019E-8 3: 5.035980082757019E-8
+current from cgs statampere to cgs statA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs statampere to cgs emu-of-current (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statampere to cgs biot (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statampere to cgs Gb (convert): PASS value: 1: 4.1916900439033617E-10 2: 4.1916900439033617E-10 3: 4.1916900439033617E-10
+current from cgs statampere to cgs Bi (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statampere to cgs statampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs statampere to cgs abampere (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statampere to cgs emuc (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statampere to cgs gilbert (convert): PASS value: 1: 4.1916900439033617E-10 2: 4.1916900439033617E-10 3: 4.1916900439033617E-10
+current from cgs statampere to cgs aA (convert): PASS value: 1: 3.33564095198152E-11 2: 3.33564095198152E-11 3: 3.33564095198152E-11
+current from cgs statampere to IEUS ampere (convert): PASS value: 1: 3.3361914235664085E-10 2: 3.3361914235664085E-10 3: 3.3361914235664085E-10
+current from cgs statampere to IEUS ampere(mean) (convert): PASS value: 1: 3.336141373187498E-10 2: 3.336141373187498E-10 3: 3.336141373187498E-10
+current from cgs statampere to INT ampere(mean) (convert): PASS value: 1: 3.336141373187498E-10 2: 3.336141373187498E-10 3: 3.336141373187498E-10
+current from cgs statampere to INT ampere (convert): PASS value: 1: 3.3361914235664085E-10 2: 3.3361914235664085E-10 3: 3.3361914235664085E-10
+current from cgs statampere to Scientific galvat (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to Scientific pragilbert (convert): PASS value: 1: 2.654418729438066E-11 2: 2.654418729438066E-11 3: 2.654418729438066E-11
+current from cgs statampere to SI ampere (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to SI At (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to SI ampere-tum (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to SI A (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs statampere to SI A-turn (convert): PASS value: 1: 3.33564095198152E-10 2: 3.33564095198152E-10 3: 3.33564095198152E-10
+current from cgs abampere to MKSA A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to MKSA ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to a.u. au-of-electric-curent (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs abampere to a.u. auec (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs abampere to cgs statA (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs abampere to cgs emu-of-current (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs abampere to cgs biot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs abampere to cgs Gb (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs abampere to cgs Bi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs abampere to cgs statampere (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs abampere to cgs abampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs abampere to cgs emuc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs abampere to cgs gilbert (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs abampere to cgs aA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs abampere to IEUS ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs abampere to IEUS ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs abampere to INT ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs abampere to INT ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs abampere to Scientific galvat (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to Scientific pragilbert (convert): PASS value: 1: 0.7957747154594749 2: 0.7957747154594749 3: 0.7957747154594749
+current from cgs abampere to SI ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to SI At (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to SI ampere-tum (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to SI A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs abampere to SI A-turn (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to MKSA A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to MKSA ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to a.u. au-of-electric-curent (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs emuc to a.u. auec (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs emuc to cgs statA (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs emuc to cgs emu-of-current (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emuc to cgs biot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emuc to cgs Gb (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs emuc to cgs Bi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emuc to cgs statampere (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs emuc to cgs abampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emuc to cgs emuc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emuc to cgs gilbert (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs emuc to cgs aA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs emuc to IEUS ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs emuc to IEUS ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs emuc to INT ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs emuc to INT ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs emuc to Scientific galvat (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to Scientific pragilbert (convert): PASS value: 1: 0.7957747154594749 2: 0.7957747154594749 3: 0.7957747154594749
+current from cgs emuc to SI ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to SI At (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to SI ampere-tum (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to SI A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs emuc to SI A-turn (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs gilbert to MKSA A (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to MKSA ampere (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to a.u. au-of-electric-curent (convert): PASS value: 1: 120.14199594938185 2: 120.14199594938185 3: 120.14199594938185
+current from cgs gilbert to a.u. auec (convert): PASS value: 1: 120.14199594938185 2: 120.14199594938185 3: 120.14199594938185
+current from cgs gilbert to cgs statA (convert): PASS value: 1: 2.385672579618472E9 2: 2.385672579618472E9 3: 2.385672579618472E9
+current from cgs gilbert to cgs emu-of-current (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs gilbert to cgs biot (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs gilbert to cgs Gb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs gilbert to cgs Bi (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs gilbert to cgs statampere (convert): PASS value: 1: 2.385672579618472E9 2: 2.385672579618472E9 3: 2.385672579618472E9
+current from cgs gilbert to cgs abampere (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs gilbert to cgs emuc (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs gilbert to cgs gilbert (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs gilbert to cgs aA (convert): PASS value: 1: 0.0795774715459477 2: 0.0795774715459477 3: 0.0795774715459477
+current from cgs gilbert to IEUS ampere (convert): PASS value: 1: 0.7959060399560697 2: 0.7959060399560697 3: 0.7959060399560697
+current from cgs gilbert to IEUS ampere(mean) (convert): PASS value: 1: 0.7958940995744131 2: 0.7958940995744131 3: 0.7958940995744131
+current from cgs gilbert to INT ampere(mean) (convert): PASS value: 1: 0.7958940995744131 2: 0.7958940995744131 3: 0.7958940995744131
+current from cgs gilbert to INT ampere (convert): PASS value: 1: 0.7959060399560697 2: 0.7959060399560697 3: 0.7959060399560697
+current from cgs gilbert to Scientific galvat (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to Scientific pragilbert (convert): PASS value: 1: 0.06332573977646098 2: 0.06332573977646098 3: 0.06332573977646098
+current from cgs gilbert to SI ampere (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to SI At (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to SI ampere-tum (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to SI A (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs gilbert to SI A-turn (convert): PASS value: 1: 0.795774715459477 2: 0.795774715459477 3: 0.795774715459477
+current from cgs aA to MKSA A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to MKSA ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to a.u. au-of-electric-curent (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs aA to a.u. auec (convert): PASS value: 1: 1509.7488474487702 2: 1509.7488474487702 3: 1509.7488474487702
+current from cgs aA to cgs statA (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs aA to cgs emu-of-current (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs aA to cgs biot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs aA to cgs Gb (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs aA to cgs Bi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs aA to cgs statampere (convert): PASS value: 1: 2.9979245800000004E10 2: 2.9979245800000004E10 3: 2.9979245800000004E10
+current from cgs aA to cgs abampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs aA to cgs emuc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs aA to cgs gilbert (convert): PASS value: 1: 12.566370614359169 2: 12.566370614359169 3: 12.566370614359169
+current from cgs aA to cgs aA (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from cgs aA to IEUS ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs aA to IEUS ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs aA to INT ampere(mean) (convert): PASS value: 1: 10.001500225033755 2: 10.001500225033755 3: 10.001500225033755
+current from cgs aA to INT ampere (convert): PASS value: 1: 10.001650272294928 2: 10.001650272294928 3: 10.001650272294928
+current from cgs aA to Scientific galvat (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to Scientific pragilbert (convert): PASS value: 1: 0.7957747154594749 2: 0.7957747154594749 3: 0.7957747154594749
+current from cgs aA to SI ampere (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to SI At (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to SI ampere-tum (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to SI A (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from cgs aA to SI A-turn (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+current from IEUS ampere to MKSA A (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to MKSA ampere (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to a.u. au-of-electric-curent (convert): PASS value: 1: 150.94997388889414 2: 150.94997388889414 3: 150.94997388889414
+current from IEUS ampere to a.u. auec (convert): PASS value: 1: 150.94997388889414 2: 150.94997388889414 3: 150.94997388889414
+current from IEUS ampere to cgs statA (convert): PASS value: 1: 2.9974299224443E9 2: 2.9974299224443E9 3: 2.9974299224443E9
+current from IEUS ampere to cgs emu-of-current (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from IEUS ampere to cgs biot (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from IEUS ampere to cgs Gb (convert): PASS value: 1: 1.25642971632078 2: 1.25642971632078 3: 1.25642971632078
+current from IEUS ampere to cgs Bi (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from IEUS ampere to cgs statampere (convert): PASS value: 1: 2.9974299224443E9 2: 2.9974299224443E9 3: 2.9974299224443E9
+current from IEUS ampere to cgs abampere (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from IEUS ampere to cgs emuc (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from IEUS ampere to cgs gilbert (convert): PASS value: 1: 1.25642971632078 2: 1.25642971632078 3: 1.25642971632078
+current from IEUS ampere to cgs aA (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from IEUS ampere to IEUS ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from IEUS ampere to IEUS ampere(mean) (convert): PASS value: 1: 0.9999849977496624 2: 0.9999849977496624 3: 0.9999849977496624
+current from IEUS ampere to INT ampere(mean) (convert): PASS value: 1: 0.9999849977496624 2: 0.9999849977496624 3: 0.9999849977496624
+current from IEUS ampere to INT ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from IEUS ampere to Scientific galvat (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to Scientific pragilbert (convert): PASS value: 1: 0.07956434126314241 2: 0.07956434126314241 3: 0.07956434126314241
+current from IEUS ampere to SI ampere (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to SI At (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to SI ampere-tum (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to SI A (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere to SI A-turn (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from IEUS ampere(mean) to MKSA A (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to MKSA ampere (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to a.u. au-of-electric-curent (convert): PASS value: 1: 150.9522385121653 2: 150.9522385121653 3: 150.9522385121653
+current from IEUS ampere(mean) to a.u. auec (convert): PASS value: 1: 150.9522385121653 2: 150.9522385121653 3: 150.9522385121653
+current from IEUS ampere(mean) to cgs statA (convert): PASS value: 1: 2.997474891313E9 2: 2.997474891313E9 3: 2.997474891313E9
+current from IEUS ampere(mean) to cgs emu-of-current (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from IEUS ampere(mean) to cgs biot (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from IEUS ampere(mean) to cgs Gb (convert): PASS value: 1: 1.2564485658767015 2: 1.2564485658767015 3: 1.2564485658767015
+current from IEUS ampere(mean) to cgs Bi (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from IEUS ampere(mean) to cgs statampere (convert): PASS value: 1: 2.997474891313E9 2: 2.997474891313E9 3: 2.997474891313E9
+current from IEUS ampere(mean) to cgs abampere (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from IEUS ampere(mean) to cgs emuc (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from IEUS ampere(mean) to cgs gilbert (convert): PASS value: 1: 1.2564485658767015 2: 1.2564485658767015 3: 1.2564485658767015
+current from IEUS ampere(mean) to cgs aA (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from IEUS ampere(mean) to IEUS ampere (convert): PASS value: 1: 1.0000150024754084 2: 1.0000150024754084 3: 1.0000150024754084
+current from IEUS ampere(mean) to IEUS ampere(mean) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from IEUS ampere(mean) to INT ampere(mean) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from IEUS ampere(mean) to INT ampere (convert): PASS value: 1: 1.0000150024754084 2: 1.0000150024754084 3: 1.0000150024754084
+current from IEUS ampere(mean) to Scientific galvat (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to Scientific pragilbert (convert): PASS value: 1: 0.0795655349252156 2: 0.0795655349252156 3: 0.0795655349252156
+current from IEUS ampere(mean) to SI ampere (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to SI At (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to SI ampere-tum (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to SI A (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from IEUS ampere(mean) to SI A-turn (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to MKSA A (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to MKSA ampere (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to a.u. au-of-electric-curent (convert): PASS value: 1: 150.9522385121653 2: 150.9522385121653 3: 150.9522385121653
+current from INT ampere(mean) to a.u. auec (convert): PASS value: 1: 150.9522385121653 2: 150.9522385121653 3: 150.9522385121653
+current from INT ampere(mean) to cgs statA (convert): PASS value: 1: 2.997474891313E9 2: 2.997474891313E9 3: 2.997474891313E9
+current from INT ampere(mean) to cgs emu-of-current (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from INT ampere(mean) to cgs biot (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from INT ampere(mean) to cgs Gb (convert): PASS value: 1: 1.2564485658767015 2: 1.2564485658767015 3: 1.2564485658767015
+current from INT ampere(mean) to cgs Bi (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from INT ampere(mean) to cgs statampere (convert): PASS value: 1: 2.997474891313E9 2: 2.997474891313E9 3: 2.997474891313E9
+current from INT ampere(mean) to cgs abampere (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from INT ampere(mean) to cgs emuc (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from INT ampere(mean) to cgs gilbert (convert): PASS value: 1: 1.2564485658767015 2: 1.2564485658767015 3: 1.2564485658767015
+current from INT ampere(mean) to cgs aA (convert): PASS value: 1: 0.099985 2: 0.099985 3: 0.099985
+current from INT ampere(mean) to IEUS ampere (convert): PASS value: 1: 1.0000150024754084 2: 1.0000150024754084 3: 1.0000150024754084
+current from INT ampere(mean) to IEUS ampere(mean) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from INT ampere(mean) to INT ampere(mean) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from INT ampere(mean) to INT ampere (convert): PASS value: 1: 1.0000150024754084 2: 1.0000150024754084 3: 1.0000150024754084
+current from INT ampere(mean) to Scientific galvat (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to Scientific pragilbert (convert): PASS value: 1: 0.0795655349252156 2: 0.0795655349252156 3: 0.0795655349252156
+current from INT ampere(mean) to SI ampere (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to SI At (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to SI ampere-tum (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to SI A (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere(mean) to SI A-turn (convert): PASS value: 1: 0.99985 2: 0.99985 3: 0.99985
+current from INT ampere to MKSA A (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to MKSA ampere (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to a.u. au-of-electric-curent (convert): PASS value: 1: 150.94997388889414 2: 150.94997388889414 3: 150.94997388889414
+current from INT ampere to a.u. auec (convert): PASS value: 1: 150.94997388889414 2: 150.94997388889414 3: 150.94997388889414
+current from INT ampere to cgs statA (convert): PASS value: 1: 2.9974299224443E9 2: 2.9974299224443E9 3: 2.9974299224443E9
+current from INT ampere to cgs emu-of-current (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from INT ampere to cgs biot (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from INT ampere to cgs Gb (convert): PASS value: 1: 1.25642971632078 2: 1.25642971632078 3: 1.25642971632078
+current from INT ampere to cgs Bi (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from INT ampere to cgs statampere (convert): PASS value: 1: 2.9974299224443E9 2: 2.9974299224443E9 3: 2.9974299224443E9
+current from INT ampere to cgs abampere (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from INT ampere to cgs emuc (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from INT ampere to cgs gilbert (convert): PASS value: 1: 1.25642971632078 2: 1.25642971632078 3: 1.25642971632078
+current from INT ampere to cgs aA (convert): PASS value: 1: 0.0999835 2: 0.0999835 3: 0.0999835
+current from INT ampere to IEUS ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from INT ampere to IEUS ampere(mean) (convert): PASS value: 1: 0.9999849977496624 2: 0.9999849977496624 3: 0.9999849977496624
+current from INT ampere to INT ampere(mean) (convert): PASS value: 1: 0.9999849977496624 2: 0.9999849977496624 3: 0.9999849977496624
+current from INT ampere to INT ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from INT ampere to Scientific galvat (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to Scientific pragilbert (convert): PASS value: 1: 0.07956434126314241 2: 0.07956434126314241 3: 0.07956434126314241
+current from INT ampere to SI ampere (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to SI At (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to SI ampere-tum (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to SI A (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from INT ampere to SI A-turn (convert): PASS value: 1: 0.999835 2: 0.999835 3: 0.999835
+current from Scientific galvat to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from Scientific galvat to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from Scientific galvat to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from Scientific galvat to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from Scientific galvat to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from Scientific galvat to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from Scientific galvat to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from Scientific galvat to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from Scientific galvat to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from Scientific galvat to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from Scientific galvat to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from Scientific galvat to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from Scientific galvat to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from Scientific galvat to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from Scientific galvat to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from Scientific galvat to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from Scientific galvat to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from Scientific galvat to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific galvat to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific pragilbert to MKSA A (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to MKSA ampere (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to a.u. au-of-electric-curent (convert): PASS value: 1: 1897.2063551642898 2: 1897.2063551642898 3: 1897.2063551642898
+current from Scientific pragilbert to a.u. auec (convert): PASS value: 1: 1897.2063551642898 2: 1897.2063551642898 3: 1897.2063551642898
+current from Scientific pragilbert to cgs statA (convert): PASS value: 1: 3.7673031346177155E10 2: 3.7673031346177155E10 3: 3.7673031346177155E10
+current from Scientific pragilbert to cgs emu-of-current (convert): PASS value: 1: 1.2566370614359201 2: 1.2566370614359201 3: 1.2566370614359201
+current from Scientific pragilbert to cgs biot (convert): PASS value: 1: 1.2566370614359201 2: 1.2566370614359201 3: 1.2566370614359201
+current from Scientific pragilbert to cgs Gb (convert): PASS value: 1: 15.791367041743003 2: 15.791367041743003 3: 15.791367041743003
+current from Scientific pragilbert to cgs Bi (convert): PASS value: 1: 1.2566370614359201 2: 1.2566370614359201 3: 1.2566370614359201
+current from Scientific pragilbert to cgs statampere (convert): PASS value: 1: 3.7673031346177155E10 2: 3.7673031346177155E10 3: 3.7673031346177155E10
+current from Scientific pragilbert to cgs abampere (convert): PASS value: 1: 1.2566370614359201 2: 1.2566370614359201 3: 1.2566370614359201
+current from Scientific pragilbert to cgs emuc (convert): PASS value: 1: 1.2566370614359201 2: 1.2566370614359201 3: 1.2566370614359201
+current from Scientific pragilbert to cgs gilbert (convert): PASS value: 1: 15.791367041743003 2: 15.791367041743003 3: 15.791367041743003
+current from Scientific pragilbert to cgs aA (convert): PASS value: 1: 1.2566370614359201 2: 1.2566370614359201 3: 1.2566370614359201
+current from Scientific pragilbert to IEUS ampere (convert): PASS value: 1: 12.568444407686469 2: 12.568444407686469 3: 12.568444407686469
+current from Scientific pragilbert to IEUS ampere(mean) (convert): PASS value: 1: 12.568255852737112 2: 12.568255852737112 3: 12.568255852737112
+current from Scientific pragilbert to INT ampere(mean) (convert): PASS value: 1: 12.568255852737112 2: 12.568255852737112 3: 12.568255852737112
+current from Scientific pragilbert to INT ampere (convert): PASS value: 1: 12.568444407686469 2: 12.568444407686469 3: 12.568444407686469
+current from Scientific pragilbert to Scientific galvat (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to Scientific pragilbert (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from Scientific pragilbert to SI ampere (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to SI At (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to SI ampere-tum (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to SI A (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from Scientific pragilbert to SI A-turn (convert): PASS value: 1: 12.5663706143592 2: 12.5663706143592 3: 12.5663706143592
+current from SI ampere to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI ampere to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI ampere to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI ampere to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI ampere to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI ampere to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI ampere to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI ampere to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI ampere to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI ampere to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI ampere to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from SI ampere to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI At to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI At to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI At to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI At to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI At to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI At to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI At to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI At to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI At to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI At to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI At to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI At to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI At to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI At to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI At to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI At to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from SI At to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI At to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI ampere-tum to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI ampere-tum to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI ampere-tum to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere-tum to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere-tum to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI ampere-tum to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere-tum to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI ampere-tum to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere-tum to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere-tum to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI ampere-tum to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI ampere-tum to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI ampere-tum to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI ampere-tum to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI ampere-tum to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI ampere-tum to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from SI ampere-tum to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI ampere-tum to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI A to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI A to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI A to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI A to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI A to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI A to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI A to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI A to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI A to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI A to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from SI A to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to MKSA A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to MKSA ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to a.u. au-of-electric-curent (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI A-turn to a.u. auec (convert): PASS value: 1: 150.97488474487702 2: 150.97488474487702 3: 150.97488474487702
+current from SI A-turn to cgs statA (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI A-turn to cgs emu-of-current (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A-turn to cgs biot (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A-turn to cgs Gb (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI A-turn to cgs Bi (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A-turn to cgs statampere (convert): PASS value: 1: 2.9979245800000005E9 2: 2.9979245800000005E9 3: 2.9979245800000005E9
+current from SI A-turn to cgs abampere (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A-turn to cgs emuc (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A-turn to cgs gilbert (convert): PASS value: 1: 1.2566370614359168 2: 1.2566370614359168 3: 1.2566370614359168
+current from SI A-turn to cgs aA (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+current from SI A-turn to IEUS ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI A-turn to IEUS ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI A-turn to INT ampere(mean) (convert): PASS value: 1: 1.0001500225033755 2: 1.0001500225033755 3: 1.0001500225033755
+current from SI A-turn to INT ampere (convert): PASS value: 1: 1.0001650272294929 2: 1.0001650272294929 3: 1.0001650272294929
+current from SI A-turn to Scientific galvat (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to Scientific pragilbert (convert): PASS value: 1: 0.07957747154594749 2: 0.07957747154594749 3: 0.07957747154594749
+current from SI A-turn to SI ampere (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to SI At (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to SI ampere-tum (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to SI A (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+current from SI A-turn to SI A-turn (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:32:53 Duration: 0:0:0:0.030 Version : 1.0
+
+
+********************************************************************************
+

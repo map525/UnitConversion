@@ -1,0 +1,40 @@
+********************************************************************************
+
+START UnitTestConverter 02/04/2024 12:44:27 Version : 1.0
+
+Constructor
+UnitTestConverter (fromType): PASS 
+UnitTestConverter (fromType): PASS 
+UnitTestConverter (toType): PASS 
+UnitTestConverter (toType): PASS 
+UnitTestConverter (unit): PASS 
+UnitTestConverter (type): PASS 
+UnitTestConverter (typeGroup): PASS 
+UnitTestConverter (systemNames): PASS 
+UnitTestConverter (unitNames): PASS 
+UnitTestConverter (unitNames): PASS 
+UnitTestConverter (addUnit): PASS 
+UnitTestConverter (removeUnit): PASS 
+UnitTestConverter (convert): PASS 
+UnitTestConverter (convert): PASS 
+
+Constructor (two types)
+UnitTestConverter (fromType): PASS 
+UnitTestConverter (fromType): PASS 
+UnitTestConverter (toType): PASS 
+UnitTestConverter (toType): PASS 
+UnitTestConverter (unit): PASS 
+UnitTestConverter (type): PASS 
+UnitTestConverter (typeGroup): PASS 
+UnitTestConverter (systemNames): PASS 
+UnitTestConverter (unitNames): PASS 
+UnitTestConverter (unitNames): PASS 
+UnitTestConverter (addUnit): PASS 
+UnitTestConverter (removeUnit): PASS 
+UnitTestConverter (convert): PASS 
+UnitTestConverter (convert): PASS 
+
+
+END UnitTestConverter 02/04/2024 12:44:27 Duration: 0:00:00.000997 Version : 1.0
+
+********************************************************************************

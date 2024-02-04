@@ -1,0 +1,255 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:22:44 Version : 1.0
+
+name: EM type: resistivity valid: 1
+To System: SI From System: SI
+Resistivity Types [acousticImpedance, capacitance, charge, chargeDensity, conductivity, current, currentDensity, 
+                   electricConductance, electricElastance, electricFieldGradient, electricFieldStrength, inductance, 
+                   magneticDipoleMoment, magneticFieldStrength, magneticFluxDensity, magneticInduction, 
+                   magneticPermeability, magneticPotential, magneticReluctance, permeability, potential, resistance, 
+                   resistivity, specificAcousticImpedance, surfaceChargeDensity]
+Resistivity All Systems [SI, cgs, IEUS, Imperial, Scientific, a.u., MKSA, INT, US, UK, Si, MKS, German]
+Resistivity All Units [SI[acoustic-ohm], SI[ohm(acoustic)], SI[ohm(mechanical)], cgs[acoustic-ohm], 
+                       cgs[ohm(acoustic)], cgs[ohm(mechanical)], IEUS[F], IEUS[farad], Imperial[centimeter], 
+                       Imperial[cm], SI[EF], SI[F], SI[GF], SI[MF], SI[PF], SI[TF], SI[YF], SI[ZF], SI[aF], 
+                       SI[attofarad], SI[cF], SI[centifarad], SI[dF], SI[daF], SI[decafarad], SI[decifarad], 
+                       SI[exacfarad], SI[fF], SI[farad], SI[femtofarad], SI[gigafarad], SI[hF], SI[hectofarad], 
+                       SI[kF], SI[kilofarad], SI[mF], SI[megafarad], SI[microfarad], SI[millifarad], SI[nF], 
+                       SI[nanofarad], SI[pF], SI[petafarad], SI[picofarad], SI[terafarad], SI[uF], SI[yF], 
+                       SI[yoctofarad], SI[yottafarad], SI[zF], SI[zeptofarad], SI[zettafarad], Scientific[jar], 
+                       Scientific[puff], cgs[aF], cgs[abfarad], cgs[emu-F], cgs[emu-of-electric-capacitance], 
+                       cgs[esu-F], cgs[esu-of-capacitance], cgs[statC], cgs[statfarad], IEUS[C], IEUS[coulomb(int)], 
+                       SI[A-hr], SI[C], SI[EC], SI[GC], SI[MC], SI[PC], SI[TC], SI[YC], SI[ZC], SI[aC], 
+                       SI[ampere-hour], SI[attocoulomb], SI[cC], SI[centicoulomb], SI[coulomb], SI[dC], SI[daC], 
+                       SI[decacoulomb], SI[decicoulomb], SI[exacoulomb], SI[fC], SI[femtocoulomb], SI[gigacoulomb], 
+                       SI[hC], SI[hectocoulomb], SI[kC], SI[kilocoulomb], SI[mC], SI[megacoulomb], SI[microcoulomb], 
+                       SI[millicoulomb], SI[nC], SI[nanocoulomb], SI[pC], SI[petacoulomb], SI[picocoulomb], 
+                       SI[teracoulomb], SI[uC], SI[yC], SI[yoctocoulomb], SI[yottacoulomb], SI[zC], SI[zeptocoulomb], 
+                       SI[zettacoulomb], a.u.[au-of-electric-charge], a.u.[aue], cgs[Fr], cgs[aC], cgs[abcoulomb], 
+                       cgs[emu-of-charge], cgs[esu-of-charge], cgs[franklin], cgs[statcoulomb], SI[C/cm3], SI[C/km3], 
+                       SI[C/m3], SI[C/mm3], SI[C/nm3], SI[C/um3], SI[coulomb-per-cubic-centimeter], 
+                       SI[coulomb-per-cubic-kilometer], SI[coulomb-per-cubic-meter], SI[coulomb-per-cubic-micrometer], 
+                       SI[coulomb-per-cubic-millimeter], SI[coulomb-per-cubic-nanometer], Scientific[C/ft3], 
+                       Scientific[C/in3], Scientific[C/mi3], Scientific[C/yd3], Scientific[coulomb-per-cubic-foot], 
+                       Scientific[coulomb-per-cubic-inch], Scientific[coulomb-per-cubic-mile], 
+                       Scientific[coulomb-per-cubic-yard], a.u.[au-of-electric-charge-density], a.u.[auecd], 
+                       MKSA[rom], Scientific[S/m], Scientific[reciprocal-ohm-per-centimeter], 
+                       Scientific[reciprocal-ohm-per-foot], Scientific[reciprocal-ohm-per-inch], 
+                       Scientific[reciprocal-ohm-per-meter], Scientific[roc], Scientific[rof], Scientific[roi], 
+                       Scientific[siemens-per-meter], cgs[roc], IEUS[ampere(mean)], IEUS[ampere], INT[ampere(mean)], 
+                       INT[ampere], MKSA[A], MKSA[ampere], SI[A-turn], SI[A], SI[At], SI[ampere-tum], SI[ampere], 
+                       Scientific[galvat], Scientific[pragilbert], a.u.[au-of-electric-curent], a.u.[auec], cgs[Bi], 
+                       cgs[Gb], cgs[aA], cgs[abampere], cgs[biot], cgs[emu-of-current], cgs[emuc], cgs[gilbert], 
+                       cgs[statA], cgs[statampere], Imperial[A/ft2], Imperial[A/in2], Imperial[A/yd2], 
+                       Imperial[ampere-per-square-foot], Imperial[ampere-per-square-inch], 
+                       Imperial[ampere-per-square-yard], Imperial[mA/ft2], Imperial[mA/in2], Imperial[mA/yd2], 
+                       Imperial[microampere-per-square-foot], Imperial[microampere-per-square-inch], 
+                       Imperial[microampere-per-square-yard], Imperial[milliampere-per-square-foot], 
+                       Imperial[milliampere-per-square-inch], Imperial[milliampere-per-square-yard], Imperial[uA/ft2], 
+                       Imperial[uA/in2], Imperial[uA/yd2], SI[A/cm2], SI[A/dm2], SI[A/m2], SI[A/mm2], SI[A/nm2], 
+                       SI[A/um2], SI[ampere-per-square-centimeter], SI[ampere-per-square-decimeter], 
+                       SI[ampere-per-square-meter], SI[ampere-per-square-micrometer], 
+                       SI[ampere-per-square-millimeter], SI[ampere-per-square-nanometer], SI[mA/dm2], 
+                       SI[microampere-per-square-decimeter], SI[milliampere-per-square-decimeter], SI[uA/dm2], 
+                       Scientific[mA/cm2], Scientific[mA/m2], Scientific[mA/mm2], Scientific[mA/nm2], 
+                       Scientific[mA/um2], Scientific[microampere-per-square-centimeter], 
+                       Scientific[microampere-per-square-meter], Scientific[microampere-per-square-micrometer], 
+                       Scientific[microampere-per-square-millimeter], Scientific[microampere-per-square-nanometer], 
+                       Scientific[milliampere-per-square-centimeter], Scientific[milliampere-per-square-meter], 
+                       Scientific[milliampere-per-square-micrometer], Scientific[milliampere-per-square-millimeter], 
+                       Scientific[milliampere-per-square-nanometer], Scientific[uA/cm2], Scientific[uA/m2], 
+                       Scientific[uA/mm2], Scientific[uA/nm2], Scientific[uA/um2], INT[mho], Imperial[REN], 
+                       Imperial[ringing-equivalent-number], SI[ES], SI[GS], SI[MS], SI[PS], SI[S], SI[TS], SI[YS], 
+                       SI[ZS], SI[aS], SI[attosiemens], SI[cS], SI[centisiemens], SI[dS], SI[daS], SI[decasiemens], 
+                       SI[decisiemens], SI[exacsiemens], SI[fS], SI[femtosiemens], SI[gigasiemens], SI[hS], 
+                       SI[hectosiemens], SI[kS], SI[kilosiemens], SI[mS], SI[megasiemens], SI[microsiemens], 
+                       SI[millisiemens], SI[nS], SI[nanosiemens], SI[pS], SI[petasiemens], SI[picosiemens], 
+                       SI[siemens], SI[terasiemens], SI[uS], SI[yS], SI[yoctosiemens], SI[yottasiemens], SI[zS], 
+                       SI[zeptosiemens], SI[zettasiemens], Scientific[gemmbo], cgs[1/aW], cgs[aS], cgs[abmho], 
+                       cgs[emu-S], cgs[emu-of-conductance], cgs[esu-S], cgs[esu-of-conductance], cgs[statmho], 
+                       Scientific[H/day2], Scientific[H/hr2], Scientific[H/min2], Scientific[H/mon2], 
+                       Scientific[H/sec2], Scientific[H/yr2], Scientific[henry-per-square-day], 
+                       Scientific[henry-per-square-hour], Scientific[henry-per-square-minute], 
+                       Scientific[henry-per-square-month], Scientific[henry-per-square-second], 
+                       Scientific[henry-per-square-year], US[daraf], a.u.[ao], 
+                       a.u.[au-of-electric-field-strength-gradient], a.u.[auefsg], a.u.[b], cgs[Td], cgs[townsend], 
+                       SI[V/cm], SI[V/km], SI[V/m], SI[V/mm], SI[V/nm], SI[V/um], SI[mV/cm], SI[mV/m], SI[mV/mm], 
+                       SI[mV/nm], SI[mV/um], SI[microvolt-per-centimeter], SI[microvolt-per-meter], 
+                       SI[microvolt-per-micrometer], SI[microvolt-per-millimeter], SI[millivolt-per-centimeter], 
+                       SI[millivolt-per-meter], SI[millivolt-per-micrometer], SI[millivolt-per-millimeter], 
+                       SI[millivolt-per-nanometer], SI[mircovolt-per-nanometer], SI[uV/cm], SI[uV/m], SI[uV/mm], 
+                       SI[uV/nm], SI[uV/um], SI[volt-per-centimeter], SI[volt-per-kilometer], SI[volt-per-meter], 
+                       SI[volt-per-micrometer], SI[volt-per-millimeter], SI[volt-per-nanometer], Scientific[V/ft], 
+                       Scientific[V/in], Scientific[V/mi], Scientific[V/yd], Scientific[mV/ft], Scientific[mV/in], 
+                       Scientific[mV/yd], Scientific[microvolt-per-foot], Scientific[microvolt-per-inch], 
+                       Scientific[microvolt-per-yard], Scientific[millivolt-per-foot], Scientific[millivolt-per-inch], 
+                       Scientific[millivolt-per-yard], Scientific[uV/ft], Scientific[uV/in], Scientific[uV/yd], 
+                       Scientific[volt-per-foot], Scientific[volt-per-inch], Scientific[volt-per-mile], 
+                       Scientific[volt-per-yard], a.u.[au-of-electric-field-strength], a.u.[au-of-electric-potential], 
+                       a.u.[auefs], a.u.[auep], IEUS[H], IEUS[henry], SI[EH], SI[GH], SI[H], SI[MH], SI[PH], SI[TH], 
+                       SI[YH], SI[ZH], SI[aH], SI[attohenry], SI[cH], SI[centihenry], SI[dH], SI[daH], SI[decachenry], 
+                       SI[decihenry], SI[exachenry], SI[fH], SI[femtohenry], SI[gigahenry], SI[hH], SI[hectohenry], 
+                       SI[henry], SI[kH], SI[kilochenry], SI[mH], SI[megahenry], SI[microhenry], SI[millihenry], 
+                       SI[nH], SI[nanohenry], SI[pH], SI[petahenry], SI[picohenry], SI[terahenry], SI[uH], SI[yH], 
+                       SI[yoctohenry], SI[yottahenry], SI[zH], SI[zeptohenry], SI[zettahenry], Scientific[centimeter], 
+                       Scientific[cm], UK[mic], US[H(mean)], US[H], US[henry(mean)], US[henry], cgs[aH], cgs[abhenry], 
+                       cgs[emu-H], cgs[emu-of-inductance], cgs[esu-H], cgs[esu-of-inductance], cgs[statH], 
+                       cgs[stathenry], SI[A-m2], SI[ampere-square-meter], Scientific[BN], Scientific[B], 
+                       Scientific[bohr-magneton], Scientific[magneton(bohr)], Scientific[magneton(nuclear)], 
+                       Scientific[nuclear-magneton], Scientific[uB], Scientific[uN], 
+                       a.u.[au-of-magnetic-dipole-moment], a.u.[audpm], SI[A/m], SI[ampere-per-meter], 
+                       Scientific[lenz], Scientific[praoersted], cgs[CE], cgs[ce], cgs[oersted], SI[ET], SI[GT], 
+                       SI[MT], SI[NT], SI[PT], SI[TT], SI[T], SI[YT], SI[ZT], SI[aT], SI[attotesla], SI[cT], 
+                       SI[centitesla], SI[dT], SI[daT], SI[decatesla], SI[decitesla], SI[exactesla], SI[fT], 
+                       SI[femtotesla], SI[gigatesla], SI[hT], SI[hectotesla], SI[kT], SI[kiloctesla], SI[megatesla], 
+                       SI[microtesla], SI[millitesla], SI[nT], SI[nanotesla], SI[pT], SI[petatesla], SI[picotesla], 
+                       SI[teratesla], SI[tesla], SI[uT], SI[yT], SI[yoctotesla], SI[yottatesla], SI[zT], 
+                       SI[zeptotesla], SI[zettatesla], Scientific[g], Scientific[gamma], 
+                       a.u.[au-of-magnetic-flux-density], a.u.[aumfd], cgs[G], cgs[Gs], cgs[gauss], 
+                       Imperial[kapp-line], Imperial[unit-pole], SI[EWb], SI[GWb], SI[MWb], SI[PWb], SI[TWb], SI[Wb], 
+                       SI[YWb], SI[ZWb], SI[aWb], SI[attoweber], SI[cWb], SI[centiweber], SI[dWb], SI[daWb], 
+                       SI[decaweber], SI[deciweber], SI[exacweber], SI[fWb], SI[femtoweber], SI[gigaweber], SI[hWb], 
+                       SI[hectoweber], SI[kWb], SI[kiloweber], SI[mWb], SI[megaweber], SI[microweber], SI[milliweber], 
+                       SI[nWb], SI[nanoweber], SI[pWb], SI[petaweber], SI[picoweber], SI[teraweber], SI[uWb], 
+                       SI[weber], SI[yWb], SI[yoctoweber], SI[yottaweber], SI[zWb], SI[zeptoweber], SI[zettaweber], 
+                       Scientific[D], Scientific[debye], US[line], cgs[Mx], cgs[maxwell], SI[H/cm], SI[H/km], SI[H/m], 
+                       SI[H/mm], SI[H/nm], SI[H/um], SI[henry-per-centimeter], SI[henry-per-kilometer], 
+                       SI[henry-per-meter], SI[henry-per-micrometer], SI[henry-per-millimeter], 
+                       SI[henry-per-nanometer], Scientific[H/ft], Scientific[H/in], Scientific[H/mi], 
+                       Scientific[H/yd], Scientific[henry-per-foot], Scientific[henry-per-inch], 
+                       Scientific[henry-per-mile], Scientific[henry-per-yard], SI[Wb/km], SI[Wb/m], 
+                       SI[weber-per-kilometer], SI[weber-per-meter], Scientific[Wb/ft], Scientific[Wb/in], 
+                       Scientific[Wb/mi], Scientific[Wb/yd], Scientific[weber-per-foot], Scientific[weber-per-inch], 
+                       Scientific[weber-per-mile], Scientific[weber-per-yard], Si[Wb/cm], Si[Wb/mm], Si[Wb/nm], 
+                       Si[Wb/um], Si[weber-per-centimeter], Si[weber-per-micrometer], Si[weber-per-millimeter], 
+                       Si[weber-per-nanometer], MKS[yrneh], SI[sturgeon], Scientific[F/day2], Scientific[F/hr2], 
+                       Scientific[F/min2], Scientific[F/mon2], Scientific[F/s2], Scientific[F/yr2], 
+                       Scientific[farad-per-square-day], Scientific[farad-per-square-hour], 
+                       Scientific[farad-per-square-minute], Scientific[farad-per-square-month], 
+                       Scientific[farad-per-square-second], Scientific[farad-per-square-year], US[perm(0oC)], 
+                       US[perm(23oC)], IEUS[V(mean)], IEUS[V], IEUS[volt(mean)], IEUS[volt], INT[V(mean)], 
+                       INT[daniell], INT[volt(mean)], SI[EV], SI[GV], SI[MV], SI[PV], SI[TV], SI[V], SI[YV], SI[ZV], 
+                       SI[aV], SI[attovolt], SI[cV], SI[centivolt], SI[dV], SI[daV], SI[decavolt], SI[decivolt], 
+                       SI[exacvolt], SI[fV], SI[femtovolt], SI[gigavolt], SI[hV], SI[hectovolt], SI[kV], 
+                       SI[kilocvolt], SI[mV], SI[megavolt], SI[microvolt], SI[millivolt], SI[nV], SI[nanovolt], 
+                       SI[pV], SI[petavolt], SI[picovolt], SI[teravolt], SI[uV], SI[volt], SI[yV], SI[yoctovolt], 
+                       SI[yottavolt], SI[zV], SI[zeptovolt], SI[zettavolt], UK[crocodile], US[V], US[volt], cgs[aV], 
+                       cgs[abvolt], cgs[emu-V], cgs[emu-of-electric-potential], cgs[esu-V], 
+                       cgs[esu-of-electric-potential], cgs[statV], cgs[statvolt], German[siemens], IEUS[ohm(legal)], 
+                       IEUS[ohm(mean)], IEUS[ohm], SI[EW], SI[GW], SI[MW], SI[PW], SI[TW], SI[W], SI[YW], SI[ZW], 
+                       SI[aW], SI[attoohm], SI[cW], SI[centiohm], SI[dW], SI[daW], SI[decaohm], SI[deciohm], 
+                       SI[exacohm], SI[fW], SI[femtoohm], SI[gigaohm], SI[hW], SI[hectoohm], SI[jacobi], SI[kW], 
+                       SI[kiloohm], SI[mW], SI[megaohm], SI[microohm], SI[milliohm], SI[nW], SI[nanoohm], SI[ohm], 
+                       SI[pW], SI[petaohm], SI[picoohm], SI[teraohm], SI[uW], SI[yW], SI[yoctoohm], SI[yottaohm], 
+                       SI[zW], SI[zeptoohm], SI[zettaohm], Scientific[lenz(resistance)], UK[preece], UK[wheatstone], 
+                       US[ohm(legal)], US[ohm(mean)], US[ohm], cgs[aW], cgs[abohm], cgs[emi-W], 
+                       cgs[emu-of-resistance], cgs[esu-W], cgs[esu-of-resistance], cgs[statohm], INT[IACS], 
+                       INT[international-annealed-copper-standard], Imperial[W-cmi/ft], 
+                       Imperial[ohm-circular-mil-per-foot], Imperial[ohm-cmi/ft], SI[W-m], SI[ohm-m], SI[ohm-meter], 
+                       MKSA[rayl], cgs[rayl], SI[C/cm2], SI[C/km2], SI[C/m2], SI[C/mm2], SI[C/nm2], SI[C/um2], 
+                       SI[coulomb-per-square-centimeter], SI[coulomb-per-square-kilometer], 
+                       SI[coulomb-per-square-meter], SI[coulomb-per-square-micrometer], 
+                       SI[coulomb-per-square-millimeter], SI[coulomb-per-square-nanometer], Scientific[C/ft2], 
+                       Scientific[C/in2], Scientific[C/mi2], Scientific[C/yd2], Scientific[coulomb-per-square-foot], 
+                       Scientific[coulomb-per-square-inch], Scientific[coulomb-per-square-mile], 
+                       Scientific[coulomb-per-square-yard]]
+Resistivity Systems [INT, Imperial, SI, UK]
+Units Resistivity [SI[W-m], SI[ohm-m], SI[ohm-meter], Imperial[W-cmi/ft], Imperial[ohm-circular-mil-per-foot], 
+                   Imperial[ohm-cmi/ft], INT[IACS], INT[international-annealed-copper-standard], UK[preece]]
+Resistivity INT IACS INT 1 1.72414e-10 international-annealed-copper-standard kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity INT international-annealed-copper-standard INT 1 1.72414e-10 international-annealed-copper-standard kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity Imperial W-cmi/ft Imperial 1 1.66243e-09 ohm-circular-mil-per-foot kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity Imperial ohm-circular-mil-per-foot Imperial 1 1.66243e-09 ohm-circular-mil-per-foot kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity Imperial ohm-cmi/ft Imperial 1 1.66243e-09 ohm-circular-mil-per-foot kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity SI W-m SI 1 1 ohm-meter kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity SI ohm-m SI 1 1 ohm-meter kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity SI ohm-meter SI 1 1 ohm-meter kg.m3/s3.A2 M.L3/T3.I2 0
+Resistivity UK preece UK 1 1e-07 preece kg.m3/s3.A2 M.L3/T3.I2 0
+
+name: EM type: resistivity valid: 1
+resistivity from INT IACS to INT IACS (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from INT IACS to INT international-annealed-copper-standard (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from INT IACS to Imperial W-cmi/ft (convert): PASS value: 1: 0.103712 2: 0.103712 3: 0.103712
+resistivity from INT IACS to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 0.103712 2: 0.103712 3: 0.103712
+resistivity from INT IACS to Imperial ohm-cmi/ft (convert): PASS value: 1: 0.103712 2: 0.103712 3: 0.103712
+resistivity from INT IACS to SI W-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from INT IACS to SI ohm-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from INT IACS to SI ohm-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from INT IACS to UK preece (convert): PASS value: 1: 0.001724 2: 0.001724 3: 0.001724
+resistivity from INT international-annealed-copper-standard to INT IACS (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from INT international-annealed-copper-standard to INT international-annealed-copper-standard (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from INT international-annealed-copper-standard to Imperial W-cmi/ft (convert): PASS value: 1: 0.103712 2: 0.103712 3: 0.103712
+resistivity from INT international-annealed-copper-standard to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 0.103712 2: 0.103712 3: 0.103712
+resistivity from INT international-annealed-copper-standard to Imperial ohm-cmi/ft (convert): PASS value: 1: 0.103712 2: 0.103712 3: 0.103712
+resistivity from INT international-annealed-copper-standard to SI W-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from INT international-annealed-copper-standard to SI ohm-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from INT international-annealed-copper-standard to SI ohm-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from INT international-annealed-copper-standard to UK preece (convert): PASS value: 1: 0.001724 2: 0.001724 3: 0.001724
+resistivity from Imperial W-cmi/ft to INT IACS (convert): PASS value: 1: 9.642071 2: 9.642071 3: 9.642071
+resistivity from Imperial W-cmi/ft to INT international-annealed-copper-standard (convert): PASS value: 1: 9.642071 2: 9.642071 3: 9.642071
+resistivity from Imperial W-cmi/ft to Imperial W-cmi/ft (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial W-cmi/ft to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial W-cmi/ft to Imperial ohm-cmi/ft (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial W-cmi/ft to SI W-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial W-cmi/ft to SI ohm-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial W-cmi/ft to SI ohm-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial W-cmi/ft to UK preece (convert): PASS value: 1: 0.016624 2: 0.016624 3: 0.016624
+resistivity from Imperial ohm-circular-mil-per-foot to INT IACS (convert): PASS value: 1: 9.642071 2: 9.642071 3: 9.642071
+resistivity from Imperial ohm-circular-mil-per-foot to INT international-annealed-copper-standard (convert): PASS value: 1: 9.642071 2: 9.642071 3: 9.642071
+resistivity from Imperial ohm-circular-mil-per-foot to Imperial W-cmi/ft (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial ohm-circular-mil-per-foot to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial ohm-circular-mil-per-foot to Imperial ohm-cmi/ft (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial ohm-circular-mil-per-foot to SI W-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial ohm-circular-mil-per-foot to SI ohm-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial ohm-circular-mil-per-foot to SI ohm-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial ohm-circular-mil-per-foot to UK preece (convert): PASS value: 1: 0.016624 2: 0.016624 3: 0.016624
+resistivity from Imperial ohm-cmi/ft to INT IACS (convert): PASS value: 1: 9.642071 2: 9.642071 3: 9.642071
+resistivity from Imperial ohm-cmi/ft to INT international-annealed-copper-standard (convert): PASS value: 1: 9.642071 2: 9.642071 3: 9.642071
+resistivity from Imperial ohm-cmi/ft to Imperial W-cmi/ft (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial ohm-cmi/ft to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial ohm-cmi/ft to Imperial ohm-cmi/ft (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from Imperial ohm-cmi/ft to SI W-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial ohm-cmi/ft to SI ohm-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial ohm-cmi/ft to SI ohm-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from Imperial ohm-cmi/ft to UK preece (convert): PASS value: 1: 0.016624 2: 0.016624 3: 0.016624
+resistivity from SI W-m to INT IACS (convert): PASS value: 1: 5800000000.015079 2: 5800000000.015079 3: 5800000000.015079
+resistivity from SI W-m to INT international-annealed-copper-standard (convert): PASS value: 1: 5800000000.015079 2: 5800000000.015079 3: 5800000000.015079
+resistivity from SI W-m to Imperial W-cmi/ft (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI W-m to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI W-m to Imperial ohm-cmi/ft (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI W-m to SI W-m (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI W-m to SI ohm-m (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI W-m to SI ohm-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI W-m to UK preece (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+resistivity from SI ohm-m to INT IACS (convert): PASS value: 1: 5800000000.015079 2: 5800000000.015079 3: 5800000000.015079
+resistivity from SI ohm-m to INT international-annealed-copper-standard (convert): PASS value: 1: 5800000000.015079 2: 5800000000.015079 3: 5800000000.015079
+resistivity from SI ohm-m to Imperial W-cmi/ft (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI ohm-m to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI ohm-m to Imperial ohm-cmi/ft (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI ohm-m to SI W-m (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI ohm-m to SI ohm-m (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI ohm-m to SI ohm-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI ohm-m to UK preece (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+resistivity from SI ohm-meter to INT IACS (convert): PASS value: 1: 5800000000.015079 2: 5800000000.015079 3: 5800000000.015079
+resistivity from SI ohm-meter to INT international-annealed-copper-standard (convert): PASS value: 1: 5800000000.015079 2: 5800000000.015079 3: 5800000000.015079
+resistivity from SI ohm-meter to Imperial W-cmi/ft (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI ohm-meter to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI ohm-meter to Imperial ohm-cmi/ft (convert): PASS value: 1: 601530493.575667 2: 601530493.575667 3: 601530493.575667
+resistivity from SI ohm-meter to SI W-m (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI ohm-meter to SI ohm-m (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI ohm-meter to SI ohm-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+resistivity from SI ohm-meter to UK preece (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+resistivity from UK preece to INT IACS (convert): PASS value: 1: 580.000000 2: 580.000000 3: 580.000000
+resistivity from UK preece to INT international-annealed-copper-standard (convert): PASS value: 1: 580.000000 2: 580.000000 3: 580.000000
+resistivity from UK preece to Imperial W-cmi/ft (convert): PASS value: 1: 60.153049 2: 60.153049 3: 60.153049
+resistivity from UK preece to Imperial ohm-circular-mil-per-foot (convert): PASS value: 1: 60.153049 2: 60.153049 3: 60.153049
+resistivity from UK preece to Imperial ohm-cmi/ft (convert): PASS value: 1: 60.153049 2: 60.153049 3: 60.153049
+resistivity from UK preece to SI W-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from UK preece to SI ohm-m (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from UK preece to SI ohm-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+resistivity from UK preece to UK preece (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:22:44 Duration: 0.064 Version : 1.0
+
+*********************************************************************************

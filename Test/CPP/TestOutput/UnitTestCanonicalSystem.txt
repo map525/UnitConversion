@@ -1,0 +1,47 @@
+*********************************************************************************
+
+START UnitTestCanonicalSystem February 04, 2024 13:38:05 Version : 1.0
+
+Default Constructor
+UnitTestCanonicalSystem (Default Constructor): PASS 
+
+Name Constructor
+UnitTestCanonicalSystem (Name Constructor): PASS 
+
+Unit Constructor
+UnitTestCanonicalSystem (fullUnitName): PASS 
+UnitTestCanonicalSystem (validateType): PASS 
+UnitTestCanonicalSystem (typeGroup): PASS 
+UnitTestCanonicalSystem (systemNames): PASS 
+UnitTestCanonicalSystem (systemNames): PASS 
+UnitTestCanonicalSystem (typeNames): PASS 
+UnitTestCanonicalSystem (unitNames): PASS 
+UnitTestCanonicalSystem (unitNames): PASS 
+UnitTestCanonicalSystem (convertUnit): PASS 
+
+Copy Constructor
+UnitTestCanonicalSystem (fullUnitName): PASS 
+UnitTestCanonicalSystem (validateType): PASS 
+UnitTestCanonicalSystem (typeGroup): PASS 
+UnitTestCanonicalSystem (systemNames): PASS 
+UnitTestCanonicalSystem (systemNames): PASS 
+UnitTestCanonicalSystem (typeNames): PASS 
+UnitTestCanonicalSystem (unitNames): PASS 
+UnitTestCanonicalSystem (unitNames): PASS 
+UnitTestCanonicalSystem (convertUnit): PASS 
+
+Assignment Operator
+UnitTestCanonicalSystem (fullUnitName): PASS 
+UnitTestCanonicalSystem (validateType): PASS 
+UnitTestCanonicalSystem (typeGroup): PASS 
+UnitTestCanonicalSystem (systemNames): PASS 
+UnitTestCanonicalSystem (systemNames): PASS 
+UnitTestCanonicalSystem (typeNames): PASS 
+UnitTestCanonicalSystem (unitNames): PASS 
+UnitTestCanonicalSystem (unitNames): PASS 
+UnitTestCanonicalSystem (convertUnit): PASS 
+
+
+END UnitTestCanonicalSystem February 04, 2024 13:38:05 Duration: 0.002 Version : 1.0
+
+*********************************************************************************

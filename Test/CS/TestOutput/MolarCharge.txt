@@ -1,0 +1,91 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:13 Version: 1.0
+name: Molarity type: molarCharge valid: True
+To System: Scientific From System: Scientific
+MolarCharge Types [molarity, surfaceMolarity, molarDensity, molarAbsorption, radiochemicalYield, quantity, 
+                   enzymaticActivity, molarCharge]
+
+MolarCharge All Systems [INT, Scientific, US, SI, Imperial]
+
+MolarCharge All Units [INT[chlorometric-degree], INT[oChl], INT[molar], INT[M], Scientific[amagat(atm)], 
+                       Scientific[amagat(bar)], Scientific[demal], Scientific[D], 
+                       Scientific[mole-per-centicubic-decimeter], Scientific[mol/dm3], 
+                       Scientific[mole-per-centicubic-meter], Scientific[mol/cm3], Scientific[mole-per-cubic-meter], 
+                       Scientific[mol/m3], Scientific[mole-per-cubic-decimeter], 
+                       Scientific[mole-per-cubic-centimeter], Scientific[mole-per-cubic-millimeter], 
+                       Scientific[mol/mm3], Scientific[mole-per-cubic-yard], Scientific[mol/yd3], 
+                       Scientific[mole-per-cubic-foot], Scientific[mol/ft3], Scientific[mole-per-cubic-in], 
+                       Scientific[mol/in3], Scientific[mole-per-liter], Scientific[mol/l], US[american-run], US[Ar], 
+                       Scientific[gibbs], Scientific[mole-per-square-meter], Scientific[mole/m2], 
+                       Scientific[mole-per-square-centimeter], Scientific[mole/cm2], 
+                       Scientific[mole-per-square-millimeter], Scientific[mole/mm2], Scientific[mole-per-square-yard], 
+                       Scientific[mole/yd2], Scientific[mole-per-square-foot], Scientific[mole/ft2], 
+                       Scientific[mole-per-square-inch], Scientific[mole/in2], SI[cubic-meter-per-mole], SI[m3/mol], 
+                       SI[cubic-centimeter-per-mole], SI[cm3/mol], SI[cubic-millimeter-per-mole], SI[mm3/mol], 
+                       Scientific[cubic-yard-per-mole], Scientific[yd3/mol], Scientific[cubic-foot-per-mole], 
+                       Scientific[ft3/mol], Scientific[cubic-inch-per-mole], Scientific[in3/mol], 
+                       SI[square-meter-per-mole], SI[m2/mol], SI[square-centimeter-per-mole], SI[cm2/mol], 
+                       SI[square-millimeter-per-mole], SI[mm2/mol], Scientific[square-yard-per-mole], 
+                       Scientific[yd2/mol], Scientific[square-foot-per-mole], Scientific[ft2/mol], 
+                       Scientific[square-inch-per-mole], Scientific[in2/mol], INT[G-vaIue(old)], SI[G-value], 
+                       Imperial[pound-mole], Imperial[lbmol], INT[standard-cubic-foot], INT[SCF], INT[ft3(60oF-atm)], 
+                       INT[standard-cubic-meter(bar)], INT[SCM(bar)], INT[m3(STP-bar)], 
+                       Scientific[standard-cubic-meter-(atm)], Scientific[SCM(atm)], Scientific[m3(STP-atm)], 
+                       SI[mole], SI[mol], Scientific[international-unit], Scientific[UI], Scientific[IU], SI[katal], 
+                       SI[kat], Scientific[faraday(12C)], Scientific[F(12C)], Scientific[faraday(chemical)], 
+                       Scientific[F(chemical)], Scientific[faraday(physical)], Scientific[F(physical)]]
+
+MolarCharge Systems [Scientific]
+
+Units MolarCharge [Scientific[faraday(12C)], Scientific[F(12C)], Scientific[faraday(chemical)], 
+                   Scientific[F(chemical)], Scientific[faraday(physical)], Scientific[F(physical)]]
+
+MolarCharge Scientific faraday(12C) Scientific True 96485.309 faraday(12C) s.A/mol T.I/N 0
+MolarCharge Scientific F(12C) Scientific True 96485.309 faraday(12C) s.A/mol T.I/N 0
+MolarCharge Scientific faraday(chemical) Scientific True 96495.7 faraday(chemical) s.A/mol T.I/N 0
+MolarCharge Scientific F(chemical) Scientific True 96495.7 faraday(chemical) s.A/mol T.I/N 0
+MolarCharge Scientific faraday(physical) Scientific True 96512.9 faraday(physical) s.A/mol T.I/N 0
+MolarCharge Scientific F(physical) Scientific True 96512.9 faraday(physical) s.A/mol T.I/N 0
+
+
+name: Molarity type: molarCharge valid: True
+molarCharge from Scientific faraday(12C) to Scientific faraday(12C) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific faraday(12C) to Scientific F(12C) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific faraday(12C) to Scientific faraday(chemical) (convert): PASS value: 1: 9.998923164451887E-001 2: 9.998923164451887E-001 3: 9.998923164451887E-001
+molarCharge from Scientific faraday(12C) to Scientific F(chemical) (convert): PASS value: 1: 9.998923164451887E-001 2: 9.998923164451887E-001 3: 9.998923164451887E-001
+molarCharge from Scientific faraday(12C) to Scientific faraday(physical) (convert): PASS value: 1: 9.997141211174879E-001 2: 9.997141211174879E-001 3: 9.997141211174879E-001
+molarCharge from Scientific faraday(12C) to Scientific F(physical) (convert): PASS value: 1: 9.997141211174879E-001 2: 9.997141211174879E-001 3: 9.997141211174879E-001
+molarCharge from Scientific F(12C) to Scientific faraday(12C) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific F(12C) to Scientific F(12C) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific F(12C) to Scientific faraday(chemical) (convert): PASS value: 1: 9.998923164451887E-001 2: 9.998923164451887E-001 3: 9.998923164451887E-001
+molarCharge from Scientific F(12C) to Scientific F(chemical) (convert): PASS value: 1: 9.998923164451887E-001 2: 9.998923164451887E-001 3: 9.998923164451887E-001
+molarCharge from Scientific F(12C) to Scientific faraday(physical) (convert): PASS value: 1: 9.997141211174879E-001 2: 9.997141211174879E-001 3: 9.997141211174879E-001
+molarCharge from Scientific F(12C) to Scientific F(physical) (convert): PASS value: 1: 9.997141211174879E-001 2: 9.997141211174879E-001 3: 9.997141211174879E-001
+molarCharge from Scientific faraday(chemical) to Scientific faraday(12C) (convert): PASS value: 1: 1.000107695151808E+000 2: 1.000107695151808E+000 3: 1.000107695151808E+000
+molarCharge from Scientific faraday(chemical) to Scientific F(12C) (convert): PASS value: 1: 1.000107695151808E+000 2: 1.000107695151808E+000 3: 1.000107695151808E+000
+molarCharge from Scientific faraday(chemical) to Scientific faraday(chemical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific faraday(chemical) to Scientific F(chemical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific faraday(chemical) to Scientific faraday(physical) (convert): PASS value: 1: 9.998217854815263E-001 2: 9.998217854815263E-001 3: 9.998217854815263E-001
+molarCharge from Scientific faraday(chemical) to Scientific F(physical) (convert): PASS value: 1: 9.998217854815263E-001 2: 9.998217854815263E-001 3: 9.998217854815263E-001
+molarCharge from Scientific F(chemical) to Scientific faraday(12C) (convert): PASS value: 1: 1.000107695151808E+000 2: 1.000107695151808E+000 3: 1.000107695151808E+000
+molarCharge from Scientific F(chemical) to Scientific F(12C) (convert): PASS value: 1: 1.000107695151808E+000 2: 1.000107695151808E+000 3: 1.000107695151808E+000
+molarCharge from Scientific F(chemical) to Scientific faraday(chemical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific F(chemical) to Scientific F(chemical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific F(chemical) to Scientific faraday(physical) (convert): PASS value: 1: 9.998217854815263E-001 2: 9.998217854815263E-001 3: 9.998217854815263E-001
+molarCharge from Scientific F(chemical) to Scientific F(physical) (convert): PASS value: 1: 9.998217854815263E-001 2: 9.998217854815263E-001 3: 9.998217854815263E-001
+molarCharge from Scientific faraday(physical) to Scientific faraday(12C) (convert): PASS value: 1: 1.000285960632618E+000 2: 1.000285960632618E+000 3: 1.000285960632618E+000
+molarCharge from Scientific faraday(physical) to Scientific F(12C) (convert): PASS value: 1: 1.000285960632618E+000 2: 1.000285960632618E+000 3: 1.000285960632618E+000
+molarCharge from Scientific faraday(physical) to Scientific faraday(chemical) (convert): PASS value: 1: 1.000178246284549E+000 2: 1.000178246284549E+000 3: 1.000178246284549E+000
+molarCharge from Scientific faraday(physical) to Scientific F(chemical) (convert): PASS value: 1: 1.000178246284549E+000 2: 1.000178246284549E+000 3: 1.000178246284549E+000
+molarCharge from Scientific faraday(physical) to Scientific faraday(physical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific faraday(physical) to Scientific F(physical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific F(physical) to Scientific faraday(12C) (convert): PASS value: 1: 1.000285960632618E+000 2: 1.000285960632618E+000 3: 1.000285960632618E+000
+molarCharge from Scientific F(physical) to Scientific F(12C) (convert): PASS value: 1: 1.000285960632618E+000 2: 1.000285960632618E+000 3: 1.000285960632618E+000
+molarCharge from Scientific F(physical) to Scientific faraday(chemical) (convert): PASS value: 1: 1.000178246284549E+000 2: 1.000178246284549E+000 3: 1.000178246284549E+000
+molarCharge from Scientific F(physical) to Scientific F(chemical) (convert): PASS value: 1: 1.000178246284549E+000 2: 1.000178246284549E+000 3: 1.000178246284549E+000
+molarCharge from Scientific F(physical) to Scientific faraday(physical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+molarCharge from Scientific F(physical) to Scientific F(physical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:13 Duration: 00:00:00.0008274 Version: 1.0

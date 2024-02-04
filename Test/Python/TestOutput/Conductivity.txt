@@ -1,0 +1,311 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:30 Version : 1.0
+
+name: EM type: conductivity valid: True
+To System: Scientific From System: Scientific
+Conductivity Types [current, charge, magneticFieldStrength, permeability, magneticDipoleMoment, currentDensity, 
+                    surfaceChargeDensity, chargeDensity, magneticReluctance, electricElastance, electricConductance, 
+                    capacitance, conductivity, specificAcousticImpedance, magneticInduction, inductance, potential, 
+                    resistance, resistivity, acousticImpedance, electricFieldStrength, magneticFluxDensity, 
+                    electricFieldGradient, magneticPotential, magneticPermeability]
+
+Conductivity All Systems [cgs, IEUS, INT, MKSA, SI, a.u., Scientific, US, Imperial, MKS, UK, German, Si]
+
+Conductivity All Units [cgs[abampere], cgs[aA], IEUS[ampere], INT[ampere], MKSA[ampere], MKSA[A], SI[ampere], SI[A], 
+                        IEUS[ampere(mean)], INT[ampere(mean)], SI[ampere-tum], SI[A-turn], SI[At], 
+                        a.u.[au-of-electric-curent], a.u.[auec], cgs[biot], cgs[Bi], cgs[emu-of-current], cgs[emuc], 
+                        Scientific[galvat], cgs[gilbert], cgs[Gb], Scientific[pragilbert], cgs[statampere], 
+                        cgs[statA], cgs[abcoulomb], cgs[aC], SI[ampere-hour], SI[A-hr], a.u.[au-of-electric-charge], 
+                        a.u.[aue], SI[coulomb], SI[C], IEUS[coulomb(int)], IEUS[C], cgs[emu-of-charge], 
+                        cgs[esu-of-charge], cgs[franklin], cgs[Fr], cgs[statcoulomb], cgs[statC], SI[yottacoulomb], 
+                        SI[YC], SI[zettacoulomb], SI[ZC], SI[exacoulomb], SI[EC], SI[petacoulomb], SI[PC], 
+                        SI[teracoulomb], SI[TC], SI[gigacoulomb], SI[GC], SI[megacoulomb], SI[MC], SI[kilocoulomb], 
+                        SI[kC], SI[hectocoulomb], SI[hC], SI[decacoulomb], SI[daC], SI[decicoulomb], SI[dC], 
+                        SI[centicoulomb], SI[cC], SI[millicoulomb], SI[mC], SI[microcoulomb], SI[uC], SI[nanocoulomb], 
+                        SI[nC], SI[picocoulomb], SI[pC], SI[femtocoulomb], SI[fC], SI[attocoulomb], SI[aC], 
+                        SI[zeptocoulomb], SI[zC], SI[yoctocoulomb], SI[yC], SI[ampere-per-meter], SI[A/m], 
+                        Scientific[lenz], cgs[oersted], cgs[CE], cgs[ce], Scientific[praoersted], US[perm(0oC)], 
+                        US[perm(23oC)], SI[ampere-square-meter], SI[A-m2], a.u.[au-of-magnetic-dipole-moment], 
+                        a.u.[audpm], Scientific[magneton(bohr)], Scientific[uB], Scientific[B], 
+                        Scientific[bohr-magneton], Scientific[magneton(nuclear)], Scientific[uN], Scientific[BN], 
+                        Scientific[nuclear-magneton], Imperial[ampere-per-square-inch], Imperial[A/in2], 
+                        Imperial[ampere-per-square-foot], Imperial[A/ft2], Imperial[ampere-per-square-yard], 
+                        Imperial[A/yd2], Imperial[milliampere-per-square-inch], Imperial[mA/in2], 
+                        Imperial[milliampere-per-square-foot], Imperial[mA/ft2], 
+                        Imperial[milliampere-per-square-yard], Imperial[mA/yd2], 
+                        Imperial[microampere-per-square-inch], Imperial[uA/in2], 
+                        Imperial[microampere-per-square-foot], Imperial[uA/ft2], 
+                        Imperial[microampere-per-square-yard], Imperial[uA/yd2], SI[ampere-per-square-meter], 
+                        SI[A/m2], SI[ampere-per-square-decimeter], SI[A/dm2], SI[ampere-per-square-centimeter], 
+                        SI[A/cm2], SI[ampere-per-square-millimeter], SI[A/mm2], SI[ampere-per-square-micrometer], 
+                        SI[A/um2], SI[ampere-per-square-nanometer], SI[A/nm2], 
+                        Scientific[milliampere-per-square-meter], Scientific[mA/m2], 
+                        SI[milliampere-per-square-decimeter], SI[mA/dm2], 
+                        Scientific[milliampere-per-square-centimeter], Scientific[mA/cm2], 
+                        Scientific[milliampere-per-square-millimeter], Scientific[mA/mm2], 
+                        Scientific[milliampere-per-square-micrometer], Scientific[mA/um2], 
+                        Scientific[milliampere-per-square-nanometer], Scientific[mA/nm2], 
+                        Scientific[microampere-per-square-meter], Scientific[uA/m2], 
+                        SI[microampere-per-square-decimeter], SI[uA/dm2], 
+                        Scientific[microampere-per-square-centimeter], Scientific[uA/cm2], 
+                        Scientific[microampere-per-square-millimeter], Scientific[uA/mm2], 
+                        Scientific[microampere-per-square-micrometer], Scientific[uA/um2], 
+                        Scientific[microampere-per-square-nanometer], Scientific[uA/nm2], 
+                        SI[coulomb-per-square-kilometer], SI[C/km2], SI[coulomb-per-square-meter], SI[C/m2], 
+                        SI[coulomb-per-square-centimeter], SI[C/cm2], SI[coulomb-per-square-millimeter], SI[C/mm2], 
+                        SI[coulomb-per-square-micrometer], SI[C/um2], SI[coulomb-per-square-nanometer], SI[C/nm2], 
+                        Scientific[coulomb-per-square-mile], Scientific[C/mi2], Scientific[coulomb-per-square-yard], 
+                        Scientific[C/yd2], Scientific[coulomb-per-square-foot], Scientific[C/ft2], 
+                        Scientific[coulomb-per-square-inch], Scientific[C/in2], a.u.[au-of-electric-charge-density], 
+                        a.u.[auecd], SI[coulomb-per-cubic-kilometer], SI[C/km3], SI[coulomb-per-cubic-meter], 
+                        SI[C/m3], SI[coulomb-per-cubic-centimeter], SI[C/cm3], SI[coulomb-per-cubic-millimeter], 
+                        SI[C/mm3], SI[coulomb-per-cubic-micrometer], SI[C/um3], SI[coulomb-per-cubic-nanometer], 
+                        SI[C/nm3], Scientific[coulomb-per-cubic-mile], Scientific[C/mi3], 
+                        Scientific[coulomb-per-cubic-yard], Scientific[C/yd3], Scientific[coulomb-per-cubic-foot], 
+                        Scientific[C/ft3], Scientific[coulomb-per-cubic-inch], Scientific[C/in3], MKS[yrneh], 
+                        SI[sturgeon], Scientific[farad-per-square-second], Scientific[F/s2], 
+                        Scientific[farad-per-square-minute], Scientific[F/min2], Scientific[farad-per-square-hour], 
+                        Scientific[F/hr2], Scientific[farad-per-square-day], Scientific[F/day2], 
+                        Scientific[farad-per-square-month], Scientific[F/mon2], Scientific[farad-per-square-year], 
+                        Scientific[F/yr2], US[daraf], Scientific[henry-per-square-second], Scientific[H/sec2], 
+                        Scientific[henry-per-square-minute], Scientific[H/min2], Scientific[henry-per-square-hour], 
+                        Scientific[H/hr2], Scientific[henry-per-square-day], Scientific[H/day2], 
+                        Scientific[henry-per-square-month], Scientific[H/mon2], Scientific[henry-per-square-year], 
+                        Scientific[H/yr2], Imperial[ringing-equivalent-number], Imperial[REN], cgs[abmho], cgs[aS], 
+                        cgs[1/aW], cgs[emu-of-conductance], cgs[emu-S], cgs[esu-of-conductance], cgs[esu-S], 
+                        cgs[statmho], INT[mho], Scientific[gemmbo], SI[siemens], SI[S], SI[yottasiemens], SI[YS], 
+                        SI[zettasiemens], SI[ZS], SI[exacsiemens], SI[ES], SI[petasiemens], SI[PS], SI[terasiemens], 
+                        SI[TS], SI[gigasiemens], SI[GS], SI[megasiemens], SI[MS], SI[kilosiemens], SI[kS], 
+                        SI[hectosiemens], SI[hS], SI[decasiemens], SI[daS], SI[decisiemens], SI[dS], SI[centisiemens], 
+                        SI[cS], SI[millisiemens], SI[mS], SI[microsiemens], SI[uS], SI[nanosiemens], SI[nS], 
+                        SI[picosiemens], SI[pS], SI[femtosiemens], SI[fS], SI[attosiemens], SI[aS], SI[zeptosiemens], 
+                        SI[zS], SI[yoctosiemens], SI[yS], cgs[abfarad], cgs[aF], cgs[emu-of-electric-capacitance], 
+                        cgs[emu-F], cgs[esu-of-capacitance], cgs[esu-F], cgs[statfarad], IEUS[farad], IEUS[F], 
+                        Imperial[centimeter], Imperial[cm], Scientific[jar], Scientific[puff], SI[farad], SI[F], 
+                        SI[yottafarad], SI[YF], SI[zettafarad], SI[ZF], SI[exacfarad], SI[EF], SI[petafarad], SI[PF], 
+                        SI[terafarad], SI[TF], SI[gigafarad], SI[GF], SI[megafarad], SI[MF], SI[kilofarad], SI[kF], 
+                        SI[hectofarad], SI[hF], SI[decafarad], SI[daF], SI[decifarad], SI[dF], SI[centifarad], SI[cF], 
+                        SI[millifarad], SI[mF], SI[microfarad], SI[uF], SI[nanofarad], SI[nF], SI[picofarad], SI[pF], 
+                        SI[femtofarad], SI[fF], SI[attofarad], SI[aF], SI[zeptofarad], SI[zF], SI[yoctofarad], SI[yF], 
+                        cgs[roc], MKSA[rom], Scientific[reciprocal-ohm-per-inch], Scientific[roi], 
+                        Scientific[reciprocal-ohm-per-foot], Scientific[rof], 
+                        Scientific[reciprocal-ohm-per-centimeter], Scientific[roc], 
+                        Scientific[reciprocal-ohm-per-meter], Scientific[siemens-per-meter], Scientific[S/m], 
+                        cgs[rayl], MKSA[rayl], cgs[maxwell], cgs[Mx], Imperial[kapp-line], Imperial[unit-pole], 
+                        Scientific[debye], Scientific[D], SI[weber], SI[Wb], US[line], SI[yottaweber], SI[YWb], 
+                        SI[zettaweber], SI[ZWb], SI[exacweber], SI[EWb], SI[petaweber], SI[PWb], SI[teraweber], 
+                        SI[TWb], SI[gigaweber], SI[GWb], SI[megaweber], SI[MWb], SI[kiloweber], SI[kWb], 
+                        SI[hectoweber], SI[hWb], SI[decaweber], SI[daWb], SI[deciweber], SI[dWb], SI[centiweber], 
+                        SI[cWb], SI[milliweber], SI[mWb], SI[microweber], SI[uWb], SI[nanoweber], SI[nWb], 
+                        SI[picoweber], SI[pWb], SI[femtoweber], SI[fWb], SI[attoweber], SI[aWb], SI[zeptoweber], 
+                        SI[zWb], SI[yoctoweber], SI[yWb], cgs[abhenry], cgs[aH], cgs[emu-of-inductance], cgs[emu-H], 
+                        cgs[esu-of-inductance], cgs[esu-H], cgs[stathenry], cgs[statH], IEUS[henry], IEUS[H], 
+                        Scientific[centimeter], Scientific[cm], SI[henry], SI[H], UK[mic], US[henry], US[H], 
+                        US[henry(mean)], US[H(mean)], SI[yottahenry], SI[YH], SI[zettahenry], SI[ZH], SI[exachenry], 
+                        SI[EH], SI[petahenry], SI[PH], SI[terahenry], SI[TH], SI[gigahenry], SI[GH], SI[megahenry], 
+                        SI[MH], SI[kilochenry], SI[kH], SI[hectohenry], SI[hH], SI[decachenry], SI[daH], 
+                        SI[decihenry], SI[dH], SI[centihenry], SI[cH], SI[millihenry], SI[mH], SI[microhenry], SI[uH], 
+                        SI[nanohenry], SI[nH], SI[picohenry], SI[pH], SI[femtohenry], SI[fH], SI[attohenry], SI[aH], 
+                        SI[zeptohenry], SI[zH], SI[yoctohenry], SI[yH], cgs[abvolt], cgs[aV], 
+                        cgs[emu-of-electric-potential], cgs[emu-V], cgs[esu-of-electric-potential], cgs[esu-V], 
+                        cgs[statvolt], cgs[statV], IEUS[volt], IEUS[V], IEUS[volt(mean)], IEUS[V(mean)], INT[daniell], 
+                        INT[volt(mean)], INT[V(mean)], SI[volt], SI[V], UK[crocodile], US[volt], US[V], SI[yottavolt], 
+                        SI[YV], SI[zettavolt], SI[ZV], SI[exacvolt], SI[EV], SI[petavolt], SI[PV], SI[teravolt], 
+                        SI[TV], SI[gigavolt], SI[GV], SI[megavolt], SI[MV], SI[kilocvolt], SI[kV], SI[hectovolt], 
+                        SI[hV], SI[decavolt], SI[daV], SI[decivolt], SI[dV], SI[centivolt], SI[cV], SI[millivolt], 
+                        SI[mV], SI[microvolt], SI[uV], SI[nanovolt], SI[nV], SI[picovolt], SI[pV], SI[femtovolt], 
+                        SI[fV], SI[attovolt], SI[aV], SI[zeptovolt], SI[zV], SI[yoctovolt], SI[yV], cgs[abohm], 
+                        cgs[aW], cgs[emu-of-resistance], cgs[emi-W], cgs[esu-of-resistance], cgs[esu-W], cgs[statohm], 
+                        German[siemens], IEUS[ohm], IEUS[ohm(legal)], IEUS[ohm(mean)], Scientific[lenz(resistance)], 
+                        SI[jacobi], SI[ohm], SI[W], UK[preece], UK[wheatstone], US[ohm], US[ohm(legal)], 
+                        US[ohm(mean)], SI[yottaohm], SI[YW], SI[zettaohm], SI[ZW], SI[exacohm], SI[EW], SI[petaohm], 
+                        SI[PW], SI[teraohm], SI[TW], SI[gigaohm], SI[GW], SI[megaohm], SI[MW], SI[kiloohm], SI[kW], 
+                        SI[hectoohm], SI[hW], SI[decaohm], SI[daW], SI[deciohm], SI[dW], SI[centiohm], SI[cW], 
+                        SI[milliohm], SI[mW], SI[microohm], SI[uW], SI[nanoohm], SI[nW], SI[picoohm], SI[pW], 
+                        SI[femtoohm], SI[fW], SI[attoohm], SI[aW], SI[zeptoohm], SI[zW], SI[yoctoohm], SI[yW], 
+                        Imperial[ohm-circular-mil-per-foot], Imperial[W-cmi/ft], Imperial[ohm-cmi/ft], 
+                        INT[international-annealed-copper-standard], INT[IACS], SI[ohm-meter], SI[W-m], SI[ohm-m], 
+                        cgs[acoustic-ohm], cgs[ohm(acoustic)], cgs[ohm(mechanical)], SI[ohm(mechanical)], 
+                        SI[acoustic-ohm], SI[ohm(acoustic)], a.u.[au-of-electric-field-strength], a.u.[auefs], 
+                        a.u.[au-of-electric-potential], a.u.[auep], SI[volt-per-kilometer], SI[V/km], 
+                        SI[volt-per-meter], SI[V/m], SI[volt-per-centimeter], SI[V/cm], SI[volt-per-millimeter], 
+                        SI[V/mm], SI[volt-per-micrometer], SI[V/um], SI[volt-per-nanometer], SI[V/nm], 
+                        SI[millivolt-per-meter], SI[mV/m], SI[millivolt-per-centimeter], SI[mV/cm], 
+                        SI[millivolt-per-millimeter], SI[mV/mm], SI[millivolt-per-micrometer], SI[mV/um], 
+                        SI[millivolt-per-nanometer], SI[mV/nm], SI[microvolt-per-meter], SI[uV/m], 
+                        SI[microvolt-per-centimeter], SI[uV/cm], SI[microvolt-per-millimeter], SI[uV/mm], 
+                        SI[microvolt-per-micrometer], SI[uV/um], SI[mircovolt-per-nanometer], SI[uV/nm], 
+                        Scientific[volt-per-mile], Scientific[V/mi], Scientific[volt-per-yard], Scientific[V/yd], 
+                        Scientific[volt-per-foot], Scientific[V/ft], Scientific[volt-per-inch], Scientific[V/in], 
+                        Scientific[millivolt-per-yard], Scientific[mV/yd], Scientific[millivolt-per-foot], 
+                        Scientific[mV/ft], Scientific[millivolt-per-inch], Scientific[mV/in], 
+                        Scientific[microvolt-per-yard], Scientific[uV/yd], Scientific[microvolt-per-foot], 
+                        Scientific[uV/ft], Scientific[microvolt-per-inch], Scientific[uV/in], 
+                        a.u.[au-of-magnetic-flux-density], a.u.[aumfd], cgs[gauss], cgs[Gs], cgs[G], 
+                        Scientific[gamma], Scientific[g], SI[tesla], SI[T], SI[yottatesla], SI[YT], SI[zettatesla], 
+                        SI[ZT], SI[exactesla], SI[ET], SI[petatesla], SI[PT], SI[teratesla], SI[TT], SI[gigatesla], 
+                        SI[GT], SI[megatesla], SI[MT], SI[kiloctesla], SI[kT], SI[hectotesla], SI[hT], SI[decatesla], 
+                        SI[daT], SI[decitesla], SI[dT], SI[centitesla], SI[cT], SI[millitesla], SI[NT], 
+                        SI[microtesla], SI[uT], SI[nanotesla], SI[nT], SI[picotesla], SI[pT], SI[femtotesla], SI[fT], 
+                        SI[attotesla], SI[aT], SI[zeptotesla], SI[zT], SI[yoctotesla], SI[yT], 
+                        a.u.[au-of-electric-field-strength-gradient], a.u.[ao], a.u.[b], a.u.[auefsg], cgs[townsend], 
+                        cgs[Td], SI[weber-per-kilometer], SI[Wb/km], SI[weber-per-meter], SI[Wb/m], 
+                        Si[weber-per-centimeter], Si[Wb/cm], Si[weber-per-millimeter], Si[Wb/mm], 
+                        Si[weber-per-micrometer], Si[Wb/um], Si[weber-per-nanometer], Si[Wb/nm], 
+                        Scientific[weber-per-mile], Scientific[Wb/mi], Scientific[weber-per-yard], Scientific[Wb/yd], 
+                        Scientific[weber-per-foot], Scientific[Wb/ft], Scientific[weber-per-inch], Scientific[Wb/in], 
+                        SI[henry-per-kilometer], SI[H/km], SI[henry-per-meter], SI[H/m], SI[henry-per-centimeter], 
+                        SI[H/cm], SI[henry-per-millimeter], SI[H/mm], SI[henry-per-micrometer], SI[H/um], 
+                        SI[henry-per-nanometer], SI[H/nm], Scientific[henry-per-mile], Scientific[H/mi], 
+                        Scientific[henry-per-yard], Scientific[H/yd], Scientific[henry-per-foot], Scientific[H/ft], 
+                        Scientific[henry-per-inch], Scientific[H/in]]
+
+Conductivity Systems [cgs, MKSA, Scientific]
+
+Units Conductivity [cgs[roc], MKSA[rom], Scientific[reciprocal-ohm-per-inch], Scientific[roi], 
+                    Scientific[reciprocal-ohm-per-foot], Scientific[rof], Scientific[reciprocal-ohm-per-centimeter], 
+                    Scientific[roc], Scientific[reciprocal-ohm-per-meter], Scientific[siemens-per-meter], 
+                    Scientific[S/m], MKSA[rom]]
+
+Conductivity cgs roc cgs True 100.0 roc s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity MKSA rom MKSA True 1.0 rom s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific reciprocal-ohm-per-inch Scientific True 39.3700787401575 reciprocal-ohm-per-inch s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific roi Scientific True 39.3700787401575 reciprocal-ohm-per-inch s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific reciprocal-ohm-per-foot Scientific True 3.28083989501312 reciprocal-ohm-per-foot s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific rof Scientific True 3.28083989501312 reciprocal-ohm-per-foot s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific reciprocal-ohm-per-centimeter Scientific True 100.0 reciprocal-ohm-per-centimeter s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific roc Scientific True 100.0 reciprocal-ohm-per-centimeter s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific reciprocal-ohm-per-meter Scientific True 1.0 reciprocal-ohm-per-meter s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific siemens-per-meter Scientific True 1.0 siemens-per-meter s3.A2/kg.m3 T3.I2/M.L3 0.0
+Conductivity Scientific S/m Scientific True 1.0 siemens-per-meter s3.A2/kg.m3 T3.I2/M.L3 0.0
+
+
+name: EM type: conductivity valid: True
+conductivity from cgs roc to cgs roc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from cgs roc to MKSA rom (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from cgs roc to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+conductivity from cgs roc to Scientific roi (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+conductivity from cgs roc to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+conductivity from cgs roc to Scientific rof (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+conductivity from cgs roc to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from cgs roc to Scientific roc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from cgs roc to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from cgs roc to Scientific siemens-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from cgs roc to Scientific S/m (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from MKSA rom to cgs roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from MKSA rom to MKSA rom (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from MKSA rom to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from MKSA rom to Scientific roi (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from MKSA rom to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from MKSA rom to Scientific rof (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from MKSA rom to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from MKSA rom to Scientific roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from MKSA rom to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from MKSA rom to Scientific siemens-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from MKSA rom to Scientific S/m (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-inch to cgs roc (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+conductivity from Scientific reciprocal-ohm-per-inch to MKSA rom (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific roi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific rof (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific roc (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific siemens-per-meter (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific reciprocal-ohm-per-inch to Scientific S/m (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific roi to cgs roc (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+conductivity from Scientific roi to MKSA rom (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific roi to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific roi to Scientific roi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific roi to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+conductivity from Scientific roi to Scientific rof (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+conductivity from Scientific roi to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+conductivity from Scientific roi to Scientific roc (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+conductivity from Scientific roi to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific roi to Scientific siemens-per-meter (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific roi to Scientific S/m (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+conductivity from Scientific reciprocal-ohm-per-foot to cgs roc (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+conductivity from Scientific reciprocal-ohm-per-foot to MKSA rom (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific roi (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific rof (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific roc (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific siemens-per-meter (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific reciprocal-ohm-per-foot to Scientific S/m (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific rof to cgs roc (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+conductivity from Scientific rof to MKSA rom (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific rof to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+conductivity from Scientific rof to Scientific roi (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+conductivity from Scientific rof to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific rof to Scientific rof (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific rof to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+conductivity from Scientific rof to Scientific roc (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+conductivity from Scientific rof to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific rof to Scientific siemens-per-meter (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific rof to Scientific S/m (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+conductivity from Scientific reciprocal-ohm-per-centimeter to cgs roc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-centimeter to MKSA rom (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific roi (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific rof (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific roc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific siemens-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific reciprocal-ohm-per-centimeter to Scientific S/m (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific roc to cgs roc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific roc to MKSA rom (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific roc to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+conductivity from Scientific roc to Scientific roi (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+conductivity from Scientific roc to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+conductivity from Scientific roc to Scientific rof (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+conductivity from Scientific roc to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific roc to Scientific roc (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific roc to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific roc to Scientific siemens-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific roc to Scientific S/m (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+conductivity from Scientific reciprocal-ohm-per-meter to cgs roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific reciprocal-ohm-per-meter to MKSA rom (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific roi (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific rof (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific siemens-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific reciprocal-ohm-per-meter to Scientific S/m (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific siemens-per-meter to cgs roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific siemens-per-meter to MKSA rom (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific siemens-per-meter to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from Scientific siemens-per-meter to Scientific roi (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from Scientific siemens-per-meter to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from Scientific siemens-per-meter to Scientific rof (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from Scientific siemens-per-meter to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific siemens-per-meter to Scientific roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific siemens-per-meter to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific siemens-per-meter to Scientific siemens-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific siemens-per-meter to Scientific S/m (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific S/m to cgs roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific S/m to MKSA rom (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific S/m to Scientific reciprocal-ohm-per-inch (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from Scientific S/m to Scientific roi (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+conductivity from Scientific S/m to Scientific reciprocal-ohm-per-foot (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from Scientific S/m to Scientific rof (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+conductivity from Scientific S/m to Scientific reciprocal-ohm-per-centimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific S/m to Scientific roc (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+conductivity from Scientific S/m to Scientific reciprocal-ohm-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific S/m to Scientific siemens-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+conductivity from Scientific S/m to Scientific S/m (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:30 Duration: 0:00:00.012320 Version : 1.0
+
+********************************************************************************

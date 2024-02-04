@@ -1,0 +1,129 @@
+
+START UnitConversionUnitsTest February 04, 2024 13:48:46 Version : 1.0
+
+name: Radiation type: exposure valid: 1
+To System: Scientific From System: Scientific
+Exposure Types [exposure, exposureRate, particleFlux, radioactiveConcentration, specificEnergy, specificRadioactivity]
+Exposure All Systems [INT, Scientific, German, SI, UK]
+Exposure All Units [INT[sievert-unit], Scientific[B-unit], Scientific[C/kg], Scientific[D-unit], Scientific[R], 
+                    Scientific[coulomb-per-kilogram], Scientific[e-unit], Scientific[pastille-dose], 
+                    Scientific[roentgen], German[R-unit(G)], German[R-unit(German)], German[R-unit(S)], 
+                    German[R-unit(Solomon)], Scientific[E-unit], Scientific[particle-flux-unit], Scientific[pfu], 
+                    Scientific[rayleigh], SI[Bq/m3], SI[becquerel-per-cubic-meter], Scientific[Ci/l], 
+                    Scientific[curie-per-liter], Scientific[eman], INT[cal(IT)/g], INT[calorie(IT)-per-gram], SI[EGy], 
+                    SI[ESv], SI[GGy], SI[GSv], SI[Gy], SI[MGy], SI[MSv], SI[PGy], SI[PSv], SI[Sv], SI[TGy], SI[TSv], 
+                    SI[YGy], SI[YSv], SI[ZGy], SI[ZSv], SI[aGy], SI[aSv], SI[attogray], SI[attosievert], SI[cGy], 
+                    SI[cSv], SI[centigray], SI[centisievert], SI[dGy], SI[dSv], SI[daGy], SI[daSv], SI[decacgray], 
+                    SI[decacsievert], SI[decigray], SI[decisievert], SI[exacgray], SI[exacsievert], SI[fGy], SI[fSv], 
+                    SI[femtogray], SI[femtosievert], SI[gigagray], SI[gigasievert], SI[gray], SI[hGy], SI[hSv], 
+                    SI[hectogray], SI[hectosievert], SI[kGy], SI[kSv], SI[kilocgray], SI[kilocsievert], SI[mGy], 
+                    SI[mSv], SI[megagray], SI[megasievert], SI[microgray], SI[microsievert], SI[milligray], 
+                    SI[millisievert], SI[nGy], SI[nSv], SI[nanogray], SI[nanosievert], SI[pGy], SI[pSv], SI[petagray], 
+                    SI[petasievert], SI[picogray], SI[picosievert], SI[sievert], SI[teragray], SI[terasievert], 
+                    SI[uGy], SI[uSv], SI[yGy], SI[ySv], SI[yoctogray], SI[yoctosievert], SI[yottagray], 
+                    SI[yottasievert], SI[zGy], SI[zSv], SI[zeptogray], SI[zeptosievert], SI[zettagray], 
+                    SI[zettasievert], Scientific[gram-rad], Scientific[kerma], Scientific[n-unit], 
+                    Scientific[rad-equivalent-physical], Scientific[rad], Scientific[radiation-absorbed-dose], 
+                    Scientific[rd], Scientific[rem], Scientific[rep], UK[Btu(IT)/lb], UK[Btu(therm)/lb], 
+                    UK[british-thermal-unit(IT)-per-pound], UK[british-thermal-unit(therm)-per-pound], SI[Bq/kg], 
+                    SI[becquerel-per-kilogram], Scientific[strontium-unit]]
+Exposure Systems [INT, Scientific]
+Units Exposure [INT[sievert-unit], Scientific[B-unit], Scientific[C/kg], Scientific[D-unit], Scientific[R], 
+                Scientific[coulomb-per-kilogram], Scientific[e-unit], Scientific[pastille-dose], Scientific[roentgen]]
+Exposure INT sievert-unit INT 1 0.00216204 sievert-unit s.A/kg T.I/M 0
+Exposure Scientific B-unit Scientific 1 0.129 pastille-dose s.A/kg T.I/M 0
+Exposure Scientific C/kg Scientific 1 1 coulomb-per-kilogram s.A/kg T.I/M 0
+Exposure Scientific D-unit Scientific 1 0.0258 D-unit s.A/kg T.I/M 0
+Exposure Scientific R Scientific 1 0.000258 roentgen s.A/kg T.I/M 0
+Exposure Scientific coulomb-per-kilogram Scientific 1 1 coulomb-per-kilogram s.A/kg T.I/M 0
+Exposure Scientific e-unit Scientific 1 0.001806 e-unit s.A/kg T.I/M 0
+Exposure Scientific pastille-dose Scientific 1 0.129 pastille-dose s.A/kg T.I/M 0
+Exposure Scientific roentgen Scientific 1 0.000258 roentgen s.A/kg T.I/M 0
+
+name: Radiation type: exposure valid: 1
+exposure from INT sievert-unit to INT sievert-unit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from INT sievert-unit to Scientific B-unit (convert): PASS value: 1: 0.016760 2: 0.016760 3: 0.016760
+exposure from INT sievert-unit to Scientific C/kg (convert): PASS value: 1: 0.002162 2: 0.002162 3: 0.002162
+exposure from INT sievert-unit to Scientific D-unit (convert): PASS value: 1: 0.083800 2: 0.083800 3: 0.083800
+exposure from INT sievert-unit to Scientific R (convert): PASS value: 1: 8.380000 2: 8.380000 3: 8.380000
+exposure from INT sievert-unit to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.002162 2: 0.002162 3: 0.002162
+exposure from INT sievert-unit to Scientific e-unit (convert): PASS value: 1: 1.197143 2: 1.197143 3: 1.197143
+exposure from INT sievert-unit to Scientific pastille-dose (convert): PASS value: 1: 0.016760 2: 0.016760 3: 0.016760
+exposure from INT sievert-unit to Scientific roentgen (convert): PASS value: 1: 8.380000 2: 8.380000 3: 8.380000
+exposure from Scientific B-unit to INT sievert-unit (convert): PASS value: 1: 59.665871 2: 59.665871 3: 59.665871
+exposure from Scientific B-unit to Scientific B-unit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific B-unit to Scientific C/kg (convert): PASS value: 1: 0.129000 2: 0.129000 3: 0.129000
+exposure from Scientific B-unit to Scientific D-unit (convert): PASS value: 1: 5.000000 2: 5.000000 3: 5.000000
+exposure from Scientific B-unit to Scientific R (convert): PASS value: 1: 500.000000 2: 500.000000 3: 500.000000
+exposure from Scientific B-unit to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.129000 2: 0.129000 3: 0.129000
+exposure from Scientific B-unit to Scientific e-unit (convert): PASS value: 1: 71.428571 2: 71.428571 3: 71.428571
+exposure from Scientific B-unit to Scientific pastille-dose (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific B-unit to Scientific roentgen (convert): PASS value: 1: 500.000000 2: 500.000000 3: 500.000000
+exposure from Scientific C/kg to INT sievert-unit (convert): PASS value: 1: 462.526133 2: 462.526133 3: 462.526133
+exposure from Scientific C/kg to Scientific B-unit (convert): PASS value: 1: 7.751938 2: 7.751938 3: 7.751938
+exposure from Scientific C/kg to Scientific C/kg (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific C/kg to Scientific D-unit (convert): PASS value: 1: 38.759690 2: 38.759690 3: 38.759690
+exposure from Scientific C/kg to Scientific R (convert): PASS value: 1: 3875.968992 2: 3875.968992 3: 3875.968992
+exposure from Scientific C/kg to Scientific coulomb-per-kilogram (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific C/kg to Scientific e-unit (convert): PASS value: 1: 553.709856 2: 553.709856 3: 553.709856
+exposure from Scientific C/kg to Scientific pastille-dose (convert): PASS value: 1: 7.751938 2: 7.751938 3: 7.751938
+exposure from Scientific C/kg to Scientific roentgen (convert): PASS value: 1: 3875.968992 2: 3875.968992 3: 3875.968992
+exposure from Scientific D-unit to INT sievert-unit (convert): PASS value: 1: 11.933174 2: 11.933174 3: 11.933174
+exposure from Scientific D-unit to Scientific B-unit (convert): PASS value: 1: 0.200000 2: 0.200000 3: 0.200000
+exposure from Scientific D-unit to Scientific C/kg (convert): PASS value: 1: 0.025800 2: 0.025800 3: 0.025800
+exposure from Scientific D-unit to Scientific D-unit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific D-unit to Scientific R (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+exposure from Scientific D-unit to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.025800 2: 0.025800 3: 0.025800
+exposure from Scientific D-unit to Scientific e-unit (convert): PASS value: 1: 14.285714 2: 14.285714 3: 14.285714
+exposure from Scientific D-unit to Scientific pastille-dose (convert): PASS value: 1: 0.200000 2: 0.200000 3: 0.200000
+exposure from Scientific D-unit to Scientific roentgen (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+exposure from Scientific R to INT sievert-unit (convert): PASS value: 1: 0.119332 2: 0.119332 3: 0.119332
+exposure from Scientific R to Scientific B-unit (convert): PASS value: 1: 0.002000 2: 0.002000 3: 0.002000
+exposure from Scientific R to Scientific C/kg (convert): PASS value: 1: 0.000258 2: 0.000258 3: 0.000258
+exposure from Scientific R to Scientific D-unit (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+exposure from Scientific R to Scientific R (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific R to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.000258 2: 0.000258 3: 0.000258
+exposure from Scientific R to Scientific e-unit (convert): PASS value: 1: 0.142857 2: 0.142857 3: 0.142857
+exposure from Scientific R to Scientific pastille-dose (convert): PASS value: 1: 0.002000 2: 0.002000 3: 0.002000
+exposure from Scientific R to Scientific roentgen (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific coulomb-per-kilogram to INT sievert-unit (convert): PASS value: 1: 462.526133 2: 462.526133 3: 462.526133
+exposure from Scientific coulomb-per-kilogram to Scientific B-unit (convert): PASS value: 1: 7.751938 2: 7.751938 3: 7.751938
+exposure from Scientific coulomb-per-kilogram to Scientific C/kg (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific coulomb-per-kilogram to Scientific D-unit (convert): PASS value: 1: 38.759690 2: 38.759690 3: 38.759690
+exposure from Scientific coulomb-per-kilogram to Scientific R (convert): PASS value: 1: 3875.968992 2: 3875.968992 3: 3875.968992
+exposure from Scientific coulomb-per-kilogram to Scientific coulomb-per-kilogram (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific coulomb-per-kilogram to Scientific e-unit (convert): PASS value: 1: 553.709856 2: 553.709856 3: 553.709856
+exposure from Scientific coulomb-per-kilogram to Scientific pastille-dose (convert): PASS value: 1: 7.751938 2: 7.751938 3: 7.751938
+exposure from Scientific coulomb-per-kilogram to Scientific roentgen (convert): PASS value: 1: 3875.968992 2: 3875.968992 3: 3875.968992
+exposure from Scientific e-unit to INT sievert-unit (convert): PASS value: 1: 0.835322 2: 0.835322 3: 0.835322
+exposure from Scientific e-unit to Scientific B-unit (convert): PASS value: 1: 0.014000 2: 0.014000 3: 0.014000
+exposure from Scientific e-unit to Scientific C/kg (convert): PASS value: 1: 0.001806 2: 0.001806 3: 0.001806
+exposure from Scientific e-unit to Scientific D-unit (convert): PASS value: 1: 0.070000 2: 0.070000 3: 0.070000
+exposure from Scientific e-unit to Scientific R (convert): PASS value: 1: 7.000000 2: 7.000000 3: 7.000000
+exposure from Scientific e-unit to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.001806 2: 0.001806 3: 0.001806
+exposure from Scientific e-unit to Scientific e-unit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific e-unit to Scientific pastille-dose (convert): PASS value: 1: 0.014000 2: 0.014000 3: 0.014000
+exposure from Scientific e-unit to Scientific roentgen (convert): PASS value: 1: 7.000000 2: 7.000000 3: 7.000000
+exposure from Scientific pastille-dose to INT sievert-unit (convert): PASS value: 1: 59.665871 2: 59.665871 3: 59.665871
+exposure from Scientific pastille-dose to Scientific B-unit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific pastille-dose to Scientific C/kg (convert): PASS value: 1: 0.129000 2: 0.129000 3: 0.129000
+exposure from Scientific pastille-dose to Scientific D-unit (convert): PASS value: 1: 5.000000 2: 5.000000 3: 5.000000
+exposure from Scientific pastille-dose to Scientific R (convert): PASS value: 1: 500.000000 2: 500.000000 3: 500.000000
+exposure from Scientific pastille-dose to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.129000 2: 0.129000 3: 0.129000
+exposure from Scientific pastille-dose to Scientific e-unit (convert): PASS value: 1: 71.428571 2: 71.428571 3: 71.428571
+exposure from Scientific pastille-dose to Scientific pastille-dose (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific pastille-dose to Scientific roentgen (convert): PASS value: 1: 500.000000 2: 500.000000 3: 500.000000
+exposure from Scientific roentgen to INT sievert-unit (convert): PASS value: 1: 0.119332 2: 0.119332 3: 0.119332
+exposure from Scientific roentgen to Scientific B-unit (convert): PASS value: 1: 0.002000 2: 0.002000 3: 0.002000
+exposure from Scientific roentgen to Scientific C/kg (convert): PASS value: 1: 0.000258 2: 0.000258 3: 0.000258
+exposure from Scientific roentgen to Scientific D-unit (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+exposure from Scientific roentgen to Scientific R (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+exposure from Scientific roentgen to Scientific coulomb-per-kilogram (convert): PASS value: 1: 0.000258 2: 0.000258 3: 0.000258
+exposure from Scientific roentgen to Scientific e-unit (convert): PASS value: 1: 0.142857 2: 0.142857 3: 0.142857
+exposure from Scientific roentgen to Scientific pastille-dose (convert): PASS value: 1: 0.002000 2: 0.002000 3: 0.002000
+exposure from Scientific roentgen to Scientific roentgen (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 13:48:46 Duration: 0.032 Version : 1.0
+
+*********************************************************************************

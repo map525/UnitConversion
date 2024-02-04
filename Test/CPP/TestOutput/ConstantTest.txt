@@ -1,0 +1,247 @@
+*********************************************************************************
+
+START UnitConversionConstantTest February 04, 2024 13:38:18 Version : 1.0
+
+Constants CONSTANTS [DerivedUnits, Invalid, PhysialDefinitions, PhysicalConstants, PhysicalMeasurements, SI, 
+                     WGS84Model]
+Constants DerivedUnits [Bq, C, F, Gy, H, Hz, J, N, Pa, Po, S, Sv, T, V, W, Wb, becquerel, coulomb, farad, gray, henry, 
+                        hertz, joule, katal, kt, lm, lumen, lux, lx, newton, ohm, pascal, poiseuille, siemens, 
+                        sievert, tesla, volt, w, watt, weber]
+DerivedUnits Bq (valid): PASS value: true, type: 1/T, system: SI, name: Bq, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+DerivedUnits C (valid): PASS value: true, type: I.T, system: SI, name: C, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: A.s, version: 1.0, valid: true
+DerivedUnits F (valid): PASS value: true, type: T4.I2/M.L2, system: SI, name: F, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: s4.A2/Kg.m2, version: 1.0, valid: true
+DerivedUnits Gy (valid): PASS value: true, type: L2/T2, system: SI, name: Gy, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: m2/s2, version: 1.0, valid: true
+DerivedUnits H (valid): PASS value: true, type: M.L2/T2.I2, system: SI, name: H, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2.A2, version: 1.0, valid: true
+DerivedUnits Hz (valid): PASS value: true, type: 1/T, system: SI, name: Hz, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+DerivedUnits J (valid): PASS value: true, type: M.L2/T2, system: SI, name: J, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+DerivedUnits N (valid): PASS value: true, type: M.L/T2, system: SI, name: N, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m/s2, version: 1.0, valid: true
+DerivedUnits Pa (valid): PASS value: true, type: M/L.T2, system: SI, name: Pa, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+DerivedUnits Po (valid): PASS value: true, type: M/L.T, system: SI, name: Po, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+DerivedUnits S (valid): PASS value: true, type: T3.I2/M.L2, system: SI, name: S, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: s3.A2/kg.m2, version: 1.0, valid: true
+DerivedUnits Sv (valid): PASS value: true, type: L2/T2, system: SI, name: Sv, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: m2/s2, version: 1.0, valid: true
+DerivedUnits T (valid): PASS value: true, type: M/T2.I, system: SI, name: T, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg/s2.A2, version: 1.0, valid: true
+DerivedUnits V (valid): PASS value: true, type: M.L2/T3.I, system: SI, name: V, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s3.A, version: 1.0, valid: true
+DerivedUnits W (valid): PASS value: true, type: M.L2/T3, system: SI, name: W, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s3, version: 1.0, valid: true
+DerivedUnits Wb (valid): PASS value: true, type: M.L2/T2.I, system: SI, name: Wb, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2.A, version: 1.0, valid: true
+DerivedUnits becquerel (valid): PASS value: true, type: 1/T, system: SI, name: becquerel, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+DerivedUnits coulomb (valid): PASS value: true, type: I.T, system: SI, name: coulomb, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: A.s, version: 1.0, valid: true
+DerivedUnits farad (valid): PASS value: true, type: T4.I2/M.L2, system: SI, name: farad, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: s4.A2/Kg.m2, version: 1.0, valid: true
+DerivedUnits gray (valid): PASS value: true, type: L2/T2, system: SI, name: gray, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: m2/s2, version: 1.0, valid: true
+DerivedUnits henry (valid): PASS value: true, type: M.L2/T2.I2, system: SI, name: henry, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2.A2, version: 1.0, valid: true
+DerivedUnits hertz (valid): PASS value: true, type: 1/T, system: SI, name: hertz, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+DerivedUnits joule (valid): PASS value: true, type: M.L2/T2, system: SI, name: joule, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+DerivedUnits katal (valid): PASS value: true, type: N/T, system: SI, name: katal, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: mol/s, version: 1.0, valid: true
+DerivedUnits kt (valid): PASS value: true, type: N/T, system: SI, name: kt, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: mol/s, version: 1.0, valid: true
+DerivedUnits lm (valid): PASS value: true, type: J.W, system: SI, name: lm, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: cd.sr, version: 1.0, valid: true
+DerivedUnits lumen (valid): PASS value: true, type: J.W, system: SI, name: lumen, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: cd.sr, version: 1.0, valid: true
+DerivedUnits lux (valid): PASS value: true, type: J.W/L2, system: SI, name: lux, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: cd.sr/m2, version: 1.0, valid: true
+DerivedUnits lx (valid): PASS value: true, type: J.W/L2, system: SI, name: lx, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: cd.sr/m2, version: 1.0, valid: true
+DerivedUnits newton (valid): PASS value: true, type: M.L/T2, system: SI, name: newton, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m/s2, version: 1.0, valid: true
+DerivedUnits ohm (valid): PASS value: true, type: M.L2/T3.I2, system: SI, name: ohm, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s3.A2, version: 1.0, valid: true
+DerivedUnits pascal (valid): PASS value: true, type: M/L.T2, system: SI, name: pascal, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+DerivedUnits poiseuille (valid): PASS value: true, type: M/L.T, system: SI, name: poiseuille, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+DerivedUnits siemens (valid): PASS value: true, type: T3.I2/M.L2, system: SI, name: siemens, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: s3.A2/kg.m2, version: 1.0, valid: true
+DerivedUnits sievert (valid): PASS value: true, type: L2/T2, system: SI, name: sievert, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: m2/s2, version: 1.0, valid: true
+DerivedUnits tesla (valid): PASS value: true, type: M/T2.I, system: SI, name: tesla, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg/s2.A2, version: 1.0, valid: true
+DerivedUnits volt (valid): PASS value: true, type: M.L2/T3.I, system: SI, name: volt, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s3.A, version: 1.0, valid: true
+DerivedUnits w (valid): PASS value: true, type: M.L2/T3.I2, system: SI, name: w, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s3.A2, version: 1.0, valid: true
+DerivedUnits watt (valid): PASS value: true, type: M.L2/T3, system: SI, name: watt, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s3, version: 1.0, valid: true
+DerivedUnits weber (valid): PASS value: true, type: M.L2/T2.I, system: SI, name: weber, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2.A, version: 1.0, valid: true
+
+Constants PhysialDefinitions [A, BTU(IT), Btu, Ci, Hz, R, T, a, angstrom, astronomical-unit, atm, 
+                              atmosphere(standard), au, bar, cal, cal(IST), carat, carat(metric), centimeter, cm, ct, 
+                              ct(metric), curie, day, decimeter, dm, doz, dozen, dyn, dyne, 
+                              earth-equatorial-radius-WGS-84, g, gN, gram, hertz, hour, hr, 
+                              international-nautical-mile, international-steam-table-calorie, kg-water, kgH2O, l, 
+                              liter, millimeter, min, minute, mm, nautical-mile, ni, nmi, ream, ream(old), 
+                              ream(perfect), roentgen, room-temperature, standard-gravity, thermochemical-calorie, 
+                              year(Julian), year(common), yr(Julian), yr(common)]
+PhysialDefinitions A (valid): PASS value: true, type: L, system: INT, name: A, value: 1.000000000000000e-10, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions BTU(IT) (valid): PASS value: true, type: M.L2/T2, system: UK, name: BTU(IT), value: 1.055055852620000e+03, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysialDefinitions Btu (valid): PASS value: true, type: M.L2/T2, system: UK, name: Btu, value: 1.055055852620000e+03, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysialDefinitions Ci (valid): PASS value: true, type: 1/T, system: INT, name: Ci, value: 3.700000000000000e+10, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+PhysialDefinitions Hz (valid): PASS value: true, type: 1/T, system: SI, name: Hz, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+PhysialDefinitions R (valid): PASS value: true, type: T.I/M, system: Scientific, name: R, value: 2.580000000000000e-04, offset: 0.000000000000000e+00, unit: s.A/kg, version: 1.0, valid: true
+PhysialDefinitions T (valid): PASS value: true, type: Q, system: Scientific, name: T, value: 2.931500000000000e+02, offset: 0.000000000000000e+00, unit: K, version: 1.0, valid: true
+PhysialDefinitions a (valid): PASS value: true, type: L, system: WGS-84, name: a, value: 6.378137000000000e+06, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions angstrom (valid): PASS value: true, type: L, system: INT, name: angstrom, value: 1.000000000000000e-10, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions astronomical-unit (valid): PASS value: true, type: L, system: @, name: astronomical-unit, value: 1.495978707000000e+11, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions atm (valid): PASS value: true, type: M/L.T2, system: Imperial, name: atm, value: 1.013250000000000e+05, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+PhysialDefinitions atmosphere(standard) (valid): PASS value: true, type: M/L.T2, system: Imperial, name: atmosphere(standard), value: 1.013250000000000e+05, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+PhysialDefinitions au (valid): PASS value: true, type: L, system: @, name: au, value: 1.495978707000000e+11, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions bar (valid): PASS value: true, type: M/L.T2, system: Scientific, name: bar, value: 1.000000000000000e+05, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+PhysialDefinitions cal (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: cal, value: 4.184000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysialDefinitions cal(IST) (valid): PASS value: true, type: M.L2/T2, system: INT, name: cal(IST), value: 4.186800000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysialDefinitions carat (valid): PASS value: true, type: M, system: INT, name: carat, value: 2.000000000000000e-04, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysialDefinitions carat(metric) (valid): PASS value: true, type: M, system: INT, name: carat(metric), value: 2.000000000000000e-04, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysialDefinitions centimeter (valid): PASS value: true, type: L, system: SI, name: centimeter, value: 1.000000000000000e-02, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions cm (valid): PASS value: true, type: L, system: SI, name: cm, value: 1.000000000000000e-02, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions ct (valid): PASS value: true, type: M, system: INT, name: ct, value: 2.000000000000000e-04, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysialDefinitions ct(metric) (valid): PASS value: true, type: M, system: INT, name: ct(metric), value: 2.000000000000000e-04, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysialDefinitions curie (valid): PASS value: true, type: 1/T, system: INT, name: curie, value: 3.700000000000000e+10, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+PhysialDefinitions day (valid): PASS value: true, type: T, system: Time, name: day, value: 8.640000000000000e+04, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions decimeter (valid): PASS value: true, type: L, system: SI, name: decimeter, value: 1.000000000000000e-01, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions dm (valid): PASS value: true, type: L, system: SI, name: dm, value: 1.000000000000000e-01, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions doz (valid): PASS value: true, type: O, system: UK, US, name: doz, value: 1.200000000000000e+01, offset: 0.000000000000000e+00, unit: count, version: 1.0, valid: true
+PhysialDefinitions dozen (valid): PASS value: true, type: O, system: UK, US, name: dozen, value: 1.200000000000000e+01, offset: 0.000000000000000e+00, unit: count, version: 1.0, valid: true
+PhysialDefinitions dyn (valid): PASS value: true, type: M.L/T2, system: cgs, name: dyn, value: 1.000000000000000e-05, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+PhysialDefinitions dyne (valid): PASS value: true, type: M.L/T2, system: cgs, name: dyne, value: 1.000000000000000e-05, offset: 0.000000000000000e+00, unit: kg/m.s2, version: 1.0, valid: true
+PhysialDefinitions earth-equatorial-radius-WGS-84 (valid): PASS value: true, type: L, system: WGS-84, name: earth-equatorial-radius-WGS-84, value: 6.378137000000000e+06, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions g (valid): PASS value: true, type: M, system: cgs, name: g, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysialDefinitions gN (valid): PASS value: true, type: L/T2, system: Scientific, name: gN, value: 9.806649999999999e+00, offset: 0.000000000000000e+00, unit: m/s2, version: 1.0, valid: true
+PhysialDefinitions gram (valid): PASS value: true, type: M, system: cgs, name: gram, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysialDefinitions hertz (valid): PASS value: true, type: 1/T, system: SI, name: hertz, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: 1/s, version: 1.0, valid: true
+PhysialDefinitions hour (valid): PASS value: true, type: T, system: INT, name: hour, value: 3.600000000000000e+03, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions hr (valid): PASS value: true, type: T, system: INT, name: hr, value: 3.600000000000000e+03, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions international-nautical-mile (valid): PASS value: true, type: L, system: INT, name: international-nautical-mile, value: 1.852000000000000e+03, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions international-steam-table-calorie (valid): PASS value: true, type: M.L2/T2, system: INT, name: international-steam-table-calorie, value: 4.186800000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysialDefinitions kg-water (valid): PASS value: true, type: L3, system: Scientific, name: kg-water, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: m3, version: 1.0, valid: true
+PhysialDefinitions kgH2O (valid): PASS value: true, type: L3, system: Scientific, name: kgH2O, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: m3, version: 1.0, valid: true
+PhysialDefinitions l (valid): PASS value: true, type: L3, system: INT, name: l, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: m3, version: 1.0, valid: true
+PhysialDefinitions liter (valid): PASS value: true, type: L3, system: INT, name: liter, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: m3, version: 1.0, valid: true
+PhysialDefinitions millimeter (valid): PASS value: true, type: L, system: SI, name: millimeter, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions min (valid): PASS value: true, type: T, system: INT, name: min, value: 6.000000000000000e+01, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions minute (valid): PASS value: true, type: T, system: INT, name: minute, value: 6.000000000000000e+01, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions mm (valid): PASS value: true, type: L, system: SI, name: mm, value: 1.000000000000000e-03, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions nautical-mile (valid): PASS value: true, type: L, system: INT, name: nautical-mile, value: 1.852000000000000e+03, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions ni (valid): PASS value: true, type: L, system: INT, name: ni, value: 1.852000000000000e+03, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions nmi (valid): PASS value: true, type: L, system: INT, name: nmi, value: 1.852000000000000e+03, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysialDefinitions ream (valid): PASS value: true, type: O, system: INT, name: ream, value: 5.000000000000000e+02, offset: 0.000000000000000e+00, unit: count, version: 1.0, valid: true
+PhysialDefinitions ream(old) (valid): PASS value: true, type: O, system: UK, US, name: ream(old), value: 4.800000000000000e+02, offset: 0.000000000000000e+00, unit: count, version: 1.0, valid: true
+PhysialDefinitions ream(perfect) (valid): PASS value: true, type: O, system: US, name: ream(perfect), value: 5.120000000000000e+02, offset: 0.000000000000000e+00, unit: count, version: 1.0, valid: true
+PhysialDefinitions roentgen (valid): PASS value: true, type: T.I/M, system: Scientific, name: roentgen, value: 2.580000000000000e-04, offset: 0.000000000000000e+00, unit: s.A/kg, version: 1.0, valid: true
+PhysialDefinitions room-temperature (valid): PASS value: true, type: Q, system: Scientific, name: room-temperature, value: 2.931500000000000e+02, offset: 0.000000000000000e+00, unit: K, version: 1.0, valid: true
+PhysialDefinitions standard-gravity (valid): PASS value: true, type: L/T2, system: Scientific, name: standard-gravity, value: 9.806649999999999e+00, offset: 0.000000000000000e+00, unit: m/s2, version: 1.0, valid: true
+PhysialDefinitions thermochemical-calorie (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: thermochemical-calorie, value: 4.184000000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysialDefinitions year(Julian) (valid): PASS value: true, type: T, system: Time, name: year(Julian), value: 3.155760000000000e+07, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions year(common) (valid): PASS value: true, type: T, system: Time, name: year(common), value: 3.153600000000000e+07, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions yr(Julian) (valid): PASS value: true, type: T, system: Time, name: yr(Julian), value: 3.155760000000000e+07, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+PhysialDefinitions yr(common) (valid): PASS value: true, type: T, system: Time, name: yr(common), value: 3.153600000000000e+07, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+
+Constants PhysicalConstants [N, avogadro-constant, boltzman-constant, c, e, elementary-charge, h, k, planck-constant, 
+                             speed-of-light]
+PhysicalConstants N (valid): PASS value: true, type: 1/N, system: SI, name: N, value: 6.022140760000000e+23, offset: 0.000000000000000e+00, unit: 1/mol, version: 1.0, valid: true
+PhysicalConstants avogadro-constant (valid): PASS value: true, type: 1/N, system: SI, name: avogadro-constant, value: 6.022140760000000e+23, offset: 0.000000000000000e+00, unit: 1/mol, version: 1.0, valid: true
+PhysicalConstants boltzman-constant (valid): PASS value: true, type: M.L2/T2.Q1, system: SI, name: boltzman-constant, value: 1.380649000000000e-23, offset: 0.000000000000000e+00, unit: kg.m2/s2.K, version: 1.0, valid: true
+PhysicalConstants c (valid): PASS value: true, type: L/T, system: SI, name: c, value: 2.997924580000000e+08, offset: 0.000000000000000e+00, unit: m/s, version: 1.0, valid: true
+PhysicalConstants e (valid): PASS value: true, type: T.I, system: SI, name: e, value: 1.602176634000000e-19, offset: 0.000000000000000e+00, unit: A.s, version: 1.0, valid: true
+PhysicalConstants elementary-charge (valid): PASS value: true, type: T.I, system: SI, name: elementary-charge, value: 1.602176634000000e-19, offset: 0.000000000000000e+00, unit: A.s, version: 1.0, valid: true
+PhysicalConstants h (valid): PASS value: true, type: M.L2/T, system: SI, name: h, value: 6.626070150000000e-34, offset: 0.000000000000000e+00, unit: kg.m2/s, version: 1.0, valid: true
+PhysicalConstants k (valid): PASS value: true, type: M.L2/T2.Q1, system: SI, name: k, value: 1.380649000000000e-23, offset: 0.000000000000000e+00, unit: kg.m2/s2.K, version: 1.0, valid: true
+PhysicalConstants planck-constant (valid): PASS value: true, type: M.L2/T, system: SI, name: planck-constant, value: 6.626070150000000e-34, offset: 0.000000000000000e+00, unit: kg.m2/s, version: 1.0, valid: true
+PhysicalConstants speed-of-light (valid): PASS value: true, type: L/T, system: SI, name: speed-of-light, value: 2.997924580000000e+08, offset: 0.000000000000000e+00, unit: m/s, version: 1.0, valid: true
+
+Constants PhysicalMeasurements [BTU(Mean), Da, MO, R, Rt, ao, bohr-radius, cal(15oC), cal(20oC), cal(4oC), cal(mean), 
+                                calorie(15oC), calorie(20oC), calorie(4oC), calorie(mean), dalton, 
+                                density-of-mercury(00C), density-of-mercury(230C), density-of-mercury(40C), 
+                                density-of-mercury(600F), density-of-sea-water, density-of-water(40C), 
+                                density-of-water(600F), electron-mass, electron-radius, eo, g, gas-constant-for-air, 
+                                loschmidt's-number, me, mo, mp, no, pH2O(0oC), pH2O(4oC), pH2O(4oF), pH2O(60oF), 
+                                pHg(23oC), pHg(4oC), permeability-of-free-space, permittivity-of-free-space, 
+                                proton-mass, ratio-of-specific-heat-for-air, re, roentgen, solar-mass, st, u]
+PhysicalMeasurements BTU(Mean) (valid): PASS value: true, type: M.L2/T2, system: FPS, name: BTU(Mean), value: 1.055870000000000e+03, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements Da (valid): PASS value: true, type: M, system: Scientific, name: Da, value: 1.660539066600000e-27, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements MO (valid): PASS value: true, type: M, system: Scientific, name: MO, value: 1.988470000000000e+30, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements R (valid): PASS value: true, type: L2/T2Q, system: Scientific, name: R, value: 2.860000000000000e+02, offset: 0.000000000000000e+00, unit: m2/s2.K, version: 1.0, valid: true
+PhysicalMeasurements Rt (valid): PASS value: true, type: I.T/M, system: Scientific, name: Rt, value: 2.580000000000000e-04, offset: 0.000000000000000e+00, unit: A.s/kg, version: 1.0, valid: true
+PhysicalMeasurements ao (valid): PASS value: true, type: L, system: Scientific, name: ao, value: 5.291772109030000e-11, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysicalMeasurements bohr-radius (valid): PASS value: true, type: L, system: Scientific, name: bohr-radius, value: 5.291772109030000e-11, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysicalMeasurements cal(15oC) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: cal(15oC), value: 4.185500000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements cal(20oC) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: cal(20oC), value: 4.190020000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements cal(4oC) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: cal(4oC), value: 4.204500000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements cal(mean) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: cal(mean), value: 4.190020000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements calorie(15oC) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: calorie(15oC), value: 4.185500000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements calorie(20oC) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: calorie(20oC), value: 4.190020000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements calorie(4oC) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: calorie(4oC), value: 4.204500000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements calorie(mean) (valid): PASS value: true, type: M.L2/T2, system: Scientific, name: calorie(mean), value: 4.190020000000000e+00, offset: 0.000000000000000e+00, unit: kg.m2/s2, version: 1.0, valid: true
+PhysicalMeasurements dalton (valid): PASS value: true, type: M, system: Scientific, name: dalton, value: 1.660539066600000e-27, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements density-of-mercury(00C) (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-mercury(00C), value: 1.359508000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements density-of-mercury(230C) (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-mercury(230C), value: 1.353770000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements density-of-mercury(40C) (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-mercury(40C), value: 1.360000000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements density-of-mercury(600F) (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-mercury(600F), value: 1.355679000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements density-of-sea-water (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-sea-water, value: 1.025000000000000e+03, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements density-of-water(40C) (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-water(40C), value: 9.998395000000000e+02, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements density-of-water(600F) (valid): PASS value: true, type: M/L3, system: Scientific, name: density-of-water(600F), value: 9.990141000000000e+02, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements electron-mass (valid): PASS value: true, type: M, system: Scientific, name: electron-mass, value: 9.109383701500001e-31, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements electron-radius (valid): PASS value: true, type: L, system: Scientific, name: electron-radius, value: 2.817940326200000e-15, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysicalMeasurements eo (valid): PASS value: true, type: T4.I2/M.L3, system: Scientific, name: eo, value: 8.854187812800001e-12, offset: 0.000000000000000e+00, unit: s4.A2/kg.m3, version: 1.0, valid: true
+PhysicalMeasurements g (valid): PASS value: true, type: O, system: Scientific, name: g, value: 1.400000000000000e+00, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+PhysicalMeasurements gas-constant-for-air (valid): PASS value: true, type: L2/T2Q, system: Scientific, name: gas-constant-for-air, value: 2.860000000000000e+02, offset: 0.000000000000000e+00, unit: m2/s2.K, version: 1.0, valid: true
+PhysicalMeasurements loschmidt's-number (valid): PASS value: true, type: 1/L3, system: Scientific, name: loschmidt's-number, value: 2.686777400000000e+25, offset: 0.000000000000000e+00, unit: 1/m3, version: 1.0, valid: true
+PhysicalMeasurements me (valid): PASS value: true, type: M, system: Scientific, name: me, value: 9.109383701500001e-31, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements mo (valid): PASS value: true, type: M.L/T2.I2, system: Scientific, name: mo, value: 1.256637062000000e-06, offset: 0.000000000000000e+00, unit: kg.m/s2.A2, version: 1.0, valid: true
+PhysicalMeasurements mp (valid): PASS value: true, type: M, system: Scientific, name: mp, value: 1.672621923690000e-27, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements no (valid): PASS value: true, type: 1/L3, system: Scientific, name: no, value: 2.686777400000000e+25, offset: 0.000000000000000e+00, unit: 1/m3, version: 1.0, valid: true
+PhysicalMeasurements pH2O(0oC) (valid): PASS value: true, type: M/L3, system: Scientific, name: pH2O(0oC), value: 1.359508000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements pH2O(4oC) (valid): PASS value: true, type: M/L3, system: Scientific, name: pH2O(4oC), value: 9.998395000000000e+02, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements pH2O(4oF) (valid): PASS value: true, type: M/L3, system: Scientific, name: pH2O(4oF), value: 9.990141000000000e+02, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements pH2O(60oF) (valid): PASS value: true, type: M/L3, system: Scientific, name: pH2O(60oF), value: 1.355679000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements pHg(23oC) (valid): PASS value: true, type: M/L3, system: Scientific, name: pHg(23oC), value: 1.353770000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements pHg(4oC) (valid): PASS value: true, type: M/L3, system: Scientific, name: pHg(4oC), value: 1.360000000000000e+04, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements permeability-of-free-space (valid): PASS value: true, type: M.L/T2.I2, system: Scientific, name: permeability-of-free-space, value: 1.256637062000000e-06, offset: 0.000000000000000e+00, unit: kg.m/s2.A2, version: 1.0, valid: true
+PhysicalMeasurements permittivity-of-free-space (valid): PASS value: true, type: T4.I2/M.L3, system: Scientific, name: permittivity-of-free-space, value: 8.854187812800001e-12, offset: 0.000000000000000e+00, unit: s4.A2/kg.m3, version: 1.0, valid: true
+PhysicalMeasurements proton-mass (valid): PASS value: true, type: M, system: Scientific, name: proton-mass, value: 1.672621923690000e-27, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements ratio-of-specific-heat-for-air (valid): PASS value: true, type: O, system: Scientific, name: ratio-of-specific-heat-for-air, value: 1.400000000000000e+00, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+PhysicalMeasurements re (valid): PASS value: true, type: L, system: Scientific, name: re, value: 2.817940326200000e-15, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+PhysicalMeasurements roentgen (valid): PASS value: true, type: I.T/M, system: Scientific, name: roentgen, value: 2.580000000000000e-04, offset: 0.000000000000000e+00, unit: A.s/kg, version: 1.0, valid: true
+PhysicalMeasurements solar-mass (valid): PASS value: true, type: M, system: Scientific, name: solar-mass, value: 1.988470000000000e+30, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+PhysicalMeasurements st (valid): PASS value: true, type: M/L3, system: Scientific, name: st, value: 1.025000000000000e+03, offset: 0.000000000000000e+00, unit: kg/m3, version: 1.0, valid: true
+PhysicalMeasurements u (valid): PASS value: true, type: M, system: Scientific, name: u, value: 1.660539066600000e-27, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+
+Constants SI [A, K, ampere, b, byte, candela, cd, ct, kelvin, kg, kilogram, m, meter, mol, mole, pix, pixel, rad, 
+              radian, s, second, sr, steradian, unitless, vox, voxel]
+SI A (valid): PASS value: true, type: I, system: SI, name: A, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: A, version: 1.0, valid: true
+SI K (valid): PASS value: true, type: Q, system: SI, name: K, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: K, version: 1.0, valid: true
+SI ampere (valid): PASS value: true, type: I, system: SI, name: ampere, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: A, version: 1.0, valid: true
+SI b (valid): PASS value: true, type: B, system: SI, name: b, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: B, version: 1.0, valid: true
+SI byte (valid): PASS value: true, type: B, system: SI, name: byte, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: B, version: 1.0, valid: true
+SI candela (valid): PASS value: true, type: J, system: SI, name: candela, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: cd, version: 1.0, valid: true
+SI cd (valid): PASS value: true, type: J, system: SI, name: cd, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: cd, version: 1.0, valid: true
+SI ct (valid): PASS value: true, type: O, system: SI, name: ct, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: ct, version: 1.0, valid: true
+SI kelvin (valid): PASS value: true, type: Q, system: SI, name: kelvin, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: K, version: 1.0, valid: true
+SI kg (valid): PASS value: true, type: M, system: SI, name: kg, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+SI kilogram (valid): PASS value: true, type: M, system: SI, name: kilogram, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: kg, version: 1.0, valid: true
+SI m (valid): PASS value: true, type: L, system: SI, name: m, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+SI meter (valid): PASS value: true, type: L, system: SI, name: meter, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+SI mol (valid): PASS value: true, type: N, system: SI, name: mol, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: mol, version: 1.0, valid: true
+SI mole (valid): PASS value: true, type: N, system: SI, name: mole, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: mol, version: 1.0, valid: true
+SI pix (valid): PASS value: true, type: p, system: SI, name: pix, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: p, version: 1.0, valid: true
+SI pixel (valid): PASS value: true, type: p, system: SI, name: pixel, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: p, version: 1.0, valid: true
+SI rad (valid): PASS value: true, type: a, system: SI, name: rad, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: rad, version: 1.0, valid: true
+SI radian (valid): PASS value: true, type: a, system: SI, name: radian, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: rad, version: 1.0, valid: true
+SI s (valid): PASS value: true, type: T, system: SI, name: s, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+SI second (valid): PASS value: true, type: T, system: SI, name: second, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: s, version: 1.0, valid: true
+SI sr (valid): PASS value: true, type: W, system: SI, name: sr, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: sr, version: 1.0, valid: true
+SI steradian (valid): PASS value: true, type: W, system: SI, name: steradian, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: sr, version: 1.0, valid: true
+SI unitless (valid): PASS value: true, type: O, system: SI, name: unitless, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: ct, version: 1.0, valid: true
+SI vox (valid): PASS value: true, type: v, system: SI, name: vox, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: v, version: 1.0, valid: true
+SI voxel (valid): PASS value: true, type: v, system: SI, name: voxel, value: 1.000000000000000e+00, offset: 0.000000000000000e+00, unit: v, version: 1.0, valid: true
+
+Constants WGS84Model [a, angular-velocity, b, cg, e, e2, eccentricity, eccentricity-squared, equatorial-gravity, 
+                      equatorial-radius, f, flattening, ge, gp, gravity-constant, if, inverse-flattening, 
+                      polar-gravity, polar-radius, w]
+WGS84Model a (valid): PASS value: true, type: L, system: WGS84, name: a, value: 6.378137000000000e+06, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+WGS84Model angular-velocity (valid): PASS value: true, type: a/T, system: WGS84, name: angular-velocity, value: 7.292110000000000e-05, offset: 0.000000000000000e+00, unit: rad/s, version: 1.0, valid: true
+WGS84Model b (valid): PASS value: true, type: L, system: WGS84, name: b, value: 6.356752314245180e+06, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+WGS84Model cg (valid): PASS value: true, type: O, system: WGS84, name: cg, value: 1.931852646396040e-03, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model e (valid): PASS value: true, type: O, system: WGS84, name: e, value: 8.181919084262160e-02, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model e2 (valid): PASS value: true, type: O, system: WGS84, name: e2, value: 6.694379990141330e-03, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model eccentricity (valid): PASS value: true, type: O, system: WGS84, name: eccentricity, value: 8.181919084262160e-02, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model eccentricity-squared (valid): PASS value: true, type: O, system: WGS84, name: eccentricity-squared, value: 6.694379990141330e-03, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model equatorial-gravity (valid): PASS value: true, type: L/T2, system: WGS84, name: equatorial-gravity, value: 9.780325335900001e+00, offset: 0.000000000000000e+00, unit: m/s2, version: 1.0, valid: true
+WGS84Model equatorial-radius (valid): PASS value: true, type: L, system: WGS84, name: equatorial-radius, value: 6.378137000000000e+06, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+WGS84Model f (valid): PASS value: true, type: O, system: WGS84, name: f, value: 3.352810664747480e-03, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model flattening (valid): PASS value: true, type: O, system: WGS84, name: flattening, value: 3.352810664747480e-03, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model ge (valid): PASS value: true, type: L/T2, system: WGS84, name: ge, value: 9.780325335900001e+00, offset: 0.000000000000000e+00, unit: m/s2, version: 1.0, valid: true
+WGS84Model gp (valid): PASS value: true, type: L/T2, system: WGS84, name: gp, value: 9.832184937799999e+00, offset: 0.000000000000000e+00, unit: m/s2, version: 1.0, valid: true
+WGS84Model gravity-constant (valid): PASS value: true, type: O, system: WGS84, name: gravity-constant, value: 1.931852646396040e-03, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model if (valid): PASS value: true, type: O, system: WGS84, name: if, value: 2.982572235630000e+02, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model inverse-flattening (valid): PASS value: true, type: O, system: WGS84, name: inverse-flattening, value: 2.982572235630000e+02, offset: 0.000000000000000e+00, unit: O, version: 1.0, valid: true
+WGS84Model polar-gravity (valid): PASS value: true, type: L/T2, system: WGS84, name: polar-gravity, value: 9.832184937799999e+00, offset: 0.000000000000000e+00, unit: m/s2, version: 1.0, valid: true
+WGS84Model polar-radius (valid): PASS value: true, type: L, system: WGS84, name: polar-radius, value: 6.356752314245180e+06, offset: 0.000000000000000e+00, unit: m, version: 1.0, valid: true
+WGS84Model w (valid): PASS value: true, type: a/T, system: WGS84, name: w, value: 7.292110000000000e-05, offset: 0.000000000000000e+00, unit: rad/s, version: 1.0, valid: true
+
+
+END UnitConversionConstantTest February 04, 2024 13:38:18 Duration: 0.004 Version : 1.0
+
+*********************************************************************************

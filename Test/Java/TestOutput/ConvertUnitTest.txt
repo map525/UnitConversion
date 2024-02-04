@@ -1,0 +1,27 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:28:08 Version : 1.0
+
+
+Units UNITS [RadiantEnergy, ChargeDensity, ThermalConductivity, EnergyConsumption, ElectricFieldStrength, Entropy, 
+             Dry, Count, Potential, Density, MagneticPotential, SpecificHeat, SpecificRadioactivity, 
+             SurfaceChargeDensity, SpecificVolume, Computer, LinearDensity, MolarAbsorption, MagneticReluctance, 
+             HeatTransfer, MagneticFieldStrength, ElectricFieldGradient, SpecificLength, AngularAcceleration, 
+             Resistivity, ExposureRate, MagneticInduction, AcousticImpedance, Exposure, HeatFlux, Pressure, 
+             ScreenResolution, Resistance, Mass, Area, EnzymaticActivity, Volume, MagneticDipoleMoment, MolarCharge, 
+             Current, QuadMoment, MagneticPermeability, CurrentDensity, SpecificHeatCapacity, MolarDensity, Action, 
+             Temperature, Force, MassFlow, Time, RadioactiveConcentration, DynamicViscosity, Inductance, 
+             MagneticFluxDensity, Energy, HeatInsulation, SurfaceMolarity, Voxel, Molarity, ElectricConductance, 
+             ElectricElastance, SolidAngle, Invalid, SpecificAcousticImpedance, LuminousFlux, LuminousIntensity, 
+             Charge, Conductivity, Momentum, Quantity, Permeability, ThermalConductance, RadiantIntensity, 
+             ParticleFlux, Velocity, Flow, SurfaceDensity, Liquid, Luminance, Angle, KinematicViscosity, MolarEntropy, 
+             Length, RadiochemicalYield, Jerk, Capacitance, Frequency, AngularVelocity, SpecificEnergy, Acceleration, 
+             Power, Wavenumber, Illuminance]
+
+
+END UnitConversionUnitsTest February 04, 2024 12:28:08 Duration: 0:0:0:0.009 Version : 1.0
+
+
+********************************************************************************
+

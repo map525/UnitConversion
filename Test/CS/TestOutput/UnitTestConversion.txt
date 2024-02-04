@@ -1,0 +1,32 @@
+*****************************************
+*****************************************
+
+
+START UnitTestConversion February 04, 2024 12:47:01 Version : 1.0
+
+
+Default Constructor
+UnitTestConversion (Default Constructor): PASS 
+
+Name Constructor
+UnitTestConversion (Name Constructor): PASS 
+
+Constructor
+UnitTestConversion (validateType): PASS 
+UnitTestConversion (addUnit): PASS 
+UnitTestConversion (removeUnit): PASS 
+UnitTestConversion (convertUnit): PASS 
+
+Copy Constructor
+UnitTestConversion (validateType): PASS 
+UnitTestConversion (addUnit): PASS 
+UnitTestConversion (removeUnit): PASS 
+UnitTestConversion (convertUnit): PASS 
+
+
+END UnitTestConversion February 04, 2024 12:47:01 Duration: 00:00:00.0000474 Version : 1.0
+
+
+*****************************************
+*****************************************
+

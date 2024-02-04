@@ -1,0 +1,15 @@
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\ExampleCs.exe
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\ExampleCs.deps.json
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\ExampleCs.runtimeconfig.json
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\ExampleCs.runtimeconfig.dev.json
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\ExampleCs.dll
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\ExampleCs.pdb
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\bin\Release\netcoreapp3.1\UnitConversionLib.dll
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.csprojAssemblyReference.cache
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.AssemblyInfoInputs.cache
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.AssemblyInfo.cs
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.csproj.CoreCompileInputs.cache
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.csproj.CopyComplete
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.dll
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.pdb
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CS\ExampleCs\obj\Release\netcoreapp3.1\ExampleCs.genruntimeconfig.cache

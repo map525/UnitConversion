@@ -1,0 +1,614 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:32:53 Version : 1.0
+
+
+name: EM type: magneticPermeability valid: true
+To System: Scientific From System: Scientific
+MagneticPermeability Types [chargeDensity, inductance, permeability, specificAcousticImpedance, magneticInduction, 
+                            electricFieldStrength, acousticImpedance, current, conductivity, magneticDipoleMoment, 
+                            magneticPermeability, potential, electricElastance, charge, capacitance, 
+                            magneticFieldStrength, currentDensity, surfaceChargeDensity, electricFieldGradient, 
+                            electricConductance, magneticFluxDensity, resistance, magneticReluctance, 
+                            magneticPotential, resistivity]
+
+MagneticPermeability All Systems [SI, Scientific, a.u., US, IEUS, cgs, UK, MKSA, Imperial, INT, German, MKS, Si]
+
+MagneticPermeability All Units [SI[C/mm3], SI[C/nm3], SI[coulomb-per-cubic-centimeter], Scientific[C/yd3], 
+                                SI[coulomb-per-cubic-kilometer], a.u.[au-of-electric-charge-density], SI[C/km3], 
+                                Scientific[coulomb-per-cubic-yard], SI[coulomb-per-cubic-millimeter], SI[C/um3], 
+                                SI[coulomb-per-cubic-micrometer], Scientific[coulomb-per-cubic-foot], SI[C/cm3], 
+                                a.u.[auecd], Scientific[C/mi3], Scientific[coulomb-per-cubic-mile], Scientific[C/ft3], 
+                                SI[coulomb-per-cubic-meter], Scientific[coulomb-per-cubic-inch], 
+                                SI[coulomb-per-cubic-nanometer], Scientific[C/in3], SI[C/m3], SI[aH], SI[cH], US[H], 
+                                SI[kH], IEUS[H], SI[mH], SI[exachenry], US[henry(mean)], SI[centihenry], 
+                                SI[microhenry], cgs[esu-H], SI[femtohenry], SI[YH], SI[gigahenry], SI[millihenry], 
+                                cgs[esu-of-inductance], IEUS[henry], SI[zeptohenry], US[H(mean)], cgs[statH], SI[H], 
+                                cgs[stathenry], SI[uH], SI[yH], cgs[emu-H], SI[henry], cgs[aH], SI[yoctohenry], 
+                                SI[decachenry], SI[dH], SI[nanohenry], SI[fH], SI[hH], US[henry], SI[nH], SI[PH], 
+                                SI[zettahenry], SI[TH], Scientific[centimeter], UK[mic], SI[terahenry], SI[ZH], 
+                                Scientific[cm], cgs[emu-of-inductance], SI[petahenry], SI[EH], SI[kilochenry], 
+                                SI[attohenry], cgs[abhenry], SI[GH], SI[picohenry], SI[MH], SI[decihenry], SI[pH], 
+                                SI[yottahenry], SI[megahenry], SI[zH], SI[hectohenry], SI[daH], US[perm(0oC)], 
+                                US[perm(23oC)], cgs[rayl], MKSA[rayl], SI[attoweber], SI[petaweber], SI[nWb], 
+                                SI[deciweber], SI[weber], SI[zeptoweber], cgs[Mx], SI[gigaweber], SI[yWb], 
+                                SI[yottaweber], SI[microweber], Imperial[unit-pole], SI[PWb], SI[fWb], SI[centiweber], 
+                                SI[zettaweber], Scientific[D], SI[ZWb], SI[milliweber], SI[TWb], SI[yoctoweber], 
+                                SI[megaweber], SI[kWb], SI[GWb], SI[zWb], SI[daWb], cgs[maxwell], SI[picoweber], 
+                                SI[femtoweber], SI[cWb], SI[hectoweber], SI[Wb], SI[hWb], SI[pWb], Scientific[debye], 
+                                US[line], SI[dWb], SI[decaweber], SI[mWb], SI[teraweber], SI[EWb], SI[uWb], SI[aWb], 
+                                SI[kiloweber], SI[exacweber], SI[MWb], Imperial[kapp-line], SI[nanoweber], SI[YWb], 
+                                Scientific[millivolt-per-foot], SI[uV/mm], Scientific[V/in], SI[volt-per-meter], 
+                                SI[uV/um], Scientific[millivolt-per-inch], Scientific[V/ft], 
+                                SI[microvolt-per-millimeter], SI[millivolt-per-centimeter], SI[volt-per-millimeter], 
+                                SI[V/cm], SI[millivolt-per-micrometer], Scientific[volt-per-inch], 
+                                Scientific[volt-per-foot], Scientific[uV/yd], SI[V/km], SI[V/mm], SI[uV/cm], 
+                                SI[millivolt-per-meter], SI[millivolt-per-millimeter], SI[volt-per-micrometer], 
+                                a.u.[auefs], SI[V/um], Scientific[mV/in], Scientific[microvolt-per-inch], SI[mV/m], 
+                                a.u.[au-of-electric-field-strength], SI[mircovolt-per-nanometer], 
+                                SI[volt-per-kilometer], Scientific[V/yd], Scientific[uV/in], SI[mV/mm], SI[uV/m], 
+                                SI[microvolt-per-micrometer], SI[mV/cm], Scientific[V/mi], Scientific[uV/ft], 
+                                SI[microvolt-per-centimeter], SI[volt-per-nanometer], SI[millivolt-per-nanometer], 
+                                SI[uV/nm], a.u.[au-of-electric-potential], SI[V/m], Scientific[volt-per-mile], 
+                                Scientific[millivolt-per-yard], Scientific[microvolt-per-yard], SI[mV/um], a.u.[auep], 
+                                Scientific[mV/ft], Scientific[microvolt-per-foot], SI[V/nm], SI[volt-per-centimeter], 
+                                SI[microvolt-per-meter], SI[mV/nm], Scientific[volt-per-yard], Scientific[mV/yd], 
+                                cgs[ohm(acoustic)], cgs[ohm(mechanical)], SI[ohm(acoustic)], SI[acoustic-ohm], 
+                                cgs[acoustic-ohm], SI[ohm(mechanical)], MKSA[A], a.u.[au-of-electric-curent], 
+                                cgs[statA], IEUS[ampere], IEUS[ampere(mean)], INT[ampere(mean)], Scientific[galvat], 
+                                SI[ampere], SI[At], cgs[emu-of-current], cgs[biot], cgs[Gb], cgs[Bi], cgs[statampere], 
+                                cgs[abampere], a.u.[auec], SI[ampere-tum], INT[ampere], cgs[emuc], SI[A], 
+                                cgs[gilbert], SI[A-turn], cgs[aA], MKSA[ampere], Scientific[pragilbert], 
+                                Scientific[rof], Scientific[reciprocal-ohm-per-inch], 
+                                Scientific[reciprocal-ohm-per-centimeter], Scientific[siemens-per-meter], 
+                                Scientific[reciprocal-ohm-per-foot], Scientific[roi], Scientific[S/m], cgs[roc], 
+                                MKSA[rom], Scientific[reciprocal-ohm-per-meter], Scientific[roc], Scientific[uB], 
+                                Scientific[magneton(nuclear)], Scientific[BN], Scientific[bohr-magneton], a.u.[audpm], 
+                                Scientific[B], SI[ampere-square-meter], Scientific[uN], 
+                                a.u.[au-of-magnetic-dipole-moment], Scientific[nuclear-magneton], SI[A-m2], 
+                                Scientific[magneton(bohr)], SI[henry-per-micrometer], Scientific[henry-per-foot], 
+                                SI[henry-per-centimeter], SI[H/m], SI[H/um], Scientific[henry-per-mile], 
+                                Scientific[H/mi], SI[H/nm], SI[H/mm], SI[H/km], Scientific[henry-per-yard], 
+                                Scientific[H/ft], SI[henry-per-kilometer], SI[henry-per-nanometer], SI[H/cm], 
+                                Scientific[H/yd], SI[henry-per-millimeter], Scientific[H/in], 
+                                Scientific[henry-per-inch], SI[henry-per-meter], SI[nV], SI[pV], SI[nanovolt], 
+                                SI[picovolt], SI[zV], cgs[emu-V], SI[millivolt], SI[dV], SI[femtovolt], SI[fV], 
+                                SI[megavolt], SI[hV], INT[daniell], SI[daV], SI[decavolt], cgs[esu-V], SI[centivolt], 
+                                SI[YV], cgs[esu-of-electric-potential], SI[gigavolt], SI[yottavolt], SI[exacvolt], 
+                                SI[EV], SI[GV], SI[kilocvolt], SI[MV], cgs[abvolt], IEUS[volt(mean)], SI[microvolt], 
+                                SI[zeptovolt], SI[uV], SI[petavolt], INT[V(mean)], SI[yV], US[V], IEUS[V], SI[aV], 
+                                SI[cV], cgs[statvolt], UK[crocodile], cgs[emu-of-electric-potential], INT[volt(mean)], 
+                                SI[kV], SI[mV], IEUS[V(mean)], SI[PV], SI[TV], SI[hectovolt], SI[zettavolt], 
+                                SI[yoctovolt], SI[ZV], IEUS[volt], SI[volt], SI[teravolt], SI[decivolt], cgs[aV], 
+                                SI[V], SI[attovolt], US[volt], cgs[statV], Scientific[H/sec2], Scientific[H/day2], 
+                                US[daraf], Scientific[H/yr2], Scientific[henry-per-square-day], 
+                                Scientific[henry-per-square-month], Scientific[henry-per-square-second], 
+                                Scientific[henry-per-square-hour], Scientific[H/mon2], Scientific[H/min2], 
+                                Scientific[henry-per-square-year], Scientific[henry-per-square-minute], 
+                                Scientific[H/hr2], SI[femtocoulomb], SI[zettacoulomb], cgs[Fr], SI[kC], SI[mC], 
+                                SI[daC], a.u.[au-of-electric-charge], SI[uC], SI[yC], SI[kilocoulomb], 
+                                SI[decacoulomb], IEUS[C], cgs[esu-of-charge], cgs[aC], SI[zeptocoulomb], SI[dC], 
+                                SI[fC], SI[hC], a.u.[aue], SI[yottacoulomb], SI[PC], SI[TC], cgs[abcoulomb], SI[ZC], 
+                                cgs[statC], SI[attocoulomb], cgs[statcoulomb], SI[picocoulomb], SI[teracoulomb], 
+                                SI[decicoulomb], SI[C], SI[EC], SI[GC], IEUS[coulomb(int)], SI[petacoulomb], 
+                                SI[megacoulomb], SI[nC], SI[millicoulomb], SI[pC], SI[microcoulomb], SI[ampere-hour], 
+                                cgs[franklin], SI[zC], SI[hectocoulomb], SI[aC], SI[cC], cgs[emu-of-charge], 
+                                SI[exacoulomb], SI[MC], SI[nanocoulomb], SI[gigacoulomb], SI[A-hr], SI[coulomb], 
+                                SI[yoctocoulomb], SI[YC], SI[centicoulomb], cgs[aF], SI[dF], SI[fF], SI[hF], 
+                                SI[exacfarad], SI[decafarad], SI[PF], Imperial[centimeter], SI[TF], SI[microfarad], 
+                                SI[gigafarad], SI[millifarad], SI[femtofarad], SI[ZF], SI[petafarad], SI[EF], 
+                                cgs[abfarad], SI[GF], SI[picofarad], SI[attofarad], SI[MF], Scientific[puff], SI[daF], 
+                                SI[nF], SI[pF], SI[yottafarad], SI[decifarad], SI[megafarad], SI[zF], IEUS[F], SI[aF], 
+                                SI[cF], SI[hectofarad], SI[nanofarad], cgs[esu-of-capacitance], SI[kF], SI[mF], 
+                                SI[yoctofarad], Imperial[cm], SI[kilofarad], SI[zeptofarad], SI[zettafarad], 
+                                cgs[esu-F], SI[YF], SI[terafarad], SI[F], IEUS[farad], SI[centifarad], SI[uF], 
+                                cgs[statfarad], Scientific[jar], SI[yF], cgs[emu-of-electric-capacitance], cgs[emu-F], 
+                                SI[farad], Scientific[lenz], SI[ampere-per-meter], SI[A/m], cgs[CE], cgs[ce], 
+                                Scientific[praoersted], cgs[oersted], SI[ampere-per-square-micrometer], 
+                                Scientific[uA/m2], SI[A/cm2], Scientific[microampere-per-square-meter], 
+                                SI[ampere-per-square-decimeter], Scientific[microampere-per-square-millimeter], 
+                                Imperial[mA/ft2], Imperial[microampere-per-square-inch], SI[A/nm2], 
+                                SI[ampere-per-square-centimeter], Imperial[ampere-per-square-foot], 
+                                Scientific[milliampere-per-square-nanometer], SI[ampere-per-square-millimeter], 
+                                SI[milliampere-per-square-decimeter], SI[mA/dm2], Scientific[uA/nm2], 
+                                Imperial[milliampere-per-square-inch], Scientific[mA/um2], SI[A/dm2], 
+                                Scientific[milliampere-per-square-centimeter], Imperial[ampere-per-square-inch], 
+                                Scientific[mA/mm2], Scientific[uA/cm2], Imperial[mA/yd2], Imperial[mA/in2], 
+                                Imperial[milliampere-per-square-yard], SI[A/m2], 
+                                Imperial[microampere-per-square-foot], Scientific[milliampere-per-square-meter], 
+                                Scientific[uA/mm2], Imperial[microampere-per-square-yard], Scientific[uA/um2], 
+                                Imperial[uA/yd2], Scientific[mA/m2], Scientific[milliampere-per-square-micrometer], 
+                                Imperial[uA/ft2], SI[microampere-per-square-decimeter], Scientific[mA/nm2], 
+                                SI[uA/dm2], Scientific[microampere-per-square-nanometer], 
+                                Scientific[milliampere-per-square-millimeter], SI[A/um2], 
+                                Imperial[ampere-per-square-yard], Imperial[uA/in2], Imperial[A/in2], 
+                                SI[ampere-per-square-meter], Imperial[milliampere-per-square-foot], 
+                                Scientific[microampere-per-square-micrometer], SI[A/mm2], 
+                                Scientific[microampere-per-square-centimeter], Imperial[A/ft2], 
+                                SI[ampere-per-square-nanometer], Imperial[A/yd2], Scientific[mA/cm2], SI[C/nm2], 
+                                Scientific[coulomb-per-square-foot], SI[coulomb-per-square-centimeter], 
+                                SI[coulomb-per-square-micrometer], Scientific[C/yd2], SI[C/km2], 
+                                Scientific[coulomb-per-square-inch], SI[C/mm2], SI[coulomb-per-square-meter], 
+                                SI[coulomb-per-square-kilometer], SI[C/um2], Scientific[coulomb-per-square-mile], 
+                                SI[C/cm2], Scientific[coulomb-per-square-yard], SI[coulomb-per-square-millimeter], 
+                                Scientific[C/mi2], Scientific[C/ft2], SI[coulomb-per-square-nanometer], 
+                                Scientific[C/in2], SI[C/m2], a.u.[ao], a.u.[au-of-electric-field-strength-gradient], 
+                                a.u.[b], cgs[townsend], cgs[Td], a.u.[auefsg], SI[PS], SI[megasiemens], SI[daS], 
+                                SI[TS], SI[yottasiemens], SI[hectosiemens], cgs[esu-of-conductance], SI[ZS], 
+                                SI[decasiemens], SI[attosiemens], cgs[aS], SI[microsiemens], SI[kilosiemens], SI[nS], 
+                                SI[exacsiemens], SI[petasiemens], SI[pS], SI[zS], Imperial[ringing-equivalent-number], 
+                                Imperial[REN], SI[decisiemens], SI[zeptosiemens], cgs[statmho], SI[picosiemens], 
+                                SI[dS], SI[terasiemens], SI[fS], SI[hS], cgs[emu-of-conductance], SI[MS], cgs[esu-S], 
+                                SI[zettasiemens], SI[YS], Scientific[gemmbo], SI[millisiemens], SI[S], SI[ES], SI[GS], 
+                                SI[kS], SI[nanosiemens], SI[mS], SI[gigasiemens], SI[uS], cgs[emu-S], SI[yS], 
+                                cgs[1/aW], SI[aS], SI[cS], SI[femtosiemens], cgs[abmho], INT[mho], SI[centisiemens], 
+                                SI[yoctosiemens], SI[siemens], SI[kiloctesla], SI[uT], SI[exactesla], SI[yT], SI[aT], 
+                                SI[cT], SI[kT], SI[millitesla], SI[NT], SI[PT], SI[TT], SI[centitesla], SI[decatesla], 
+                                SI[ZT], SI[femtotesla], SI[microtesla], SI[T], SI[petatesla], SI[attotesla], SI[nT], 
+                                SI[zeptotesla], a.u.[au-of-magnetic-flux-density], SI[pT], SI[decitesla], a.u.[aumfd], 
+                                SI[zT], cgs[gauss], SI[picotesla], SI[yottatesla], SI[hectotesla], SI[dT], SI[fT], 
+                                SI[megatesla], SI[hT], Scientific[g], SI[tesla], SI[MT], SI[daT], SI[teratesla], 
+                                SI[nanotesla], Scientific[gamma], SI[YT], SI[yoctotesla], cgs[Gs], cgs[G], 
+                                SI[zettatesla], SI[ET], SI[GT], SI[gigatesla], SI[PW], SI[daW], SI[milliohm], SI[ohm], 
+                                SI[microohm], SI[TW], SI[ZW], cgs[esu-of-resistance], SI[attoohm], SI[megaohm], 
+                                SI[picoohm], cgs[aW], SI[jacobi], SI[teraohm], IEUS[ohm(mean)], SI[pW], SI[zW], 
+                                US[ohm(mean)], SI[deciohm], SI[dW], Scientific[lenz(resistance)], SI[fW], 
+                                cgs[statohm], SI[hW], SI[yottaohm], SI[decaohm], SI[nW], SI[zeptoohm], SI[femtoohm], 
+                                cgs[esu-W], SI[YW], UK[preece], SI[nanoohm], UK[wheatstone], SI[petaohm], 
+                                US[ohm(legal)], SI[centiohm], SI[EW], German[siemens], SI[exacohm], SI[GW], 
+                                SI[hectoohm], SI[kiloohm], SI[W], SI[MW], SI[uW], SI[yW], cgs[emi-W], 
+                                cgs[emu-of-resistance], SI[gigaohm], US[ohm], SI[aW], SI[zettaohm], IEUS[ohm], SI[cW], 
+                                cgs[abohm], SI[kW], SI[yoctoohm], IEUS[ohm(legal)], SI[mW], Scientific[F/s2], 
+                                Scientific[farad-per-square-hour], Scientific[F/min2], 
+                                Scientific[farad-per-square-year], Scientific[F/yr2], 
+                                Scientific[farad-per-square-minute], Scientific[F/day2], SI[sturgeon], 
+                                Scientific[farad-per-square-day], Scientific[farad-per-square-second], 
+                                Scientific[farad-per-square-month], MKS[yrneh], Scientific[F/mon2], Scientific[F/hr2], 
+                                Scientific[Wb/in], SI[weber-per-kilometer], Scientific[Wb/yd], Si[Wb/cm], SI[Wb/m], 
+                                Scientific[weber-per-foot], Si[weber-per-millimeter], Scientific[Wb/mi], Si[Wb/mm], 
+                                Si[Wb/nm], Si[weber-per-nanometer], SI[weber-per-meter], SI[Wb/km], Si[Wb/um], 
+                                Si[weber-per-centimeter], Scientific[weber-per-mile], Scientific[weber-per-inch], 
+                                Scientific[Wb/ft], Si[weber-per-micrometer], Scientific[weber-per-yard], 
+                                SI[ohm-meter], Imperial[ohm-circular-mil-per-foot], Imperial[ohm-cmi/ft], SI[W-m], 
+                                Imperial[W-cmi/ft], SI[ohm-m], INT[international-annealed-copper-standard], INT[IACS]]
+
+MagneticPermeability Systems [SI, Scientific]
+
+Units MagneticPermeability [SI[henry-per-micrometer], SI[henry-per-centimeter], SI[H/m], SI[H/um], SI[H/nm], SI[H/mm], 
+                            SI[H/km], SI[henry-per-kilometer], SI[henry-per-nanometer], SI[H/cm], 
+                            SI[henry-per-millimeter], SI[henry-per-meter], Scientific[henry-per-foot], 
+                            Scientific[henry-per-mile], Scientific[H/mi], Scientific[henry-per-yard], 
+                            Scientific[H/ft], Scientific[H/yd], Scientific[H/in], Scientific[henry-per-inch]]
+
+MagneticPermeability SI henry-per-micrometer SI true 1000000.0 henry-per-micrometer kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI henry-per-centimeter SI true 100.0 henry-per-centimeter kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI H/m SI true 1.0 henry-per-meter kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI H/um SI true 1000000.0 henry-per-micrometer kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI H/nm SI true 1.0E9 henry-per-nanometer kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI H/mm SI true 1000.0 henry-per-millimeter kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI H/km SI true 0.001 henry-per-kilometer kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI henry-per-kilometer SI true 0.001 henry-per-kilometer kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI henry-per-nanometer SI true 1.0E9 henry-per-nanometer kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI H/cm SI true 100.0 henry-per-centimeter kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI henry-per-millimeter SI true 1000.0 henry-per-millimeter kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability SI henry-per-meter SI true 1.0 henry-per-meter kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific henry-per-foot Scientific true 3.28083989501312 henry-per-foot kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific henry-per-mile Scientific true 6.21371192237334E-4 henry-per-mile kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific H/mi Scientific true 6.21371192237334E-4 henry-per-mile kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific henry-per-yard Scientific true 1.09361329833771 henry-per-yard kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific H/ft Scientific true 3.28083989501312 henry-per-foot kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific H/yd Scientific true 1.09361329833771 henry-per-yard kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific H/in Scientific true 39.3700787401575 henry-per-inch kg.m/s2.A2 M.L/T2.I2 0.0
+MagneticPermeability Scientific henry-per-inch Scientific true 39.3700787401575 henry-per-inch kg.m/s2.A2 M.L/T2.I2 0.0
+
+
+name: EM type: magneticPermeability valid: true
+magneticPermeability from SI henry-per-micrometer to SI henry-per-micrometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-micrometer to SI henry-per-centimeter (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+magneticPermeability from SI henry-per-micrometer to SI H/m (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI henry-per-micrometer to SI H/um (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-micrometer to SI H/nm (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-micrometer to SI H/mm (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-micrometer to SI H/km (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI henry-per-micrometer to SI henry-per-kilometer (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI henry-per-micrometer to SI henry-per-nanometer (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-micrometer to SI H/cm (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+magneticPermeability from SI henry-per-micrometer to SI henry-per-millimeter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-micrometer to SI henry-per-meter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI henry-per-micrometer to Scientific henry-per-foot (convert): PASS value: 1: 304800.00000000035 2: 304800.00000000035 3: 304800.00000000035
+magneticPermeability from SI henry-per-micrometer to Scientific henry-per-mile (convert): PASS value: 1: 1.6093439999999998E9 2: 1.6093439999999998E9 3: 1.6093439999999998E9
+magneticPermeability from SI henry-per-micrometer to Scientific H/mi (convert): PASS value: 1: 1.6093439999999998E9 2: 1.6093439999999998E9 3: 1.6093439999999998E9
+magneticPermeability from SI henry-per-micrometer to Scientific henry-per-yard (convert): PASS value: 1: 914399.9999999981 2: 914399.9999999981 3: 914399.9999999981
+magneticPermeability from SI henry-per-micrometer to Scientific H/ft (convert): PASS value: 1: 304800.00000000035 2: 304800.00000000035 3: 304800.00000000035
+magneticPermeability from SI henry-per-micrometer to Scientific H/yd (convert): PASS value: 1: 914399.9999999981 2: 914399.9999999981 3: 914399.9999999981
+magneticPermeability from SI henry-per-micrometer to Scientific H/in (convert): PASS value: 1: 25399.999999999985 2: 25399.999999999985 3: 25399.999999999985
+magneticPermeability from SI henry-per-micrometer to Scientific henry-per-inch (convert): PASS value: 1: 25399.999999999985 2: 25399.999999999985 3: 25399.999999999985
+magneticPermeability from SI henry-per-centimeter to SI henry-per-micrometer (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+magneticPermeability from SI henry-per-centimeter to SI henry-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-centimeter to SI H/m (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+magneticPermeability from SI henry-per-centimeter to SI H/um (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+magneticPermeability from SI henry-per-centimeter to SI H/nm (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+magneticPermeability from SI henry-per-centimeter to SI H/mm (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+magneticPermeability from SI henry-per-centimeter to SI H/km (convert): PASS value: 1: 100000.0 2: 100000.0 3: 100000.0
+magneticPermeability from SI henry-per-centimeter to SI henry-per-kilometer (convert): PASS value: 1: 100000.0 2: 100000.0 3: 100000.0
+magneticPermeability from SI henry-per-centimeter to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+magneticPermeability from SI henry-per-centimeter to SI H/cm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-centimeter to SI henry-per-millimeter (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+magneticPermeability from SI henry-per-centimeter to SI henry-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+magneticPermeability from SI henry-per-centimeter to Scientific henry-per-foot (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+magneticPermeability from SI henry-per-centimeter to Scientific henry-per-mile (convert): PASS value: 1: 160934.4 2: 160934.4 3: 160934.4
+magneticPermeability from SI henry-per-centimeter to Scientific H/mi (convert): PASS value: 1: 160934.4 2: 160934.4 3: 160934.4
+magneticPermeability from SI henry-per-centimeter to Scientific henry-per-yard (convert): PASS value: 1: 91.43999999999981 2: 91.43999999999981 3: 91.43999999999981
+magneticPermeability from SI henry-per-centimeter to Scientific H/ft (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+magneticPermeability from SI henry-per-centimeter to Scientific H/yd (convert): PASS value: 1: 91.43999999999981 2: 91.43999999999981 3: 91.43999999999981
+magneticPermeability from SI henry-per-centimeter to Scientific H/in (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+magneticPermeability from SI henry-per-centimeter to Scientific henry-per-inch (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+magneticPermeability from SI H/m to SI henry-per-micrometer (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI H/m to SI henry-per-centimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+magneticPermeability from SI H/m to SI H/m (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/m to SI H/um (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI H/m to SI H/nm (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI H/m to SI H/mm (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/m to SI H/km (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/m to SI henry-per-kilometer (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/m to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI H/m to SI H/cm (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+magneticPermeability from SI H/m to SI henry-per-millimeter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/m to SI henry-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/m to Scientific henry-per-foot (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+magneticPermeability from SI H/m to Scientific henry-per-mile (convert): PASS value: 1: 1609.3439999999998 2: 1609.3439999999998 3: 1609.3439999999998
+magneticPermeability from SI H/m to Scientific H/mi (convert): PASS value: 1: 1609.3439999999998 2: 1609.3439999999998 3: 1609.3439999999998
+magneticPermeability from SI H/m to Scientific henry-per-yard (convert): PASS value: 1: 0.9143999999999981 2: 0.9143999999999981 3: 0.9143999999999981
+magneticPermeability from SI H/m to Scientific H/ft (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+magneticPermeability from SI H/m to Scientific H/yd (convert): PASS value: 1: 0.9143999999999981 2: 0.9143999999999981 3: 0.9143999999999981
+magneticPermeability from SI H/m to Scientific H/in (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+magneticPermeability from SI H/m to Scientific henry-per-inch (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+magneticPermeability from SI H/um to SI henry-per-micrometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/um to SI henry-per-centimeter (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+magneticPermeability from SI H/um to SI H/m (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI H/um to SI H/um (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/um to SI H/nm (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/um to SI H/mm (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/um to SI H/km (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI H/um to SI henry-per-kilometer (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI H/um to SI henry-per-nanometer (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/um to SI H/cm (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+magneticPermeability from SI H/um to SI henry-per-millimeter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/um to SI henry-per-meter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI H/um to Scientific henry-per-foot (convert): PASS value: 1: 304800.00000000035 2: 304800.00000000035 3: 304800.00000000035
+magneticPermeability from SI H/um to Scientific henry-per-mile (convert): PASS value: 1: 1.6093439999999998E9 2: 1.6093439999999998E9 3: 1.6093439999999998E9
+magneticPermeability from SI H/um to Scientific H/mi (convert): PASS value: 1: 1.6093439999999998E9 2: 1.6093439999999998E9 3: 1.6093439999999998E9
+magneticPermeability from SI H/um to Scientific henry-per-yard (convert): PASS value: 1: 914399.9999999981 2: 914399.9999999981 3: 914399.9999999981
+magneticPermeability from SI H/um to Scientific H/ft (convert): PASS value: 1: 304800.00000000035 2: 304800.00000000035 3: 304800.00000000035
+magneticPermeability from SI H/um to Scientific H/yd (convert): PASS value: 1: 914399.9999999981 2: 914399.9999999981 3: 914399.9999999981
+magneticPermeability from SI H/um to Scientific H/in (convert): PASS value: 1: 25399.999999999985 2: 25399.999999999985 3: 25399.999999999985
+magneticPermeability from SI H/um to Scientific henry-per-inch (convert): PASS value: 1: 25399.999999999985 2: 25399.999999999985 3: 25399.999999999985
+magneticPermeability from SI H/nm to SI henry-per-micrometer (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/nm to SI henry-per-centimeter (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+magneticPermeability from SI H/nm to SI H/m (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI H/nm to SI H/um (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/nm to SI H/nm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/nm to SI H/mm (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI H/nm to SI H/km (convert): PASS value: 1: 1.0E12 2: 1.0E12 3: 1.0E12
+magneticPermeability from SI H/nm to SI henry-per-kilometer (convert): PASS value: 1: 1.0E12 2: 1.0E12 3: 1.0E12
+magneticPermeability from SI H/nm to SI henry-per-nanometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/nm to SI H/cm (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+magneticPermeability from SI H/nm to SI henry-per-millimeter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI H/nm to SI henry-per-meter (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI H/nm to Scientific henry-per-foot (convert): PASS value: 1: 3.048000000000003E8 2: 3.048000000000003E8 3: 3.048000000000003E8
+magneticPermeability from SI H/nm to Scientific henry-per-mile (convert): PASS value: 1: 1.6093439999999998E12 2: 1.6093439999999998E12 3: 1.6093439999999998E12
+magneticPermeability from SI H/nm to Scientific H/mi (convert): PASS value: 1: 1.6093439999999998E12 2: 1.6093439999999998E12 3: 1.6093439999999998E12
+magneticPermeability from SI H/nm to Scientific henry-per-yard (convert): PASS value: 1: 9.143999999999981E8 2: 9.143999999999981E8 3: 9.143999999999981E8
+magneticPermeability from SI H/nm to Scientific H/ft (convert): PASS value: 1: 3.048000000000003E8 2: 3.048000000000003E8 3: 3.048000000000003E8
+magneticPermeability from SI H/nm to Scientific H/yd (convert): PASS value: 1: 9.143999999999981E8 2: 9.143999999999981E8 3: 9.143999999999981E8
+magneticPermeability from SI H/nm to Scientific H/in (convert): PASS value: 1: 2.5399999999999985E7 2: 2.5399999999999985E7 3: 2.5399999999999985E7
+magneticPermeability from SI H/nm to Scientific henry-per-inch (convert): PASS value: 1: 2.5399999999999985E7 2: 2.5399999999999985E7 3: 2.5399999999999985E7
+magneticPermeability from SI H/mm to SI henry-per-micrometer (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/mm to SI henry-per-centimeter (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+magneticPermeability from SI H/mm to SI H/m (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/mm to SI H/um (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/mm to SI H/nm (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI H/mm to SI H/mm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/mm to SI H/km (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI H/mm to SI henry-per-kilometer (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI H/mm to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI H/mm to SI H/cm (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+magneticPermeability from SI H/mm to SI henry-per-millimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/mm to SI henry-per-meter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI H/mm to Scientific henry-per-foot (convert): PASS value: 1: 304.8000000000003 2: 304.8000000000003 3: 304.8000000000003
+magneticPermeability from SI H/mm to Scientific henry-per-mile (convert): PASS value: 1: 1609343.9999999998 2: 1609343.9999999998 3: 1609343.9999999998
+magneticPermeability from SI H/mm to Scientific H/mi (convert): PASS value: 1: 1609343.9999999998 2: 1609343.9999999998 3: 1609343.9999999998
+magneticPermeability from SI H/mm to Scientific henry-per-yard (convert): PASS value: 1: 914.3999999999982 2: 914.3999999999982 3: 914.3999999999982
+magneticPermeability from SI H/mm to Scientific H/ft (convert): PASS value: 1: 304.8000000000003 2: 304.8000000000003 3: 304.8000000000003
+magneticPermeability from SI H/mm to Scientific H/yd (convert): PASS value: 1: 914.3999999999982 2: 914.3999999999982 3: 914.3999999999982
+magneticPermeability from SI H/mm to Scientific H/in (convert): PASS value: 1: 25.399999999999984 2: 25.399999999999984 3: 25.399999999999984
+magneticPermeability from SI H/mm to Scientific henry-per-inch (convert): PASS value: 1: 25.399999999999984 2: 25.399999999999984 3: 25.399999999999984
+magneticPermeability from SI H/km to SI henry-per-micrometer (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI H/km to SI henry-per-centimeter (convert): PASS value: 1: 1.0E-5 2: 1.0E-5 3: 1.0E-5
+magneticPermeability from SI H/km to SI H/m (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/km to SI H/um (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI H/km to SI H/nm (convert): PASS value: 1: 1.0E-12 2: 1.0E-12 3: 1.0E-12
+magneticPermeability from SI H/km to SI H/mm (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI H/km to SI H/km (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/km to SI henry-per-kilometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/km to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-12 2: 1.0E-12 3: 1.0E-12
+magneticPermeability from SI H/km to SI H/cm (convert): PASS value: 1: 1.0E-5 2: 1.0E-5 3: 1.0E-5
+magneticPermeability from SI H/km to SI henry-per-millimeter (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI H/km to SI henry-per-meter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI H/km to Scientific henry-per-foot (convert): PASS value: 1: 3.048000000000003E-4 2: 3.048000000000003E-4 3: 3.048000000000003E-4
+magneticPermeability from SI H/km to Scientific henry-per-mile (convert): PASS value: 1: 1.6093439999999999 2: 1.6093439999999999 3: 1.6093439999999999
+magneticPermeability from SI H/km to Scientific H/mi (convert): PASS value: 1: 1.6093439999999999 2: 1.6093439999999999 3: 1.6093439999999999
+magneticPermeability from SI H/km to Scientific henry-per-yard (convert): PASS value: 1: 9.143999999999982E-4 2: 9.143999999999982E-4 3: 9.143999999999982E-4
+magneticPermeability from SI H/km to Scientific H/ft (convert): PASS value: 1: 3.048000000000003E-4 2: 3.048000000000003E-4 3: 3.048000000000003E-4
+magneticPermeability from SI H/km to Scientific H/yd (convert): PASS value: 1: 9.143999999999982E-4 2: 9.143999999999982E-4 3: 9.143999999999982E-4
+magneticPermeability from SI H/km to Scientific H/in (convert): PASS value: 1: 2.5399999999999987E-5 2: 2.5399999999999987E-5 3: 2.5399999999999987E-5
+magneticPermeability from SI H/km to Scientific henry-per-inch (convert): PASS value: 1: 2.5399999999999987E-5 2: 2.5399999999999987E-5 3: 2.5399999999999987E-5
+magneticPermeability from SI henry-per-kilometer to SI henry-per-micrometer (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI henry-per-kilometer to SI henry-per-centimeter (convert): PASS value: 1: 1.0E-5 2: 1.0E-5 3: 1.0E-5
+magneticPermeability from SI henry-per-kilometer to SI H/m (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-kilometer to SI H/um (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI henry-per-kilometer to SI H/nm (convert): PASS value: 1: 1.0E-12 2: 1.0E-12 3: 1.0E-12
+magneticPermeability from SI henry-per-kilometer to SI H/mm (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI henry-per-kilometer to SI H/km (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-kilometer to SI henry-per-kilometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-kilometer to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-12 2: 1.0E-12 3: 1.0E-12
+magneticPermeability from SI henry-per-kilometer to SI H/cm (convert): PASS value: 1: 1.0E-5 2: 1.0E-5 3: 1.0E-5
+magneticPermeability from SI henry-per-kilometer to SI henry-per-millimeter (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI henry-per-kilometer to SI henry-per-meter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-kilometer to Scientific henry-per-foot (convert): PASS value: 1: 3.048000000000003E-4 2: 3.048000000000003E-4 3: 3.048000000000003E-4
+magneticPermeability from SI henry-per-kilometer to Scientific henry-per-mile (convert): PASS value: 1: 1.6093439999999999 2: 1.6093439999999999 3: 1.6093439999999999
+magneticPermeability from SI henry-per-kilometer to Scientific H/mi (convert): PASS value: 1: 1.6093439999999999 2: 1.6093439999999999 3: 1.6093439999999999
+magneticPermeability from SI henry-per-kilometer to Scientific henry-per-yard (convert): PASS value: 1: 9.143999999999982E-4 2: 9.143999999999982E-4 3: 9.143999999999982E-4
+magneticPermeability from SI henry-per-kilometer to Scientific H/ft (convert): PASS value: 1: 3.048000000000003E-4 2: 3.048000000000003E-4 3: 3.048000000000003E-4
+magneticPermeability from SI henry-per-kilometer to Scientific H/yd (convert): PASS value: 1: 9.143999999999982E-4 2: 9.143999999999982E-4 3: 9.143999999999982E-4
+magneticPermeability from SI henry-per-kilometer to Scientific H/in (convert): PASS value: 1: 2.5399999999999987E-5 2: 2.5399999999999987E-5 3: 2.5399999999999987E-5
+magneticPermeability from SI henry-per-kilometer to Scientific henry-per-inch (convert): PASS value: 1: 2.5399999999999987E-5 2: 2.5399999999999987E-5 3: 2.5399999999999987E-5
+magneticPermeability from SI henry-per-nanometer to SI henry-per-micrometer (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-nanometer to SI henry-per-centimeter (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+magneticPermeability from SI henry-per-nanometer to SI H/m (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI henry-per-nanometer to SI H/um (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-nanometer to SI H/nm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-nanometer to SI H/mm (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI henry-per-nanometer to SI H/km (convert): PASS value: 1: 1.0E12 2: 1.0E12 3: 1.0E12
+magneticPermeability from SI henry-per-nanometer to SI henry-per-kilometer (convert): PASS value: 1: 1.0E12 2: 1.0E12 3: 1.0E12
+magneticPermeability from SI henry-per-nanometer to SI henry-per-nanometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-nanometer to SI H/cm (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+magneticPermeability from SI henry-per-nanometer to SI henry-per-millimeter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI henry-per-nanometer to SI henry-per-meter (convert): PASS value: 1: 1.0E9 2: 1.0E9 3: 1.0E9
+magneticPermeability from SI henry-per-nanometer to Scientific henry-per-foot (convert): PASS value: 1: 3.048000000000003E8 2: 3.048000000000003E8 3: 3.048000000000003E8
+magneticPermeability from SI henry-per-nanometer to Scientific henry-per-mile (convert): PASS value: 1: 1.6093439999999998E12 2: 1.6093439999999998E12 3: 1.6093439999999998E12
+magneticPermeability from SI henry-per-nanometer to Scientific H/mi (convert): PASS value: 1: 1.6093439999999998E12 2: 1.6093439999999998E12 3: 1.6093439999999998E12
+magneticPermeability from SI henry-per-nanometer to Scientific henry-per-yard (convert): PASS value: 1: 9.143999999999981E8 2: 9.143999999999981E8 3: 9.143999999999981E8
+magneticPermeability from SI henry-per-nanometer to Scientific H/ft (convert): PASS value: 1: 3.048000000000003E8 2: 3.048000000000003E8 3: 3.048000000000003E8
+magneticPermeability from SI henry-per-nanometer to Scientific H/yd (convert): PASS value: 1: 9.143999999999981E8 2: 9.143999999999981E8 3: 9.143999999999981E8
+magneticPermeability from SI henry-per-nanometer to Scientific H/in (convert): PASS value: 1: 2.5399999999999985E7 2: 2.5399999999999985E7 3: 2.5399999999999985E7
+magneticPermeability from SI henry-per-nanometer to Scientific henry-per-inch (convert): PASS value: 1: 2.5399999999999985E7 2: 2.5399999999999985E7 3: 2.5399999999999985E7
+magneticPermeability from SI H/cm to SI henry-per-micrometer (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+magneticPermeability from SI H/cm to SI henry-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/cm to SI H/m (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+magneticPermeability from SI H/cm to SI H/um (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+magneticPermeability from SI H/cm to SI H/nm (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+magneticPermeability from SI H/cm to SI H/mm (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+magneticPermeability from SI H/cm to SI H/km (convert): PASS value: 1: 100000.0 2: 100000.0 3: 100000.0
+magneticPermeability from SI H/cm to SI henry-per-kilometer (convert): PASS value: 1: 100000.0 2: 100000.0 3: 100000.0
+magneticPermeability from SI H/cm to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+magneticPermeability from SI H/cm to SI H/cm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI H/cm to SI henry-per-millimeter (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+magneticPermeability from SI H/cm to SI henry-per-meter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+magneticPermeability from SI H/cm to Scientific henry-per-foot (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+magneticPermeability from SI H/cm to Scientific henry-per-mile (convert): PASS value: 1: 160934.4 2: 160934.4 3: 160934.4
+magneticPermeability from SI H/cm to Scientific H/mi (convert): PASS value: 1: 160934.4 2: 160934.4 3: 160934.4
+magneticPermeability from SI H/cm to Scientific henry-per-yard (convert): PASS value: 1: 91.43999999999981 2: 91.43999999999981 3: 91.43999999999981
+magneticPermeability from SI H/cm to Scientific H/ft (convert): PASS value: 1: 30.480000000000032 2: 30.480000000000032 3: 30.480000000000032
+magneticPermeability from SI H/cm to Scientific H/yd (convert): PASS value: 1: 91.43999999999981 2: 91.43999999999981 3: 91.43999999999981
+magneticPermeability from SI H/cm to Scientific H/in (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+magneticPermeability from SI H/cm to Scientific henry-per-inch (convert): PASS value: 1: 2.5399999999999987 2: 2.5399999999999987 3: 2.5399999999999987
+magneticPermeability from SI henry-per-millimeter to SI henry-per-micrometer (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-millimeter to SI henry-per-centimeter (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+magneticPermeability from SI henry-per-millimeter to SI H/m (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-millimeter to SI H/um (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-millimeter to SI H/nm (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI henry-per-millimeter to SI H/mm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-millimeter to SI H/km (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI henry-per-millimeter to SI henry-per-kilometer (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+magneticPermeability from SI henry-per-millimeter to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI henry-per-millimeter to SI H/cm (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+magneticPermeability from SI henry-per-millimeter to SI henry-per-millimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-millimeter to SI henry-per-meter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-millimeter to Scientific henry-per-foot (convert): PASS value: 1: 304.8000000000003 2: 304.8000000000003 3: 304.8000000000003
+magneticPermeability from SI henry-per-millimeter to Scientific henry-per-mile (convert): PASS value: 1: 1609343.9999999998 2: 1609343.9999999998 3: 1609343.9999999998
+magneticPermeability from SI henry-per-millimeter to Scientific H/mi (convert): PASS value: 1: 1609343.9999999998 2: 1609343.9999999998 3: 1609343.9999999998
+magneticPermeability from SI henry-per-millimeter to Scientific henry-per-yard (convert): PASS value: 1: 914.3999999999982 2: 914.3999999999982 3: 914.3999999999982
+magneticPermeability from SI henry-per-millimeter to Scientific H/ft (convert): PASS value: 1: 304.8000000000003 2: 304.8000000000003 3: 304.8000000000003
+magneticPermeability from SI henry-per-millimeter to Scientific H/yd (convert): PASS value: 1: 914.3999999999982 2: 914.3999999999982 3: 914.3999999999982
+magneticPermeability from SI henry-per-millimeter to Scientific H/in (convert): PASS value: 1: 25.399999999999984 2: 25.399999999999984 3: 25.399999999999984
+magneticPermeability from SI henry-per-millimeter to Scientific henry-per-inch (convert): PASS value: 1: 25.399999999999984 2: 25.399999999999984 3: 25.399999999999984
+magneticPermeability from SI henry-per-meter to SI henry-per-micrometer (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI henry-per-meter to SI henry-per-centimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+magneticPermeability from SI henry-per-meter to SI H/m (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-meter to SI H/um (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+magneticPermeability from SI henry-per-meter to SI H/nm (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI henry-per-meter to SI H/mm (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-meter to SI H/km (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-meter to SI henry-per-kilometer (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+magneticPermeability from SI henry-per-meter to SI henry-per-nanometer (convert): PASS value: 1: 1.0E-9 2: 1.0E-9 3: 1.0E-9
+magneticPermeability from SI henry-per-meter to SI H/cm (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+magneticPermeability from SI henry-per-meter to SI henry-per-millimeter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+magneticPermeability from SI henry-per-meter to SI henry-per-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from SI henry-per-meter to Scientific henry-per-foot (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+magneticPermeability from SI henry-per-meter to Scientific henry-per-mile (convert): PASS value: 1: 1609.3439999999998 2: 1609.3439999999998 3: 1609.3439999999998
+magneticPermeability from SI henry-per-meter to Scientific H/mi (convert): PASS value: 1: 1609.3439999999998 2: 1609.3439999999998 3: 1609.3439999999998
+magneticPermeability from SI henry-per-meter to Scientific henry-per-yard (convert): PASS value: 1: 0.9143999999999981 2: 0.9143999999999981 3: 0.9143999999999981
+magneticPermeability from SI henry-per-meter to Scientific H/ft (convert): PASS value: 1: 0.30480000000000035 2: 0.30480000000000035 3: 0.30480000000000035
+magneticPermeability from SI henry-per-meter to Scientific H/yd (convert): PASS value: 1: 0.9143999999999981 2: 0.9143999999999981 3: 0.9143999999999981
+magneticPermeability from SI henry-per-meter to Scientific H/in (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+magneticPermeability from SI henry-per-meter to Scientific henry-per-inch (convert): PASS value: 1: 0.025399999999999985 2: 0.025399999999999985 3: 0.025399999999999985
+magneticPermeability from Scientific henry-per-foot to SI henry-per-micrometer (convert): PASS value: 1: 3.28083989501312E-6 2: 3.28083989501312E-6 3: 3.28083989501312E-6
+magneticPermeability from Scientific henry-per-foot to SI henry-per-centimeter (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+magneticPermeability from Scientific henry-per-foot to SI H/m (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+magneticPermeability from Scientific henry-per-foot to SI H/um (convert): PASS value: 1: 3.28083989501312E-6 2: 3.28083989501312E-6 3: 3.28083989501312E-6
+magneticPermeability from Scientific henry-per-foot to SI H/nm (convert): PASS value: 1: 3.28083989501312E-9 2: 3.28083989501312E-9 3: 3.28083989501312E-9
+magneticPermeability from Scientific henry-per-foot to SI H/mm (convert): PASS value: 1: 0.00328083989501312 2: 0.00328083989501312 3: 0.00328083989501312
+magneticPermeability from Scientific henry-per-foot to SI H/km (convert): PASS value: 1: 3280.83989501312 2: 3280.83989501312 3: 3280.83989501312
+magneticPermeability from Scientific henry-per-foot to SI henry-per-kilometer (convert): PASS value: 1: 3280.83989501312 2: 3280.83989501312 3: 3280.83989501312
+magneticPermeability from Scientific henry-per-foot to SI henry-per-nanometer (convert): PASS value: 1: 3.28083989501312E-9 2: 3.28083989501312E-9 3: 3.28083989501312E-9
+magneticPermeability from Scientific henry-per-foot to SI H/cm (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+magneticPermeability from Scientific henry-per-foot to SI henry-per-millimeter (convert): PASS value: 1: 0.00328083989501312 2: 0.00328083989501312 3: 0.00328083989501312
+magneticPermeability from Scientific henry-per-foot to SI henry-per-meter (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+magneticPermeability from Scientific henry-per-foot to Scientific henry-per-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-foot to Scientific henry-per-mile (convert): PASS value: 1: 5279.999999999994 2: 5279.999999999994 3: 5279.999999999994
+magneticPermeability from Scientific henry-per-foot to Scientific H/mi (convert): PASS value: 1: 5279.999999999994 2: 5279.999999999994 3: 5279.999999999994
+magneticPermeability from Scientific henry-per-foot to Scientific henry-per-yard (convert): PASS value: 1: 2.9999999999999907 2: 2.9999999999999907 3: 2.9999999999999907
+magneticPermeability from Scientific henry-per-foot to Scientific H/ft (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-foot to Scientific H/yd (convert): PASS value: 1: 2.9999999999999907 2: 2.9999999999999907 3: 2.9999999999999907
+magneticPermeability from Scientific henry-per-foot to Scientific H/in (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+magneticPermeability from Scientific henry-per-foot to Scientific henry-per-inch (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+magneticPermeability from Scientific henry-per-mile to SI henry-per-micrometer (convert): PASS value: 1: 6.213711922373341E-10 2: 6.213711922373341E-10 3: 6.213711922373341E-10
+magneticPermeability from Scientific henry-per-mile to SI henry-per-centimeter (convert): PASS value: 1: 6.21371192237334E-6 2: 6.21371192237334E-6 3: 6.21371192237334E-6
+magneticPermeability from Scientific henry-per-mile to SI H/m (convert): PASS value: 1: 6.21371192237334E-4 2: 6.21371192237334E-4 3: 6.21371192237334E-4
+magneticPermeability from Scientific henry-per-mile to SI H/um (convert): PASS value: 1: 6.213711922373341E-10 2: 6.213711922373341E-10 3: 6.213711922373341E-10
+magneticPermeability from Scientific henry-per-mile to SI H/nm (convert): PASS value: 1: 6.21371192237334E-13 2: 6.21371192237334E-13 3: 6.21371192237334E-13
+magneticPermeability from Scientific henry-per-mile to SI H/mm (convert): PASS value: 1: 6.213711922373341E-7 2: 6.213711922373341E-7 3: 6.213711922373341E-7
+magneticPermeability from Scientific henry-per-mile to SI H/km (convert): PASS value: 1: 0.6213711922373341 2: 0.6213711922373341 3: 0.6213711922373341
+magneticPermeability from Scientific henry-per-mile to SI henry-per-kilometer (convert): PASS value: 1: 0.6213711922373341 2: 0.6213711922373341 3: 0.6213711922373341
+magneticPermeability from Scientific henry-per-mile to SI henry-per-nanometer (convert): PASS value: 1: 6.21371192237334E-13 2: 6.21371192237334E-13 3: 6.21371192237334E-13
+magneticPermeability from Scientific henry-per-mile to SI H/cm (convert): PASS value: 1: 6.21371192237334E-6 2: 6.21371192237334E-6 3: 6.21371192237334E-6
+magneticPermeability from Scientific henry-per-mile to SI henry-per-millimeter (convert): PASS value: 1: 6.213711922373341E-7 2: 6.213711922373341E-7 3: 6.213711922373341E-7
+magneticPermeability from Scientific henry-per-mile to SI henry-per-meter (convert): PASS value: 1: 6.21371192237334E-4 2: 6.21371192237334E-4 3: 6.21371192237334E-4
+magneticPermeability from Scientific henry-per-mile to Scientific henry-per-foot (convert): PASS value: 1: 1.893939393939396E-4 2: 1.893939393939396E-4 3: 1.893939393939396E-4
+magneticPermeability from Scientific henry-per-mile to Scientific henry-per-mile (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-mile to Scientific H/mi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-mile to Scientific henry-per-yard (convert): PASS value: 1: 5.681818181818171E-4 2: 5.681818181818171E-4 3: 5.681818181818171E-4
+magneticPermeability from Scientific henry-per-mile to Scientific H/ft (convert): PASS value: 1: 1.893939393939396E-4 2: 1.893939393939396E-4 3: 1.893939393939396E-4
+magneticPermeability from Scientific henry-per-mile to Scientific H/yd (convert): PASS value: 1: 5.681818181818171E-4 2: 5.681818181818171E-4 3: 5.681818181818171E-4
+magneticPermeability from Scientific henry-per-mile to Scientific H/in (convert): PASS value: 1: 1.5782828282828276E-5 2: 1.5782828282828276E-5 3: 1.5782828282828276E-5
+magneticPermeability from Scientific henry-per-mile to Scientific henry-per-inch (convert): PASS value: 1: 1.5782828282828276E-5 2: 1.5782828282828276E-5 3: 1.5782828282828276E-5
+magneticPermeability from Scientific H/mi to SI henry-per-micrometer (convert): PASS value: 1: 6.213711922373341E-10 2: 6.213711922373341E-10 3: 6.213711922373341E-10
+magneticPermeability from Scientific H/mi to SI henry-per-centimeter (convert): PASS value: 1: 6.21371192237334E-6 2: 6.21371192237334E-6 3: 6.21371192237334E-6
+magneticPermeability from Scientific H/mi to SI H/m (convert): PASS value: 1: 6.21371192237334E-4 2: 6.21371192237334E-4 3: 6.21371192237334E-4
+magneticPermeability from Scientific H/mi to SI H/um (convert): PASS value: 1: 6.213711922373341E-10 2: 6.213711922373341E-10 3: 6.213711922373341E-10
+magneticPermeability from Scientific H/mi to SI H/nm (convert): PASS value: 1: 6.21371192237334E-13 2: 6.21371192237334E-13 3: 6.21371192237334E-13
+magneticPermeability from Scientific H/mi to SI H/mm (convert): PASS value: 1: 6.213711922373341E-7 2: 6.213711922373341E-7 3: 6.213711922373341E-7
+magneticPermeability from Scientific H/mi to SI H/km (convert): PASS value: 1: 0.6213711922373341 2: 0.6213711922373341 3: 0.6213711922373341
+magneticPermeability from Scientific H/mi to SI henry-per-kilometer (convert): PASS value: 1: 0.6213711922373341 2: 0.6213711922373341 3: 0.6213711922373341
+magneticPermeability from Scientific H/mi to SI henry-per-nanometer (convert): PASS value: 1: 6.21371192237334E-13 2: 6.21371192237334E-13 3: 6.21371192237334E-13
+magneticPermeability from Scientific H/mi to SI H/cm (convert): PASS value: 1: 6.21371192237334E-6 2: 6.21371192237334E-6 3: 6.21371192237334E-6
+magneticPermeability from Scientific H/mi to SI henry-per-millimeter (convert): PASS value: 1: 6.213711922373341E-7 2: 6.213711922373341E-7 3: 6.213711922373341E-7
+magneticPermeability from Scientific H/mi to SI henry-per-meter (convert): PASS value: 1: 6.21371192237334E-4 2: 6.21371192237334E-4 3: 6.21371192237334E-4
+magneticPermeability from Scientific H/mi to Scientific henry-per-foot (convert): PASS value: 1: 1.893939393939396E-4 2: 1.893939393939396E-4 3: 1.893939393939396E-4
+magneticPermeability from Scientific H/mi to Scientific henry-per-mile (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/mi to Scientific H/mi (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/mi to Scientific henry-per-yard (convert): PASS value: 1: 5.681818181818171E-4 2: 5.681818181818171E-4 3: 5.681818181818171E-4
+magneticPermeability from Scientific H/mi to Scientific H/ft (convert): PASS value: 1: 1.893939393939396E-4 2: 1.893939393939396E-4 3: 1.893939393939396E-4
+magneticPermeability from Scientific H/mi to Scientific H/yd (convert): PASS value: 1: 5.681818181818171E-4 2: 5.681818181818171E-4 3: 5.681818181818171E-4
+magneticPermeability from Scientific H/mi to Scientific H/in (convert): PASS value: 1: 1.5782828282828276E-5 2: 1.5782828282828276E-5 3: 1.5782828282828276E-5
+magneticPermeability from Scientific H/mi to Scientific henry-per-inch (convert): PASS value: 1: 1.5782828282828276E-5 2: 1.5782828282828276E-5 3: 1.5782828282828276E-5
+magneticPermeability from Scientific henry-per-yard to SI henry-per-micrometer (convert): PASS value: 1: 1.09361329833771E-6 2: 1.09361329833771E-6 3: 1.09361329833771E-6
+magneticPermeability from Scientific henry-per-yard to SI henry-per-centimeter (convert): PASS value: 1: 0.0109361329833771 2: 0.0109361329833771 3: 0.0109361329833771
+magneticPermeability from Scientific henry-per-yard to SI H/m (convert): PASS value: 1: 1.09361329833771 2: 1.09361329833771 3: 1.09361329833771
+magneticPermeability from Scientific henry-per-yard to SI H/um (convert): PASS value: 1: 1.09361329833771E-6 2: 1.09361329833771E-6 3: 1.09361329833771E-6
+magneticPermeability from Scientific henry-per-yard to SI H/nm (convert): PASS value: 1: 1.09361329833771E-9 2: 1.09361329833771E-9 3: 1.09361329833771E-9
+magneticPermeability from Scientific henry-per-yard to SI H/mm (convert): PASS value: 1: 0.00109361329833771 2: 0.00109361329833771 3: 0.00109361329833771
+magneticPermeability from Scientific henry-per-yard to SI H/km (convert): PASS value: 1: 1093.61329833771 2: 1093.61329833771 3: 1093.61329833771
+magneticPermeability from Scientific henry-per-yard to SI henry-per-kilometer (convert): PASS value: 1: 1093.61329833771 2: 1093.61329833771 3: 1093.61329833771
+magneticPermeability from Scientific henry-per-yard to SI henry-per-nanometer (convert): PASS value: 1: 1.09361329833771E-9 2: 1.09361329833771E-9 3: 1.09361329833771E-9
+magneticPermeability from Scientific henry-per-yard to SI H/cm (convert): PASS value: 1: 0.0109361329833771 2: 0.0109361329833771 3: 0.0109361329833771
+magneticPermeability from Scientific henry-per-yard to SI henry-per-millimeter (convert): PASS value: 1: 0.00109361329833771 2: 0.00109361329833771 3: 0.00109361329833771
+magneticPermeability from Scientific henry-per-yard to SI henry-per-meter (convert): PASS value: 1: 1.09361329833771 2: 1.09361329833771 3: 1.09361329833771
+magneticPermeability from Scientific henry-per-yard to Scientific henry-per-foot (convert): PASS value: 1: 0.33333333333333437 2: 0.33333333333333437 3: 0.33333333333333437
+magneticPermeability from Scientific henry-per-yard to Scientific henry-per-mile (convert): PASS value: 1: 1760.0000000000034 2: 1760.0000000000034 3: 1760.0000000000034
+magneticPermeability from Scientific henry-per-yard to Scientific H/mi (convert): PASS value: 1: 1760.0000000000034 2: 1760.0000000000034 3: 1760.0000000000034
+magneticPermeability from Scientific henry-per-yard to Scientific henry-per-yard (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-yard to Scientific H/ft (convert): PASS value: 1: 0.33333333333333437 2: 0.33333333333333437 3: 0.33333333333333437
+magneticPermeability from Scientific henry-per-yard to Scientific H/yd (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-yard to Scientific H/in (convert): PASS value: 1: 0.027777777777777818 2: 0.027777777777777818 3: 0.027777777777777818
+magneticPermeability from Scientific henry-per-yard to Scientific henry-per-inch (convert): PASS value: 1: 0.027777777777777818 2: 0.027777777777777818 3: 0.027777777777777818
+magneticPermeability from Scientific H/ft to SI henry-per-micrometer (convert): PASS value: 1: 3.28083989501312E-6 2: 3.28083989501312E-6 3: 3.28083989501312E-6
+magneticPermeability from Scientific H/ft to SI henry-per-centimeter (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+magneticPermeability from Scientific H/ft to SI H/m (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+magneticPermeability from Scientific H/ft to SI H/um (convert): PASS value: 1: 3.28083989501312E-6 2: 3.28083989501312E-6 3: 3.28083989501312E-6
+magneticPermeability from Scientific H/ft to SI H/nm (convert): PASS value: 1: 3.28083989501312E-9 2: 3.28083989501312E-9 3: 3.28083989501312E-9
+magneticPermeability from Scientific H/ft to SI H/mm (convert): PASS value: 1: 0.00328083989501312 2: 0.00328083989501312 3: 0.00328083989501312
+magneticPermeability from Scientific H/ft to SI H/km (convert): PASS value: 1: 3280.83989501312 2: 3280.83989501312 3: 3280.83989501312
+magneticPermeability from Scientific H/ft to SI henry-per-kilometer (convert): PASS value: 1: 3280.83989501312 2: 3280.83989501312 3: 3280.83989501312
+magneticPermeability from Scientific H/ft to SI henry-per-nanometer (convert): PASS value: 1: 3.28083989501312E-9 2: 3.28083989501312E-9 3: 3.28083989501312E-9
+magneticPermeability from Scientific H/ft to SI H/cm (convert): PASS value: 1: 0.0328083989501312 2: 0.0328083989501312 3: 0.0328083989501312
+magneticPermeability from Scientific H/ft to SI henry-per-millimeter (convert): PASS value: 1: 0.00328083989501312 2: 0.00328083989501312 3: 0.00328083989501312
+magneticPermeability from Scientific H/ft to SI henry-per-meter (convert): PASS value: 1: 3.28083989501312 2: 3.28083989501312 3: 3.28083989501312
+magneticPermeability from Scientific H/ft to Scientific henry-per-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/ft to Scientific henry-per-mile (convert): PASS value: 1: 5279.999999999994 2: 5279.999999999994 3: 5279.999999999994
+magneticPermeability from Scientific H/ft to Scientific H/mi (convert): PASS value: 1: 5279.999999999994 2: 5279.999999999994 3: 5279.999999999994
+magneticPermeability from Scientific H/ft to Scientific henry-per-yard (convert): PASS value: 1: 2.9999999999999907 2: 2.9999999999999907 3: 2.9999999999999907
+magneticPermeability from Scientific H/ft to Scientific H/ft (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/ft to Scientific H/yd (convert): PASS value: 1: 2.9999999999999907 2: 2.9999999999999907 3: 2.9999999999999907
+magneticPermeability from Scientific H/ft to Scientific H/in (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+magneticPermeability from Scientific H/ft to Scientific henry-per-inch (convert): PASS value: 1: 0.0833333333333332 2: 0.0833333333333332 3: 0.0833333333333332
+magneticPermeability from Scientific H/yd to SI henry-per-micrometer (convert): PASS value: 1: 1.09361329833771E-6 2: 1.09361329833771E-6 3: 1.09361329833771E-6
+magneticPermeability from Scientific H/yd to SI henry-per-centimeter (convert): PASS value: 1: 0.0109361329833771 2: 0.0109361329833771 3: 0.0109361329833771
+magneticPermeability from Scientific H/yd to SI H/m (convert): PASS value: 1: 1.09361329833771 2: 1.09361329833771 3: 1.09361329833771
+magneticPermeability from Scientific H/yd to SI H/um (convert): PASS value: 1: 1.09361329833771E-6 2: 1.09361329833771E-6 3: 1.09361329833771E-6
+magneticPermeability from Scientific H/yd to SI H/nm (convert): PASS value: 1: 1.09361329833771E-9 2: 1.09361329833771E-9 3: 1.09361329833771E-9
+magneticPermeability from Scientific H/yd to SI H/mm (convert): PASS value: 1: 0.00109361329833771 2: 0.00109361329833771 3: 0.00109361329833771
+magneticPermeability from Scientific H/yd to SI H/km (convert): PASS value: 1: 1093.61329833771 2: 1093.61329833771 3: 1093.61329833771
+magneticPermeability from Scientific H/yd to SI henry-per-kilometer (convert): PASS value: 1: 1093.61329833771 2: 1093.61329833771 3: 1093.61329833771
+magneticPermeability from Scientific H/yd to SI henry-per-nanometer (convert): PASS value: 1: 1.09361329833771E-9 2: 1.09361329833771E-9 3: 1.09361329833771E-9
+magneticPermeability from Scientific H/yd to SI H/cm (convert): PASS value: 1: 0.0109361329833771 2: 0.0109361329833771 3: 0.0109361329833771
+magneticPermeability from Scientific H/yd to SI henry-per-millimeter (convert): PASS value: 1: 0.00109361329833771 2: 0.00109361329833771 3: 0.00109361329833771
+magneticPermeability from Scientific H/yd to SI henry-per-meter (convert): PASS value: 1: 1.09361329833771 2: 1.09361329833771 3: 1.09361329833771
+magneticPermeability from Scientific H/yd to Scientific henry-per-foot (convert): PASS value: 1: 0.33333333333333437 2: 0.33333333333333437 3: 0.33333333333333437
+magneticPermeability from Scientific H/yd to Scientific henry-per-mile (convert): PASS value: 1: 1760.0000000000034 2: 1760.0000000000034 3: 1760.0000000000034
+magneticPermeability from Scientific H/yd to Scientific H/mi (convert): PASS value: 1: 1760.0000000000034 2: 1760.0000000000034 3: 1760.0000000000034
+magneticPermeability from Scientific H/yd to Scientific henry-per-yard (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/yd to Scientific H/ft (convert): PASS value: 1: 0.33333333333333437 2: 0.33333333333333437 3: 0.33333333333333437
+magneticPermeability from Scientific H/yd to Scientific H/yd (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/yd to Scientific H/in (convert): PASS value: 1: 0.027777777777777818 2: 0.027777777777777818 3: 0.027777777777777818
+magneticPermeability from Scientific H/yd to Scientific henry-per-inch (convert): PASS value: 1: 0.027777777777777818 2: 0.027777777777777818 3: 0.027777777777777818
+magneticPermeability from Scientific H/in to SI henry-per-micrometer (convert): PASS value: 1: 3.9370078740157506E-5 2: 3.9370078740157506E-5 3: 3.9370078740157506E-5
+magneticPermeability from Scientific H/in to SI henry-per-centimeter (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+magneticPermeability from Scientific H/in to SI H/m (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+magneticPermeability from Scientific H/in to SI H/um (convert): PASS value: 1: 3.9370078740157506E-5 2: 3.9370078740157506E-5 3: 3.9370078740157506E-5
+magneticPermeability from Scientific H/in to SI H/nm (convert): PASS value: 1: 3.9370078740157506E-8 2: 3.9370078740157506E-8 3: 3.9370078740157506E-8
+magneticPermeability from Scientific H/in to SI H/mm (convert): PASS value: 1: 0.0393700787401575 2: 0.0393700787401575 3: 0.0393700787401575
+magneticPermeability from Scientific H/in to SI H/km (convert): PASS value: 1: 39370.0787401575 2: 39370.0787401575 3: 39370.0787401575
+magneticPermeability from Scientific H/in to SI henry-per-kilometer (convert): PASS value: 1: 39370.0787401575 2: 39370.0787401575 3: 39370.0787401575
+magneticPermeability from Scientific H/in to SI henry-per-nanometer (convert): PASS value: 1: 3.9370078740157506E-8 2: 3.9370078740157506E-8 3: 3.9370078740157506E-8
+magneticPermeability from Scientific H/in to SI H/cm (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+magneticPermeability from Scientific H/in to SI henry-per-millimeter (convert): PASS value: 1: 0.0393700787401575 2: 0.0393700787401575 3: 0.0393700787401575
+magneticPermeability from Scientific H/in to SI henry-per-meter (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+magneticPermeability from Scientific H/in to Scientific henry-per-foot (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+magneticPermeability from Scientific H/in to Scientific henry-per-mile (convert): PASS value: 1: 63360.00000000003 2: 63360.00000000003 3: 63360.00000000003
+magneticPermeability from Scientific H/in to Scientific H/mi (convert): PASS value: 1: 63360.00000000003 2: 63360.00000000003 3: 63360.00000000003
+magneticPermeability from Scientific H/in to Scientific henry-per-yard (convert): PASS value: 1: 35.99999999999994 2: 35.99999999999994 3: 35.99999999999994
+magneticPermeability from Scientific H/in to Scientific H/ft (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+magneticPermeability from Scientific H/in to Scientific H/yd (convert): PASS value: 1: 35.99999999999994 2: 35.99999999999994 3: 35.99999999999994
+magneticPermeability from Scientific H/in to Scientific H/in (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific H/in to Scientific henry-per-inch (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-inch to SI henry-per-micrometer (convert): PASS value: 1: 3.9370078740157506E-5 2: 3.9370078740157506E-5 3: 3.9370078740157506E-5
+magneticPermeability from Scientific henry-per-inch to SI henry-per-centimeter (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+magneticPermeability from Scientific henry-per-inch to SI H/m (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+magneticPermeability from Scientific henry-per-inch to SI H/um (convert): PASS value: 1: 3.9370078740157506E-5 2: 3.9370078740157506E-5 3: 3.9370078740157506E-5
+magneticPermeability from Scientific henry-per-inch to SI H/nm (convert): PASS value: 1: 3.9370078740157506E-8 2: 3.9370078740157506E-8 3: 3.9370078740157506E-8
+magneticPermeability from Scientific henry-per-inch to SI H/mm (convert): PASS value: 1: 0.0393700787401575 2: 0.0393700787401575 3: 0.0393700787401575
+magneticPermeability from Scientific henry-per-inch to SI H/km (convert): PASS value: 1: 39370.0787401575 2: 39370.0787401575 3: 39370.0787401575
+magneticPermeability from Scientific henry-per-inch to SI henry-per-kilometer (convert): PASS value: 1: 39370.0787401575 2: 39370.0787401575 3: 39370.0787401575
+magneticPermeability from Scientific henry-per-inch to SI henry-per-nanometer (convert): PASS value: 1: 3.9370078740157506E-8 2: 3.9370078740157506E-8 3: 3.9370078740157506E-8
+magneticPermeability from Scientific henry-per-inch to SI H/cm (convert): PASS value: 1: 0.39370078740157505 2: 0.39370078740157505 3: 0.39370078740157505
+magneticPermeability from Scientific henry-per-inch to SI henry-per-millimeter (convert): PASS value: 1: 0.0393700787401575 2: 0.0393700787401575 3: 0.0393700787401575
+magneticPermeability from Scientific henry-per-inch to SI henry-per-meter (convert): PASS value: 1: 39.3700787401575 2: 39.3700787401575 3: 39.3700787401575
+magneticPermeability from Scientific henry-per-inch to Scientific henry-per-foot (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+magneticPermeability from Scientific henry-per-inch to Scientific henry-per-mile (convert): PASS value: 1: 63360.00000000003 2: 63360.00000000003 3: 63360.00000000003
+magneticPermeability from Scientific henry-per-inch to Scientific H/mi (convert): PASS value: 1: 63360.00000000003 2: 63360.00000000003 3: 63360.00000000003
+magneticPermeability from Scientific henry-per-inch to Scientific henry-per-yard (convert): PASS value: 1: 35.99999999999994 2: 35.99999999999994 3: 35.99999999999994
+magneticPermeability from Scientific henry-per-inch to Scientific H/ft (convert): PASS value: 1: 12.00000000000002 2: 12.00000000000002 3: 12.00000000000002
+magneticPermeability from Scientific henry-per-inch to Scientific H/yd (convert): PASS value: 1: 35.99999999999994 2: 35.99999999999994 3: 35.99999999999994
+magneticPermeability from Scientific henry-per-inch to Scientific H/in (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticPermeability from Scientific henry-per-inch to Scientific henry-per-inch (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:32:53 Duration: 0:0:0:0.026 Version : 1.0
+
+
+********************************************************************************
+

@@ -1,0 +1,67 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:29:12 Version : 1.0
+
+
+name: Radiation type: specificRadioactivity valid: true
+To System: SI From System: SI
+SpecificRadioactivity Types [exposureRate, specificRadioactivity, exposure, specificEnergy, particleFlux, 
+                             radioactiveConcentration]
+
+SpecificRadioactivity All Systems [German, Scientific, SI, INT, UK]
+
+SpecificRadioactivity All Units [German[R-unit(German)], Scientific[E-unit], German[R-unit(S)], 
+                                 German[R-unit(Solomon)], German[R-unit(G)], Scientific[strontium-unit], SI[Bq/kg], 
+                                 SI[becquerel-per-kilogram], Scientific[e-unit], Scientific[pastille-dose], 
+                                 Scientific[coulomb-per-kilogram], Scientific[roentgen], Scientific[B-unit], 
+                                 Scientific[R], INT[sievert-unit], Scientific[C/kg], Scientific[D-unit], SI[hGy], 
+                                 SI[gigasievert], Scientific[gram-rad], SI[pGy], SI[exacsievert], SI[yoctogray], 
+                                 SI[ySv], SI[aSv], SI[nanosievert], SI[yottagray], SI[kilocgray], SI[mGy], 
+                                 SI[yoctosievert], SI[femtosievert], SI[microgray], SI[fSv], SI[EGy], 
+                                 SI[microsievert], Scientific[rep], SI[petagray], SI[hectosievert], SI[nSv], SI[MGy], 
+                                 SI[ESv], INT[calorie(IT)-per-gram], SI[centigray], 
+                                 UK[british-thermal-unit(IT)-per-pound], SI[MSv], SI[uGy], SI[ZGy], SI[centisievert], 
+                                 SI[yottasievert], SI[cSv], SI[kSv], SI[pSv], SI[decisievert], SI[teragray], 
+                                 SI[attosievert], SI[gray], SI[zGy], SI[daSv], SI[terasievert], SI[picosievert], 
+                                 SI[zeptogray], SI[PSv], SI[GGy], SI[Gy], SI[attogray], SI[millisievert], 
+                                 Scientific[rad-equivalent-physical], SI[decigray], SI[hSv], INT[cal(IT)/g], 
+                                 SI[megasievert], SI[GSv], SI[Sv], SI[uSv], SI[ZSv], SI[hectogray], SI[dGy], 
+                                 Scientific[kerma], SI[decacsievert], Scientific[rem], SI[TGy], SI[mSv], 
+                                 SI[zettasievert], SI[aGy], SI[sievert], SI[gigagray], 
+                                 Scientific[radiation-absorbed-dose], SI[YGy], SI[zSv], SI[picogray], Scientific[rad], 
+                                 SI[milligray], SI[zeptosievert], SI[fGy], SI[exacgray], SI[yGy], SI[TSv], 
+                                 Scientific[n-unit], SI[nGy], UK[british-thermal-unit(therm)-per-pound], SI[daGy], 
+                                 SI[femtogray], UK[Btu(IT)/lb], SI[nanogray], SI[PGy], SI[kilocsievert], SI[YSv], 
+                                 Scientific[rd], SI[cGy], SI[megagray], SI[kGy], SI[dSv], SI[zettagray], 
+                                 UK[Btu(therm)/lb], SI[decacgray], SI[petasievert], Scientific[pfu], 
+                                 Scientific[rayleigh], Scientific[particle-flux-unit], SI[Bq/m3], Scientific[eman], 
+                                 SI[becquerel-per-cubic-meter], Scientific[Ci/l], Scientific[curie-per-liter]]
+
+SpecificRadioactivity Systems [Scientific, SI]
+
+Units SpecificRadioactivity [Scientific[strontium-unit], SI[Bq/kg], SI[becquerel-per-kilogram]]
+
+SpecificRadioactivity Scientific strontium-unit Scientific true 37000.0 strontium-unit 1/kg.s 1/M.T 0.0
+SpecificRadioactivity SI Bq/kg SI true 1.0 becquerel-per-kilogram 1/kg.s 1/M.T 0.0
+SpecificRadioactivity SI becquerel-per-kilogram SI true 1.0 becquerel-per-kilogram 1/kg.s 1/M.T 0.0
+
+
+name: Radiation type: specificRadioactivity valid: true
+specificRadioactivity from Scientific strontium-unit to Scientific strontium-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificRadioactivity from Scientific strontium-unit to SI Bq/kg (convert): PASS value: 1: 37000.0 2: 37000.0 3: 37000.0
+specificRadioactivity from Scientific strontium-unit to SI becquerel-per-kilogram (convert): PASS value: 1: 37000.0 2: 37000.0 3: 37000.0
+specificRadioactivity from SI Bq/kg to Scientific strontium-unit (convert): PASS value: 1: 2.7027027027027027E-5 2: 2.7027027027027027E-5 3: 2.7027027027027027E-5
+specificRadioactivity from SI Bq/kg to SI Bq/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificRadioactivity from SI Bq/kg to SI becquerel-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificRadioactivity from SI becquerel-per-kilogram to Scientific strontium-unit (convert): PASS value: 1: 2.7027027027027027E-5 2: 2.7027027027027027E-5 3: 2.7027027027027027E-5
+specificRadioactivity from SI becquerel-per-kilogram to SI Bq/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificRadioactivity from SI becquerel-per-kilogram to SI becquerel-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:29:12 Duration: 0:0:0:0.002 Version : 1.0
+
+
+********************************************************************************
+

@@ -1,0 +1,72 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:33:10 Version : 1.0
+
+
+name: Radiation type: particleFlux valid: true
+To System: Scientific From System: Scientific
+ParticleFlux Types [exposureRate, specificRadioactivity, exposure, specificEnergy, particleFlux, 
+                    radioactiveConcentration]
+
+ParticleFlux All Systems [German, Scientific, SI, INT, UK]
+
+ParticleFlux All Units [German[R-unit(German)], Scientific[E-unit], German[R-unit(S)], German[R-unit(Solomon)], 
+                        German[R-unit(G)], Scientific[strontium-unit], SI[Bq/kg], SI[becquerel-per-kilogram], 
+                        Scientific[e-unit], Scientific[pastille-dose], Scientific[coulomb-per-kilogram], 
+                        Scientific[roentgen], Scientific[B-unit], Scientific[R], INT[sievert-unit], Scientific[C/kg], 
+                        Scientific[D-unit], SI[hGy], SI[gigasievert], Scientific[gram-rad], SI[pGy], SI[exacsievert], 
+                        SI[yoctogray], SI[ySv], SI[aSv], SI[nanosievert], SI[yottagray], SI[kilocgray], SI[mGy], 
+                        SI[yoctosievert], SI[femtosievert], SI[microgray], SI[fSv], SI[EGy], SI[microsievert], 
+                        Scientific[rep], SI[petagray], SI[hectosievert], SI[nSv], SI[MGy], SI[ESv], 
+                        INT[calorie(IT)-per-gram], SI[centigray], UK[british-thermal-unit(IT)-per-pound], SI[MSv], 
+                        SI[uGy], SI[ZGy], SI[centisievert], SI[yottasievert], SI[cSv], SI[kSv], SI[pSv], 
+                        SI[decisievert], SI[teragray], SI[attosievert], SI[gray], SI[zGy], SI[daSv], SI[terasievert], 
+                        SI[picosievert], SI[zeptogray], SI[PSv], SI[GGy], SI[Gy], SI[attogray], SI[millisievert], 
+                        Scientific[rad-equivalent-physical], SI[decigray], SI[hSv], INT[cal(IT)/g], SI[megasievert], 
+                        SI[GSv], SI[Sv], SI[uSv], SI[ZSv], SI[hectogray], SI[dGy], Scientific[kerma], 
+                        SI[decacsievert], Scientific[rem], SI[TGy], SI[mSv], SI[zettasievert], SI[aGy], SI[sievert], 
+                        SI[gigagray], Scientific[radiation-absorbed-dose], SI[YGy], SI[zSv], SI[picogray], 
+                        Scientific[rad], SI[milligray], SI[zeptosievert], SI[fGy], SI[exacgray], SI[yGy], SI[TSv], 
+                        Scientific[n-unit], SI[nGy], UK[british-thermal-unit(therm)-per-pound], SI[daGy], 
+                        SI[femtogray], UK[Btu(IT)/lb], SI[nanogray], SI[PGy], SI[kilocsievert], SI[YSv], 
+                        Scientific[rd], SI[cGy], SI[megagray], SI[kGy], SI[dSv], SI[zettagray], UK[Btu(therm)/lb], 
+                        SI[decacgray], SI[petasievert], Scientific[pfu], Scientific[rayleigh], 
+                        Scientific[particle-flux-unit], SI[Bq/m3], Scientific[eman], SI[becquerel-per-cubic-meter], 
+                        Scientific[Ci/l], Scientific[curie-per-liter]]
+
+ParticleFlux Systems [Scientific]
+
+Units ParticleFlux [Scientific[pfu], Scientific[rayleigh], Scientific[R], Scientific[particle-flux-unit]]
+
+ParticleFlux Scientific pfu Scientific true 10000.0 particle-flux-unit 1/m2.s.sr 1/L2.T.W 0.0
+ParticleFlux Scientific rayleigh Scientific true 7.95774715459477E8 rayleigh 1/m2.s.sr 1/L2.T.W 0.0
+ParticleFlux Scientific R Scientific true 7.95774715459477E8 rayleigh 1/m2.s.sr 1/L2.T.W 0.0
+ParticleFlux Scientific particle-flux-unit Scientific true 10000.0 particle-flux-unit 1/m2.s.sr 1/L2.T.W 0.0
+
+
+name: Radiation type: particleFlux valid: true
+particleFlux from Scientific pfu to Scientific pfu (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific pfu to Scientific rayleigh (convert): PASS value: 1: 1.2566370614359168E-5 2: 1.2566370614359168E-5 3: 1.2566370614359168E-5
+particleFlux from Scientific pfu to Scientific R (convert): PASS value: 1: 1.2566370614359168E-5 2: 1.2566370614359168E-5 3: 1.2566370614359168E-5
+particleFlux from Scientific pfu to Scientific particle-flux-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific rayleigh to Scientific pfu (convert): PASS value: 1: 79577.4715459477 2: 79577.4715459477 3: 79577.4715459477
+particleFlux from Scientific rayleigh to Scientific rayleigh (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific rayleigh to Scientific R (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific rayleigh to Scientific particle-flux-unit (convert): PASS value: 1: 79577.4715459477 2: 79577.4715459477 3: 79577.4715459477
+particleFlux from Scientific R to Scientific pfu (convert): PASS value: 1: 79577.4715459477 2: 79577.4715459477 3: 79577.4715459477
+particleFlux from Scientific R to Scientific rayleigh (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific R to Scientific R (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific R to Scientific particle-flux-unit (convert): PASS value: 1: 79577.4715459477 2: 79577.4715459477 3: 79577.4715459477
+particleFlux from Scientific particle-flux-unit to Scientific pfu (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+particleFlux from Scientific particle-flux-unit to Scientific rayleigh (convert): PASS value: 1: 1.2566370614359168E-5 2: 1.2566370614359168E-5 3: 1.2566370614359168E-5
+particleFlux from Scientific particle-flux-unit to Scientific R (convert): PASS value: 1: 1.2566370614359168E-5 2: 1.2566370614359168E-5 3: 1.2566370614359168E-5
+particleFlux from Scientific particle-flux-unit to Scientific particle-flux-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:33:10 Duration: 0:0:0:0.005 Version : 1.0
+
+
+********************************************************************************
+

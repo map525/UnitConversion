@@ -1,0 +1,349 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:32:53 Version : 1.0
+
+
+name: EM type: magneticDipoleMoment valid: true
+To System: SI From System: SI
+MagneticDipoleMoment Types [chargeDensity, inductance, permeability, specificAcousticImpedance, magneticInduction, 
+                            electricFieldStrength, acousticImpedance, current, conductivity, magneticDipoleMoment, 
+                            magneticPermeability, potential, electricElastance, charge, capacitance, 
+                            magneticFieldStrength, currentDensity, surfaceChargeDensity, electricFieldGradient, 
+                            electricConductance, magneticFluxDensity, resistance, magneticReluctance, 
+                            magneticPotential, resistivity]
+
+MagneticDipoleMoment All Systems [SI, Scientific, a.u., US, IEUS, cgs, UK, MKSA, Imperial, INT, German, MKS, Si]
+
+MagneticDipoleMoment All Units [SI[C/mm3], SI[C/nm3], SI[coulomb-per-cubic-centimeter], Scientific[C/yd3], 
+                                SI[coulomb-per-cubic-kilometer], a.u.[au-of-electric-charge-density], SI[C/km3], 
+                                Scientific[coulomb-per-cubic-yard], SI[coulomb-per-cubic-millimeter], SI[C/um3], 
+                                SI[coulomb-per-cubic-micrometer], Scientific[coulomb-per-cubic-foot], SI[C/cm3], 
+                                a.u.[auecd], Scientific[C/mi3], Scientific[coulomb-per-cubic-mile], Scientific[C/ft3], 
+                                SI[coulomb-per-cubic-meter], Scientific[coulomb-per-cubic-inch], 
+                                SI[coulomb-per-cubic-nanometer], Scientific[C/in3], SI[C/m3], SI[aH], SI[cH], US[H], 
+                                SI[kH], IEUS[H], SI[mH], SI[exachenry], US[henry(mean)], SI[centihenry], 
+                                SI[microhenry], cgs[esu-H], SI[femtohenry], SI[YH], SI[gigahenry], SI[millihenry], 
+                                cgs[esu-of-inductance], IEUS[henry], SI[zeptohenry], US[H(mean)], cgs[statH], SI[H], 
+                                cgs[stathenry], SI[uH], SI[yH], cgs[emu-H], SI[henry], cgs[aH], SI[yoctohenry], 
+                                SI[decachenry], SI[dH], SI[nanohenry], SI[fH], SI[hH], US[henry], SI[nH], SI[PH], 
+                                SI[zettahenry], SI[TH], Scientific[centimeter], UK[mic], SI[terahenry], SI[ZH], 
+                                Scientific[cm], cgs[emu-of-inductance], SI[petahenry], SI[EH], SI[kilochenry], 
+                                SI[attohenry], cgs[abhenry], SI[GH], SI[picohenry], SI[MH], SI[decihenry], SI[pH], 
+                                SI[yottahenry], SI[megahenry], SI[zH], SI[hectohenry], SI[daH], US[perm(0oC)], 
+                                US[perm(23oC)], cgs[rayl], MKSA[rayl], SI[attoweber], SI[petaweber], SI[nWb], 
+                                SI[deciweber], SI[weber], SI[zeptoweber], cgs[Mx], SI[gigaweber], SI[yWb], 
+                                SI[yottaweber], SI[microweber], Imperial[unit-pole], SI[PWb], SI[fWb], SI[centiweber], 
+                                SI[zettaweber], Scientific[D], SI[ZWb], SI[milliweber], SI[TWb], SI[yoctoweber], 
+                                SI[megaweber], SI[kWb], SI[GWb], SI[zWb], SI[daWb], cgs[maxwell], SI[picoweber], 
+                                SI[femtoweber], SI[cWb], SI[hectoweber], SI[Wb], SI[hWb], SI[pWb], Scientific[debye], 
+                                US[line], SI[dWb], SI[decaweber], SI[mWb], SI[teraweber], SI[EWb], SI[uWb], SI[aWb], 
+                                SI[kiloweber], SI[exacweber], SI[MWb], Imperial[kapp-line], SI[nanoweber], SI[YWb], 
+                                Scientific[millivolt-per-foot], SI[uV/mm], Scientific[V/in], SI[volt-per-meter], 
+                                SI[uV/um], Scientific[millivolt-per-inch], Scientific[V/ft], 
+                                SI[microvolt-per-millimeter], SI[millivolt-per-centimeter], SI[volt-per-millimeter], 
+                                SI[V/cm], SI[millivolt-per-micrometer], Scientific[volt-per-inch], 
+                                Scientific[volt-per-foot], Scientific[uV/yd], SI[V/km], SI[V/mm], SI[uV/cm], 
+                                SI[millivolt-per-meter], SI[millivolt-per-millimeter], SI[volt-per-micrometer], 
+                                a.u.[auefs], SI[V/um], Scientific[mV/in], Scientific[microvolt-per-inch], SI[mV/m], 
+                                a.u.[au-of-electric-field-strength], SI[mircovolt-per-nanometer], 
+                                SI[volt-per-kilometer], Scientific[V/yd], Scientific[uV/in], SI[mV/mm], SI[uV/m], 
+                                SI[microvolt-per-micrometer], SI[mV/cm], Scientific[V/mi], Scientific[uV/ft], 
+                                SI[microvolt-per-centimeter], SI[volt-per-nanometer], SI[millivolt-per-nanometer], 
+                                SI[uV/nm], a.u.[au-of-electric-potential], SI[V/m], Scientific[volt-per-mile], 
+                                Scientific[millivolt-per-yard], Scientific[microvolt-per-yard], SI[mV/um], a.u.[auep], 
+                                Scientific[mV/ft], Scientific[microvolt-per-foot], SI[V/nm], SI[volt-per-centimeter], 
+                                SI[microvolt-per-meter], SI[mV/nm], Scientific[volt-per-yard], Scientific[mV/yd], 
+                                cgs[ohm(acoustic)], cgs[ohm(mechanical)], SI[ohm(acoustic)], SI[acoustic-ohm], 
+                                cgs[acoustic-ohm], SI[ohm(mechanical)], MKSA[A], a.u.[au-of-electric-curent], 
+                                cgs[statA], IEUS[ampere], IEUS[ampere(mean)], INT[ampere(mean)], Scientific[galvat], 
+                                SI[ampere], SI[At], cgs[emu-of-current], cgs[biot], cgs[Gb], cgs[Bi], cgs[statampere], 
+                                cgs[abampere], a.u.[auec], SI[ampere-tum], INT[ampere], cgs[emuc], SI[A], 
+                                cgs[gilbert], SI[A-turn], cgs[aA], MKSA[ampere], Scientific[pragilbert], 
+                                Scientific[rof], Scientific[reciprocal-ohm-per-inch], 
+                                Scientific[reciprocal-ohm-per-centimeter], Scientific[siemens-per-meter], 
+                                Scientific[reciprocal-ohm-per-foot], Scientific[roi], Scientific[S/m], cgs[roc], 
+                                MKSA[rom], Scientific[reciprocal-ohm-per-meter], Scientific[roc], Scientific[uB], 
+                                Scientific[magneton(nuclear)], Scientific[BN], Scientific[bohr-magneton], a.u.[audpm], 
+                                Scientific[B], SI[ampere-square-meter], Scientific[uN], 
+                                a.u.[au-of-magnetic-dipole-moment], Scientific[nuclear-magneton], SI[A-m2], 
+                                Scientific[magneton(bohr)], SI[henry-per-micrometer], Scientific[henry-per-foot], 
+                                SI[henry-per-centimeter], SI[H/m], SI[H/um], Scientific[henry-per-mile], 
+                                Scientific[H/mi], SI[H/nm], SI[H/mm], SI[H/km], Scientific[henry-per-yard], 
+                                Scientific[H/ft], SI[henry-per-kilometer], SI[henry-per-nanometer], SI[H/cm], 
+                                Scientific[H/yd], SI[henry-per-millimeter], Scientific[H/in], 
+                                Scientific[henry-per-inch], SI[henry-per-meter], SI[nV], SI[pV], SI[nanovolt], 
+                                SI[picovolt], SI[zV], cgs[emu-V], SI[millivolt], SI[dV], SI[femtovolt], SI[fV], 
+                                SI[megavolt], SI[hV], INT[daniell], SI[daV], SI[decavolt], cgs[esu-V], SI[centivolt], 
+                                SI[YV], cgs[esu-of-electric-potential], SI[gigavolt], SI[yottavolt], SI[exacvolt], 
+                                SI[EV], SI[GV], SI[kilocvolt], SI[MV], cgs[abvolt], IEUS[volt(mean)], SI[microvolt], 
+                                SI[zeptovolt], SI[uV], SI[petavolt], INT[V(mean)], SI[yV], US[V], IEUS[V], SI[aV], 
+                                SI[cV], cgs[statvolt], UK[crocodile], cgs[emu-of-electric-potential], INT[volt(mean)], 
+                                SI[kV], SI[mV], IEUS[V(mean)], SI[PV], SI[TV], SI[hectovolt], SI[zettavolt], 
+                                SI[yoctovolt], SI[ZV], IEUS[volt], SI[volt], SI[teravolt], SI[decivolt], cgs[aV], 
+                                SI[V], SI[attovolt], US[volt], cgs[statV], Scientific[H/sec2], Scientific[H/day2], 
+                                US[daraf], Scientific[H/yr2], Scientific[henry-per-square-day], 
+                                Scientific[henry-per-square-month], Scientific[henry-per-square-second], 
+                                Scientific[henry-per-square-hour], Scientific[H/mon2], Scientific[H/min2], 
+                                Scientific[henry-per-square-year], Scientific[henry-per-square-minute], 
+                                Scientific[H/hr2], SI[femtocoulomb], SI[zettacoulomb], cgs[Fr], SI[kC], SI[mC], 
+                                SI[daC], a.u.[au-of-electric-charge], SI[uC], SI[yC], SI[kilocoulomb], 
+                                SI[decacoulomb], IEUS[C], cgs[esu-of-charge], cgs[aC], SI[zeptocoulomb], SI[dC], 
+                                SI[fC], SI[hC], a.u.[aue], SI[yottacoulomb], SI[PC], SI[TC], cgs[abcoulomb], SI[ZC], 
+                                cgs[statC], SI[attocoulomb], cgs[statcoulomb], SI[picocoulomb], SI[teracoulomb], 
+                                SI[decicoulomb], SI[C], SI[EC], SI[GC], IEUS[coulomb(int)], SI[petacoulomb], 
+                                SI[megacoulomb], SI[nC], SI[millicoulomb], SI[pC], SI[microcoulomb], SI[ampere-hour], 
+                                cgs[franklin], SI[zC], SI[hectocoulomb], SI[aC], SI[cC], cgs[emu-of-charge], 
+                                SI[exacoulomb], SI[MC], SI[nanocoulomb], SI[gigacoulomb], SI[A-hr], SI[coulomb], 
+                                SI[yoctocoulomb], SI[YC], SI[centicoulomb], cgs[aF], SI[dF], SI[fF], SI[hF], 
+                                SI[exacfarad], SI[decafarad], SI[PF], Imperial[centimeter], SI[TF], SI[microfarad], 
+                                SI[gigafarad], SI[millifarad], SI[femtofarad], SI[ZF], SI[petafarad], SI[EF], 
+                                cgs[abfarad], SI[GF], SI[picofarad], SI[attofarad], SI[MF], Scientific[puff], SI[daF], 
+                                SI[nF], SI[pF], SI[yottafarad], SI[decifarad], SI[megafarad], SI[zF], IEUS[F], SI[aF], 
+                                SI[cF], SI[hectofarad], SI[nanofarad], cgs[esu-of-capacitance], SI[kF], SI[mF], 
+                                SI[yoctofarad], Imperial[cm], SI[kilofarad], SI[zeptofarad], SI[zettafarad], 
+                                cgs[esu-F], SI[YF], SI[terafarad], SI[F], IEUS[farad], SI[centifarad], SI[uF], 
+                                cgs[statfarad], Scientific[jar], SI[yF], cgs[emu-of-electric-capacitance], cgs[emu-F], 
+                                SI[farad], Scientific[lenz], SI[ampere-per-meter], SI[A/m], cgs[CE], cgs[ce], 
+                                Scientific[praoersted], cgs[oersted], SI[ampere-per-square-micrometer], 
+                                Scientific[uA/m2], SI[A/cm2], Scientific[microampere-per-square-meter], 
+                                SI[ampere-per-square-decimeter], Scientific[microampere-per-square-millimeter], 
+                                Imperial[mA/ft2], Imperial[microampere-per-square-inch], SI[A/nm2], 
+                                SI[ampere-per-square-centimeter], Imperial[ampere-per-square-foot], 
+                                Scientific[milliampere-per-square-nanometer], SI[ampere-per-square-millimeter], 
+                                SI[milliampere-per-square-decimeter], SI[mA/dm2], Scientific[uA/nm2], 
+                                Imperial[milliampere-per-square-inch], Scientific[mA/um2], SI[A/dm2], 
+                                Scientific[milliampere-per-square-centimeter], Imperial[ampere-per-square-inch], 
+                                Scientific[mA/mm2], Scientific[uA/cm2], Imperial[mA/yd2], Imperial[mA/in2], 
+                                Imperial[milliampere-per-square-yard], SI[A/m2], 
+                                Imperial[microampere-per-square-foot], Scientific[milliampere-per-square-meter], 
+                                Scientific[uA/mm2], Imperial[microampere-per-square-yard], Scientific[uA/um2], 
+                                Imperial[uA/yd2], Scientific[mA/m2], Scientific[milliampere-per-square-micrometer], 
+                                Imperial[uA/ft2], SI[microampere-per-square-decimeter], Scientific[mA/nm2], 
+                                SI[uA/dm2], Scientific[microampere-per-square-nanometer], 
+                                Scientific[milliampere-per-square-millimeter], SI[A/um2], 
+                                Imperial[ampere-per-square-yard], Imperial[uA/in2], Imperial[A/in2], 
+                                SI[ampere-per-square-meter], Imperial[milliampere-per-square-foot], 
+                                Scientific[microampere-per-square-micrometer], SI[A/mm2], 
+                                Scientific[microampere-per-square-centimeter], Imperial[A/ft2], 
+                                SI[ampere-per-square-nanometer], Imperial[A/yd2], Scientific[mA/cm2], SI[C/nm2], 
+                                Scientific[coulomb-per-square-foot], SI[coulomb-per-square-centimeter], 
+                                SI[coulomb-per-square-micrometer], Scientific[C/yd2], SI[C/km2], 
+                                Scientific[coulomb-per-square-inch], SI[C/mm2], SI[coulomb-per-square-meter], 
+                                SI[coulomb-per-square-kilometer], SI[C/um2], Scientific[coulomb-per-square-mile], 
+                                SI[C/cm2], Scientific[coulomb-per-square-yard], SI[coulomb-per-square-millimeter], 
+                                Scientific[C/mi2], Scientific[C/ft2], SI[coulomb-per-square-nanometer], 
+                                Scientific[C/in2], SI[C/m2], a.u.[ao], a.u.[au-of-electric-field-strength-gradient], 
+                                a.u.[b], cgs[townsend], cgs[Td], a.u.[auefsg], SI[PS], SI[megasiemens], SI[daS], 
+                                SI[TS], SI[yottasiemens], SI[hectosiemens], cgs[esu-of-conductance], SI[ZS], 
+                                SI[decasiemens], SI[attosiemens], cgs[aS], SI[microsiemens], SI[kilosiemens], SI[nS], 
+                                SI[exacsiemens], SI[petasiemens], SI[pS], SI[zS], Imperial[ringing-equivalent-number], 
+                                Imperial[REN], SI[decisiemens], SI[zeptosiemens], cgs[statmho], SI[picosiemens], 
+                                SI[dS], SI[terasiemens], SI[fS], SI[hS], cgs[emu-of-conductance], SI[MS], cgs[esu-S], 
+                                SI[zettasiemens], SI[YS], Scientific[gemmbo], SI[millisiemens], SI[S], SI[ES], SI[GS], 
+                                SI[kS], SI[nanosiemens], SI[mS], SI[gigasiemens], SI[uS], cgs[emu-S], SI[yS], 
+                                cgs[1/aW], SI[aS], SI[cS], SI[femtosiemens], cgs[abmho], INT[mho], SI[centisiemens], 
+                                SI[yoctosiemens], SI[siemens], SI[kiloctesla], SI[uT], SI[exactesla], SI[yT], SI[aT], 
+                                SI[cT], SI[kT], SI[millitesla], SI[NT], SI[PT], SI[TT], SI[centitesla], SI[decatesla], 
+                                SI[ZT], SI[femtotesla], SI[microtesla], SI[T], SI[petatesla], SI[attotesla], SI[nT], 
+                                SI[zeptotesla], a.u.[au-of-magnetic-flux-density], SI[pT], SI[decitesla], a.u.[aumfd], 
+                                SI[zT], cgs[gauss], SI[picotesla], SI[yottatesla], SI[hectotesla], SI[dT], SI[fT], 
+                                SI[megatesla], SI[hT], Scientific[g], SI[tesla], SI[MT], SI[daT], SI[teratesla], 
+                                SI[nanotesla], Scientific[gamma], SI[YT], SI[yoctotesla], cgs[Gs], cgs[G], 
+                                SI[zettatesla], SI[ET], SI[GT], SI[gigatesla], SI[PW], SI[daW], SI[milliohm], SI[ohm], 
+                                SI[microohm], SI[TW], SI[ZW], cgs[esu-of-resistance], SI[attoohm], SI[megaohm], 
+                                SI[picoohm], cgs[aW], SI[jacobi], SI[teraohm], IEUS[ohm(mean)], SI[pW], SI[zW], 
+                                US[ohm(mean)], SI[deciohm], SI[dW], Scientific[lenz(resistance)], SI[fW], 
+                                cgs[statohm], SI[hW], SI[yottaohm], SI[decaohm], SI[nW], SI[zeptoohm], SI[femtoohm], 
+                                cgs[esu-W], SI[YW], UK[preece], SI[nanoohm], UK[wheatstone], SI[petaohm], 
+                                US[ohm(legal)], SI[centiohm], SI[EW], German[siemens], SI[exacohm], SI[GW], 
+                                SI[hectoohm], SI[kiloohm], SI[W], SI[MW], SI[uW], SI[yW], cgs[emi-W], 
+                                cgs[emu-of-resistance], SI[gigaohm], US[ohm], SI[aW], SI[zettaohm], IEUS[ohm], SI[cW], 
+                                cgs[abohm], SI[kW], SI[yoctoohm], IEUS[ohm(legal)], SI[mW], Scientific[F/s2], 
+                                Scientific[farad-per-square-hour], Scientific[F/min2], 
+                                Scientific[farad-per-square-year], Scientific[F/yr2], 
+                                Scientific[farad-per-square-minute], Scientific[F/day2], SI[sturgeon], 
+                                Scientific[farad-per-square-day], Scientific[farad-per-square-second], 
+                                Scientific[farad-per-square-month], MKS[yrneh], Scientific[F/mon2], Scientific[F/hr2], 
+                                Scientific[Wb/in], SI[weber-per-kilometer], Scientific[Wb/yd], Si[Wb/cm], SI[Wb/m], 
+                                Scientific[weber-per-foot], Si[weber-per-millimeter], Scientific[Wb/mi], Si[Wb/mm], 
+                                Si[Wb/nm], Si[weber-per-nanometer], SI[weber-per-meter], SI[Wb/km], Si[Wb/um], 
+                                Si[weber-per-centimeter], Scientific[weber-per-mile], Scientific[weber-per-inch], 
+                                Scientific[Wb/ft], Si[weber-per-micrometer], Scientific[weber-per-yard], 
+                                SI[ohm-meter], Imperial[ohm-circular-mil-per-foot], Imperial[ohm-cmi/ft], SI[W-m], 
+                                Imperial[W-cmi/ft], SI[ohm-m], INT[international-annealed-copper-standard], INT[IACS]]
+
+MagneticDipoleMoment Systems [Scientific, a.u., SI]
+
+Units MagneticDipoleMoment [SI[ampere-square-meter], SI[A-m2], Scientific[uB], Scientific[magneton(nuclear)], 
+                            Scientific[BN], Scientific[bohr-magneton], Scientific[B], Scientific[uN], 
+                            Scientific[nuclear-magneton], Scientific[magneton(bohr)], a.u.[audpm], 
+                            a.u.[au-of-magnetic-dipole-moment]]
+
+MagneticDipoleMoment Scientific uB Scientific true 9.27401007836216E-24 magneton(bohr) m2.A L2.I 0.0
+MagneticDipoleMoment Scientific magneton(nuclear) Scientific true 5.05078374609637E-27 magneton(nuclear) m2.A L2.I 0.0
+MagneticDipoleMoment Scientific BN Scientific true 5.05078374609637E-27 magneton(nuclear) m2.A L2.I 0.0
+MagneticDipoleMoment Scientific bohr-magneton Scientific true 9.27401007836216E-24 bohr-magneton m2.A L2.I 0.0
+MagneticDipoleMoment Scientific B Scientific true 9.27401007836216E-24 magneton(bohr) m2.A L2.I 0.0
+MagneticDipoleMoment Scientific uN Scientific true 5.05078374609637E-27 magneton(nuclear) m2.A L2.I 0.0
+MagneticDipoleMoment Scientific nuclear-magneton Scientific true 5.05078374609637E-27 nuclear-magneton m2.A L2.I 0.0
+MagneticDipoleMoment Scientific magneton(bohr) Scientific true 9.27401007836216E-24 magneton(bohr) m2.A L2.I 0.0
+MagneticDipoleMoment a.u. audpm a.u. true 1.85480201567243E-23 au-of-magnetic-dipole-moment m2.A L2.I 0.0
+MagneticDipoleMoment a.u. au-of-magnetic-dipole-moment a.u. true 1.85480201567243E-23 au-of-magnetic-dipole-moment m2.A L2.I 0.0
+MagneticDipoleMoment SI ampere-square-meter SI true 1.0 ampere-square-meter m2.A L2.I 0.0
+MagneticDipoleMoment SI A-m2 SI true 1.0 ampere-square-meter m2.A L2.I 0.0
+
+
+name: EM type: magneticDipoleMoment valid: true
+magneticDipoleMoment from Scientific uB to Scientific uB (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uB to Scientific magneton(nuclear) (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific uB to Scientific BN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific uB to Scientific bohr-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uB to Scientific B (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uB to Scientific uN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific uB to Scientific nuclear-magneton (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific uB to Scientific magneton(bohr) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uB to a.u. audpm (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific uB to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific uB to SI ampere-square-meter (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific uB to SI A-m2 (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific uB (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific magneton(nuclear) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific BN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific bohr-magneton (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific B (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific uN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific nuclear-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(nuclear) to Scientific magneton(bohr) (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific magneton(nuclear) to a.u. audpm (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific magneton(nuclear) to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific magneton(nuclear) to SI ampere-square-meter (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific magneton(nuclear) to SI A-m2 (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific BN to Scientific uB (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific BN to Scientific magneton(nuclear) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific BN to Scientific BN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific BN to Scientific bohr-magneton (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific BN to Scientific B (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific BN to Scientific uN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific BN to Scientific nuclear-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific BN to Scientific magneton(bohr) (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific BN to a.u. audpm (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific BN to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific BN to SI ampere-square-meter (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific BN to SI A-m2 (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific bohr-magneton to Scientific uB (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific bohr-magneton to Scientific magneton(nuclear) (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific bohr-magneton to Scientific BN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific bohr-magneton to Scientific bohr-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific bohr-magneton to Scientific B (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific bohr-magneton to Scientific uN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific bohr-magneton to Scientific nuclear-magneton (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific bohr-magneton to Scientific magneton(bohr) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific bohr-magneton to a.u. audpm (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific bohr-magneton to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific bohr-magneton to SI ampere-square-meter (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific bohr-magneton to SI A-m2 (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific B to Scientific uB (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific B to Scientific magneton(nuclear) (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific B to Scientific BN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific B to Scientific bohr-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific B to Scientific B (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific B to Scientific uN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific B to Scientific nuclear-magneton (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific B to Scientific magneton(bohr) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific B to a.u. audpm (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific B to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific B to SI ampere-square-meter (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific B to SI A-m2 (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific uN to Scientific uB (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific uN to Scientific magneton(nuclear) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uN to Scientific BN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uN to Scientific bohr-magneton (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific uN to Scientific B (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific uN to Scientific uN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uN to Scientific nuclear-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific uN to Scientific magneton(bohr) (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific uN to a.u. audpm (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific uN to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific uN to SI ampere-square-meter (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific uN to SI A-m2 (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific uB (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific magneton(nuclear) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific BN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific bohr-magneton (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific B (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific uN (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific nuclear-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific nuclear-magneton to Scientific magneton(bohr) (convert): PASS value: 1: 5.446170214846656E-4 2: 5.446170214846656E-4 3: 5.446170214846656E-4
+magneticDipoleMoment from Scientific nuclear-magneton to a.u. audpm (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific nuclear-magneton to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 2.723085107423331E-4 2: 2.723085107423331E-4 3: 2.723085107423331E-4
+magneticDipoleMoment from Scientific nuclear-magneton to SI ampere-square-meter (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific nuclear-magneton to SI A-m2 (convert): PASS value: 1: 5.05078374609637E-27 2: 5.05078374609637E-27 3: 5.05078374609637E-27
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific uB (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific magneton(nuclear) (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific BN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific bohr-magneton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific B (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific uN (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific nuclear-magneton (convert): PASS value: 1: 1836.1526734400024 2: 1836.1526734400024 3: 1836.1526734400024
+magneticDipoleMoment from Scientific magneton(bohr) to Scientific magneton(bohr) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from Scientific magneton(bohr) to a.u. audpm (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific magneton(bohr) to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 0.5000000000000006 2: 0.5000000000000006 3: 0.5000000000000006
+magneticDipoleMoment from Scientific magneton(bohr) to SI ampere-square-meter (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from Scientific magneton(bohr) to SI A-m2 (convert): PASS value: 1: 9.27401007836216E-24 2: 9.27401007836216E-24 3: 9.27401007836216E-24
+magneticDipoleMoment from a.u. audpm to Scientific uB (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. audpm to Scientific magneton(nuclear) (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. audpm to Scientific BN (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. audpm to Scientific bohr-magneton (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. audpm to Scientific B (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. audpm to Scientific uN (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. audpm to Scientific nuclear-magneton (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. audpm to Scientific magneton(bohr) (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. audpm to a.u. audpm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from a.u. audpm to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from a.u. audpm to SI ampere-square-meter (convert): PASS value: 1: 1.85480201567243E-23 2: 1.85480201567243E-23 3: 1.85480201567243E-23
+magneticDipoleMoment from a.u. audpm to SI A-m2 (convert): PASS value: 1: 1.85480201567243E-23 2: 1.85480201567243E-23 3: 1.85480201567243E-23
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific uB (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific magneton(nuclear) (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific BN (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific bohr-magneton (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific B (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific uN (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific nuclear-magneton (convert): PASS value: 1: 3672.305346880001 2: 3672.305346880001 3: 3672.305346880001
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to Scientific magneton(bohr) (convert): PASS value: 1: 1.9999999999999978 2: 1.9999999999999978 3: 1.9999999999999978
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to a.u. audpm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to SI ampere-square-meter (convert): PASS value: 1: 1.85480201567243E-23 2: 1.85480201567243E-23 3: 1.85480201567243E-23
+magneticDipoleMoment from a.u. au-of-magnetic-dipole-moment to SI A-m2 (convert): PASS value: 1: 1.85480201567243E-23 2: 1.85480201567243E-23 3: 1.85480201567243E-23
+magneticDipoleMoment from SI ampere-square-meter to Scientific uB (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI ampere-square-meter to Scientific magneton(nuclear) (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI ampere-square-meter to Scientific BN (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI ampere-square-meter to Scientific bohr-magneton (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI ampere-square-meter to Scientific B (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI ampere-square-meter to Scientific uN (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI ampere-square-meter to Scientific nuclear-magneton (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI ampere-square-meter to Scientific magneton(bohr) (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI ampere-square-meter to a.u. audpm (convert): PASS value: 1: 5.391411005327516E22 2: 5.391411005327516E22 3: 5.391411005327516E22
+magneticDipoleMoment from SI ampere-square-meter to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 5.391411005327516E22 2: 5.391411005327516E22 3: 5.391411005327516E22
+magneticDipoleMoment from SI ampere-square-meter to SI ampere-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from SI ampere-square-meter to SI A-m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from SI A-m2 to Scientific uB (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI A-m2 to Scientific magneton(nuclear) (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI A-m2 to Scientific BN (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI A-m2 to Scientific bohr-magneton (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI A-m2 to Scientific B (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI A-m2 to Scientific uN (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI A-m2 to Scientific nuclear-magneton (convert): PASS value: 1: 1.979890746209192E26 2: 1.979890746209192E26 3: 1.979890746209192E26
+magneticDipoleMoment from SI A-m2 to Scientific magneton(bohr) (convert): PASS value: 1: 1.078282201065502E23 2: 1.078282201065502E23 3: 1.078282201065502E23
+magneticDipoleMoment from SI A-m2 to a.u. audpm (convert): PASS value: 1: 5.391411005327516E22 2: 5.391411005327516E22 3: 5.391411005327516E22
+magneticDipoleMoment from SI A-m2 to a.u. au-of-magnetic-dipole-moment (convert): PASS value: 1: 5.391411005327516E22 2: 5.391411005327516E22 3: 5.391411005327516E22
+magneticDipoleMoment from SI A-m2 to SI ampere-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+magneticDipoleMoment from SI A-m2 to SI A-m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:32:53 Duration: 0:0:0:0.028 Version : 1.0
+
+
+********************************************************************************
+

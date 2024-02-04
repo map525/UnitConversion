@@ -1,0 +1,98 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:25 Version : 1.0
+
+name: Angle type: angularAcceleration valid: True
+To System: Scientific From System: Scientific
+AngularAcceleration Types [angle, solidAngle, angularVelocity, angularAcceleration]
+
+AngularAcceleration All Systems [French, Angle, INT, @, Russian, US, Imperial, SI, Scientific]
+
+AngularAcceleration All Units [French[angle-droit], French[D], Angle[centrad], INT[circumference], INT[degree], 
+                               Angle[degree], Angle[dekan], French[dimigrade], French[dmgr], INT[gon], French[gon], 
+                               French[g], French[grade], French[gr], Angle[hour-of-angle], Angle[hoa], Angle[house], 
+                               @[mas], Angle[mil], INT[milangle], INT[millieme], Russian[millieme], US[millieme], 
+                               French[millieme], French[ma], French[millieme(artillery)], French[millieme(Rimailho)], 
+                               French[mr], French[millieme-vrai], French[mv], Angle[milliradian], Angle[millirad], 
+                               @[milliarc-second], @[milliarcsec], @[millisecond-of-arc], Angle[minute], Angle[min], 
+                               INT[minute-of-angle], French[minute-of-angle], French[c], Imperial[o'clock], 
+                               Angle[octant], INT[percent], Angle[plane-angle], INT[point], Angle[quadrant], 
+                               INT[quintant], SI[radian], SI[rad], Angle[radian], Angle[rad], Imperial[revolution], 
+                               Imperial[rev], Angle[right-angle], Angle[round], Angle[second], Angle[sec], 
+                               @[second-longitude], @[sec-lon], INT[second-of-angle], French[second-of-angle], 
+                               French[C], INT[sextant], Angle[sign], INT[thousand], Russian[thousand], US[thousand], 
+                               French[thousand], Imperial[turn], Imperial[tr], SI[yottaradian], SI[Yrad], 
+                               SI[zettaradian], SI[Zrad], SI[exaradian], SI[Erad], SI[petaradian], SI[Prad], 
+                               SI[teraradian], SI[Trad], SI[gigaradian], SI[Grad], SI[megaradian], SI[Mrad], 
+                               SI[kiloradian], SI[krad], SI[hectoradian], SI[hrad], SI[decaradian], SI[darad], 
+                               SI[deciradian], SI[drad], SI[centiradian], SI[crad], SI[milliradian], SI[mrad], 
+                               SI[millirad], SI[microradian], SI[urad], SI[nanoradian], SI[nrad], SI[picoradian], 
+                               SI[prad], SI[femtoradian], SI[frad], SI[attoradian], SI[arad], SI[zeptoradian], 
+                               SI[zrad], SI[yoctoradian], SI[yrad], @[octant], @[sphere], @[spherical-right-angle], 
+                               @[sra], @[square-degree], @[(o)2], @[square-minute], @[(')2], @[min2], 
+                               @[square-second], @[sec2], French[square-gon], French[(g)2], French[square-grade], 
+                               French[(gr)2], Imperial[spat], Imperial[sp], SI[stedian], SI[sd], SI[steradian], 
+                               SI[sr], SI[yottasteradian], SI[Ysr], SI[zettasteradian], SI[Zsr], SI[exasteradian], 
+                               SI[Esr], SI[petasteradian], SI[Psr], SI[terasteradian], SI[Tsr], SI[gigasteradian], 
+                               SI[Gsr], SI[megasteradian], SI[Msr], SI[kilosteradian], SI[ksr], SI[hectosteradian], 
+                               SI[hsr], SI[decasteradian], SI[dasr], SI[decisteradian], SI[dsr], SI[centisteradian], 
+                               SI[csr], SI[millisteradian], SI[msr], SI[microsteradian], SI[usr], SI[nanosteradian], 
+                               SI[nsr], SI[picosteradian], SI[psr], SI[femtosteradian], SI[fsr], SI[attosteradian], 
+                               SI[asr], SI[zeptosteradian], SI[zsr], SI[yoctosteradian], SI[ysr], 
+                               Scientific[degree-per-year], Scientific[o/yr], Scientific[deg/yr], 
+                               Scientific[degree-per-month], Scientific[o/mon], Scientific[deg/mon], 
+                               Scientific[degree-per-day], Scientific[o/d], Scientific[deg/day], 
+                               Scientific[degree-per-hour], Scientific[o/hr], Scientific[deg/hr], 
+                               Scientific[degree-per-minute], Scientific[o/min], Scientific[deg/min], 
+                               Scientific[degree-per-second], Scientific[o/s], Scientific[deg/sec], 
+                               SI[radian-per-year], SI[rad/yr], SI[radian-per-month], SI[rad/mon], SI[radian-per-day], 
+                               SI[rad/day], SI[radian-per-hour], SI[rad/hr], SI[radian-per-minute], SI[rad/min], 
+                               SI[radian-per-second], SI[rad/sec], Scientific[strob], Imperial[revolutions-per-year], 
+                               Imperial[rpy], Imperial[rev/yr], Imperial[revolutions-per-month], Imperial[rev/mon], 
+                               Imperial[revolutions-per-day], Imperial[rpd], Imperial[rev/day], 
+                               Imperial[revolutions-per-hour], Imperial[rph], Imperial[rev/hr], 
+                               Imperial[revolutions-per-minute], Imperial[rpm], Imperial[rev/min], 
+                               Imperial[revolutions-per-second], Imperial[rps], Imperial[rev/sec], 
+                               Imperial[turn-per-second], Imperial[tr/sec], Imperial[turn-per-minute], 
+                               Imperial[tr/min], Imperial[turn-per-hour], Imperial[tr/hr], Imperial[turn-per-day], 
+                               Imperial[tr/day], Imperial[turn-per-month], Imperial[tr/mon], Imperial[turn-per-year], 
+                               Imperial[tr/yr], INT[grade-per-second], INT[gon/sec], INT[grade-per-minute], 
+                               INT[gon/min], INT[grade-per-hour], INT[gon/hr], INT[grade-per-day], INT[gon/day], 
+                               INT[grade-per-month], INT[gon/mon], INT[grade-per-year], INT[gon/yr], 
+                               SI[radian-per-square-second], SI[rad/sec2], Scientific[degree-per-square-second], 
+                               Scientific[deg/sec2]]
+
+AngularAcceleration Systems [SI, Scientific]
+
+Units AngularAcceleration [SI[radian-per-square-second], SI[rad/sec2], Scientific[degree-per-square-second], 
+                           Scientific[deg/sec2]]
+
+AngularAcceleration SI radian-per-square-second SI True 1.0 radian-per-square-second rad/s2 a/T2 0.0
+AngularAcceleration SI rad/sec2 SI True 1.0 radian-per-square-second rad/s2 a/T2 0.0
+AngularAcceleration Scientific degree-per-square-second Scientific True 0.0174532925199433 degree-per-square-second rad/s2 a/T2 0.0
+AngularAcceleration Scientific deg/sec2 Scientific True 0.0174532925199433 degree-per-square-second rad/s2 a/T2 0.0
+
+
+name: Angle type: angularAcceleration valid: True
+angularAcceleration from SI radian-per-square-second to SI radian-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from SI radian-per-square-second to SI rad/sec2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from SI radian-per-square-second to Scientific degree-per-square-second (convert): PASS value: 1: 57.29577951308231 2: 57.29577951308231 3: 57.29577951308231
+angularAcceleration from SI radian-per-square-second to Scientific deg/sec2 (convert): PASS value: 1: 57.29577951308231 2: 57.29577951308231 3: 57.29577951308231
+angularAcceleration from SI rad/sec2 to SI radian-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from SI rad/sec2 to SI rad/sec2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from SI rad/sec2 to Scientific degree-per-square-second (convert): PASS value: 1: 57.29577951308231 2: 57.29577951308231 3: 57.29577951308231
+angularAcceleration from SI rad/sec2 to Scientific deg/sec2 (convert): PASS value: 1: 57.29577951308231 2: 57.29577951308231 3: 57.29577951308231
+angularAcceleration from Scientific degree-per-square-second to SI radian-per-square-second (convert): PASS value: 1: 0.0174532925199433 2: 0.0174532925199433 3: 0.0174532925199433
+angularAcceleration from Scientific degree-per-square-second to SI rad/sec2 (convert): PASS value: 1: 0.0174532925199433 2: 0.0174532925199433 3: 0.0174532925199433
+angularAcceleration from Scientific degree-per-square-second to Scientific degree-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from Scientific degree-per-square-second to Scientific deg/sec2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from Scientific deg/sec2 to SI radian-per-square-second (convert): PASS value: 1: 0.0174532925199433 2: 0.0174532925199433 3: 0.0174532925199433
+angularAcceleration from Scientific deg/sec2 to SI rad/sec2 (convert): PASS value: 1: 0.0174532925199433 2: 0.0174532925199433 3: 0.0174532925199433
+angularAcceleration from Scientific deg/sec2 to Scientific degree-per-square-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+angularAcceleration from Scientific deg/sec2 to Scientific deg/sec2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:25 Duration: 0:00:00.002923 Version : 1.0
+
+********************************************************************************

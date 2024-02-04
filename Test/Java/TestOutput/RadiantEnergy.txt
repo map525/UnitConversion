@@ -1,0 +1,230 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:28:08 Version : 1.0
+
+
+name: Energy type: radiantEnergy valid: true
+To System: Imperial From System: Imperial
+RadiantEnergy Types [heatFlux, thermalConductance, molarEntropy, energyConsumption, entropy, heatTransfer, 
+                     thermalConductivity, radiantEnergy, specificHeat, specificHeatCapacity, heatInsulation, energy]
+
+RadiantEnergy All Systems [Scientific, SI, Imperial, US, cgs, UK, INT, FPS, MKpS, a.u.]
+
+RadiantEnergy All Units [Scientific[FU], Scientific[heat-flux-unit], Scientific[finsen-unit], SI[W/m2], 
+                         Scientific[HFU], SI[watt-per-square-meter], 
+                         Imperial[britishthermalunit(IT)-per-hour-per-square-foot], Imperial[Btu(therm)/hr-ft2], 
+                         Scientific[pyron], Scientific[met], US[gurley-unit], 
+                         Imperial[british-thermal-unit(therm)-per-hour-per-square-foot], Scientific[langley], 
+                         Imperial[Btu(IT)/hr-ft], SI[thermal-ampere], SI[watt-per-per-kelvin], SI[W/K], 
+                         Scientific[ue], Scientific[eu], SI[joule-per-mole-per-kelvin], SI[J/mol-K], 
+                         Scientific[unit-of-entropy], Scientific[entropy-unit], cgs[brewster], 
+                         US[energy-factor(clothes-washers)], cgs[B], US[gallon-per-hour-horsepower], US[EF], 
+                         US[gal/hr-HP], SI[J/K], Scientific[carnot], SI[C/K], Scientific[clausius(rank)], 
+                         SI[coulomb(thermal)], Imperial[Btu(IT)/oF], SI[joule-per-kelvin], 
+                         Imperial[british-thermal-unit(IT)-per-fahrenheit-degree], Scientific[Cl], UK[U-factor], 
+                         Imperial[Btu(therm)/hr-ft2-oF], 
+                         Imperial[british-thermal-unit(IT)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                         Imperial[USI], Imperial[Btu(IT)/hr-ft2-oF], 
+                         Imperial[british-thermal-unit(therm)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                         Scientific[calorie(therm)-per-centimeter-per-second-per-degree-celsius], 
+                         SI[watt-per-meter-per-kelvin], Imperial[Btu(term)/in-hr-oF], 
+                         Imperial[Btu(therm)-in/sec-ft2-oF], Scientific[cal(IT)/cm-sec-oC], 
+                         Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                         Imperial[Btu(term)/ft-hr-oF], 
+                         Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                         Imperial[british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree], SI[J/s-cm-K], 
+                         Imperial[Btu(therm)-in/hr-ft2-oF], Imperial[Btu(IT)-in/sec-ft2-oF], 
+                         Imperial[Btu(IT)/hr-in-oF], cgs[watt-per-centimeter-per-celsius-degree], 
+                         Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                         SI[watt-per-centimeter-per-kelvin], 
+                         Scientific[calorie(IT)-per-centimeter-per-second-per-degree-celsius], SI[J/s-m-K], 
+                         Imperial[british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree], 
+                         SI[joule-per-second-per-centimeter-per-kelvin], cgs[fourier], 
+                         SI[joule-per-second-per-meter-per-kelvin], SI[W/cm-K], 
+                         Imperial[british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree], cgs[W/cm-oC], 
+                         Imperial[british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree], SI[W/m-K], 
+                         Imperial[Btu(IT)-in/hr-ft2-oF], Scientific[cal(therm)/cm-sec-oC], 
+                         Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                         Imperial[Btu(IT)/hr-ft-oF], Scientific[fu], SI[joule-per-square-meter], 
+                         Scientific[flux-unit], cgs[dyn/cm], SI[J/m2], INT[langley], cgs[dyne-per-centimeter], 
+                         cgs[erg/cm2], cgs[erg-per-square-centimeter], Imperial[langley], 
+                         Scientific[calorie(mean)-per-gram], Scientific[calorie(therm)-per-kilogram], 
+                         Scientific[cal(4oC)/g], Scientific[cal/kg], Scientific[cal(20oC)/g], 
+                         Scientific[calorie(15oC)-per-kilogram], Scientific[calorie(therm)-per-gram], 
+                         Scientific[calorie(20oC)-per-kilogram], Scientific[calorie(15oC)-per-gram], 
+                         Scientific[cal(therm)/g], Scientific[calorie(4oC)-per-gram], Scientific[cal(therm)/kg], 
+                         Scientific[cal(15oC)/kg], Scientific[cal/g], Scientific[calorie(4oC)-per-kilogram], 
+                         Scientific[calorie(mean)-per-kilogram], Scientific[cal(4oC)/kg], 
+                         Scientific[calorie-per-gram], Scientific[calorie(IT)-per-kilogram], 
+                         Scientific[calorie(20oC)-per-gram], Scientific[cal(15oC)/g], Scientific[cal(IT)/g], 
+                         Scientific[cal(20oC)/kg], Scientific[cal(IT)/kg], Scientific[cal(mean)/g], 
+                         Scientific[cal(mean)/kg], Scientific[calorie(IT)-per-gram], Scientific[calorie-per-kilogram], 
+                         UK[british-thermal-unit(IT)-per-pound-fahrenheit-degree], 
+                         UK[british-thermal-unit(therm)-per-pound-fahrenheit-degree], UK[Btu(IT)/lb-oF], 
+                         Scientific[mayer], UK[Btu(threm)/lb-oF], UK[clo], Imperial[R-value], UK[tog], 
+                         Scientific[calorie(15oC)], FPS[ft-pdl], SI[exacjoule], SI[dJ], UK[Btu(ISO)], SI[hJ], 
+                         UK[ft-pdl], MKpS[kilogram-force-meter], UK[british-thermal-unit(15.56oC)], SI[pJ], SI[TJ], 
+                         SI[megajoule], INT[joule], UK[british-thermal-unit(39oF)], US[Q-unit], SI[GJ], 
+                         Scientific[kilocalorie(15oC)], a.u.[aue], UK[Btu(IT)], Imperial[therm], 
+                         Scientific[micri-erg], Scientific[Cal], Scientific[kWhr], SI[millijoule], 
+                         Scientific[kilowatt-hour], Imperial[Cthu], US[therm], SI[hectojoule], 
+                         Scientific[liter-atmosphere], SI[joule], Scientific[kgCal], INT[kilocalorie(IT)], SI[mJ], 
+                         FPS[ft-lbf], SI[zeptojoule], Scientific[cal(4oC)], US[BeV], SI[petajoule], INT[calorie(IT)], 
+                         Scientific[fg], INT[toe], Scientific[kilogram-calorie], SI[YJ], INT[tce], 
+                         FPS[british-thermal-unit(mean)], Imperial[cthu], Scientific[calorie(mean)], SI[aJ], 
+                         Scientific[kilocalorie(20oC)], US[kcal(therm)], FPS[foot-poundal], UK[Btu(GIA)], 
+                         Imperial[pound-centigrade-unit], SI[kilojoule], cgs[dyne-centimeter], UK[Btu(60oF)], 
+                         Imperial[celsius-heat-unit], Scientific[eV], SI[J], SI[zv], FPS[duty], SI[PJ], UK[Btu(39oF)], 
+                         UK[british-thermal-unit(Gas)], SI[uJ], Imperial[centigrade-heat-unit], 
+                         Scientific[thermie(15oC)], SI[attojoule], SI[yoctojoule], US[quadrillion(Btu)], 
+                         SI[terajoule], SI[yJ], INT[kcal(IT)], Scientific[kilocalorie(mean)], SI[zettajoule], 
+                         Scientific[Ry], Scientific[th(15oC)], UK[british-thermal-unit(therm)], UK[Btu(4oC)], 
+                         FPS[foot-pound-force], Scientific[calorie], Imperial[pcu], UK[british-thermal-unit-(60oF)], 
+                         UK[british-thermal-unit(IT)], INT[tonne-coal-equivalent], 
+                         Scientific[kiloton-equivalent(TNT)], UK[british-thermal-unit(4oC)], SI[fJ], 
+                         US[barrel-oil-equivalent], UK[british-thermal-unit(GIA)], Scientific[latm], 
+                         Scientific[kt(TNT)], INT[tonne-oil-equivalent], SI[nJ], UK[foot-pound-force], 
+                         Scientific[frigorie], Scientific[kcal(15oC)], Scientific[kilocalorie(4oC)], UK[Btu(Gas)], 
+                         Imperial[chu], Scientific[electronvolt], SI[ZJ], Scientific[calorie(4oC)], FPS[Btu(mean)], 
+                         SI[picojoule], SI[EJ], Imperial[Chu], SI[MJ], Imperial[CHU], Scientific[cal(15oC)], 
+                         UK[british-thermal-unit(ISO)], UK[Btu(15.56oC)], Scientific[kcal], SI[femtojoule], 
+                         US[Btu(59oF)], Scientific[kcal(4oC)], Scientific[megatonne-equivalent(TNT)], 
+                         Scientific[calorie(20oC)], Scientific[Mt(TNT)], US[quad], SI[centijoule], INT[J], 
+                         SI[decajoule], SI[microjoule], SI[daJ], SI[cJ], Scientific[kcal(mean)], 
+                         Scientific[kcal(20oC)], SI[kJ], MKpS[kgfm], UK[Btu(mean)], cgs[erg], US[calorie(therm)], 
+                         SI[yottajoule], a.u.[Eh], UK[Btu(threm)], Scientific[cal(20oC)], 
+                         US[british=thermal-unit(59oF)], UK[british-thermal-unit(mean)], SI[nanojoule], UK[duty], 
+                         UK[foot-poundal], SI[gigajoule], US[kilocalorie(therm)], a.u.[au-of-energy], 
+                         Imperial[centigrade-heat-unit(15oC)], cgs[dyn-cm], a.u.[hartree], SI[N-m], US[cal(therm)], 
+                         Scientific[prout], US[bboe], INT[cal(IT)], Scientific[cal(mean)], UK[ft-lbf], 
+                         Imperial[chu(15oC)], SI[decijoule], UK[kelvin], Imperial[board-of-trade-unit], 
+                         Scientific[rydberg], SI[newton-meter]]
+
+RadiantEnergy Systems [Scientific, SI, cgs, INT, Imperial]
+
+Units RadiantEnergy [Scientific[fu], Scientific[flux-unit], SI[joule-per-square-meter], SI[J/m2], Imperial[langley], 
+                     cgs[dyn/cm], cgs[dyne-per-centimeter], cgs[erg/cm2], cgs[erg-per-square-centimeter], 
+                     INT[langley]]
+
+RadiantEnergy Scientific fu Scientific true 1.0E-26 flux-unit kg/s2 M/T2 0.0
+RadiantEnergy Scientific flux-unit Scientific true 1.0E-26 flux-unit kg/s2 M/T2 0.0
+RadiantEnergy SI joule-per-square-meter SI true 1.0 joule-per-square-meter kg/s2 M/T2 0.0
+RadiantEnergy SI J/m2 SI true 1.0 joule-per-square-meter kg/s2 M/T2 0.0
+RadiantEnergy cgs dyn/cm cgs true 0.001 dyne-per-centimeter kg/s2 M/T2 0.0
+RadiantEnergy cgs dyne-per-centimeter cgs true 0.001 dyne-per-centimeter kg/s2 M/T2 0.0
+RadiantEnergy cgs erg/cm2 cgs true 0.001 erg-per-square-centimeter kg/s2 M/T2 0.0
+RadiantEnergy cgs erg-per-square-centimeter cgs true 0.001 erg-per-square-centimeter kg/s2 M/T2 0.0
+RadiantEnergy INT langley INT true 41855.0 langley kg/s2 M/T2 0.0
+RadiantEnergy Imperial langley Imperial true 41855.0 langley kg/s2 M/T2 0.0
+
+
+name: Energy type: radiantEnergy valid: true
+radiantEnergy from Scientific fu to Scientific fu (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from Scientific fu to Scientific flux-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from Scientific fu to SI joule-per-square-meter (convert): PASS value: 1: 1.0E-26 2: 1.0E-26 3: 1.0E-26
+radiantEnergy from Scientific fu to SI J/m2 (convert): PASS value: 1: 1.0E-26 2: 1.0E-26 3: 1.0E-26
+radiantEnergy from Scientific fu to cgs dyn/cm (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific fu to cgs dyne-per-centimeter (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific fu to cgs erg/cm2 (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific fu to cgs erg-per-square-centimeter (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific fu to INT langley (convert): PASS value: 1: 2.3892008123282764E-31 2: 2.3892008123282764E-31 3: 2.3892008123282764E-31
+radiantEnergy from Scientific fu to Imperial langley (convert): PASS value: 1: 2.3892008123282764E-31 2: 2.3892008123282764E-31 3: 2.3892008123282764E-31
+radiantEnergy from Scientific flux-unit to Scientific fu (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from Scientific flux-unit to Scientific flux-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from Scientific flux-unit to SI joule-per-square-meter (convert): PASS value: 1: 1.0E-26 2: 1.0E-26 3: 1.0E-26
+radiantEnergy from Scientific flux-unit to SI J/m2 (convert): PASS value: 1: 1.0E-26 2: 1.0E-26 3: 1.0E-26
+radiantEnergy from Scientific flux-unit to cgs dyn/cm (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific flux-unit to cgs dyne-per-centimeter (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific flux-unit to cgs erg/cm2 (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific flux-unit to cgs erg-per-square-centimeter (convert): PASS value: 1: 1.0E-23 2: 1.0E-23 3: 1.0E-23
+radiantEnergy from Scientific flux-unit to INT langley (convert): PASS value: 1: 2.3892008123282764E-31 2: 2.3892008123282764E-31 3: 2.3892008123282764E-31
+radiantEnergy from Scientific flux-unit to Imperial langley (convert): PASS value: 1: 2.3892008123282764E-31 2: 2.3892008123282764E-31 3: 2.3892008123282764E-31
+radiantEnergy from SI joule-per-square-meter to Scientific fu (convert): PASS value: 1: 9.999999999999999E25 2: 9.999999999999999E25 3: 9.999999999999999E25
+radiantEnergy from SI joule-per-square-meter to Scientific flux-unit (convert): PASS value: 1: 9.999999999999999E25 2: 9.999999999999999E25 3: 9.999999999999999E25
+radiantEnergy from SI joule-per-square-meter to SI joule-per-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from SI joule-per-square-meter to SI J/m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from SI joule-per-square-meter to cgs dyn/cm (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI joule-per-square-meter to cgs dyne-per-centimeter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI joule-per-square-meter to cgs erg/cm2 (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI joule-per-square-meter to cgs erg-per-square-centimeter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI joule-per-square-meter to INT langley (convert): PASS value: 1: 2.389200812328276E-5 2: 2.389200812328276E-5 3: 2.389200812328276E-5
+radiantEnergy from SI joule-per-square-meter to Imperial langley (convert): PASS value: 1: 2.389200812328276E-5 2: 2.389200812328276E-5 3: 2.389200812328276E-5
+radiantEnergy from SI J/m2 to Scientific fu (convert): PASS value: 1: 9.999999999999999E25 2: 9.999999999999999E25 3: 9.999999999999999E25
+radiantEnergy from SI J/m2 to Scientific flux-unit (convert): PASS value: 1: 9.999999999999999E25 2: 9.999999999999999E25 3: 9.999999999999999E25
+radiantEnergy from SI J/m2 to SI joule-per-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from SI J/m2 to SI J/m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from SI J/m2 to cgs dyn/cm (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI J/m2 to cgs dyne-per-centimeter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI J/m2 to cgs erg/cm2 (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI J/m2 to cgs erg-per-square-centimeter (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+radiantEnergy from SI J/m2 to INT langley (convert): PASS value: 1: 2.389200812328276E-5 2: 2.389200812328276E-5 3: 2.389200812328276E-5
+radiantEnergy from SI J/m2 to Imperial langley (convert): PASS value: 1: 2.389200812328276E-5 2: 2.389200812328276E-5 3: 2.389200812328276E-5
+radiantEnergy from cgs dyn/cm to Scientific fu (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs dyn/cm to Scientific flux-unit (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs dyn/cm to SI joule-per-square-meter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs dyn/cm to SI J/m2 (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs dyn/cm to cgs dyn/cm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyn/cm to cgs dyne-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyn/cm to cgs erg/cm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyn/cm to cgs erg-per-square-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyn/cm to INT langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs dyn/cm to Imperial langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs dyne-per-centimeter to Scientific fu (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs dyne-per-centimeter to Scientific flux-unit (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs dyne-per-centimeter to SI joule-per-square-meter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs dyne-per-centimeter to SI J/m2 (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs dyne-per-centimeter to cgs dyn/cm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyne-per-centimeter to cgs dyne-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyne-per-centimeter to cgs erg/cm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyne-per-centimeter to cgs erg-per-square-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs dyne-per-centimeter to INT langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs dyne-per-centimeter to Imperial langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs erg/cm2 to Scientific fu (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs erg/cm2 to Scientific flux-unit (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs erg/cm2 to SI joule-per-square-meter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs erg/cm2 to SI J/m2 (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs erg/cm2 to cgs dyn/cm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg/cm2 to cgs dyne-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg/cm2 to cgs erg/cm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg/cm2 to cgs erg-per-square-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg/cm2 to INT langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs erg/cm2 to Imperial langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs erg-per-square-centimeter to Scientific fu (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs erg-per-square-centimeter to Scientific flux-unit (convert): PASS value: 1: 9.999999999999999E22 2: 9.999999999999999E22 3: 9.999999999999999E22
+radiantEnergy from cgs erg-per-square-centimeter to SI joule-per-square-meter (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs erg-per-square-centimeter to SI J/m2 (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+radiantEnergy from cgs erg-per-square-centimeter to cgs dyn/cm (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg-per-square-centimeter to cgs dyne-per-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg-per-square-centimeter to cgs erg/cm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg-per-square-centimeter to cgs erg-per-square-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from cgs erg-per-square-centimeter to INT langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from cgs erg-per-square-centimeter to Imperial langley (convert): PASS value: 1: 2.3892008123282763E-8 2: 2.3892008123282763E-8 3: 2.3892008123282763E-8
+radiantEnergy from INT langley to Scientific fu (convert): PASS value: 1: 4.1855E30 2: 4.1855E30 3: 4.1855E30
+radiantEnergy from INT langley to Scientific flux-unit (convert): PASS value: 1: 4.1855E30 2: 4.1855E30 3: 4.1855E30
+radiantEnergy from INT langley to SI joule-per-square-meter (convert): PASS value: 1: 41855.0 2: 41855.0 3: 41855.0
+radiantEnergy from INT langley to SI J/m2 (convert): PASS value: 1: 41855.0 2: 41855.0 3: 41855.0
+radiantEnergy from INT langley to cgs dyn/cm (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from INT langley to cgs dyne-per-centimeter (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from INT langley to cgs erg/cm2 (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from INT langley to cgs erg-per-square-centimeter (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from INT langley to INT langley (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from INT langley to Imperial langley (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from Imperial langley to Scientific fu (convert): PASS value: 1: 4.1855E30 2: 4.1855E30 3: 4.1855E30
+radiantEnergy from Imperial langley to Scientific flux-unit (convert): PASS value: 1: 4.1855E30 2: 4.1855E30 3: 4.1855E30
+radiantEnergy from Imperial langley to SI joule-per-square-meter (convert): PASS value: 1: 41855.0 2: 41855.0 3: 41855.0
+radiantEnergy from Imperial langley to SI J/m2 (convert): PASS value: 1: 41855.0 2: 41855.0 3: 41855.0
+radiantEnergy from Imperial langley to cgs dyn/cm (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from Imperial langley to cgs dyne-per-centimeter (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from Imperial langley to cgs erg/cm2 (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from Imperial langley to cgs erg-per-square-centimeter (convert): PASS value: 1: 4.1855E7 2: 4.1855E7 3: 4.1855E7
+radiantEnergy from Imperial langley to INT langley (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+radiantEnergy from Imperial langley to Imperial langley (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:28:08 Duration: 0:0:0:0.010 Version : 1.0
+
+
+********************************************************************************
+

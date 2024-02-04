@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Angle.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Computer.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Count.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Density.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\DU_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\EM.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Energy.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Flow.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Force.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Frequency.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\GLOBAL_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Luminosity.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Molarity.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PC_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PD_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PM_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Power.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Pressure.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Radiation.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SI_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SpecificDensity.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SYSTEM_UNITS.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Temperature.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Time.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\VelAccJrk.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Viscosity.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Wavenumber.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\WGS84_MODEL.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\BaseSystem.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\CanonicalSystem.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\ConstantGroup.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Constants.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Conversion.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\ConversionBase.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Convert.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Converter.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\SingleSystem.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\SystemUnits.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\TypeGroup.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\UBase.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\UnitConversions.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Value.hpp" />
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Version.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Angle.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Computer.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Count.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Density.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\DU_UNITS.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\EM.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Energy.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Flow.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Force.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Frequency.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\GLOBAL_UNITS.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> /bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Luminosity.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Molarity.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PC_UNITS.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PD_UNITS.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PM_UNITS.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Power.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Pressure.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Radiation.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SI_UNITS.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SpecificDensity.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SYSTEM_UNITS.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Temperature.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Time.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\VelAccJrk.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Viscosity.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Wavenumber.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\WGS84_MODEL.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\BaseSystem.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\CanonicalSystem.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\ConstantGroup.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Constants.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Conversion.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\ConversionBase.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Convert.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Converter.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\SingleSystem.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\SystemUnits.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\TypeGroup.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\UBase.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\UnitConversions.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Value.cpp" />
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Version.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7f4d3d6a-a93b-44f8-9383-ddc0c5f28075}</ProjectGuid>
+    <RootNamespace>UnitConversionLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../../../../UnitConversionLibrary/CPP/UnitConversion/Includes;../../../../UnitConversionLibrary/CPP/Generated</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy ..\Win32\Debug\UnitConversionLib.lib   ..\..\..\..\UnitConversionLibrary\CPP\Libraries\Debug_x32\UnitConversionLib.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>../../../../UnitConversionLibrary/CPP/UnitConversion/Includes;../../../../UnitConversionLibrary/CPP/Generated</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy ..\Win32\Release\UnitConversionLib.lib   ..\..\..\..\UnitConversionLibrary\CPP\Libraries\Release_x32\UnitConversionLib.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../../../../UnitConversionLibrary/CPP/UnitConversion/Includes;../../../../UnitConversionLibrary/CPP/Generated</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy ..\x64\Debug\UnitConversionLib.lib   ..\..\..\..\UnitConversionLibrary\CPP\Libraries\Debug_x64\UnitConversionLib.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>../../../../UnitConversionLibrary/CPP/UnitConversion/Includes;../../../../UnitConversionLibrary/CPP/Generated</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy ..\x64\Release\UnitConversionLib.lib   ..\..\..\..\UnitConversionLibrary\CPP\Libraries\Release_x64\UnitConversionLib.lib</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

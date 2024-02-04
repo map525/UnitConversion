@@ -1,0 +1,52 @@
+********************************************************************************
+
+
+START UnitTestValue February 04, 2024 12:38:59 Version : 1.0
+
+
+Default Constructor
+
+UnitTestValue (Default Constructor): PASS 
+
+Double Constructor
+UnitTestValue (asDouble): PASS 
+UnitTestValue (asInteger): PASS 
+UnitTestValue (dvalue): PASS 
+UnitTestValue (type (DOUBLE)): PASS 
+UnitTestValue (valid): PASS 
+UnitTestValue (value:integer): PASS 
+UnitTestValue (value:double): PASS 
+
+Integer Constructor
+UnitTestValue (asDouble): PASS 
+UnitTestValue (asInteger): PASS 
+UnitTestValue (ivalue): PASS 
+UnitTestValue (type (UINT)): PASS 
+UnitTestValue (valid): PASS 
+UnitTestValue (value:integer): PASS 
+UnitTestValue (value:double): PASS 
+
+Copy Constructor With Double
+UnitTestValue (asDouble): PASS 
+UnitTestValue (asInteger): PASS 
+UnitTestValue (dvalue): PASS 
+UnitTestValue (type (DOUBLE)): PASS 
+UnitTestValue (valid): PASS 
+UnitTestValue (value:integer): PASS 
+UnitTestValue (value:double): PASS 
+
+Copy Constructor With Integer
+UnitTestValue (asDouble): PASS 
+UnitTestValue (asInteger): PASS 
+UnitTestValue (ivalue): PASS 
+UnitTestValue (type (UINT)): PASS 
+UnitTestValue (valid): PASS 
+UnitTestValue (value:integer): PASS 
+UnitTestValue (value:double): PASS 
+
+
+END UnitTestValue February 04, 2024 12:38:59 Duration: 0:0:0:0.002 Version : 1.0
+
+
+********************************************************************************
+

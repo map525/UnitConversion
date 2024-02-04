@@ -1,0 +1,59 @@
+*********************************************************************************
+
+START UnitTestConversionBase February 04, 2024 13:38:05 Version : 1.0
+
+Default Constructor
+UnitTestConversionBase (Default Constructor): PASS 
+
+Name Constructor
+UnitTestConversionBase (Name Constructor): PASS 
+
+Constructor
+UnitTestConversionBase (check): PASS 
+UnitTestConversionBase (name): PASS 
+UnitTestConversionBase (valid): PASS 
+UnitTestConversionBase (fullUnitName): PASS 
+UnitTestConversionBase (rawUnitName): PASS 
+UnitTestConversionBase (unit): PASS 
+UnitTestConversionBase (system): PASS 
+UnitTestConversionBase (typeGroup): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (typeNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+
+Copy Constructor
+UnitTestConversionBase (check): PASS 
+UnitTestConversionBase (name): PASS 
+UnitTestConversionBase (valid): PASS 
+UnitTestConversionBase (fullUnitName): PASS 
+UnitTestConversionBase (rawUnitName): PASS 
+UnitTestConversionBase (unit): PASS 
+UnitTestConversionBase (system): PASS 
+UnitTestConversionBase (typeGroup): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (typeNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+
+Assignment
+UnitTestConversionBase (check): PASS 
+UnitTestConversionBase (name): PASS 
+UnitTestConversionBase (valid): PASS 
+UnitTestConversionBase (fullUnitName): PASS 
+UnitTestConversionBase (rawUnitName): PASS 
+UnitTestConversionBase (unit): PASS 
+UnitTestConversionBase (system): PASS 
+UnitTestConversionBase (typeGroup): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (typeNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+
+
+END UnitTestConversionBase February 04, 2024 13:38:05 Duration: 0.001 Version : 1.0
+
+*********************************************************************************

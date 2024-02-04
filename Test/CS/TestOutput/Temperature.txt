@@ -1,0 +1,179 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:16 Version: 1.0
+name: Temperature type: temperature valid: True
+To System: SI From System: SI
+Temperature Types [temperature]
+
+Temperature All Systems [French, Imperial, INT, SI]
+
+Temperature All Units [French[reaumur], French[oRe], Imperial[fahrenheit], Imperial[oF], Imperial[rankine], 
+                       Imperial[oR], INT[celsius], INT[oC], SI[kelvin], SI[oK], SI[inferno], SI[volt(thermal)]]
+
+Temperature Systems [French, Imperial, INT, SI]
+
+Units Temperature [French[reaumur], French[oRe], Imperial[fahrenheit], Imperial[oF], Imperial[rankine], Imperial[oR], 
+                   INT[celsius], INT[oC], SI[kelvin], SI[oK], SI[inferno], SI[volt(thermal)]]
+
+Temperature French reaumur French True 1.25 reaumur K Q 273.15
+Temperature French oRe French True 1.25 reaumur K Q 273.15
+Temperature Imperial fahrenheit Imperial True 0.555555555555556 fahrenheit K Q 255.372222222222
+Temperature Imperial oF Imperial True 0.555555555555556 fahrenheit K Q 255.372222222222
+Temperature Imperial rankine Imperial True 0.555555555555556 rankine K Q 0
+Temperature Imperial oR Imperial True 0.555555555555556 rankine K Q 0
+Temperature INT celsius INT True 1 celsius K Q 273.15
+Temperature INT oC INT True 1 celsius K Q 273.15
+Temperature SI kelvin SI True 1 kelvin K Q 0
+Temperature SI oK SI True 1 kelvin K Q 0
+Temperature SI inferno SI True 1000000000 inferno K Q 0
+Temperature SI volt(thermal) SI True 1 volt(thermal) K Q 0
+
+
+name: Temperature type: temperature valid: True
+temperature from French reaumur to French reaumur (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from French reaumur to French oRe (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from French reaumur to Imperial fahrenheit (convert): PASS value: 1: 3.425000000000032E+001 2: 3.425000000000032E+001 3: 3.425000000000032E+001
+temperature from French reaumur to Imperial oF (convert): PASS value: 1: 3.425000000000032E+001 2: 3.425000000000032E+001 3: 3.425000000000032E+001
+temperature from French reaumur to Imperial rankine (convert): PASS value: 1: 4.939199999999996E+002 2: 4.939199999999996E+002 3: 4.939199999999996E+002
+temperature from French reaumur to Imperial oR (convert): PASS value: 1: 4.939199999999996E+002 2: 4.939199999999996E+002 3: 4.939199999999996E+002
+temperature from French reaumur to INT celsius (convert): PASS value: 1: 1.250000000000000E+000 2: 1.250000000000000E+000 3: 1.250000000000000E+000
+temperature from French reaumur to INT oC (convert): PASS value: 1: 1.250000000000000E+000 2: 1.250000000000000E+000 3: 1.250000000000000E+000
+temperature from French reaumur to SI kelvin (convert): PASS value: 1: 2.744000000000000E+002 2: 2.744000000000000E+002 3: 2.744000000000000E+002
+temperature from French reaumur to SI oK (convert): PASS value: 1: 2.744000000000000E+002 2: 2.744000000000000E+002 3: 2.744000000000000E+002
+temperature from French reaumur to SI inferno (convert): PASS value: 1: 2.744000000000000E-007 2: 2.744000000000000E-007 3: 2.744000000000000E-007
+temperature from French reaumur to SI volt(thermal) (convert): PASS value: 1: 2.744000000000000E+002 2: 2.744000000000000E+002 3: 2.744000000000000E+002
+temperature from French oRe to French reaumur (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from French oRe to French oRe (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from French oRe to Imperial fahrenheit (convert): PASS value: 1: 3.425000000000032E+001 2: 3.425000000000032E+001 3: 3.425000000000032E+001
+temperature from French oRe to Imperial oF (convert): PASS value: 1: 3.425000000000032E+001 2: 3.425000000000032E+001 3: 3.425000000000032E+001
+temperature from French oRe to Imperial rankine (convert): PASS value: 1: 4.939199999999996E+002 2: 4.939199999999996E+002 3: 4.939199999999996E+002
+temperature from French oRe to Imperial oR (convert): PASS value: 1: 4.939199999999996E+002 2: 4.939199999999996E+002 3: 4.939199999999996E+002
+temperature from French oRe to INT celsius (convert): PASS value: 1: 1.250000000000000E+000 2: 1.250000000000000E+000 3: 1.250000000000000E+000
+temperature from French oRe to INT oC (convert): PASS value: 1: 1.250000000000000E+000 2: 1.250000000000000E+000 3: 1.250000000000000E+000
+temperature from French oRe to SI kelvin (convert): PASS value: 1: 2.744000000000000E+002 2: 2.744000000000000E+002 3: 2.744000000000000E+002
+temperature from French oRe to SI oK (convert): PASS value: 1: 2.744000000000000E+002 2: 2.744000000000000E+002 3: 2.744000000000000E+002
+temperature from French oRe to SI inferno (convert): PASS value: 1: 2.744000000000000E-007 2: 2.744000000000000E-007 3: 2.744000000000000E-007
+temperature from French oRe to SI volt(thermal) (convert): PASS value: 1: 2.744000000000000E+002 2: 2.744000000000000E+002 3: 2.744000000000000E+002
+temperature from Imperial fahrenheit to French reaumur (convert): PASS value: 1: -1.377777777777794E+001 2: -1.377777777777794E+001 3: -1.377777777777794E+001
+temperature from Imperial fahrenheit to French oRe (convert): PASS value: 1: -1.377777777777794E+001 2: -1.377777777777794E+001 3: -1.377777777777794E+001
+temperature from Imperial fahrenheit to Imperial fahrenheit (convert): PASS value: 1: 9.999999999999765E-001 2: 9.999999999999765E-001 3: 9.999999999999765E-001
+temperature from Imperial fahrenheit to Imperial oF (convert): PASS value: 1: 9.999999999999765E-001 2: 9.999999999999765E-001 3: 9.999999999999765E-001
+temperature from Imperial fahrenheit to Imperial rankine (convert): PASS value: 1: 4.606699999999992E+002 2: 4.606699999999992E+002 3: 4.606699999999992E+002
+temperature from Imperial fahrenheit to Imperial oR (convert): PASS value: 1: 4.606699999999992E+002 2: 4.606699999999992E+002 3: 4.606699999999992E+002
+temperature from Imperial fahrenheit to INT celsius (convert): PASS value: 1: -1.722222222222243E+001 2: -1.722222222222243E+001 3: -1.722222222222243E+001
+temperature from Imperial fahrenheit to INT oC (convert): PASS value: 1: -1.722222222222243E+001 2: -1.722222222222243E+001 3: -1.722222222222243E+001
+temperature from Imperial fahrenheit to SI kelvin (convert): PASS value: 1: 2.559277777777775E+002 2: 2.559277777777775E+002 3: 2.559277777777775E+002
+temperature from Imperial fahrenheit to SI oK (convert): PASS value: 1: 2.559277777777775E+002 2: 2.559277777777775E+002 3: 2.559277777777775E+002
+temperature from Imperial fahrenheit to SI inferno (convert): PASS value: 1: 2.559277777777775E-007 2: 2.559277777777775E-007 3: 2.559277777777775E-007
+temperature from Imperial fahrenheit to SI volt(thermal) (convert): PASS value: 1: 2.559277777777775E+002 2: 2.559277777777775E+002 3: 2.559277777777775E+002
+temperature from Imperial oF to French reaumur (convert): PASS value: 1: -1.377777777777794E+001 2: -1.377777777777794E+001 3: -1.377777777777794E+001
+temperature from Imperial oF to French oRe (convert): PASS value: 1: -1.377777777777794E+001 2: -1.377777777777794E+001 3: -1.377777777777794E+001
+temperature from Imperial oF to Imperial fahrenheit (convert): PASS value: 1: 9.999999999999765E-001 2: 9.999999999999765E-001 3: 9.999999999999765E-001
+temperature from Imperial oF to Imperial oF (convert): PASS value: 1: 9.999999999999765E-001 2: 9.999999999999765E-001 3: 9.999999999999765E-001
+temperature from Imperial oF to Imperial rankine (convert): PASS value: 1: 4.606699999999992E+002 2: 4.606699999999992E+002 3: 4.606699999999992E+002
+temperature from Imperial oF to Imperial oR (convert): PASS value: 1: 4.606699999999992E+002 2: 4.606699999999992E+002 3: 4.606699999999992E+002
+temperature from Imperial oF to INT celsius (convert): PASS value: 1: -1.722222222222243E+001 2: -1.722222222222243E+001 3: -1.722222222222243E+001
+temperature from Imperial oF to INT oC (convert): PASS value: 1: -1.722222222222243E+001 2: -1.722222222222243E+001 3: -1.722222222222243E+001
+temperature from Imperial oF to SI kelvin (convert): PASS value: 1: 2.559277777777775E+002 2: 2.559277777777775E+002 3: 2.559277777777775E+002
+temperature from Imperial oF to SI oK (convert): PASS value: 1: 2.559277777777775E+002 2: 2.559277777777775E+002 3: 2.559277777777775E+002
+temperature from Imperial oF to SI inferno (convert): PASS value: 1: 2.559277777777775E-007 2: 2.559277777777775E-007 3: 2.559277777777775E-007
+temperature from Imperial oF to SI volt(thermal) (convert): PASS value: 1: 2.559277777777775E+002 2: 2.559277777777775E+002 3: 2.559277777777775E+002
+temperature from Imperial rankine to French reaumur (convert): PASS value: 1: -2.180755555555556E+002 2: -2.180755555555556E+002 3: -2.180755555555556E+002
+temperature from Imperial rankine to French oRe (convert): PASS value: 1: -2.180755555555556E+002 2: -2.180755555555556E+002 3: -2.180755555555556E+002
+temperature from Imperial rankine to Imperial fahrenheit (convert): PASS value: 1: -4.586699999999992E+002 2: -4.586699999999992E+002 3: -4.586699999999992E+002
+temperature from Imperial rankine to Imperial oF (convert): PASS value: 1: -4.586699999999992E+002 2: -4.586699999999992E+002 3: -4.586699999999992E+002
+temperature from Imperial rankine to Imperial rankine (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from Imperial rankine to Imperial oR (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from Imperial rankine to INT celsius (convert): PASS value: 1: -2.725944444444444E+002 2: -2.725944444444444E+002 3: -2.725944444444444E+002
+temperature from Imperial rankine to INT oC (convert): PASS value: 1: -2.725944444444444E+002 2: -2.725944444444444E+002 3: -2.725944444444444E+002
+temperature from Imperial rankine to SI kelvin (convert): PASS value: 1: 5.555555555555560E-001 2: 5.555555555555560E-001 3: 5.555555555555560E-001
+temperature from Imperial rankine to SI oK (convert): PASS value: 1: 5.555555555555560E-001 2: 5.555555555555560E-001 3: 5.555555555555560E-001
+temperature from Imperial rankine to SI inferno (convert): PASS value: 1: 5.555555555555560E-010 2: 5.555555555555560E-010 3: 5.555555555555560E-010
+temperature from Imperial rankine to SI volt(thermal) (convert): PASS value: 1: 5.555555555555560E-001 2: 5.555555555555560E-001 3: 5.555555555555560E-001
+temperature from Imperial oR to French reaumur (convert): PASS value: 1: -2.180755555555556E+002 2: -2.180755555555556E+002 3: -2.180755555555556E+002
+temperature from Imperial oR to French oRe (convert): PASS value: 1: -2.180755555555556E+002 2: -2.180755555555556E+002 3: -2.180755555555556E+002
+temperature from Imperial oR to Imperial fahrenheit (convert): PASS value: 1: -4.586699999999992E+002 2: -4.586699999999992E+002 3: -4.586699999999992E+002
+temperature from Imperial oR to Imperial oF (convert): PASS value: 1: -4.586699999999992E+002 2: -4.586699999999992E+002 3: -4.586699999999992E+002
+temperature from Imperial oR to Imperial rankine (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from Imperial oR to Imperial oR (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from Imperial oR to INT celsius (convert): PASS value: 1: -2.725944444444444E+002 2: -2.725944444444444E+002 3: -2.725944444444444E+002
+temperature from Imperial oR to INT oC (convert): PASS value: 1: -2.725944444444444E+002 2: -2.725944444444444E+002 3: -2.725944444444444E+002
+temperature from Imperial oR to SI kelvin (convert): PASS value: 1: 5.555555555555560E-001 2: 5.555555555555560E-001 3: 5.555555555555560E-001
+temperature from Imperial oR to SI oK (convert): PASS value: 1: 5.555555555555560E-001 2: 5.555555555555560E-001 3: 5.555555555555560E-001
+temperature from Imperial oR to SI inferno (convert): PASS value: 1: 5.555555555555560E-010 2: 5.555555555555560E-010 3: 5.555555555555560E-010
+temperature from Imperial oR to SI volt(thermal) (convert): PASS value: 1: 5.555555555555560E-001 2: 5.555555555555560E-001 3: 5.555555555555560E-001
+temperature from INT celsius to French reaumur (convert): PASS value: 1: 8.000000000000000E-001 2: 8.000000000000000E-001 3: 8.000000000000000E-001
+temperature from INT celsius to French oRe (convert): PASS value: 1: 8.000000000000000E-001 2: 8.000000000000000E-001 3: 8.000000000000000E-001
+temperature from INT celsius to Imperial fahrenheit (convert): PASS value: 1: 3.380000000000032E+001 2: 3.380000000000032E+001 3: 3.380000000000032E+001
+temperature from INT celsius to Imperial oF (convert): PASS value: 1: 3.380000000000032E+001 2: 3.380000000000032E+001 3: 3.380000000000032E+001
+temperature from INT celsius to Imperial rankine (convert): PASS value: 1: 4.934699999999995E+002 2: 4.934699999999995E+002 3: 4.934699999999995E+002
+temperature from INT celsius to Imperial oR (convert): PASS value: 1: 4.934699999999995E+002 2: 4.934699999999995E+002 3: 4.934699999999995E+002
+temperature from INT celsius to INT celsius (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from INT celsius to INT oC (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from INT celsius to SI kelvin (convert): PASS value: 1: 2.741500000000000E+002 2: 2.741500000000000E+002 3: 2.741500000000000E+002
+temperature from INT celsius to SI oK (convert): PASS value: 1: 2.741500000000000E+002 2: 2.741500000000000E+002 3: 2.741500000000000E+002
+temperature from INT celsius to SI inferno (convert): PASS value: 1: 2.741500000000000E-007 2: 2.741500000000000E-007 3: 2.741500000000000E-007
+temperature from INT celsius to SI volt(thermal) (convert): PASS value: 1: 2.741500000000000E+002 2: 2.741500000000000E+002 3: 2.741500000000000E+002
+temperature from INT oC to French reaumur (convert): PASS value: 1: 8.000000000000000E-001 2: 8.000000000000000E-001 3: 8.000000000000000E-001
+temperature from INT oC to French oRe (convert): PASS value: 1: 8.000000000000000E-001 2: 8.000000000000000E-001 3: 8.000000000000000E-001
+temperature from INT oC to Imperial fahrenheit (convert): PASS value: 1: 3.380000000000032E+001 2: 3.380000000000032E+001 3: 3.380000000000032E+001
+temperature from INT oC to Imperial oF (convert): PASS value: 1: 3.380000000000032E+001 2: 3.380000000000032E+001 3: 3.380000000000032E+001
+temperature from INT oC to Imperial rankine (convert): PASS value: 1: 4.934699999999995E+002 2: 4.934699999999995E+002 3: 4.934699999999995E+002
+temperature from INT oC to Imperial oR (convert): PASS value: 1: 4.934699999999995E+002 2: 4.934699999999995E+002 3: 4.934699999999995E+002
+temperature from INT oC to INT celsius (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from INT oC to INT oC (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from INT oC to SI kelvin (convert): PASS value: 1: 2.741500000000000E+002 2: 2.741500000000000E+002 3: 2.741500000000000E+002
+temperature from INT oC to SI oK (convert): PASS value: 1: 2.741500000000000E+002 2: 2.741500000000000E+002 3: 2.741500000000000E+002
+temperature from INT oC to SI inferno (convert): PASS value: 1: 2.741500000000000E-007 2: 2.741500000000000E-007 3: 2.741500000000000E-007
+temperature from INT oC to SI volt(thermal) (convert): PASS value: 1: 2.741500000000000E+002 2: 2.741500000000000E+002 3: 2.741500000000000E+002
+temperature from SI kelvin to French reaumur (convert): PASS value: 1: -2.177200000000000E+002 2: -2.177200000000000E+002 3: -2.177200000000000E+002
+temperature from SI kelvin to French oRe (convert): PASS value: 1: -2.177200000000000E+002 2: -2.177200000000000E+002 3: -2.177200000000000E+002
+temperature from SI kelvin to Imperial fahrenheit (convert): PASS value: 1: -4.578699999999992E+002 2: -4.578699999999992E+002 3: -4.578699999999992E+002
+temperature from SI kelvin to Imperial oF (convert): PASS value: 1: -4.578699999999992E+002 2: -4.578699999999992E+002 3: -4.578699999999992E+002
+temperature from SI kelvin to Imperial rankine (convert): PASS value: 1: 1.799999999999998E+000 2: 1.799999999999998E+000 3: 1.799999999999998E+000
+temperature from SI kelvin to Imperial oR (convert): PASS value: 1: 1.799999999999998E+000 2: 1.799999999999998E+000 3: 1.799999999999998E+000
+temperature from SI kelvin to INT celsius (convert): PASS value: 1: -2.721500000000000E+002 2: -2.721500000000000E+002 3: -2.721500000000000E+002
+temperature from SI kelvin to INT oC (convert): PASS value: 1: -2.721500000000000E+002 2: -2.721500000000000E+002 3: -2.721500000000000E+002
+temperature from SI kelvin to SI kelvin (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI kelvin to SI oK (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI kelvin to SI inferno (convert): PASS value: 1: 1.000000000000000E-009 2: 1.000000000000000E-009 3: 1.000000000000000E-009
+temperature from SI kelvin to SI volt(thermal) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI oK to French reaumur (convert): PASS value: 1: -2.177200000000000E+002 2: -2.177200000000000E+002 3: -2.177200000000000E+002
+temperature from SI oK to French oRe (convert): PASS value: 1: -2.177200000000000E+002 2: -2.177200000000000E+002 3: -2.177200000000000E+002
+temperature from SI oK to Imperial fahrenheit (convert): PASS value: 1: -4.578699999999992E+002 2: -4.578699999999992E+002 3: -4.578699999999992E+002
+temperature from SI oK to Imperial oF (convert): PASS value: 1: -4.578699999999992E+002 2: -4.578699999999992E+002 3: -4.578699999999992E+002
+temperature from SI oK to Imperial rankine (convert): PASS value: 1: 1.799999999999998E+000 2: 1.799999999999998E+000 3: 1.799999999999998E+000
+temperature from SI oK to Imperial oR (convert): PASS value: 1: 1.799999999999998E+000 2: 1.799999999999998E+000 3: 1.799999999999998E+000
+temperature from SI oK to INT celsius (convert): PASS value: 1: -2.721500000000000E+002 2: -2.721500000000000E+002 3: -2.721500000000000E+002
+temperature from SI oK to INT oC (convert): PASS value: 1: -2.721500000000000E+002 2: -2.721500000000000E+002 3: -2.721500000000000E+002
+temperature from SI oK to SI kelvin (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI oK to SI oK (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI oK to SI inferno (convert): PASS value: 1: 1.000000000000000E-009 2: 1.000000000000000E-009 3: 1.000000000000000E-009
+temperature from SI oK to SI volt(thermal) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI inferno to French reaumur (convert): PASS value: 1: 7.999997814800000E+008 2: 7.999997814800000E+008 3: 7.999997814800000E+008
+temperature from SI inferno to French oRe (convert): PASS value: 1: 7.999997814800000E+008 2: 7.999997814800000E+008 3: 7.999997814800000E+008
+temperature from SI inferno to Imperial fahrenheit (convert): PASS value: 1: 1.799999540329998E+009 2: 1.799999540329998E+009 3: 1.799999540329998E+009
+temperature from SI inferno to Imperial oF (convert): PASS value: 1: 1.799999540329998E+009 2: 1.799999540329998E+009 3: 1.799999540329998E+009
+temperature from SI inferno to Imperial rankine (convert): PASS value: 1: 1.799999999999999E+009 2: 1.799999999999999E+009 3: 1.799999999999999E+009
+temperature from SI inferno to Imperial oR (convert): PASS value: 1: 1.799999999999999E+009 2: 1.799999999999999E+009 3: 1.799999999999999E+009
+temperature from SI inferno to INT celsius (convert): PASS value: 1: 9.999997268500000E+008 2: 9.999997268500000E+008 3: 9.999997268500000E+008
+temperature from SI inferno to INT oC (convert): PASS value: 1: 9.999997268500000E+008 2: 9.999997268500000E+008 3: 9.999997268500000E+008
+temperature from SI inferno to SI kelvin (convert): PASS value: 1: 1.000000000000000E+009 2: 1.000000000000000E+009 3: 1.000000000000000E+009
+temperature from SI inferno to SI oK (convert): PASS value: 1: 1.000000000000000E+009 2: 1.000000000000000E+009 3: 1.000000000000000E+009
+temperature from SI inferno to SI inferno (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI inferno to SI volt(thermal) (convert): PASS value: 1: 1.000000000000000E+009 2: 1.000000000000000E+009 3: 1.000000000000000E+009
+temperature from SI volt(thermal) to French reaumur (convert): PASS value: 1: -2.177200000000000E+002 2: -2.177200000000000E+002 3: -2.177200000000000E+002
+temperature from SI volt(thermal) to French oRe (convert): PASS value: 1: -2.177200000000000E+002 2: -2.177200000000000E+002 3: -2.177200000000000E+002
+temperature from SI volt(thermal) to Imperial fahrenheit (convert): PASS value: 1: -4.578699999999992E+002 2: -4.578699999999992E+002 3: -4.578699999999992E+002
+temperature from SI volt(thermal) to Imperial oF (convert): PASS value: 1: -4.578699999999992E+002 2: -4.578699999999992E+002 3: -4.578699999999992E+002
+temperature from SI volt(thermal) to Imperial rankine (convert): PASS value: 1: 1.799999999999998E+000 2: 1.799999999999998E+000 3: 1.799999999999998E+000
+temperature from SI volt(thermal) to Imperial oR (convert): PASS value: 1: 1.799999999999998E+000 2: 1.799999999999998E+000 3: 1.799999999999998E+000
+temperature from SI volt(thermal) to INT celsius (convert): PASS value: 1: -2.721500000000000E+002 2: -2.721500000000000E+002 3: -2.721500000000000E+002
+temperature from SI volt(thermal) to INT oC (convert): PASS value: 1: -2.721500000000000E+002 2: -2.721500000000000E+002 3: -2.721500000000000E+002
+temperature from SI volt(thermal) to SI kelvin (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI volt(thermal) to SI oK (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+temperature from SI volt(thermal) to SI inferno (convert): PASS value: 1: 1.000000000000000E-009 2: 1.000000000000000E-009 3: 1.000000000000000E-009
+temperature from SI volt(thermal) to SI volt(thermal) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:16 Duration: 00:00:00.0015716 Version: 1.0

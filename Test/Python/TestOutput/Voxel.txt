@@ -1,0 +1,31 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:25 Version : 1.0
+
+name: Computer type: voxel valid: True
+To System: Computer From System: Computer
+Voxel Types [computer, screenResolution, voxel]
+
+Voxel All Systems [Computer]
+
+Voxel All Units [Computer[bit], Computer[b], Computer[byte], Computer[o], Computer[B], Computer[octet], 
+                 Computer[character], Computer[ch], Computer[nibble], Computer[ni], Computer[nybble], Computer[ny], 
+                 Computer[quad], Computer[q], Computer[rune], Computer[r], Computer[word], Computer[wd], 
+                 Computer[kilobyte], Computer[KB], Computer[megabyte], Computer[MB], Computer[gigabyte], Computer[GB], 
+                 Computer[terabyte], Computer[TB], Computer[petabyte], Computer[PB], Computer[pixel], Computer[voxel]]
+
+Voxel Systems [Computer]
+
+Units Voxel [Computer[voxel]]
+
+Voxel Computer voxel Computer True 1 voxel voxel voxel 0.0
+
+
+name: Computer type: voxel valid: True
+voxel from Computer voxel to Computer voxel (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:25 Duration: 0:00:00.000995 Version : 1.0
+
+********************************************************************************

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BaseTest">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MainTest">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SystemTests">
+      <UniqueIdentifier>{05dc2364-74de-4102-b911-91a0befdac13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CompTests">
+      <UniqueIdentifier>{ffdf7f27-764e-4e5b-be9e-4bc15668ead5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTests">
+      <UniqueIdentifier>{d3611349-171c-423a-9922-b56d861ac7df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BaseTest\UnitConversionBaseTest.cpp">
+      <Filter>BaseTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompTests\UnitConversionBasicTest.cpp">
+      <Filter>CompTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompTests\UnitConversionConstantTest.cpp">
+      <Filter>CompTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompTests\UnitConversionConvertTest.cpp">
+      <Filter>CompTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CompTests\UnitConversionUnitsTest.cpp">
+      <Filter>CompTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestBaseSystem.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestCanonicalSystem.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestConstantGroup.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestConstants.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestConversion.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestConversionBase.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestConvert.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestConverter.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestSingleSystem.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestSystemUnits.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestTypeGroup.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestUBase.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestUnitConversions.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestValue.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTests\UnitTestVersion.cpp">
+      <Filter>UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SystemTests\SystemTestConstants.cpp">
+      <Filter>SystemTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SystemTests\SystemTestSystemUnits.cpp">
+      <Filter>SystemTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SystemTests\SystemTestUnitConversions.cpp">
+      <Filter>SystemTests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MainTest\UnitConversionTest.cpp">
+      <Filter>MainTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BaseTest\UnitConversionBaseTest.hpp">
+      <Filter>BaseTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompTests\UnitConversionBasicTest.hpp">
+      <Filter>CompTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompTests\UnitConversionConstantTest.hpp">
+      <Filter>CompTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompTests\UnitConversionConvertTest.hpp">
+      <Filter>CompTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CompTests\UnitConversionUnitsTest.hpp">
+      <Filter>CompTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestBaseSystem.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestCanonicalSystem.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestConstantGroup.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestConstants.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestConversion.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestConversionBase.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestConvert.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestConverter.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestSingleSystem.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestSystemUnits.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestTypeGroup.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestUBase.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestUnitConversions.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestValue.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTests\UnitTestVersion.hpp">
+      <Filter>UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SystemTests\SystemTestConstants.hpp">
+      <Filter>SystemTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SystemTests\SystemTestSystemUnits.hpp">
+      <Filter>SystemTests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SystemTests\SystemTestUnitConversions.hpp">
+      <Filter>SystemTests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+*****************************************
+*****************************************
+
+
+START UnitTestConversionBase February 04, 2024 12:47:00 Version : 1.0
+
+
+Default Constructor
+UnitTestConversionBase (Default Constructor): PASS 
+
+Name Constructor
+UnitTestConversionBase (Name Constructor): PASS 
+
+Constructor
+UnitTestConversionBase (check): PASS 
+UnitTestConversionBase (name): PASS 
+UnitTestConversionBase (valid): PASS 
+UnitTestConversionBase (fullUnitName): PASS 
+UnitTestConversionBase (rawUnitName): PASS 
+UnitTestConversionBase (unit): PASS 
+UnitTestConversionBase (system): PASS 
+UnitTestConversionBase (typeGroup): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (typeNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+
+Copy Constructor
+UnitTestConversionBase (check): PASS 
+UnitTestConversionBase (name): PASS 
+UnitTestConversionBase (valid): PASS 
+UnitTestConversionBase (fullUnitName): PASS 
+UnitTestConversionBase (rawUnitName): PASS 
+UnitTestConversionBase (unit): PASS 
+UnitTestConversionBase (system): PASS 
+UnitTestConversionBase (typeGroup): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (systemNames): PASS 
+UnitTestConversionBase (typeNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+UnitTestConversionBase (unitNames): PASS 
+
+
+END UnitTestConversionBase February 04, 2024 12:47:00 Duration: 00:00:00.0000694 Version : 1.0
+
+
+*****************************************
+*****************************************
+

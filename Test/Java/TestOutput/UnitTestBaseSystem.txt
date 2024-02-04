@@ -1,0 +1,54 @@
+********************************************************************************
+
+
+START UnitTestBaseSystem February 04, 2024 12:38:59 Version : 1.0
+
+
+Default Constructor
+UnitTestBaseSystem (Default Constructor): PASS 
+
+Unit Constructor
+UnitTestBaseSystem (check): PASS 
+UnitTestBaseSystem (name): PASS 
+UnitTestBaseSystem (valid): PASS 
+UnitTestBaseSystem (version): PASS 
+UnitTestBaseSystem (unit): PASS 
+UnitTestBaseSystem (addUnit): PASS 
+UnitTestBaseSystem (removeUnit): PASS 
+UnitTestBaseSystem (typeNames): PASS 
+UnitTestBaseSystem (systemNames): PASS 
+UnitTestBaseSystem (unitNames): PASS 
+UnitTestBaseSystem (typeGroup): PASS 
+
+Length, area, mass, liquid, dry Constructor
+UnitTestBaseSystem (check): PASS 
+UnitTestBaseSystem (name): PASS 
+UnitTestBaseSystem (valid): PASS 
+UnitTestBaseSystem (version): PASS 
+UnitTestBaseSystem (unit): PASS 
+UnitTestBaseSystem (addUnit): PASS 
+UnitTestBaseSystem (removeUnit): PASS 
+UnitTestBaseSystem (typeNames): PASS 
+UnitTestBaseSystem (systemNames): PASS 
+UnitTestBaseSystem (unitNames): PASS 
+UnitTestBaseSystem (typeGroup): PASS 
+
+Copy Constructor With length, area, mass, liquid, dry
+UnitTestBaseSystem (check): PASS 
+UnitTestBaseSystem (name): PASS 
+UnitTestBaseSystem (valid): PASS 
+UnitTestBaseSystem (version): PASS 
+UnitTestBaseSystem (unit): PASS 
+UnitTestBaseSystem (addUnit): PASS 
+UnitTestBaseSystem (removeUnit): PASS 
+UnitTestBaseSystem (typeNames): PASS 
+UnitTestBaseSystem (systemNames): PASS 
+UnitTestBaseSystem (unitNames): PASS 
+UnitTestBaseSystem (typeGroup): PASS 
+
+
+END UnitTestBaseSystem February 04, 2024 12:38:59 Duration: 0:0:0:0.002 Version : 1.0
+
+
+********************************************************************************
+

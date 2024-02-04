@@ -1,0 +1,427 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:10:42 Version : 1.0
+
+name: Luminosity type: luminance valid: 1
+To System: Scientific From System: Scientific
+Luminance Types [illuminance, luminance, luminousFlux, luminousIntensity, radiantIntensity]
+Luminance All Systems [German, SI, UK, French, MKSA, Scientific, US, cgs, Imperial, INT]
+Luminance All Units [German[nox], German[skot], SI[Elx], SI[Glx], SI[Mlx], SI[Plx], SI[Tlx], SI[Ylx], SI[Zlx], 
+                     SI[alx], SI[attolux], SI[centilux], SI[clx], SI[dalx], SI[decalux], SI[decilux], SI[dlx], 
+                     SI[exalux], SI[femtolux], SI[flx], SI[gigalux], SI[hectolux], SI[hlx], SI[kilolux], SI[klx], 
+                     SI[lux], SI[lx], SI[megalux], SI[microlux], SI[millilux], SI[mlx], SI[nanolux], SI[nlx], 
+                     SI[petalux], SI[picolux], SI[plx], SI[teralux], SI[ulx], SI[ylx], SI[yoctolux], SI[yottalux], 
+                     SI[zeptolux], SI[zettalux], SI[zlx], UK[dt-cd], UK[fc], UK[foot-candle], UK[ft-C], 
+                     French[blondel], German[apostilb], German[asb], MKSA[nit], SI[candela-per-square-meter], 
+                     SI[cd/m2], Scientific[brill], Scientific[luxon], Scientific[troland], US[L], 
+                     US[candela-per-square-foot], US[cd/ft2], US[foot-lambert], US[ft-L], US[lambert], cgs[ph], 
+                     cgs[phot], cgs[sb], cgs[stilb], Imperial[candlepower(spherical)], SI[Elm], SI[Glm], SI[Mlm], 
+                     SI[Plm], SI[Tlm], SI[Ylm], SI[Zlm], SI[alm], SI[attolumen], SI[centilumen], SI[clm], SI[dalm], 
+                     SI[decalumen], SI[decilumen], SI[dlm], SI[exalumen], SI[femtolumen], SI[flm], SI[gigalumen], 
+                     SI[hectolumen], SI[hlm], SI[kilolumen], SI[klm], SI[lm], SI[lumen], SI[megalumen], 
+                     SI[microlumen], SI[millilumen], SI[mlm], SI[nanolumen], SI[nlm], SI[petalumen], SI[picolumen], 
+                     SI[plm], SI[teralumen], SI[ulm], SI[ylm], SI[yoctolumen], SI[yottalumen], SI[zeptolumen], 
+                     SI[zettalumen], SI[zlm], French[bn], French[bougie-nouvelle], French[carcel], German[HK], 
+                     German[hefner-unit], German[hefnerkerze], German[hu], INT[bi], 
+                     INT[bougie-decimale-inlemationale], INT[c], INT[candle(new)], INT[candle], SI[Ecd], SI[Gcd], 
+                     SI[Mcd], SI[Pcd], SI[Tcd], SI[Ycd], SI[Zcd], SI[acd], SI[attocandela], SI[candela], SI[ccd], 
+                     SI[cd], SI[centicandela], SI[dacd], SI[dcd], SI[decacandela], SI[decicandela], SI[exacandela], 
+                     SI[fcd], SI[femtocandela], SI[gigacandela], SI[hcd], SI[hectocandela], SI[kcd], SI[kilocandela], 
+                     SI[mcd], SI[megacandela], SI[microcandela], SI[millicandela], SI[nanocandela], SI[ncd], SI[pcd], 
+                     SI[petacandela], SI[picocandela], SI[teracandela], SI[ucd], SI[ycd], SI[yoctocandela], 
+                     SI[yottacandela], SI[zcd], SI[zeptocandela], SI[zettacandela], Scientific[bd], 
+                     Scientific[bougie-decimale], Scientific[violle], UK[bn], UK[bougie-nouvelle], UK[c], 
+                     UK[candle(int)], UK[candle(pentane)], UK[carcel-unit], SI[GW/W], SI[MW/W], SI[W/W], 
+                     SI[gigawatt-per-steradian], SI[kW/W], SI[kilowatt-per-steradian], SI[mW/W], 
+                     SI[megawatt-per-steradian], SI[microwatt-per-steradian], SI[milliwatt-per-steradian], SI[uW/W], 
+                     SI[watt-per-steradian], cgs[lumberg]]
+Luminance Systems [French, German, MKSA, SI, Scientific, US, cgs]
+Units Luminance [German[apostilb], German[asb], SI[candela-per-square-meter], SI[cd/m2], French[blondel], MKSA[nit], 
+                 Scientific[brill], Scientific[luxon], Scientific[troland], US[L], US[candela-per-square-foot], 
+                 US[cd/ft2], US[foot-lambert], US[ft-L], US[lambert], cgs[ph], cgs[phot], cgs[sb], cgs[stilb]]
+Luminance French blondel French 1 0.31831 blondel cd/m2 J/L2 0
+Luminance German apostilb German 1 0.31831 apostilb cd/m2 J/L2 0
+Luminance German asb German 1 0.31831 apostilb cd/m2 J/L2 0
+Luminance MKSA nit MKSA 1 1 nit cd/m2 J/L2 0
+Luminance SI candela-per-square-meter SI 1 1 candela-per-square-meter cd/m2 J/L2 0
+Luminance SI cd/m2 SI 1 1 candela-per-square-meter cd/m2 J/L2 0
+Luminance Scientific brill Scientific 1 3.1831e-08 brill cd/m2 J/L2 0
+Luminance Scientific luxon Scientific 1 10000 luxon cd/m2 J/L2 0
+Luminance Scientific troland Scientific 1 10000 troland cd/m2 J/L2 0
+Luminance US L US 1 3183.1 lambert cd/m2 J/L2 0
+Luminance US candela-per-square-foot US 1 10.7639 candela-per-square-foot cd/m2 J/L2 0
+Luminance US cd/ft2 US 1 10.7639 candela-per-square-foot cd/m2 J/L2 0
+Luminance US foot-lambert US 1 3.42626 foot-lambert cd/m2 J/L2 0
+Luminance US ft-L US 1 3.42626 foot-lambert cd/m2 J/L2 0
+Luminance US lambert US 1 3183.1 lambert cd/m2 J/L2 0
+Luminance cgs ph cgs 1 10000 phot cd/m2 J/L2 0
+Luminance cgs phot cgs 1 10000 phot cd/m2 J/L2 0
+Luminance cgs sb cgs 1 10000 stilb cd/m2 J/L2 0
+Luminance cgs stilb cgs 1 10000 stilb cd/m2 J/L2 0
+
+name: Luminosity type: luminance valid: 1
+luminance from French blondel to French blondel (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from French blondel to German apostilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from French blondel to German asb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from French blondel to MKSA nit (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from French blondel to SI candela-per-square-meter (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from French blondel to SI cd/m2 (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from French blondel to Scientific brill (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+luminance from French blondel to Scientific luxon (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from French blondel to Scientific troland (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from French blondel to US L (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from French blondel to US candela-per-square-foot (convert): PASS value: 1: 0.029572 2: 0.029572 3: 0.029572
+luminance from French blondel to US cd/ft2 (convert): PASS value: 1: 0.029572 2: 0.029572 3: 0.029572
+luminance from French blondel to US foot-lambert (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from French blondel to US ft-L (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from French blondel to US lambert (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from French blondel to cgs ph (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from French blondel to cgs phot (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from French blondel to cgs sb (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from French blondel to cgs stilb (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German apostilb to French blondel (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from German apostilb to German apostilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from German apostilb to German asb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from German apostilb to MKSA nit (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from German apostilb to SI candela-per-square-meter (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from German apostilb to SI cd/m2 (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from German apostilb to Scientific brill (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+luminance from German apostilb to Scientific luxon (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German apostilb to Scientific troland (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German apostilb to US L (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from German apostilb to US candela-per-square-foot (convert): PASS value: 1: 0.029572 2: 0.029572 3: 0.029572
+luminance from German apostilb to US cd/ft2 (convert): PASS value: 1: 0.029572 2: 0.029572 3: 0.029572
+luminance from German apostilb to US foot-lambert (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from German apostilb to US ft-L (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from German apostilb to US lambert (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from German apostilb to cgs ph (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German apostilb to cgs phot (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German apostilb to cgs sb (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German apostilb to cgs stilb (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German asb to French blondel (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from German asb to German apostilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from German asb to German asb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from German asb to MKSA nit (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from German asb to SI candela-per-square-meter (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from German asb to SI cd/m2 (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from German asb to Scientific brill (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+luminance from German asb to Scientific luxon (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German asb to Scientific troland (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German asb to US L (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from German asb to US candela-per-square-foot (convert): PASS value: 1: 0.029572 2: 0.029572 3: 0.029572
+luminance from German asb to US cd/ft2 (convert): PASS value: 1: 0.029572 2: 0.029572 3: 0.029572
+luminance from German asb to US foot-lambert (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from German asb to US ft-L (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from German asb to US lambert (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from German asb to cgs ph (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German asb to cgs phot (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German asb to cgs sb (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from German asb to cgs stilb (convert): PASS value: 1: 0.000032 2: 0.000032 3: 0.000032
+luminance from MKSA nit to French blondel (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from MKSA nit to German apostilb (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from MKSA nit to German asb (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from MKSA nit to MKSA nit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from MKSA nit to SI candela-per-square-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from MKSA nit to SI cd/m2 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from MKSA nit to Scientific brill (convert): PASS value: 1: 31415926.535898 2: 31415926.535898 3: 31415926.535898
+luminance from MKSA nit to Scientific luxon (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from MKSA nit to Scientific troland (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from MKSA nit to US L (convert): PASS value: 1: 0.000314 2: 0.000314 3: 0.000314
+luminance from MKSA nit to US candela-per-square-foot (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from MKSA nit to US cd/ft2 (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from MKSA nit to US foot-lambert (convert): PASS value: 1: 0.291864 2: 0.291864 3: 0.291864
+luminance from MKSA nit to US ft-L (convert): PASS value: 1: 0.291864 2: 0.291864 3: 0.291864
+luminance from MKSA nit to US lambert (convert): PASS value: 1: 0.000314 2: 0.000314 3: 0.000314
+luminance from MKSA nit to cgs ph (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from MKSA nit to cgs phot (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from MKSA nit to cgs sb (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from MKSA nit to cgs stilb (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI candela-per-square-meter to French blondel (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from SI candela-per-square-meter to German apostilb (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from SI candela-per-square-meter to German asb (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from SI candela-per-square-meter to MKSA nit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from SI candela-per-square-meter to SI candela-per-square-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from SI candela-per-square-meter to SI cd/m2 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from SI candela-per-square-meter to Scientific brill (convert): PASS value: 1: 31415926.535898 2: 31415926.535898 3: 31415926.535898
+luminance from SI candela-per-square-meter to Scientific luxon (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI candela-per-square-meter to Scientific troland (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI candela-per-square-meter to US L (convert): PASS value: 1: 0.000314 2: 0.000314 3: 0.000314
+luminance from SI candela-per-square-meter to US candela-per-square-foot (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from SI candela-per-square-meter to US cd/ft2 (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from SI candela-per-square-meter to US foot-lambert (convert): PASS value: 1: 0.291864 2: 0.291864 3: 0.291864
+luminance from SI candela-per-square-meter to US ft-L (convert): PASS value: 1: 0.291864 2: 0.291864 3: 0.291864
+luminance from SI candela-per-square-meter to US lambert (convert): PASS value: 1: 0.000314 2: 0.000314 3: 0.000314
+luminance from SI candela-per-square-meter to cgs ph (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI candela-per-square-meter to cgs phot (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI candela-per-square-meter to cgs sb (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI candela-per-square-meter to cgs stilb (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI cd/m2 to French blondel (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from SI cd/m2 to German apostilb (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from SI cd/m2 to German asb (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from SI cd/m2 to MKSA nit (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from SI cd/m2 to SI candela-per-square-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from SI cd/m2 to SI cd/m2 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from SI cd/m2 to Scientific brill (convert): PASS value: 1: 31415926.535898 2: 31415926.535898 3: 31415926.535898
+luminance from SI cd/m2 to Scientific luxon (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI cd/m2 to Scientific troland (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI cd/m2 to US L (convert): PASS value: 1: 0.000314 2: 0.000314 3: 0.000314
+luminance from SI cd/m2 to US candela-per-square-foot (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from SI cd/m2 to US cd/ft2 (convert): PASS value: 1: 0.092903 2: 0.092903 3: 0.092903
+luminance from SI cd/m2 to US foot-lambert (convert): PASS value: 1: 0.291864 2: 0.291864 3: 0.291864
+luminance from SI cd/m2 to US ft-L (convert): PASS value: 1: 0.291864 2: 0.291864 3: 0.291864
+luminance from SI cd/m2 to US lambert (convert): PASS value: 1: 0.000314 2: 0.000314 3: 0.000314
+luminance from SI cd/m2 to cgs ph (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI cd/m2 to cgs phot (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI cd/m2 to cgs sb (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from SI cd/m2 to cgs stilb (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+luminance from Scientific brill to French blondel (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to German apostilb (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to German asb (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to MKSA nit (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to SI candela-per-square-meter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to SI cd/m2 (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to Scientific brill (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific brill to Scientific luxon (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to Scientific troland (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to US L (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to US candela-per-square-foot (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to US cd/ft2 (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to US foot-lambert (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to US ft-L (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to US lambert (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to cgs ph (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to cgs phot (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to cgs sb (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific brill to cgs stilb (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+luminance from Scientific luxon to French blondel (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from Scientific luxon to German apostilb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from Scientific luxon to German asb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from Scientific luxon to MKSA nit (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from Scientific luxon to SI candela-per-square-meter (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from Scientific luxon to SI cd/m2 (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from Scientific luxon to Scientific brill (convert): PASS value: 1: 314159265358.979004 2: 314159265358.979004 3: 314159265358.979004
+luminance from Scientific luxon to Scientific luxon (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific luxon to Scientific troland (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific luxon to US L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from Scientific luxon to US candela-per-square-foot (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from Scientific luxon to US cd/ft2 (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from Scientific luxon to US foot-lambert (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from Scientific luxon to US ft-L (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from Scientific luxon to US lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from Scientific luxon to cgs ph (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific luxon to cgs phot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific luxon to cgs sb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific luxon to cgs stilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific troland to French blondel (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from Scientific troland to German apostilb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from Scientific troland to German asb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from Scientific troland to MKSA nit (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from Scientific troland to SI candela-per-square-meter (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from Scientific troland to SI cd/m2 (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from Scientific troland to Scientific brill (convert): PASS value: 1: 314159265358.979004 2: 314159265358.979004 3: 314159265358.979004
+luminance from Scientific troland to Scientific luxon (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific troland to Scientific troland (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific troland to US L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from Scientific troland to US candela-per-square-foot (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from Scientific troland to US cd/ft2 (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from Scientific troland to US foot-lambert (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from Scientific troland to US ft-L (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from Scientific troland to US lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from Scientific troland to cgs ph (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific troland to cgs phot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific troland to cgs sb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from Scientific troland to cgs stilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US L to French blondel (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from US L to German apostilb (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from US L to German asb (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from US L to MKSA nit (convert): PASS value: 1: 3183.098862 2: 3183.098862 3: 3183.098862
+luminance from US L to SI candela-per-square-meter (convert): PASS value: 1: 3183.098862 2: 3183.098862 3: 3183.098862
+luminance from US L to SI cd/m2 (convert): PASS value: 1: 3183.098862 2: 3183.098862 3: 3183.098862
+luminance from US L to Scientific brill (convert): PASS value: 1: 100000000000.000000 2: 100000000000.000000 3: 100000000000.000000
+luminance from US L to Scientific luxon (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US L to Scientific troland (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US L to US L (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US L to US candela-per-square-foot (convert): PASS value: 1: 295.719561 2: 295.719561 3: 295.719561
+luminance from US L to US cd/ft2 (convert): PASS value: 1: 295.719561 2: 295.719561 3: 295.719561
+luminance from US L to US foot-lambert (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from US L to US ft-L (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from US L to US lambert (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US L to cgs ph (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US L to cgs phot (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US L to cgs sb (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US L to cgs stilb (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US candela-per-square-foot to French blondel (convert): PASS value: 1: 33.815822 2: 33.815822 3: 33.815822
+luminance from US candela-per-square-foot to German apostilb (convert): PASS value: 1: 33.815822 2: 33.815822 3: 33.815822
+luminance from US candela-per-square-foot to German asb (convert): PASS value: 1: 33.815822 2: 33.815822 3: 33.815822
+luminance from US candela-per-square-foot to MKSA nit (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US candela-per-square-foot to SI candela-per-square-meter (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US candela-per-square-foot to SI cd/m2 (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US candela-per-square-foot to Scientific brill (convert): PASS value: 1: 338158218.890338 2: 338158218.890338 3: 338158218.890338
+luminance from US candela-per-square-foot to Scientific luxon (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US candela-per-square-foot to Scientific troland (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US candela-per-square-foot to US L (convert): PASS value: 1: 0.003382 2: 0.003382 3: 0.003382
+luminance from US candela-per-square-foot to US candela-per-square-foot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US candela-per-square-foot to US cd/ft2 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US candela-per-square-foot to US foot-lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from US candela-per-square-foot to US ft-L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from US candela-per-square-foot to US lambert (convert): PASS value: 1: 0.003382 2: 0.003382 3: 0.003382
+luminance from US candela-per-square-foot to cgs ph (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US candela-per-square-foot to cgs phot (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US candela-per-square-foot to cgs sb (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US candela-per-square-foot to cgs stilb (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US cd/ft2 to French blondel (convert): PASS value: 1: 33.815822 2: 33.815822 3: 33.815822
+luminance from US cd/ft2 to German apostilb (convert): PASS value: 1: 33.815822 2: 33.815822 3: 33.815822
+luminance from US cd/ft2 to German asb (convert): PASS value: 1: 33.815822 2: 33.815822 3: 33.815822
+luminance from US cd/ft2 to MKSA nit (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US cd/ft2 to SI candela-per-square-meter (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US cd/ft2 to SI cd/m2 (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US cd/ft2 to Scientific brill (convert): PASS value: 1: 338158218.890338 2: 338158218.890338 3: 338158218.890338
+luminance from US cd/ft2 to Scientific luxon (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US cd/ft2 to Scientific troland (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US cd/ft2 to US L (convert): PASS value: 1: 0.003382 2: 0.003382 3: 0.003382
+luminance from US cd/ft2 to US candela-per-square-foot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US cd/ft2 to US cd/ft2 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US cd/ft2 to US foot-lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from US cd/ft2 to US ft-L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from US cd/ft2 to US lambert (convert): PASS value: 1: 0.003382 2: 0.003382 3: 0.003382
+luminance from US cd/ft2 to cgs ph (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US cd/ft2 to cgs phot (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US cd/ft2 to cgs sb (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US cd/ft2 to cgs stilb (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US foot-lambert to French blondel (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US foot-lambert to German apostilb (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US foot-lambert to German asb (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US foot-lambert to MKSA nit (convert): PASS value: 1: 3.426259 2: 3.426259 3: 3.426259
+luminance from US foot-lambert to SI candela-per-square-meter (convert): PASS value: 1: 3.426259 2: 3.426259 3: 3.426259
+luminance from US foot-lambert to SI cd/m2 (convert): PASS value: 1: 3.426259 2: 3.426259 3: 3.426259
+luminance from US foot-lambert to Scientific brill (convert): PASS value: 1: 107639104.167097 2: 107639104.167097 3: 107639104.167097
+luminance from US foot-lambert to Scientific luxon (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US foot-lambert to Scientific troland (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US foot-lambert to US L (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US foot-lambert to US candela-per-square-foot (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US foot-lambert to US cd/ft2 (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US foot-lambert to US foot-lambert (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US foot-lambert to US ft-L (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US foot-lambert to US lambert (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US foot-lambert to cgs ph (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US foot-lambert to cgs phot (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US foot-lambert to cgs sb (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US foot-lambert to cgs stilb (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US ft-L to French blondel (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US ft-L to German apostilb (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US ft-L to German asb (convert): PASS value: 1: 10.763910 2: 10.763910 3: 10.763910
+luminance from US ft-L to MKSA nit (convert): PASS value: 1: 3.426259 2: 3.426259 3: 3.426259
+luminance from US ft-L to SI candela-per-square-meter (convert): PASS value: 1: 3.426259 2: 3.426259 3: 3.426259
+luminance from US ft-L to SI cd/m2 (convert): PASS value: 1: 3.426259 2: 3.426259 3: 3.426259
+luminance from US ft-L to Scientific brill (convert): PASS value: 1: 107639104.167097 2: 107639104.167097 3: 107639104.167097
+luminance from US ft-L to Scientific luxon (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US ft-L to Scientific troland (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US ft-L to US L (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US ft-L to US candela-per-square-foot (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US ft-L to US cd/ft2 (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US ft-L to US foot-lambert (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US ft-L to US ft-L (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US ft-L to US lambert (convert): PASS value: 1: 0.001076 2: 0.001076 3: 0.001076
+luminance from US ft-L to cgs ph (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US ft-L to cgs phot (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US ft-L to cgs sb (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US ft-L to cgs stilb (convert): PASS value: 1: 0.000343 2: 0.000343 3: 0.000343
+luminance from US lambert to French blondel (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from US lambert to German apostilb (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from US lambert to German asb (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from US lambert to MKSA nit (convert): PASS value: 1: 3183.098862 2: 3183.098862 3: 3183.098862
+luminance from US lambert to SI candela-per-square-meter (convert): PASS value: 1: 3183.098862 2: 3183.098862 3: 3183.098862
+luminance from US lambert to SI cd/m2 (convert): PASS value: 1: 3183.098862 2: 3183.098862 3: 3183.098862
+luminance from US lambert to Scientific brill (convert): PASS value: 1: 100000000000.000000 2: 100000000000.000000 3: 100000000000.000000
+luminance from US lambert to Scientific luxon (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US lambert to Scientific troland (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US lambert to US L (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US lambert to US candela-per-square-foot (convert): PASS value: 1: 295.719561 2: 295.719561 3: 295.719561
+luminance from US lambert to US cd/ft2 (convert): PASS value: 1: 295.719561 2: 295.719561 3: 295.719561
+luminance from US lambert to US foot-lambert (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from US lambert to US ft-L (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from US lambert to US lambert (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from US lambert to cgs ph (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US lambert to cgs phot (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US lambert to cgs sb (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from US lambert to cgs stilb (convert): PASS value: 1: 0.318310 2: 0.318310 3: 0.318310
+luminance from cgs ph to French blondel (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs ph to German apostilb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs ph to German asb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs ph to MKSA nit (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs ph to SI candela-per-square-meter (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs ph to SI cd/m2 (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs ph to Scientific brill (convert): PASS value: 1: 314159265358.979004 2: 314159265358.979004 3: 314159265358.979004
+luminance from cgs ph to Scientific luxon (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs ph to Scientific troland (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs ph to US L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs ph to US candela-per-square-foot (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs ph to US cd/ft2 (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs ph to US foot-lambert (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs ph to US ft-L (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs ph to US lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs ph to cgs ph (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs ph to cgs phot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs ph to cgs sb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs ph to cgs stilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs phot to French blondel (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs phot to German apostilb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs phot to German asb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs phot to MKSA nit (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs phot to SI candela-per-square-meter (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs phot to SI cd/m2 (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs phot to Scientific brill (convert): PASS value: 1: 314159265358.979004 2: 314159265358.979004 3: 314159265358.979004
+luminance from cgs phot to Scientific luxon (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs phot to Scientific troland (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs phot to US L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs phot to US candela-per-square-foot (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs phot to US cd/ft2 (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs phot to US foot-lambert (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs phot to US ft-L (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs phot to US lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs phot to cgs ph (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs phot to cgs phot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs phot to cgs sb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs phot to cgs stilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs sb to French blondel (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs sb to German apostilb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs sb to German asb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs sb to MKSA nit (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs sb to SI candela-per-square-meter (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs sb to SI cd/m2 (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs sb to Scientific brill (convert): PASS value: 1: 314159265358.979004 2: 314159265358.979004 3: 314159265358.979004
+luminance from cgs sb to Scientific luxon (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs sb to Scientific troland (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs sb to US L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs sb to US candela-per-square-foot (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs sb to US cd/ft2 (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs sb to US foot-lambert (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs sb to US ft-L (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs sb to US lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs sb to cgs ph (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs sb to cgs phot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs sb to cgs sb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs sb to cgs stilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs stilb to French blondel (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs stilb to German apostilb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs stilb to German asb (convert): PASS value: 1: 31415.926536 2: 31415.926536 3: 31415.926536
+luminance from cgs stilb to MKSA nit (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs stilb to SI candela-per-square-meter (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs stilb to SI cd/m2 (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+luminance from cgs stilb to Scientific brill (convert): PASS value: 1: 314159265358.979004 2: 314159265358.979004 3: 314159265358.979004
+luminance from cgs stilb to Scientific luxon (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs stilb to Scientific troland (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs stilb to US L (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs stilb to US candela-per-square-foot (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs stilb to US cd/ft2 (convert): PASS value: 1: 929.030400 2: 929.030400 3: 929.030400
+luminance from cgs stilb to US foot-lambert (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs stilb to US ft-L (convert): PASS value: 1: 2918.635080 2: 2918.635080 3: 2918.635080
+luminance from cgs stilb to US lambert (convert): PASS value: 1: 3.141593 2: 3.141593 3: 3.141593
+luminance from cgs stilb to cgs ph (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs stilb to cgs phot (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs stilb to cgs sb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+luminance from cgs stilb to cgs stilb (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:10:42 Duration: 0.12 Version : 1.0
+
+*********************************************************************************

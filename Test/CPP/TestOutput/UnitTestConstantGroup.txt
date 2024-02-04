@@ -1,0 +1,47 @@
+*********************************************************************************
+
+START UnitTestConstantGroup February 04, 2024 13:38:05 Version : 1.0
+
+Default Constructor
+UnitTestConstantGroup (Default Constructor): PASS 
+
+Constructor (no constants)
+UnitTestConstantGroup (Constructor (no constants)): PASS 
+
+Constructor
+UnitTestConstantGroup (check): PASS 
+UnitTestConstantGroup (name): PASS 
+UnitTestConstantGroup (valid): PASS 
+UnitTestConstantGroup (version): PASS 
+UnitTestConstantGroup (constant): PASS 
+UnitTestConstantGroup (systemNames): PASS 
+UnitTestConstantGroup (constantNames): PASS 
+UnitTestConstantGroup (typeNames): PASS 
+UnitTestConstantGroup (value): PASS 
+
+Copy Constructor
+UnitTestConstantGroup (check): PASS 
+UnitTestConstantGroup (name): PASS 
+UnitTestConstantGroup (valid): PASS 
+UnitTestConstantGroup (version): PASS 
+UnitTestConstantGroup (constant): PASS 
+UnitTestConstantGroup (systemNames): PASS 
+UnitTestConstantGroup (constantNames): PASS 
+UnitTestConstantGroup (typeNames): PASS 
+UnitTestConstantGroup (value): PASS 
+
+Assignment Operator
+UnitTestConstantGroup (check): PASS 
+UnitTestConstantGroup (name): PASS 
+UnitTestConstantGroup (valid): PASS 
+UnitTestConstantGroup (version): PASS 
+UnitTestConstantGroup (constant): PASS 
+UnitTestConstantGroup (systemNames): PASS 
+UnitTestConstantGroup (constantNames): PASS 
+UnitTestConstantGroup (typeNames): PASS 
+UnitTestConstantGroup (value): PASS 
+
+
+END UnitTestConstantGroup February 04, 2024 13:38:05 Duration: 0.001 Version : 1.0
+
+*********************************************************************************

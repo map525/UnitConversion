@@ -1,0 +1,28 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:05 Version: 1.0
+name: Computer type: screenResolution valid: True
+To System: Computer From System: Computer
+ScreenResolution Types [computer, screenResolution, voxel]
+
+ScreenResolution All Systems [Computer]
+
+ScreenResolution All Units [Computer[bit], Computer[b], Computer[byte], Computer[o], Computer[B], Computer[octet], 
+                            Computer[character], Computer[ch], Computer[nibble], Computer[ni], Computer[nybble], 
+                            Computer[ny], Computer[quad], Computer[q], Computer[rune], Computer[r], Computer[word], 
+                            Computer[wd], Computer[kilobyte], Computer[KB], Computer[megabyte], Computer[MB], 
+                            Computer[gigabyte], Computer[GB], Computer[terabyte], Computer[TB], Computer[petabyte], 
+                            Computer[PB], Computer[pixel], Computer[voxel]]
+
+ScreenResolution Systems [Computer]
+
+Units ScreenResolution [Computer[pixel]]
+
+ScreenResolution Computer pixel Computer True 5E-324 pixel pixel pixel 0
+
+
+name: Computer type: screenResolution valid: True
+screenResolution from Computer pixel to Computer pixel (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:05 Duration: 00:00:00.0003453 Version: 1.0

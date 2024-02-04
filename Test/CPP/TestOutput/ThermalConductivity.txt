@@ -1,0 +1,1118 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:22:49 Version : 1.0
+
+name: Energy type: thermalConductivity valid: 1
+To System: SI From System: SI
+ThermalConductivity Types [energy, energyConsumption, entropy, heatFlux, heatInsulation, heatTransfer, molarEntropy, 
+                           radiantEnergy, specificHeat, specificHeatCapacity, thermalConductance, thermalConductivity]
+ThermalConductivity All Systems [FPS, INT, Imperial, MKpS, SI, Scientific, UK, US, a.u., cgs]
+ThermalConductivity All Units [FPS[Btu(mean)], FPS[british-thermal-unit(mean)], FPS[duty], FPS[foot-pound-force], 
+                               FPS[foot-poundal], FPS[ft-lbf], FPS[ft-pdl], INT[J], INT[cal(IT)], INT[calorie(IT)], 
+                               INT[joule], INT[kcal(IT)], INT[kilocalorie(IT)], INT[tce], INT[toe], 
+                               INT[tonne-coal-equivalent], INT[tonne-oil-equivalent], Imperial[CHU], Imperial[Chu], 
+                               Imperial[Cthu], Imperial[board-of-trade-unit], Imperial[celsius-heat-unit], 
+                               Imperial[centigrade-heat-unit(15oC)], Imperial[centigrade-heat-unit], 
+                               Imperial[chu(15oC)], Imperial[chu], Imperial[cthu], Imperial[pcu], 
+                               Imperial[pound-centigrade-unit], Imperial[therm], MKpS[kgfm], 
+                               MKpS[kilogram-force-meter], SI[EJ], SI[GJ], SI[J], SI[MJ], SI[N-m], SI[PJ], SI[TJ], 
+                               SI[YJ], SI[ZJ], SI[aJ], SI[attojoule], SI[cJ], SI[centijoule], SI[dJ], SI[daJ], 
+                               SI[decajoule], SI[decijoule], SI[exacjoule], SI[fJ], SI[femtojoule], SI[gigajoule], 
+                               SI[hJ], SI[hectojoule], SI[joule], SI[kJ], SI[kilojoule], SI[mJ], SI[megajoule], 
+                               SI[microjoule], SI[millijoule], SI[nJ], SI[nanojoule], SI[newton-meter], SI[pJ], 
+                               SI[petajoule], SI[picojoule], SI[terajoule], SI[uJ], SI[yJ], SI[yoctojoule], 
+                               SI[yottajoule], SI[zeptojoule], SI[zettajoule], SI[zv], Scientific[Cal], 
+                               Scientific[Mt(TNT)], Scientific[Ry], Scientific[cal(15oC)], Scientific[cal(20oC)], 
+                               Scientific[cal(4oC)], Scientific[cal(mean)], Scientific[calorie(15oC)], 
+                               Scientific[calorie(20oC)], Scientific[calorie(4oC)], Scientific[calorie(mean)], 
+                               Scientific[calorie], Scientific[eV], Scientific[electronvolt], Scientific[fg], 
+                               Scientific[frigorie], Scientific[kWhr], Scientific[kcal(15oC)], Scientific[kcal(20oC)], 
+                               Scientific[kcal(4oC)], Scientific[kcal(mean)], Scientific[kcal], Scientific[kgCal], 
+                               Scientific[kilocalorie(15oC)], Scientific[kilocalorie(20oC)], 
+                               Scientific[kilocalorie(4oC)], Scientific[kilocalorie(mean)], 
+                               Scientific[kilogram-calorie], Scientific[kiloton-equivalent(TNT)], 
+                               Scientific[kilowatt-hour], Scientific[kt(TNT)], Scientific[latm], 
+                               Scientific[liter-atmosphere], Scientific[megatonne-equivalent(TNT)], 
+                               Scientific[micri-erg], Scientific[prout], Scientific[rydberg], Scientific[th(15oC)], 
+                               Scientific[thermie(15oC)], UK[Btu(15.56oC)], UK[Btu(39oF)], UK[Btu(4oC)], 
+                               UK[Btu(60oF)], UK[Btu(GIA)], UK[Btu(Gas)], UK[Btu(ISO)], UK[Btu(IT)], UK[Btu(mean)], 
+                               UK[Btu(threm)], UK[british-thermal-unit(15.56oC)], UK[british-thermal-unit(39oF)], 
+                               UK[british-thermal-unit(4oC)], UK[british-thermal-unit(GIA)], 
+                               UK[british-thermal-unit(Gas)], UK[british-thermal-unit(ISO)], 
+                               UK[british-thermal-unit(IT)], UK[british-thermal-unit(mean)], 
+                               UK[british-thermal-unit(therm)], UK[british-thermal-unit-(60oF)], UK[duty], 
+                               UK[foot-pound-force], UK[foot-poundal], UK[ft-lbf], UK[ft-pdl], UK[kelvin], US[BeV], 
+                               US[Btu(59oF)], US[Q-unit], US[barrel-oil-equivalent], US[bboe], 
+                               US[british=thermal-unit(59oF)], US[cal(therm)], US[calorie(therm)], US[kcal(therm)], 
+                               US[kilocalorie(therm)], US[quad], US[quadrillion(Btu)], US[therm], a.u.[Eh], 
+                               a.u.[au-of-energy], a.u.[aue], a.u.[hartree], cgs[dyn-cm], cgs[dyne-centimeter], 
+                               cgs[erg], US[EF], US[energy-factor(clothes-washers)], US[gal/hr-HP], 
+                               US[gallon-per-hour-horsepower], cgs[B], cgs[brewster], Imperial[Btu(IT)/oF], 
+                               Imperial[british-thermal-unit(IT)-per-fahrenheit-degree], SI[C/K], SI[J/K], 
+                               SI[coulomb(thermal)], SI[joule-per-kelvin], Scientific[Cl], Scientific[carnot], 
+                               Scientific[clausius(rank)], Imperial[Btu(IT)/hr-ft], Imperial[Btu(therm)/hr-ft2], 
+                               Imperial[british-thermal-unit(therm)-per-hour-per-square-foot], 
+                               Imperial[britishthermalunit(IT)-per-hour-per-square-foot], SI[W/m2], 
+                               SI[watt-per-square-meter], Scientific[FU], Scientific[HFU], Scientific[finsen-unit], 
+                               Scientific[heat-flux-unit], Scientific[langley], Scientific[met], Scientific[pyron], 
+                               US[gurley-unit], Imperial[R-value], UK[clo], UK[tog], Imperial[Btu(IT)/hr-ft2-oF], 
+                               Imperial[Btu(therm)/hr-ft2-oF], Imperial[USI], 
+                               Imperial[british-thermal-unit(IT)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(therm)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                               UK[U-factor], SI[J/mol-K], SI[joule-per-mole-per-kelvin], Scientific[entropy-unit], 
+                               Scientific[eu], Scientific[ue], Scientific[unit-of-entropy], INT[langley], 
+                               Imperial[langley], SI[J/m2], SI[joule-per-square-meter], Scientific[flux-unit], 
+                               Scientific[fu], cgs[dyn/cm], cgs[dyne-per-centimeter], cgs[erg-per-square-centimeter], 
+                               cgs[erg/cm2], Scientific[cal(15oC)/g], Scientific[cal(15oC)/kg], 
+                               Scientific[cal(20oC)/g], Scientific[cal(20oC)/kg], Scientific[cal(4oC)/g], 
+                               Scientific[cal(4oC)/kg], Scientific[cal(IT)/g], Scientific[cal(IT)/kg], 
+                               Scientific[cal(mean)/g], Scientific[cal(mean)/kg], Scientific[cal(therm)/g], 
+                               Scientific[cal(therm)/kg], Scientific[cal/g], Scientific[cal/kg], 
+                               Scientific[calorie(15oC)-per-gram], Scientific[calorie(15oC)-per-kilogram], 
+                               Scientific[calorie(20oC)-per-gram], Scientific[calorie(20oC)-per-kilogram], 
+                               Scientific[calorie(4oC)-per-gram], Scientific[calorie(4oC)-per-kilogram], 
+                               Scientific[calorie(IT)-per-gram], Scientific[calorie(IT)-per-kilogram], 
+                               Scientific[calorie(mean)-per-gram], Scientific[calorie(mean)-per-kilogram], 
+                               Scientific[calorie(therm)-per-gram], Scientific[calorie(therm)-per-kilogram], 
+                               Scientific[calorie-per-gram], Scientific[calorie-per-kilogram], Scientific[mayer], 
+                               UK[Btu(IT)/lb-oF], UK[Btu(threm)/lb-oF], 
+                               UK[british-thermal-unit(IT)-per-pound-fahrenheit-degree], 
+                               UK[british-thermal-unit(therm)-per-pound-fahrenheit-degree], SI[W/K], 
+                               SI[thermal-ampere], SI[watt-per-per-kelvin], Imperial[Btu(IT)-in/hr-ft2-oF], 
+                               Imperial[Btu(IT)-in/sec-ft2-oF], Imperial[Btu(IT)/hr-ft-oF], 
+                               Imperial[Btu(IT)/hr-in-oF], Imperial[Btu(term)/ft-hr-oF], Imperial[Btu(term)/in-hr-oF], 
+                               Imperial[Btu(therm)-in/hr-ft2-oF], Imperial[Btu(therm)-in/sec-ft2-oF], 
+                               Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree], 
+                               Imperial[british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree], 
+                               SI[J/s-cm-K], SI[J/s-m-K], SI[W/cm-K], SI[W/m-K], 
+                               SI[joule-per-second-per-centimeter-per-kelvin], 
+                               SI[joule-per-second-per-meter-per-kelvin], SI[watt-per-centimeter-per-kelvin], 
+                               SI[watt-per-meter-per-kelvin], Scientific[cal(IT)/cm-sec-oC], 
+                               Scientific[cal(therm)/cm-sec-oC], 
+                               Scientific[calorie(IT)-per-centimeter-per-second-per-degree-celsius], 
+                               Scientific[calorie(therm)-per-centimeter-per-second-per-degree-celsius], cgs[W/cm-oC], 
+                               cgs[fourier], cgs[watt-per-centimeter-per-celsius-degree]]
+ThermalConductivity Systems [Imperial, SI, Scientific, cgs]
+Units ThermalConductivity [Imperial[Btu(IT)-in/hr-ft2-oF], Imperial[Btu(IT)-in/sec-ft2-oF], 
+                           Imperial[Btu(IT)/hr-ft-oF], Imperial[Btu(IT)/hr-in-oF], Imperial[Btu(term)/ft-hr-oF], 
+                           Imperial[Btu(term)/in-hr-oF], Imperial[Btu(therm)-in/hr-ft2-oF], 
+                           Imperial[Btu(therm)-in/sec-ft2-oF], 
+                           Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree], 
+                           Imperial[british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree], 
+                           SI[J/s-cm-K], SI[J/s-m-K], SI[W/cm-K], SI[W/m-K], 
+                           SI[joule-per-second-per-centimeter-per-kelvin], SI[joule-per-second-per-meter-per-kelvin], 
+                           SI[watt-per-centimeter-per-kelvin], SI[watt-per-meter-per-kelvin], 
+                           Scientific[cal(IT)/cm-sec-oC], Scientific[cal(therm)/cm-sec-oC], 
+                           Scientific[calorie(IT)-per-centimeter-per-second-per-degree-celsius], 
+                           Scientific[calorie(therm)-per-centimeter-per-second-per-degree-celsius], cgs[W/cm-oC], 
+                           cgs[fourier], cgs[watt-per-centimeter-per-celsius-degree]]
+ThermalConductivity Imperial Btu(IT)-in/hr-ft2-oF Imperial 1 0.144228 british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(IT)-in/sec-ft2-oF Imperial 1 519.22 british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(IT)/hr-ft-oF Imperial 1 1.73073 british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(IT)/hr-in-oF Imperial 1 20.7688 british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(term)/ft-hr-oF Imperial 1 1.72958 british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(term)/in-hr-oF Imperial 1 20.7549 british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(therm)-in/hr-ft2-oF Imperial 1 0.144131 british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial Btu(therm)-in/sec-ft2-oF Imperial 1 518.873 british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree Imperial 1 0.144228 british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree Imperial 1 519.22 british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree Imperial 1 1.73073 british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree Imperial 1 20.7688 british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree Imperial 1 0.144131 british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree Imperial 1 518.873 british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree Imperial 1 1.72958 british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree Imperial 1 20.7549 british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI J/s-cm-K SI 1 100 joule-per-second-per-centimeter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI J/s-m-K SI 1 1 joule-per-second-per-meter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI W/cm-K SI 1 100 watt-per-centimeter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI W/m-K SI 1 1 watt-per-meter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI joule-per-second-per-centimeter-per-kelvin SI 1 100 joule-per-second-per-centimeter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI joule-per-second-per-meter-per-kelvin SI 1 1 joule-per-second-per-meter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI watt-per-centimeter-per-kelvin SI 1 100 watt-per-centimeter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity SI watt-per-meter-per-kelvin SI 1 1 watt-per-meter-per-kelvin kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Scientific cal(IT)/cm-sec-oC Scientific 1 418.68 calorie(IT)-per-centimeter-per-second-per-degree-celsius kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Scientific cal(therm)/cm-sec-oC Scientific 1 418.4 calorie(therm)-per-centimeter-per-second-per-degree-celsius kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius Scientific 1 418.68 calorie(IT)-per-centimeter-per-second-per-degree-celsius kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius Scientific 1 418.4 calorie(therm)-per-centimeter-per-second-per-degree-celsius kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity cgs W/cm-oC cgs 1 100 watt-per-centimeter-per-celsius-degree kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity cgs fourier cgs 1 100 fourier kg.m/s3.K M.L/T3.Q 0
+ThermalConductivity cgs watt-per-centimeter-per-celsius-degree cgs 1 100 watt-per-centimeter-per-celsius-degree kg.m/s3.K M.L/T3.Q 0
+
+name: Energy type: thermalConductivity valid: 1
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.006949 2: 0.006949 3: 0.006949
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.006949 2: 0.006949 3: 0.006949
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI J/s-cm-K (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI J/s-m-K (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI W/cm-K (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI W/m-K (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.000345 2: 0.000345 3: 0.000345
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000345 2: 0.000345 3: 0.000345
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to cgs W/cm-oC (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to cgs fourier (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/hr-ft2-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 300.200765 2: 300.200765 3: 300.200765
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 25.016730 2: 25.016730 3: 25.016730
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 3602.409178 2: 3602.409178 3: 3602.409178
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3602.409178 2: 3602.409178 3: 3602.409178
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 300.200765 2: 300.200765 3: 300.200765
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 25.016730 2: 25.016730 3: 25.016730
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI J/s-cm-K (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI J/s-m-K (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI W/cm-K (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI W/m-K (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.240967 2: 1.240967 3: 1.240967
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.240967 2: 1.240967 3: 1.240967
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to cgs W/cm-oC (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to cgs fourier (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)-in/sec-ft2-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.003336 2: 0.003336 3: 0.003336
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003336 2: 0.003336 3: 0.003336
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI J/s-cm-K (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI J/s-m-K (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI W/cm-K (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI W/m-K (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.004137 2: 0.004137 3: 0.004137
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004137 2: 0.004137 3: 0.004137
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to cgs W/cm-oC (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to cgs fourier (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-ft-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 144.096367 2: 144.096367 3: 144.096367
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.040027 2: 0.040027 3: 0.040027
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 144.096367 2: 144.096367 3: 144.096367
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.040027 2: 0.040027 3: 0.040027
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI J/s-cm-K (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI J/s-m-K (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI W/cm-K (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI W/m-K (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.049639 2: 0.049639 3: 0.049639
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049639 2: 0.049639 3: 0.049639
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to cgs W/cm-oC (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to cgs fourier (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(IT)/hr-in-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.003331 2: 0.003331 3: 0.003331
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003331 2: 0.003331 3: 0.003331
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI J/s-cm-K (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI J/s-m-K (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI W/cm-K (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI W/m-K (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.004131 2: 0.004131 3: 0.004131
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004131 2: 0.004131 3: 0.004131
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to cgs W/cm-oC (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to cgs fourier (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/ft-hr-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 143.903697 2: 143.903697 3: 143.903697
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.039973 2: 0.039973 3: 0.039973
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 143.903697 2: 143.903697 3: 143.903697
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.039973 2: 0.039973 3: 0.039973
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI J/s-cm-K (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI J/s-m-K (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI W/cm-K (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI W/m-K (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(term)/in-hr-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.049572 2: 0.049572 3: 0.049572
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049572 2: 0.049572 3: 0.049572
+thermalConductivity from Imperial Btu(term)/in-hr-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial Btu(term)/in-hr-oF to cgs W/cm-oC (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(term)/in-hr-oF to cgs fourier (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(term)/in-hr-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.006940 2: 0.006940 3: 0.006940
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.006940 2: 0.006940 3: 0.006940
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI J/s-cm-K (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI J/s-m-K (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI W/cm-K (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI W/m-K (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to cgs W/cm-oC (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to cgs fourier (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/hr-ft2-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 3597.592433 2: 3597.592433 3: 3597.592433
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 299.799369 2: 299.799369 3: 299.799369
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 24.983281 2: 24.983281 3: 24.983281
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3597.592433 2: 3597.592433 3: 3597.592433
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 299.799369 2: 299.799369 3: 299.799369
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 24.983281 2: 24.983281 3: 24.983281
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI J/s-cm-K (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI J/s-m-K (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI W/cm-K (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI W/m-K (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 1.239307 2: 1.239307 3: 1.239307
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.239307 2: 1.239307 3: 1.239307
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to cgs W/cm-oC (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to cgs fourier (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial Btu(therm)-in/sec-ft2-oF to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.006949 2: 0.006949 3: 0.006949
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.006949 2: 0.006949 3: 0.006949
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 0.144228 2: 0.144228 3: 0.144228
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.000345 2: 0.000345 3: 0.000345
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000345 2: 0.000345 3: 0.000345
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.001442 2: 0.001442 3: 0.001442
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 300.200765 2: 300.200765 3: 300.200765
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 25.016730 2: 25.016730 3: 25.016730
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 3602.409178 2: 3602.409178 3: 3602.409178
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3602.409178 2: 3602.409178 3: 3602.409178
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 300.200765 2: 300.200765 3: 300.200765
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 25.016730 2: 25.016730 3: 25.016730
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 519.220400 2: 519.220400 3: 519.220400
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.240967 2: 1.240967 3: 1.240967
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.240967 2: 1.240967 3: 1.240967
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 5.192204 2: 5.192204 3: 5.192204
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.003336 2: 0.003336 3: 0.003336
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003336 2: 0.003336 3: 0.003336
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083389 2: 0.083389 3: 0.083389
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.730735 2: 1.730735 3: 1.730735
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.004137 2: 0.004137 3: 0.004137
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004137 2: 0.004137 3: 0.004137
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.017307 2: 0.017307 3: 0.017307
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 144.096367 2: 144.096367 3: 144.096367
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.040027 2: 0.040027 3: 0.040027
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 144.096367 2: 144.096367 3: 144.096367
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.040027 2: 0.040027 3: 0.040027
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.008031 2: 12.008031 3: 12.008031
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 20.768816 2: 20.768816 3: 20.768816
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.049639 2: 0.049639 3: 0.049639
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049639 2: 0.049639 3: 0.049639
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.207688 2: 0.207688 3: 0.207688
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.006940 2: 0.006940 3: 0.006940
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.006940 2: 0.006940 3: 0.006940
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.000278 2: 0.000278 3: 0.000278
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.006944 2: 0.006944 3: 0.006944
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 0.144131 2: 0.144131 3: 0.144131
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.000344 2: 0.000344 3: 0.000344
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.001441 2: 0.001441 3: 0.001441
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 3597.592433 2: 3597.592433 3: 3597.592433
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 299.799369 2: 299.799369 3: 299.799369
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 24.983281 2: 24.983281 3: 24.983281
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3597.592433 2: 3597.592433 3: 3597.592433
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 299.799369 2: 299.799369 3: 299.799369
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 24.983281 2: 24.983281 3: 24.983281
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 3600.000000 2: 3600.000000 3: 3600.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 300.000000 2: 300.000000 3: 300.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 25.000000 2: 25.000000 3: 25.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 518.873162 2: 518.873162 3: 518.873162
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 1.239307 2: 1.239307 3: 1.239307
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.239307 2: 1.239307 3: 1.239307
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.240137 2: 1.240137 3: 1.240137
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 5.188732 2: 5.188732 3: 5.188732
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.003331 2: 0.003331 3: 0.003331
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003331 2: 0.003331 3: 0.003331
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.083278 2: 0.083278 3: 0.083278
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.003333 2: 0.003333 3: 0.003333
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.083333 2: 0.083333 3: 0.083333
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.729577 2: 1.729577 3: 1.729577
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.004131 2: 0.004131 3: 0.004131
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004131 2: 0.004131 3: 0.004131
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.004134 2: 0.004134 3: 0.004134
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.017296 2: 0.017296 3: 0.017296
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 143.903697 2: 143.903697 3: 143.903697
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.039973 2: 0.039973 3: 0.039973
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 143.903697 2: 143.903697 3: 143.903697
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.039973 2: 0.039973 3: 0.039973
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 11.991975 2: 11.991975 3: 11.991975
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 144.000000 2: 144.000000 3: 144.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.040000 2: 0.040000 3: 0.040000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 12.000000 2: 12.000000 3: 12.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI J/s-cm-K (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI J/s-m-K (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI W/cm-K (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI W/m-K (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 20.754926 2: 20.754926 3: 20.754926
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.049572 2: 0.049572 3: 0.049572
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049572 2: 0.049572 3: 0.049572
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.049605 2: 0.049605 3: 0.049605
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to cgs W/cm-oC (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to cgs fourier (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.207549 2: 0.207549 3: 0.207549
+thermalConductivity from SI J/s-cm-K to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI J/s-cm-K to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI J/s-cm-K to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI J/s-cm-K to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI J/s-cm-K to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI J/s-cm-K to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI J/s-cm-K to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI J/s-cm-K to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI J/s-cm-K to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI J/s-cm-K to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-cm-K to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI J/s-cm-K to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-cm-K to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI J/s-cm-K to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-cm-K to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI J/s-cm-K to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-cm-K to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI J/s-cm-K to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI J/s-cm-K to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI J/s-cm-K to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI J/s-cm-K to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI J/s-cm-K to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-cm-K to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-cm-K to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-m-K to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI J/s-m-K to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI J/s-m-K to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI J/s-m-K to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI J/s-m-K to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI J/s-m-K to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI J/s-m-K to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI J/s-m-K to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI J/s-m-K to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI J/s-m-K to SI J/s-cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI J/s-m-K to SI J/s-m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-m-K to SI W/cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI J/s-m-K to SI W/m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-m-K to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI J/s-m-K to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-m-K to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI J/s-m-K to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI J/s-m-K to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI J/s-m-K to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI J/s-m-K to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI J/s-m-K to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI J/s-m-K to cgs W/cm-oC (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI J/s-m-K to cgs fourier (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI J/s-m-K to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/cm-K to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI W/cm-K to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI W/cm-K to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI W/cm-K to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI W/cm-K to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI W/cm-K to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI W/cm-K to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI W/cm-K to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI W/cm-K to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI W/cm-K to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/cm-K to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI W/cm-K to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/cm-K to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI W/cm-K to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/cm-K to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI W/cm-K to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/cm-K to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI W/cm-K to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI W/cm-K to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI W/cm-K to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI W/cm-K to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI W/cm-K to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/cm-K to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/cm-K to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/m-K to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI W/m-K to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI W/m-K to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI W/m-K to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI W/m-K to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI W/m-K to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI W/m-K to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI W/m-K to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI W/m-K to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI W/m-K to SI J/s-cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/m-K to SI J/s-m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/m-K to SI W/cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/m-K to SI W/m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/m-K to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/m-K to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/m-K to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/m-K to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI W/m-K to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI W/m-K to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI W/m-K to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI W/m-K to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI W/m-K to cgs W/cm-oC (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/m-K to cgs fourier (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI W/m-K to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-centimeter-per-kelvin to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI J/s-cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI J/s-m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI W/cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI W/m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to cgs W/cm-oC (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to cgs fourier (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI joule-per-second-per-meter-per-kelvin to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from SI watt-per-centimeter-per-kelvin to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from SI watt-per-centimeter-per-kelvin to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-centimeter-per-kelvin to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.933472 2: 6.933472 3: 6.933472
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001926 2: 0.001926 3: 0.001926
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.577789 2: 0.577789 3: 0.577789
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 0.048149 2: 0.048149 3: 0.048149
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 6.938112 2: 6.938112 3: 6.938112
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.001927 2: 0.001927 3: 0.001927
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.578176 2: 0.578176 3: 0.578176
+thermalConductivity from SI watt-per-meter-per-kelvin to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 0.048181 2: 0.048181 3: 0.048181
+thermalConductivity from SI watt-per-meter-per-kelvin to SI J/s-cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI J/s-m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI W/cm-K (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI W/m-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-meter-per-kelvin to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from SI watt-per-meter-per-kelvin to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI watt-per-meter-per-kelvin to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI watt-per-meter-per-kelvin to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002388 2: 0.002388 3: 0.002388
+thermalConductivity from SI watt-per-meter-per-kelvin to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.002390 2: 0.002390 3: 0.002390
+thermalConductivity from SI watt-per-meter-per-kelvin to cgs W/cm-oC (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-meter-per-kelvin to cgs fourier (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from SI watt-per-meter-per-kelvin to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 0.010000 2: 0.010000 3: 0.010000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 242.070720 2: 242.070720 3: 242.070720
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 20.172560 2: 20.172560 3: 20.172560
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 2904.848644 2: 2904.848644 3: 2904.848644
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.806902 2: 0.806902 3: 0.806902
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2904.848644 2: 2904.848644 3: 2904.848644
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.806902 2: 0.806902 3: 0.806902
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 242.070720 2: 242.070720 3: 242.070720
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 20.172560 2: 20.172560 3: 20.172560
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI J/s-cm-K (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI J/s-m-K (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI W/cm-K (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI W/m-K (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to cgs W/cm-oC (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to cgs fourier (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(IT)/cm-sec-oC to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 2900.964600 2: 2900.964600 3: 2900.964600
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.805824 2: 0.805824 3: 0.805824
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 241.747050 2: 241.747050 3: 241.747050
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 20.145588 2: 20.145588 3: 20.145588
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2900.964600 2: 2900.964600 3: 2900.964600
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.805824 2: 0.805824 3: 0.805824
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 241.747050 2: 241.747050 3: 241.747050
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 20.145588 2: 20.145588 3: 20.145588
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI J/s-cm-K (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI J/s-m-K (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI W/cm-K (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI W/m-K (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to cgs W/cm-oC (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to cgs fourier (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific cal(therm)/cm-sec-oC to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 242.070720 2: 242.070720 3: 242.070720
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 20.172560 2: 20.172560 3: 20.172560
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 2904.848644 2: 2904.848644 3: 2904.848644
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.806902 2: 0.806902 3: 0.806902
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2904.848644 2: 2904.848644 3: 2904.848644
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.806902 2: 0.806902 3: 0.806902
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 242.070720 2: 242.070720 3: 242.070720
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 20.172560 2: 20.172560 3: 20.172560
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI J/s-cm-K (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI J/s-m-K (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI W/cm-K (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI W/m-K (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 418.680000 2: 418.680000 3: 418.680000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.000669 2: 1.000669 3: 1.000669
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to cgs W/cm-oC (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to cgs fourier (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 4.186800 2: 4.186800 3: 4.186800
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 2900.964600 2: 2900.964600 3: 2900.964600
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.805824 2: 0.805824 3: 0.805824
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 241.747050 2: 241.747050 3: 241.747050
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 20.145588 2: 20.145588 3: 20.145588
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2900.964600 2: 2900.964600 3: 2900.964600
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.805824 2: 0.805824 3: 0.805824
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 241.747050 2: 241.747050 3: 241.747050
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 20.145588 2: 20.145588 3: 20.145588
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 2902.905973 2: 2902.905973 3: 2902.905973
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.806363 2: 0.806363 3: 0.806363
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 241.908831 2: 241.908831 3: 241.908831
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 20.159069 2: 20.159069 3: 20.159069
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI J/s-cm-K (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI J/s-m-K (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI W/cm-K (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI W/m-K (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 418.400000 2: 418.400000 3: 418.400000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.999331 2: 0.999331 3: 0.999331
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to cgs W/cm-oC (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to cgs fourier (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 4.184000 2: 4.184000 3: 4.184000
+thermalConductivity from cgs W/cm-oC to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from cgs W/cm-oC to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from cgs W/cm-oC to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from cgs W/cm-oC to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from cgs W/cm-oC to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from cgs W/cm-oC to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from cgs W/cm-oC to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from cgs W/cm-oC to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from cgs W/cm-oC to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from cgs W/cm-oC to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs W/cm-oC to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs W/cm-oC to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs W/cm-oC to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs W/cm-oC to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs W/cm-oC to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs W/cm-oC to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs W/cm-oC to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs W/cm-oC to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from cgs W/cm-oC to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from cgs W/cm-oC to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from cgs W/cm-oC to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from cgs W/cm-oC to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs W/cm-oC to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs W/cm-oC to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from cgs fourier to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from cgs fourier to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from cgs fourier to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from cgs fourier to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from cgs fourier to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from cgs fourier to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from cgs fourier to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from cgs fourier to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from cgs fourier to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs fourier to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs fourier to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs fourier to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs fourier to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from cgs fourier to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from cgs fourier to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from cgs fourier to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from cgs fourier to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs fourier to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(IT)-in/hr-ft2-oF (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(IT)-in/sec-ft2-oF (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(IT)/hr-ft-oF (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(IT)/hr-in-oF (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(term)/ft-hr-oF (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(term)/in-hr-oF (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(therm)-in/hr-ft2-oF (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial Btu(therm)-in/sec-ft2-oF (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.347180 2: 693.347180 3: 693.347180
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192596 2: 0.192596 3: 0.192596
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree (convert): PASS value: 1: 57.778932 2: 57.778932 3: 57.778932
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree (convert): PASS value: 1: 4.814911 2: 4.814911 3: 4.814911
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 693.811179 2: 693.811179 3: 693.811179
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree (convert): PASS value: 1: 0.192725 2: 0.192725 3: 0.192725
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 57.817598 2: 57.817598 3: 57.817598
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Imperial british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree (convert): PASS value: 1: 4.818133 2: 4.818133 3: 4.818133
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI J/s-cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI J/s-m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI W/cm-K (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI W/m-K (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI joule-per-second-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI joule-per-second-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI watt-per-centimeter-per-kelvin (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to SI watt-per-meter-per-kelvin (convert): PASS value: 1: 100.000000 2: 100.000000 3: 100.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Scientific cal(IT)/cm-sec-oC (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Scientific cal(therm)/cm-sec-oC (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Scientific calorie(IT)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.238846 2: 0.238846 3: 0.238846
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to Scientific calorie(therm)-per-centimeter-per-second-per-degree-celsius (convert): PASS value: 1: 0.239006 2: 0.239006 3: 0.239006
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to cgs W/cm-oC (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to cgs fourier (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+thermalConductivity from cgs watt-per-centimeter-per-celsius-degree to cgs watt-per-centimeter-per-celsius-degree (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:22:49 Duration: 0.24 Version : 1.0
+
+*********************************************************************************

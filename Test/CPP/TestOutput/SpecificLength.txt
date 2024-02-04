@@ -1,0 +1,209 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:22:48 Version : 1.0
+
+name: SpecificDensity type: specificLength valid: 1
+To System: Imperial From System: Imperial
+SpecificLength Types [specificLength, specificVolume]
+SpecificLength All Systems [Imperial, Scientific, UK, FPS, SI, US]
+SpecificLength All Units [Imperial[cotton(hand)], Imperial[lea], Imperial[linen], Imperial[typp], Imperial[worsted], 
+                          Imperial[yarn-cut(wool)], Imperial[yarn-run(cotton)], Imperial[yarn-run(linen)], 
+                          Imperial[yarn-run(metric)], Imperial[yarn-run(wool)], Imperial[yarn-run(worsted)], 
+                          Scientific[metric], UK[cut(asbestos)], FPS[cubic-foot-per-pound], FPS[ft3/lb], 
+                          Imperial[cubic-foot-per-pound], Imperial[cubic-inch-per-pound], Imperial[ft3/lb], 
+                          Imperial[in3/lb], SI[cubic-meter-per-kilogram], SI[m3/kg], Scientific[l/kg], 
+                          Scientific[liter-per-kilogram], UK[barrel-per-long-ton], UK[bbl/lt], UK[cubic-foot-per-ton], 
+                          UK[ft3/ton], UK[gallon-per-pound], UK[in3/lb], US[barrel-per-short-ton], US[bbl/st]]
+SpecificLength Systems [Imperial, Scientific, UK]
+Units SpecificLength [Imperial[cotton(hand)], Imperial[lea], Imperial[linen], Imperial[typp], Imperial[worsted], 
+                      Imperial[yarn-cut(wool)], Imperial[yarn-run(cotton)], Imperial[yarn-run(linen)], 
+                      Imperial[yarn-run(metric)], Imperial[yarn-run(wool)], Imperial[yarn-run(worsted)], 
+                      Scientific[metric], UK[cut(asbestos)]]
+SpecificLength Imperial cotton(hand) Imperial 1 1693.36 cotton(hand) m/kg L/M 0
+SpecificLength Imperial lea Imperial 1 604.772 lea m/kg L/M 0
+SpecificLength Imperial linen Imperial 1 604.772 linen m/kg L/M 0
+SpecificLength Imperial typp Imperial 1 2015.91 typp m/kg L/M 0
+SpecificLength Imperial worsted Imperial 1 1128.91 worsted m/kg L/M 0
+SpecificLength Imperial yarn-cut(wool) Imperial 1 604.772 yarn-cut(wool) m/kg L/M 0
+SpecificLength Imperial yarn-run(cotton) Imperial 1 1693.36 yarn-run(cotton) m/kg L/M 0
+SpecificLength Imperial yarn-run(linen) Imperial 1 604.772 yarn-run(linen) m/kg L/M 0
+SpecificLength Imperial yarn-run(metric) Imperial 1 1000 yarn-run(metric) m/kg L/M 0
+SpecificLength Imperial yarn-run(wool) Imperial 1 3225.45 yarn-run(wool) m/kg L/M 0
+SpecificLength Imperial yarn-run(worsted) Imperial 1 1128.91 yarn-run(worsted) m/kg L/M 0
+SpecificLength Scientific metric Scientific 1 0.001 metric m/kg L/M 0
+SpecificLength UK cut(asbestos) UK 1 201.591 cut(asbestos) m/kg L/M 0
+
+name: SpecificDensity type: specificLength valid: 1
+specificLength from Imperial cotton(hand) to Imperial cotton(hand) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial cotton(hand) to Imperial lea (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial cotton(hand) to Imperial linen (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial cotton(hand) to Imperial typp (convert): PASS value: 1: 0.840000 2: 0.840000 3: 0.840000
+specificLength from Imperial cotton(hand) to Imperial worsted (convert): PASS value: 1: 1.500000 2: 1.500000 3: 1.500000
+specificLength from Imperial cotton(hand) to Imperial yarn-cut(wool) (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial cotton(hand) to Imperial yarn-run(cotton) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial cotton(hand) to Imperial yarn-run(linen) (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial cotton(hand) to Imperial yarn-run(metric) (convert): PASS value: 1: 1.693362 2: 1.693362 3: 1.693362
+specificLength from Imperial cotton(hand) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.525000 2: 0.525000 3: 0.525000
+specificLength from Imperial cotton(hand) to Imperial yarn-run(worsted) (convert): PASS value: 1: 1.500000 2: 1.500000 3: 1.500000
+specificLength from Imperial cotton(hand) to Scientific metric (convert): PASS value: 1: 1693361.817352 2: 1693361.817352 3: 1693361.817352
+specificLength from Imperial cotton(hand) to UK cut(asbestos) (convert): PASS value: 1: 8.400000 2: 8.400000 3: 8.400000
+specificLength from Imperial lea to Imperial cotton(hand) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial lea to Imperial lea (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial lea to Imperial linen (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial lea to Imperial typp (convert): PASS value: 1: 0.300000 2: 0.300000 3: 0.300000
+specificLength from Imperial lea to Imperial worsted (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial lea to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial lea to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial lea to Imperial yarn-run(linen) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial lea to Imperial yarn-run(metric) (convert): PASS value: 1: 0.604772 2: 0.604772 3: 0.604772
+specificLength from Imperial lea to Imperial yarn-run(wool) (convert): PASS value: 1: 0.187500 2: 0.187500 3: 0.187500
+specificLength from Imperial lea to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial lea to Scientific metric (convert): PASS value: 1: 604772.077626 2: 604772.077626 3: 604772.077626
+specificLength from Imperial lea to UK cut(asbestos) (convert): PASS value: 1: 3.000000 2: 3.000000 3: 3.000000
+specificLength from Imperial linen to Imperial cotton(hand) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial linen to Imperial lea (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial linen to Imperial linen (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial linen to Imperial typp (convert): PASS value: 1: 0.300000 2: 0.300000 3: 0.300000
+specificLength from Imperial linen to Imperial worsted (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial linen to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial linen to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial linen to Imperial yarn-run(linen) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial linen to Imperial yarn-run(metric) (convert): PASS value: 1: 0.604772 2: 0.604772 3: 0.604772
+specificLength from Imperial linen to Imperial yarn-run(wool) (convert): PASS value: 1: 0.187500 2: 0.187500 3: 0.187500
+specificLength from Imperial linen to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial linen to Scientific metric (convert): PASS value: 1: 604772.077626 2: 604772.077626 3: 604772.077626
+specificLength from Imperial linen to UK cut(asbestos) (convert): PASS value: 1: 3.000000 2: 3.000000 3: 3.000000
+specificLength from Imperial typp to Imperial cotton(hand) (convert): PASS value: 1: 1.190476 2: 1.190476 3: 1.190476
+specificLength from Imperial typp to Imperial lea (convert): PASS value: 1: 3.333333 2: 3.333333 3: 3.333333
+specificLength from Imperial typp to Imperial linen (convert): PASS value: 1: 3.333333 2: 3.333333 3: 3.333333
+specificLength from Imperial typp to Imperial typp (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial typp to Imperial worsted (convert): PASS value: 1: 1.785714 2: 1.785714 3: 1.785714
+specificLength from Imperial typp to Imperial yarn-cut(wool) (convert): PASS value: 1: 3.333333 2: 3.333333 3: 3.333333
+specificLength from Imperial typp to Imperial yarn-run(cotton) (convert): PASS value: 1: 1.190476 2: 1.190476 3: 1.190476
+specificLength from Imperial typp to Imperial yarn-run(linen) (convert): PASS value: 1: 3.333333 2: 3.333333 3: 3.333333
+specificLength from Imperial typp to Imperial yarn-run(metric) (convert): PASS value: 1: 2.015907 2: 2.015907 3: 2.015907
+specificLength from Imperial typp to Imperial yarn-run(wool) (convert): PASS value: 1: 0.625000 2: 0.625000 3: 0.625000
+specificLength from Imperial typp to Imperial yarn-run(worsted) (convert): PASS value: 1: 1.785714 2: 1.785714 3: 1.785714
+specificLength from Imperial typp to Scientific metric (convert): PASS value: 1: 2015906.925419 2: 2015906.925419 3: 2015906.925419
+specificLength from Imperial typp to UK cut(asbestos) (convert): PASS value: 1: 10.000000 2: 10.000000 3: 10.000000
+specificLength from Imperial worsted to Imperial cotton(hand) (convert): PASS value: 1: 0.666667 2: 0.666667 3: 0.666667
+specificLength from Imperial worsted to Imperial lea (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial worsted to Imperial linen (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial worsted to Imperial typp (convert): PASS value: 1: 0.560000 2: 0.560000 3: 0.560000
+specificLength from Imperial worsted to Imperial worsted (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial worsted to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial worsted to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.666667 2: 0.666667 3: 0.666667
+specificLength from Imperial worsted to Imperial yarn-run(linen) (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial worsted to Imperial yarn-run(metric) (convert): PASS value: 1: 1.128908 2: 1.128908 3: 1.128908
+specificLength from Imperial worsted to Imperial yarn-run(wool) (convert): PASS value: 1: 0.350000 2: 0.350000 3: 0.350000
+specificLength from Imperial worsted to Imperial yarn-run(worsted) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial worsted to Scientific metric (convert): PASS value: 1: 1128907.878234 2: 1128907.878234 3: 1128907.878234
+specificLength from Imperial worsted to UK cut(asbestos) (convert): PASS value: 1: 5.600000 2: 5.600000 3: 5.600000
+specificLength from Imperial yarn-cut(wool) to Imperial cotton(hand) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial yarn-cut(wool) to Imperial lea (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-cut(wool) to Imperial linen (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-cut(wool) to Imperial typp (convert): PASS value: 1: 0.300000 2: 0.300000 3: 0.300000
+specificLength from Imperial yarn-cut(wool) to Imperial worsted (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial yarn-cut(wool) to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-cut(wool) to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial yarn-cut(wool) to Imperial yarn-run(linen) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-cut(wool) to Imperial yarn-run(metric) (convert): PASS value: 1: 0.604772 2: 0.604772 3: 0.604772
+specificLength from Imperial yarn-cut(wool) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.187500 2: 0.187500 3: 0.187500
+specificLength from Imperial yarn-cut(wool) to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial yarn-cut(wool) to Scientific metric (convert): PASS value: 1: 604772.077626 2: 604772.077626 3: 604772.077626
+specificLength from Imperial yarn-cut(wool) to UK cut(asbestos) (convert): PASS value: 1: 3.000000 2: 3.000000 3: 3.000000
+specificLength from Imperial yarn-run(cotton) to Imperial cotton(hand) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(cotton) to Imperial lea (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial yarn-run(cotton) to Imperial linen (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial yarn-run(cotton) to Imperial typp (convert): PASS value: 1: 0.840000 2: 0.840000 3: 0.840000
+specificLength from Imperial yarn-run(cotton) to Imperial worsted (convert): PASS value: 1: 1.500000 2: 1.500000 3: 1.500000
+specificLength from Imperial yarn-run(cotton) to Imperial yarn-cut(wool) (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial yarn-run(cotton) to Imperial yarn-run(cotton) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(cotton) to Imperial yarn-run(linen) (convert): PASS value: 1: 2.800000 2: 2.800000 3: 2.800000
+specificLength from Imperial yarn-run(cotton) to Imperial yarn-run(metric) (convert): PASS value: 1: 1.693362 2: 1.693362 3: 1.693362
+specificLength from Imperial yarn-run(cotton) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.525000 2: 0.525000 3: 0.525000
+specificLength from Imperial yarn-run(cotton) to Imperial yarn-run(worsted) (convert): PASS value: 1: 1.500000 2: 1.500000 3: 1.500000
+specificLength from Imperial yarn-run(cotton) to Scientific metric (convert): PASS value: 1: 1693361.817352 2: 1693361.817352 3: 1693361.817352
+specificLength from Imperial yarn-run(cotton) to UK cut(asbestos) (convert): PASS value: 1: 8.400000 2: 8.400000 3: 8.400000
+specificLength from Imperial yarn-run(linen) to Imperial cotton(hand) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial yarn-run(linen) to Imperial lea (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(linen) to Imperial linen (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(linen) to Imperial typp (convert): PASS value: 1: 0.300000 2: 0.300000 3: 0.300000
+specificLength from Imperial yarn-run(linen) to Imperial worsted (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial yarn-run(linen) to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(linen) to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.357143 2: 0.357143 3: 0.357143
+specificLength from Imperial yarn-run(linen) to Imperial yarn-run(linen) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(linen) to Imperial yarn-run(metric) (convert): PASS value: 1: 0.604772 2: 0.604772 3: 0.604772
+specificLength from Imperial yarn-run(linen) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.187500 2: 0.187500 3: 0.187500
+specificLength from Imperial yarn-run(linen) to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.535714 2: 0.535714 3: 0.535714
+specificLength from Imperial yarn-run(linen) to Scientific metric (convert): PASS value: 1: 604772.077626 2: 604772.077626 3: 604772.077626
+specificLength from Imperial yarn-run(linen) to UK cut(asbestos) (convert): PASS value: 1: 3.000000 2: 3.000000 3: 3.000000
+specificLength from Imperial yarn-run(metric) to Imperial cotton(hand) (convert): PASS value: 1: 0.590541 2: 0.590541 3: 0.590541
+specificLength from Imperial yarn-run(metric) to Imperial lea (convert): PASS value: 1: 1.653515 2: 1.653515 3: 1.653515
+specificLength from Imperial yarn-run(metric) to Imperial linen (convert): PASS value: 1: 1.653515 2: 1.653515 3: 1.653515
+specificLength from Imperial yarn-run(metric) to Imperial typp (convert): PASS value: 1: 0.496055 2: 0.496055 3: 0.496055
+specificLength from Imperial yarn-run(metric) to Imperial worsted (convert): PASS value: 1: 0.885812 2: 0.885812 3: 0.885812
+specificLength from Imperial yarn-run(metric) to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.653515 2: 1.653515 3: 1.653515
+specificLength from Imperial yarn-run(metric) to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.590541 2: 0.590541 3: 0.590541
+specificLength from Imperial yarn-run(metric) to Imperial yarn-run(linen) (convert): PASS value: 1: 1.653515 2: 1.653515 3: 1.653515
+specificLength from Imperial yarn-run(metric) to Imperial yarn-run(metric) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(metric) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.310034 2: 0.310034 3: 0.310034
+specificLength from Imperial yarn-run(metric) to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.885812 2: 0.885812 3: 0.885812
+specificLength from Imperial yarn-run(metric) to Scientific metric (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+specificLength from Imperial yarn-run(metric) to UK cut(asbestos) (convert): PASS value: 1: 4.960546 2: 4.960546 3: 4.960546
+specificLength from Imperial yarn-run(wool) to Imperial cotton(hand) (convert): PASS value: 1: 1.904762 2: 1.904762 3: 1.904762
+specificLength from Imperial yarn-run(wool) to Imperial lea (convert): PASS value: 1: 5.333333 2: 5.333333 3: 5.333333
+specificLength from Imperial yarn-run(wool) to Imperial linen (convert): PASS value: 1: 5.333333 2: 5.333333 3: 5.333333
+specificLength from Imperial yarn-run(wool) to Imperial typp (convert): PASS value: 1: 1.600000 2: 1.600000 3: 1.600000
+specificLength from Imperial yarn-run(wool) to Imperial worsted (convert): PASS value: 1: 2.857143 2: 2.857143 3: 2.857143
+specificLength from Imperial yarn-run(wool) to Imperial yarn-cut(wool) (convert): PASS value: 1: 5.333333 2: 5.333333 3: 5.333333
+specificLength from Imperial yarn-run(wool) to Imperial yarn-run(cotton) (convert): PASS value: 1: 1.904762 2: 1.904762 3: 1.904762
+specificLength from Imperial yarn-run(wool) to Imperial yarn-run(linen) (convert): PASS value: 1: 5.333333 2: 5.333333 3: 5.333333
+specificLength from Imperial yarn-run(wool) to Imperial yarn-run(metric) (convert): PASS value: 1: 3.225451 2: 3.225451 3: 3.225451
+specificLength from Imperial yarn-run(wool) to Imperial yarn-run(wool) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(wool) to Imperial yarn-run(worsted) (convert): PASS value: 1: 2.857143 2: 2.857143 3: 2.857143
+specificLength from Imperial yarn-run(wool) to Scientific metric (convert): PASS value: 1: 3225451.080670 2: 3225451.080670 3: 3225451.080670
+specificLength from Imperial yarn-run(wool) to UK cut(asbestos) (convert): PASS value: 1: 16.000000 2: 16.000000 3: 16.000000
+specificLength from Imperial yarn-run(worsted) to Imperial cotton(hand) (convert): PASS value: 1: 0.666667 2: 0.666667 3: 0.666667
+specificLength from Imperial yarn-run(worsted) to Imperial lea (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial yarn-run(worsted) to Imperial linen (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial yarn-run(worsted) to Imperial typp (convert): PASS value: 1: 0.560000 2: 0.560000 3: 0.560000
+specificLength from Imperial yarn-run(worsted) to Imperial worsted (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(worsted) to Imperial yarn-cut(wool) (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial yarn-run(worsted) to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.666667 2: 0.666667 3: 0.666667
+specificLength from Imperial yarn-run(worsted) to Imperial yarn-run(linen) (convert): PASS value: 1: 1.866667 2: 1.866667 3: 1.866667
+specificLength from Imperial yarn-run(worsted) to Imperial yarn-run(metric) (convert): PASS value: 1: 1.128908 2: 1.128908 3: 1.128908
+specificLength from Imperial yarn-run(worsted) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.350000 2: 0.350000 3: 0.350000
+specificLength from Imperial yarn-run(worsted) to Imperial yarn-run(worsted) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Imperial yarn-run(worsted) to Scientific metric (convert): PASS value: 1: 1128907.878234 2: 1128907.878234 3: 1128907.878234
+specificLength from Imperial yarn-run(worsted) to UK cut(asbestos) (convert): PASS value: 1: 5.600000 2: 5.600000 3: 5.600000
+specificLength from Scientific metric to Imperial cotton(hand) (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+specificLength from Scientific metric to Imperial lea (convert): PASS value: 1: 0.000002 2: 0.000002 3: 0.000002
+specificLength from Scientific metric to Imperial linen (convert): PASS value: 1: 0.000002 2: 0.000002 3: 0.000002
+specificLength from Scientific metric to Imperial typp (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+specificLength from Scientific metric to Imperial worsted (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+specificLength from Scientific metric to Imperial yarn-cut(wool) (convert): PASS value: 1: 0.000002 2: 0.000002 3: 0.000002
+specificLength from Scientific metric to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+specificLength from Scientific metric to Imperial yarn-run(linen) (convert): PASS value: 1: 0.000002 2: 0.000002 3: 0.000002
+specificLength from Scientific metric to Imperial yarn-run(metric) (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+specificLength from Scientific metric to Imperial yarn-run(wool) (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+specificLength from Scientific metric to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+specificLength from Scientific metric to Scientific metric (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+specificLength from Scientific metric to UK cut(asbestos) (convert): PASS value: 1: 0.000005 2: 0.000005 3: 0.000005
+specificLength from UK cut(asbestos) to Imperial cotton(hand) (convert): PASS value: 1: 0.119048 2: 0.119048 3: 0.119048
+specificLength from UK cut(asbestos) to Imperial lea (convert): PASS value: 1: 0.333333 2: 0.333333 3: 0.333333
+specificLength from UK cut(asbestos) to Imperial linen (convert): PASS value: 1: 0.333333 2: 0.333333 3: 0.333333
+specificLength from UK cut(asbestos) to Imperial typp (convert): PASS value: 1: 0.100000 2: 0.100000 3: 0.100000
+specificLength from UK cut(asbestos) to Imperial worsted (convert): PASS value: 1: 0.178571 2: 0.178571 3: 0.178571
+specificLength from UK cut(asbestos) to Imperial yarn-cut(wool) (convert): PASS value: 1: 0.333333 2: 0.333333 3: 0.333333
+specificLength from UK cut(asbestos) to Imperial yarn-run(cotton) (convert): PASS value: 1: 0.119048 2: 0.119048 3: 0.119048
+specificLength from UK cut(asbestos) to Imperial yarn-run(linen) (convert): PASS value: 1: 0.333333 2: 0.333333 3: 0.333333
+specificLength from UK cut(asbestos) to Imperial yarn-run(metric) (convert): PASS value: 1: 0.201591 2: 0.201591 3: 0.201591
+specificLength from UK cut(asbestos) to Imperial yarn-run(wool) (convert): PASS value: 1: 0.062500 2: 0.062500 3: 0.062500
+specificLength from UK cut(asbestos) to Imperial yarn-run(worsted) (convert): PASS value: 1: 0.178571 2: 0.178571 3: 0.178571
+specificLength from UK cut(asbestos) to Scientific metric (convert): PASS value: 1: 201590.692542 2: 201590.692542 3: 201590.692542
+specificLength from UK cut(asbestos) to UK cut(asbestos) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:22:48 Duration: 0.04 Version : 1.0
+
+*********************************************************************************

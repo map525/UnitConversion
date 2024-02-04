@@ -1,0 +1,79 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:28:09 Version : 1.0
+
+name: Radiation type: exposureRate valid: True
+To System: Scientific From System: Scientific
+ExposureRate Types [particleFlux, specificEnergy, radioactiveConcentration, exposureRate, specificRadioactivity, 
+                    exposure]
+
+ExposureRate All Systems [Scientific, UK, INT, SI, German]
+
+ExposureRate All Units [Scientific[particle-flux-unit], Scientific[pfu], Scientific[rayleigh], Scientific[R], 
+                        UK[british-thermal-unit(IT)-per-pound], UK[Btu(IT)/lb], 
+                        UK[british-thermal-unit(therm)-per-pound], UK[Btu(therm)/lb], INT[calorie(IT)-per-gram], 
+                        INT[cal(IT)/g], Scientific[gram-rad], SI[gray], SI[Gy], Scientific[kerma], Scientific[n-unit], 
+                        Scientific[rad], Scientific[rd], Scientific[rad-equivalent-physical], Scientific[rep], 
+                        Scientific[radiation-absorbed-dose], Scientific[rem], SI[sievert], SI[Sv], SI[yottagray], 
+                        SI[YGy], SI[zettagray], SI[ZGy], SI[exacgray], SI[EGy], SI[petagray], SI[PGy], SI[teragray], 
+                        SI[TGy], SI[gigagray], SI[GGy], SI[megagray], SI[MGy], SI[kilocgray], SI[kGy], SI[hectogray], 
+                        SI[hGy], SI[decacgray], SI[daGy], SI[decigray], SI[dGy], SI[centigray], SI[cGy], 
+                        SI[milligray], SI[mGy], SI[microgray], SI[uGy], SI[nanogray], SI[nGy], SI[picogray], SI[pGy], 
+                        SI[femtogray], SI[fGy], SI[attogray], SI[aGy], SI[zeptogray], SI[zGy], SI[yoctogray], SI[yGy], 
+                        SI[yottasievert], SI[YSv], SI[zettasievert], SI[ZSv], SI[exacsievert], SI[ESv], 
+                        SI[petasievert], SI[PSv], SI[terasievert], SI[TSv], SI[gigasievert], SI[GSv], SI[megasievert], 
+                        SI[MSv], SI[kilocsievert], SI[kSv], SI[hectosievert], SI[hSv], SI[decacsievert], SI[daSv], 
+                        SI[decisievert], SI[dSv], SI[centisievert], SI[cSv], SI[millisievert], SI[mSv], 
+                        SI[microsievert], SI[uSv], SI[nanosievert], SI[nSv], SI[picosievert], SI[pSv], 
+                        SI[femtosievert], SI[fSv], SI[attosievert], SI[aSv], SI[zeptosievert], SI[zSv], 
+                        SI[yoctosievert], SI[ySv], Scientific[curie-per-liter], Scientific[Ci/l], Scientific[eman], 
+                        SI[becquerel-per-cubic-meter], SI[Bq/m3], German[R-unit(German)], German[R-unit(G)], 
+                        German[R-unit(Solomon)], German[R-unit(S)], Scientific[E-unit], Scientific[strontium-unit], 
+                        SI[becquerel-per-kilogram], SI[Bq/kg], INT[sievert-unit], Scientific[coulomb-per-kilogram], 
+                        Scientific[C/kg], Scientific[D-unit], Scientific[pastille-dose], Scientific[B-unit], 
+                        Scientific[roentgen], Scientific[e-unit]]
+
+ExposureRate Systems [German, Scientific]
+
+Units ExposureRate [Scientific[E-unit], German[R-unit(German)], German[R-unit(G)], German[R-unit(Solomon)], 
+                    German[R-unit(S)]]
+
+ExposureRate German R-unit(German) German True 0.00037625 R-unit(German) A/kg I/M 0.0
+ExposureRate German R-unit(G) German True 0.00037625 R-unit(German) A/kg I/M 0.0
+ExposureRate German R-unit(Solomon) German True 0.0001505 R-unit(Solomon) A/kg I/M 0.0
+ExposureRate German R-unit(S) German True 0.0001505 R-unit(Solomon) A/kg I/M 0.0
+ExposureRate Scientific E-unit Scientific True 0.000258 E-unit A/kg I/M 0.0
+
+
+name: Radiation type: exposureRate valid: True
+exposureRate from German R-unit(German) to German R-unit(German) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(German) to German R-unit(G) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(German) to German R-unit(Solomon) (convert): PASS value: 1: 2.5 2: 2.5 3: 2.5
+exposureRate from German R-unit(German) to German R-unit(S) (convert): PASS value: 1: 2.5 2: 2.5 3: 2.5
+exposureRate from German R-unit(German) to Scientific E-unit (convert): PASS value: 1: 1.4583333333333335 2: 1.4583333333333335 3: 1.4583333333333335
+exposureRate from German R-unit(G) to German R-unit(German) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(G) to German R-unit(G) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(G) to German R-unit(Solomon) (convert): PASS value: 1: 2.5 2: 2.5 3: 2.5
+exposureRate from German R-unit(G) to German R-unit(S) (convert): PASS value: 1: 2.5 2: 2.5 3: 2.5
+exposureRate from German R-unit(G) to Scientific E-unit (convert): PASS value: 1: 1.4583333333333335 2: 1.4583333333333335 3: 1.4583333333333335
+exposureRate from German R-unit(Solomon) to German R-unit(German) (convert): PASS value: 1: 0.39999999999999997 2: 0.39999999999999997 3: 0.39999999999999997
+exposureRate from German R-unit(Solomon) to German R-unit(G) (convert): PASS value: 1: 0.39999999999999997 2: 0.39999999999999997 3: 0.39999999999999997
+exposureRate from German R-unit(Solomon) to German R-unit(Solomon) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(Solomon) to German R-unit(S) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(Solomon) to Scientific E-unit (convert): PASS value: 1: 0.5833333333333334 2: 0.5833333333333334 3: 0.5833333333333334
+exposureRate from German R-unit(S) to German R-unit(German) (convert): PASS value: 1: 0.39999999999999997 2: 0.39999999999999997 3: 0.39999999999999997
+exposureRate from German R-unit(S) to German R-unit(G) (convert): PASS value: 1: 0.39999999999999997 2: 0.39999999999999997 3: 0.39999999999999997
+exposureRate from German R-unit(S) to German R-unit(Solomon) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(S) to German R-unit(S) (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+exposureRate from German R-unit(S) to Scientific E-unit (convert): PASS value: 1: 0.5833333333333334 2: 0.5833333333333334 3: 0.5833333333333334
+exposureRate from Scientific E-unit to German R-unit(German) (convert): PASS value: 1: 0.6857142857142856 2: 0.6857142857142856 3: 0.6857142857142856
+exposureRate from Scientific E-unit to German R-unit(G) (convert): PASS value: 1: 0.6857142857142856 2: 0.6857142857142856 3: 0.6857142857142856
+exposureRate from Scientific E-unit to German R-unit(Solomon) (convert): PASS value: 1: 1.7142857142857142 2: 1.7142857142857142 3: 1.7142857142857142
+exposureRate from Scientific E-unit to German R-unit(S) (convert): PASS value: 1: 1.7142857142857142 2: 1.7142857142857142 3: 1.7142857142857142
+exposureRate from Scientific E-unit to Scientific E-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:28:09 Duration: 0:00:00.002992 Version : 1.0
+
+********************************************************************************

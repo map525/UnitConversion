@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Angle.cs" Link="Generated\Angle.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Computer.cs" Link="Generated\Computer.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Count.cs" Link="Generated\Count.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Density.cs" Link="Generated\Density.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\DU_UNITS.cs" Link="Generated\DU_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\EM.cs" Link="Generated\EM.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Energy.cs" Link="Generated\Energy.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Flow.cs" Link="Generated\Flow.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Force.cs" Link="Generated\Force.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Frequency.cs" Link="Generated\Frequency.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\GLOBAL_UNITS.cs" Link="Generated\GLOBAL_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Luminosity.cs" Link="Generated\Luminosity.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Molarity.cs" Link="Generated\Molarity.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\PC_UNITS.cs" Link="Generated\PC_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\PD_UNITS.cs" Link="Generated\PD_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\PM_UNITS.cs" Link="Generated\PM_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Power.cs" Link="Generated\Power.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Pressure.cs" Link="Generated\Pressure.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Radiation.cs" Link="Generated\Radiation.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\SI_UNITS.cs" Link="Generated\SI_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\SpecificDensity.cs" Link="Generated\SpecificDensity.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\SYSTEM_UNITS.cs" Link="Generated\SYSTEM_UNITS.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Temperature.cs" Link="Generated\Temperature.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Time.cs" Link="Generated\Time.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\VelAccJrk.cs" Link="Generated\VelAccJrk.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Viscosity.cs" Link="Generated\Viscosity.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\Wavenumber.cs" Link="Generated\Wavenumber.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\Generated\WGS84_MODEL.cs" Link="Generated\WGS84_MODEL.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\BaseSystem.cs" Link="UnitConversion\BaseSystem.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\CanonicalSystem.cs" Link="UnitConversion\CanonicalSystem.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\ConstantGroup.cs" Link="UnitConversion\ConstantGroup.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\Constants.cs" Link="UnitConversion\Constants.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\Conversion.cs" Link="UnitConversion\Conversion.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\ConversionBase.cs" Link="UnitConversion\ConversionBase.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\Convert.cs" Link="UnitConversion\Convert.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\Converter.cs" Link="UnitConversion\Converter.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\SingleSystem.cs" Link="UnitConversion\SingleSystem.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\SystemUnits.cs" Link="UnitConversion\SystemUnits.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\TypeGroup.cs" Link="UnitConversion\TypeGroup.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\UBase.cs" Link="UnitConversion\UBase.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\UnitConversions.cs" Link="UnitConversion\UnitConversions.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\Value.cs" Link="UnitConversion\Value.cs" />
+    <Compile Include="..\..\..\..\UnitConversionLibrary\CS\UnitConversion\Version.cs" Link="UnitConversion\Version.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Generated\" />
+    <Folder Include="UnitConversion\" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy .\bin\Debug\netcoreapp3.1\*.dll ..\..\..\..\UnitConversionLibrary\CS\Libraries\Debug&#xD;&#xA;copy .\bin\Release\netcoreapp3.1\*.dll ..\..\..\..\UnitConversionLibrary\CS\Libraries\Release" />
+  </Target>
+
+</Project>

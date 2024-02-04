@@ -1,0 +1,129 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:11 Version: 1.0
+name: Force type: quadMoment valid: True
+To System: US From System: US
+QuadMoment Types [force, momentum, action, massFlow, quadMoment]
+
+QuadMoment All Systems [a.u., CAN, cgs, FPS, Imperial, MKpS, MTS, Scientific, SI, UK, US]
+
+QuadMoment All Units [a.u.[au-of-force], a.u.[auf], CAN[ounce-force], CAN[ozf], cgs[dyne], cgs[dyn], FPS[pound-force], 
+                      FPS[lbf], FPS[poundal], FPS[pdl], Imperial[kilopound-force], Imperial[kipf], 
+                      Imperial[kip-force], Imperial[ouncedal], Imperial[odl], Imperial[pound-force], Imperial[lbf], 
+                      Imperial[tondal], Imperial[tdl], MKpS[kilogram-force], MKpS[kgf], MKpS[kgp], 
+                      MKpS[kilogram-weight], MKpS[kgw], MKpS[pond], MKpS[p], MTS[funal], MTS[sthene], MTS[sn], 
+                      MTS[sth], MTS[ton-force(metric)], Scientific[crinal], Scientific[slug-force], SI[newton], SI[N], 
+                      UK[ounce-force], UK[ozf], UK[ton-force(long)], US[ounce-force], US[ozf], US[ton-force(short)], 
+                      SI[yottanewton], SI[YN], SI[zettanewton], SI[ZN], SI[exacnewton], SI[EN], SI[petanewton], 
+                      SI[PN], SI[teranewton], SI[TN], SI[giganewton], SI[GN], SI[meganewton], SI[MN], SI[kilonewton], 
+                      SI[kN], SI[hectonewton], SI[hN], SI[decacnewton], SI[daN], SI[decinewton], SI[dN], 
+                      SI[centinewton], SI[cN], SI[millinewton], SI[NH], SI[micronewton], SI[uN], SI[nanonewton], 
+                      SI[nN], SI[piconewton], SI[pN], SI[femtonewton], SI[fN], SI[attonewton], SI[aN], 
+                      SI[zeptonewton], SI[zN], SI[yoctonewton], SI[yN], a.u.[au-of-linear-momentum], a.u.[aulm], 
+                      cgs[bole], cgs[gramcentimeter-per-second], cgs[gcm/sec], SI[newton-second], SI[N-sec], 
+                      a.u.[au-of-action], a.u.[aua], a.u.[au-of-angular-momentum], a.u.[auam], Scientific[planck], 
+                      SI[joule-second], SI[J-sec], Scientific[sumner-unit], SI[kilogram-per-second], SI[kg/sec], 
+                      SI[newton-per-meter], SI[N/m], Imperial[bisquare-foot], Imperial[ft4], Imperial[bisquare-inch], 
+                      Imperial[in4], SI[bisquare-meter], SI[m4], US[barrel-mile], US[bbl-mi], US[mi4]]
+
+QuadMoment Systems [Imperial, SI, US]
+
+Units QuadMoment [Imperial[bisquare-foot], Imperial[ft4], Imperial[bisquare-inch], Imperial[in4], SI[bisquare-meter], 
+                  SI[m4], US[barrel-mile], US[bbl-mi], US[mi4]]
+
+QuadMoment Imperial bisquare-foot Imperial True 0.0086309748412416 bisquare-foot m4 L4 0
+QuadMoment Imperial ft4 Imperial True 0.0086309748412416 bisquare-foot m4 L4 0
+QuadMoment Imperial bisquare-inch Imperial True 4.162314256E-07 bisquare-inch m4 L4 0
+QuadMoment Imperial in4 Imperial True 4.162314256E-07 bisquare-inch m4 L4 0
+QuadMoment SI bisquare-meter SI True 1 bisquare-meter m4 L4 0
+QuadMoment SI m4 SI True 1 bisquare-meter m4 L4 0
+QuadMoment US barrel-mile US True 255.865249168607 barrel-mile m4 L4 0
+QuadMoment US bbl-mi US True 255.865249168607 barrel-mile m4 L4 0
+QuadMoment US mi4 US True 255.865249168607 barrel-mile m4 L4 0
+
+
+name: Force type: quadMoment valid: True
+quadMoment from Imperial bisquare-foot to Imperial bisquare-foot (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial bisquare-foot to Imperial ft4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial bisquare-foot to Imperial bisquare-inch (convert): PASS value: 1: 2.073600000000000E+004 2: 2.073600000000000E+004 3: 2.073600000000000E+004
+quadMoment from Imperial bisquare-foot to Imperial in4 (convert): PASS value: 1: 2.073600000000000E+004 2: 2.073600000000000E+004 3: 2.073600000000000E+004
+quadMoment from Imperial bisquare-foot to SI bisquare-meter (convert): PASS value: 1: 8.630974841241600E-003 2: 8.630974841241600E-003 3: 8.630974841241600E-003
+quadMoment from Imperial bisquare-foot to SI m4 (convert): PASS value: 1: 8.630974841241600E-003 2: 8.630974841241600E-003 3: 8.630974841241600E-003
+quadMoment from Imperial bisquare-foot to US barrel-mile (convert): PASS value: 1: 3.373250126496883E-005 2: 3.373250126496883E-005 3: 3.373250126496883E-005
+quadMoment from Imperial bisquare-foot to US bbl-mi (convert): PASS value: 1: 3.373250126496883E-005 2: 3.373250126496883E-005 3: 3.373250126496883E-005
+quadMoment from Imperial bisquare-foot to US mi4 (convert): PASS value: 1: 3.373250126496883E-005 2: 3.373250126496883E-005 3: 3.373250126496883E-005
+quadMoment from Imperial ft4 to Imperial bisquare-foot (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial ft4 to Imperial ft4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial ft4 to Imperial bisquare-inch (convert): PASS value: 1: 2.073600000000000E+004 2: 2.073600000000000E+004 3: 2.073600000000000E+004
+quadMoment from Imperial ft4 to Imperial in4 (convert): PASS value: 1: 2.073600000000000E+004 2: 2.073600000000000E+004 3: 2.073600000000000E+004
+quadMoment from Imperial ft4 to SI bisquare-meter (convert): PASS value: 1: 8.630974841241600E-003 2: 8.630974841241600E-003 3: 8.630974841241600E-003
+quadMoment from Imperial ft4 to SI m4 (convert): PASS value: 1: 8.630974841241600E-003 2: 8.630974841241600E-003 3: 8.630974841241600E-003
+quadMoment from Imperial ft4 to US barrel-mile (convert): PASS value: 1: 3.373250126496883E-005 2: 3.373250126496883E-005 3: 3.373250126496883E-005
+quadMoment from Imperial ft4 to US bbl-mi (convert): PASS value: 1: 3.373250126496883E-005 2: 3.373250126496883E-005 3: 3.373250126496883E-005
+quadMoment from Imperial ft4 to US mi4 (convert): PASS value: 1: 3.373250126496883E-005 2: 3.373250126496883E-005 3: 3.373250126496883E-005
+quadMoment from Imperial bisquare-inch to Imperial bisquare-foot (convert): PASS value: 1: 4.822530864197531E-005 2: 4.822530864197531E-005 3: 4.822530864197531E-005
+quadMoment from Imperial bisquare-inch to Imperial ft4 (convert): PASS value: 1: 4.822530864197531E-005 2: 4.822530864197531E-005 3: 4.822530864197531E-005
+quadMoment from Imperial bisquare-inch to Imperial bisquare-inch (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial bisquare-inch to Imperial in4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial bisquare-inch to SI bisquare-meter (convert): PASS value: 1: 4.162314256000000E-007 2: 4.162314256000000E-007 3: 4.162314256000000E-007
+quadMoment from Imperial bisquare-inch to SI m4 (convert): PASS value: 1: 4.162314256000000E-007 2: 4.162314256000000E-007 3: 4.162314256000000E-007
+quadMoment from Imperial bisquare-inch to US barrel-mile (convert): PASS value: 1: 1.626760284768944E-009 2: 1.626760284768944E-009 3: 1.626760284768944E-009
+quadMoment from Imperial bisquare-inch to US bbl-mi (convert): PASS value: 1: 1.626760284768944E-009 2: 1.626760284768944E-009 3: 1.626760284768944E-009
+quadMoment from Imperial bisquare-inch to US mi4 (convert): PASS value: 1: 1.626760284768944E-009 2: 1.626760284768944E-009 3: 1.626760284768944E-009
+quadMoment from Imperial in4 to Imperial bisquare-foot (convert): PASS value: 1: 4.822530864197531E-005 2: 4.822530864197531E-005 3: 4.822530864197531E-005
+quadMoment from Imperial in4 to Imperial ft4 (convert): PASS value: 1: 4.822530864197531E-005 2: 4.822530864197531E-005 3: 4.822530864197531E-005
+quadMoment from Imperial in4 to Imperial bisquare-inch (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial in4 to Imperial in4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from Imperial in4 to SI bisquare-meter (convert): PASS value: 1: 4.162314256000000E-007 2: 4.162314256000000E-007 3: 4.162314256000000E-007
+quadMoment from Imperial in4 to SI m4 (convert): PASS value: 1: 4.162314256000000E-007 2: 4.162314256000000E-007 3: 4.162314256000000E-007
+quadMoment from Imperial in4 to US barrel-mile (convert): PASS value: 1: 1.626760284768944E-009 2: 1.626760284768944E-009 3: 1.626760284768944E-009
+quadMoment from Imperial in4 to US bbl-mi (convert): PASS value: 1: 1.626760284768944E-009 2: 1.626760284768944E-009 3: 1.626760284768944E-009
+quadMoment from Imperial in4 to US mi4 (convert): PASS value: 1: 1.626760284768944E-009 2: 1.626760284768944E-009 3: 1.626760284768944E-009
+quadMoment from SI bisquare-meter to Imperial bisquare-foot (convert): PASS value: 1: 1.158617674589521E+002 2: 1.158617674589521E+002 3: 1.158617674589521E+002
+quadMoment from SI bisquare-meter to Imperial ft4 (convert): PASS value: 1: 1.158617674589521E+002 2: 1.158617674589521E+002 3: 1.158617674589521E+002
+quadMoment from SI bisquare-meter to Imperial bisquare-inch (convert): PASS value: 1: 2.402509610028830E+006 2: 2.402509610028830E+006 3: 2.402509610028830E+006
+quadMoment from SI bisquare-meter to Imperial in4 (convert): PASS value: 1: 2.402509610028830E+006 2: 2.402509610028830E+006 3: 2.402509610028830E+006
+quadMoment from SI bisquare-meter to SI bisquare-meter (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from SI bisquare-meter to SI m4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from SI bisquare-meter to US barrel-mile (convert): PASS value: 1: 3.908307217370625E-003 2: 3.908307217370625E-003 3: 3.908307217370625E-003
+quadMoment from SI bisquare-meter to US bbl-mi (convert): PASS value: 1: 3.908307217370625E-003 2: 3.908307217370625E-003 3: 3.908307217370625E-003
+quadMoment from SI bisquare-meter to US mi4 (convert): PASS value: 1: 3.908307217370625E-003 2: 3.908307217370625E-003 3: 3.908307217370625E-003
+quadMoment from SI m4 to Imperial bisquare-foot (convert): PASS value: 1: 1.158617674589521E+002 2: 1.158617674589521E+002 3: 1.158617674589521E+002
+quadMoment from SI m4 to Imperial ft4 (convert): PASS value: 1: 1.158617674589521E+002 2: 1.158617674589521E+002 3: 1.158617674589521E+002
+quadMoment from SI m4 to Imperial bisquare-inch (convert): PASS value: 1: 2.402509610028830E+006 2: 2.402509610028830E+006 3: 2.402509610028830E+006
+quadMoment from SI m4 to Imperial in4 (convert): PASS value: 1: 2.402509610028830E+006 2: 2.402509610028830E+006 3: 2.402509610028830E+006
+quadMoment from SI m4 to SI bisquare-meter (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from SI m4 to SI m4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from SI m4 to US barrel-mile (convert): PASS value: 1: 3.908307217370625E-003 2: 3.908307217370625E-003 3: 3.908307217370625E-003
+quadMoment from SI m4 to US bbl-mi (convert): PASS value: 1: 3.908307217370625E-003 2: 3.908307217370625E-003 3: 3.908307217370625E-003
+quadMoment from SI m4 to US mi4 (convert): PASS value: 1: 3.908307217370625E-003 2: 3.908307217370625E-003 3: 3.908307217370625E-003
+quadMoment from US barrel-mile to Imperial bisquare-foot (convert): PASS value: 1: 2.964499999999997E+004 2: 2.964499999999997E+004 3: 2.964499999999997E+004
+quadMoment from US barrel-mile to Imperial ft4 (convert): PASS value: 1: 2.964499999999997E+004 2: 2.964499999999997E+004 3: 2.964499999999997E+004
+quadMoment from US barrel-mile to Imperial bisquare-inch (convert): PASS value: 1: 6.147187199999994E+008 2: 6.147187199999994E+008 3: 6.147187199999994E+008
+quadMoment from US barrel-mile to Imperial in4 (convert): PASS value: 1: 6.147187199999994E+008 2: 6.147187199999994E+008 3: 6.147187199999994E+008
+quadMoment from US barrel-mile to SI bisquare-meter (convert): PASS value: 1: 2.558652491686070E+002 2: 2.558652491686070E+002 3: 2.558652491686070E+002
+quadMoment from US barrel-mile to SI m4 (convert): PASS value: 1: 2.558652491686070E+002 2: 2.558652491686070E+002 3: 2.558652491686070E+002
+quadMoment from US barrel-mile to US barrel-mile (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US barrel-mile to US bbl-mi (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US barrel-mile to US mi4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US bbl-mi to Imperial bisquare-foot (convert): PASS value: 1: 2.964499999999997E+004 2: 2.964499999999997E+004 3: 2.964499999999997E+004
+quadMoment from US bbl-mi to Imperial ft4 (convert): PASS value: 1: 2.964499999999997E+004 2: 2.964499999999997E+004 3: 2.964499999999997E+004
+quadMoment from US bbl-mi to Imperial bisquare-inch (convert): PASS value: 1: 6.147187199999994E+008 2: 6.147187199999994E+008 3: 6.147187199999994E+008
+quadMoment from US bbl-mi to Imperial in4 (convert): PASS value: 1: 6.147187199999994E+008 2: 6.147187199999994E+008 3: 6.147187199999994E+008
+quadMoment from US bbl-mi to SI bisquare-meter (convert): PASS value: 1: 2.558652491686070E+002 2: 2.558652491686070E+002 3: 2.558652491686070E+002
+quadMoment from US bbl-mi to SI m4 (convert): PASS value: 1: 2.558652491686070E+002 2: 2.558652491686070E+002 3: 2.558652491686070E+002
+quadMoment from US bbl-mi to US barrel-mile (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US bbl-mi to US bbl-mi (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US bbl-mi to US mi4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US mi4 to Imperial bisquare-foot (convert): PASS value: 1: 2.964499999999997E+004 2: 2.964499999999997E+004 3: 2.964499999999997E+004
+quadMoment from US mi4 to Imperial ft4 (convert): PASS value: 1: 2.964499999999997E+004 2: 2.964499999999997E+004 3: 2.964499999999997E+004
+quadMoment from US mi4 to Imperial bisquare-inch (convert): PASS value: 1: 6.147187199999994E+008 2: 6.147187199999994E+008 3: 6.147187199999994E+008
+quadMoment from US mi4 to Imperial in4 (convert): PASS value: 1: 6.147187199999994E+008 2: 6.147187199999994E+008 3: 6.147187199999994E+008
+quadMoment from US mi4 to SI bisquare-meter (convert): PASS value: 1: 2.558652491686070E+002 2: 2.558652491686070E+002 3: 2.558652491686070E+002
+quadMoment from US mi4 to SI m4 (convert): PASS value: 1: 2.558652491686070E+002 2: 2.558652491686070E+002 3: 2.558652491686070E+002
+quadMoment from US mi4 to US barrel-mile (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US mi4 to US bbl-mi (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quadMoment from US mi4 to US mi4 (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:11 Duration: 00:00:00.0013738 Version: 1.0

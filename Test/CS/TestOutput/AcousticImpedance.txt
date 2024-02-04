@@ -1,0 +1,227 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:09 Version: 1.0
+name: EM type: acousticImpedance valid: True
+To System: SI From System: SI
+AcousticImpedance Types [current, charge, magneticFieldStrength, permeability, magneticDipoleMoment, currentDensity, 
+                         surfaceChargeDensity, chargeDensity, magneticReluctance, electricElastance, 
+                         electricConductance, capacitance, conductivity, specificAcousticImpedance, magneticInduction, 
+                         inductance, potential, resistance, resistivity, acousticImpedance, electricFieldStrength, 
+                         magneticFluxDensity, electricFieldGradient, magneticPotential, magneticPermeability]
+
+AcousticImpedance All Systems [cgs, IEUS, INT, MKSA, SI, a.u., Scientific, US, Imperial, MKS, UK, German, Si]
+
+AcousticImpedance All Units [cgs[abampere], cgs[aA], IEUS[ampere], INT[ampere], MKSA[ampere], MKSA[A], SI[ampere], 
+                             SI[A], IEUS[ampere(mean)], INT[ampere(mean)], SI[ampere-tum], SI[A-turn], SI[At], 
+                             a.u.[au-of-electric-curent], a.u.[auec], cgs[biot], cgs[Bi], cgs[emu-of-current], 
+                             cgs[emuc], Scientific[galvat], cgs[gilbert], cgs[Gb], Scientific[pragilbert], 
+                             cgs[statampere], cgs[statA], cgs[abcoulomb], cgs[aC], SI[ampere-hour], SI[A-hr], 
+                             a.u.[au-of-electric-charge], a.u.[aue], SI[coulomb], SI[C], IEUS[coulomb(int)], IEUS[C], 
+                             cgs[emu-of-charge], cgs[esu-of-charge], cgs[franklin], cgs[Fr], cgs[statcoulomb], 
+                             cgs[statC], SI[yottacoulomb], SI[YC], SI[zettacoulomb], SI[ZC], SI[exacoulomb], SI[EC], 
+                             SI[petacoulomb], SI[PC], SI[teracoulomb], SI[TC], SI[gigacoulomb], SI[GC], 
+                             SI[megacoulomb], SI[MC], SI[kilocoulomb], SI[kC], SI[hectocoulomb], SI[hC], 
+                             SI[decacoulomb], SI[daC], SI[decicoulomb], SI[dC], SI[centicoulomb], SI[cC], 
+                             SI[millicoulomb], SI[mC], SI[microcoulomb], SI[uC], SI[nanocoulomb], SI[nC], 
+                             SI[picocoulomb], SI[pC], SI[femtocoulomb], SI[fC], SI[attocoulomb], SI[aC], 
+                             SI[zeptocoulomb], SI[zC], SI[yoctocoulomb], SI[yC], SI[ampere-per-meter], SI[A/m], 
+                             Scientific[lenz], cgs[oersted], cgs[CE], cgs[ce], Scientific[praoersted], US[perm(0oC)], 
+                             US[perm(23oC)], SI[ampere-square-meter], SI[A-m2], a.u.[au-of-magnetic-dipole-moment], 
+                             a.u.[audpm], Scientific[magneton(bohr)], Scientific[uB], Scientific[B], 
+                             Scientific[bohr-magneton], Scientific[magneton(nuclear)], Scientific[uN], Scientific[BN], 
+                             Scientific[nuclear-magneton], Imperial[ampere-per-square-inch], Imperial[A/in2], 
+                             Imperial[ampere-per-square-foot], Imperial[A/ft2], Imperial[ampere-per-square-yard], 
+                             Imperial[A/yd2], Imperial[milliampere-per-square-inch], Imperial[mA/in2], 
+                             Imperial[milliampere-per-square-foot], Imperial[mA/ft2], 
+                             Imperial[milliampere-per-square-yard], Imperial[mA/yd2], 
+                             Imperial[microampere-per-square-inch], Imperial[uA/in2], 
+                             Imperial[microampere-per-square-foot], Imperial[uA/ft2], 
+                             Imperial[microampere-per-square-yard], Imperial[uA/yd2], SI[ampere-per-square-meter], 
+                             SI[A/m2], SI[ampere-per-square-decimeter], SI[A/dm2], SI[ampere-per-square-centimeter], 
+                             SI[A/cm2], SI[ampere-per-square-millimeter], SI[A/mm2], SI[ampere-per-square-micrometer], 
+                             SI[A/um2], SI[ampere-per-square-nanometer], SI[A/nm2], 
+                             Scientific[milliampere-per-square-meter], Scientific[mA/m2], 
+                             SI[milliampere-per-square-decimeter], SI[mA/dm2], 
+                             Scientific[milliampere-per-square-centimeter], Scientific[mA/cm2], 
+                             Scientific[milliampere-per-square-millimeter], Scientific[mA/mm2], 
+                             Scientific[milliampere-per-square-micrometer], Scientific[mA/um2], 
+                             Scientific[milliampere-per-square-nanometer], Scientific[mA/nm2], 
+                             Scientific[microampere-per-square-meter], Scientific[uA/m2], 
+                             SI[microampere-per-square-decimeter], SI[uA/dm2], 
+                             Scientific[microampere-per-square-centimeter], Scientific[uA/cm2], 
+                             Scientific[microampere-per-square-millimeter], Scientific[uA/mm2], 
+                             Scientific[microampere-per-square-micrometer], Scientific[uA/um2], 
+                             Scientific[microampere-per-square-nanometer], Scientific[uA/nm2], 
+                             SI[coulomb-per-square-kilometer], SI[C/km2], SI[coulomb-per-square-meter], SI[C/m2], 
+                             SI[coulomb-per-square-centimeter], SI[C/cm2], SI[coulomb-per-square-millimeter], 
+                             SI[C/mm2], SI[coulomb-per-square-micrometer], SI[C/um2], 
+                             SI[coulomb-per-square-nanometer], SI[C/nm2], Scientific[coulomb-per-square-mile], 
+                             Scientific[C/mi2], Scientific[coulomb-per-square-yard], Scientific[C/yd2], 
+                             Scientific[coulomb-per-square-foot], Scientific[C/ft2], 
+                             Scientific[coulomb-per-square-inch], Scientific[C/in2], 
+                             a.u.[au-of-electric-charge-density], a.u.[auecd], SI[coulomb-per-cubic-kilometer], 
+                             SI[C/km3], SI[coulomb-per-cubic-meter], SI[C/m3], SI[coulomb-per-cubic-centimeter], 
+                             SI[C/cm3], SI[coulomb-per-cubic-millimeter], SI[C/mm3], SI[coulomb-per-cubic-micrometer], 
+                             SI[C/um3], SI[coulomb-per-cubic-nanometer], SI[C/nm3], 
+                             Scientific[coulomb-per-cubic-mile], Scientific[C/mi3], 
+                             Scientific[coulomb-per-cubic-yard], Scientific[C/yd3], 
+                             Scientific[coulomb-per-cubic-foot], Scientific[C/ft3], 
+                             Scientific[coulomb-per-cubic-inch], Scientific[C/in3], MKS[yrneh], SI[sturgeon], 
+                             Scientific[farad-per-square-second], Scientific[F/s2], 
+                             Scientific[farad-per-square-minute], Scientific[F/min2], 
+                             Scientific[farad-per-square-hour], Scientific[F/hr2], Scientific[farad-per-square-day], 
+                             Scientific[F/day2], Scientific[farad-per-square-month], Scientific[F/mon2], 
+                             Scientific[farad-per-square-year], Scientific[F/yr2], US[daraf], 
+                             Scientific[henry-per-square-second], Scientific[H/sec2], 
+                             Scientific[henry-per-square-minute], Scientific[H/min2], 
+                             Scientific[henry-per-square-hour], Scientific[H/hr2], Scientific[henry-per-square-day], 
+                             Scientific[H/day2], Scientific[henry-per-square-month], Scientific[H/mon2], 
+                             Scientific[henry-per-square-year], Scientific[H/yr2], 
+                             Imperial[ringing-equivalent-number], Imperial[REN], cgs[abmho], cgs[aS], cgs[1/aW], 
+                             cgs[emu-of-conductance], cgs[emu-S], cgs[esu-of-conductance], cgs[esu-S], cgs[statmho], 
+                             INT[mho], Scientific[gemmbo], SI[siemens], SI[S], SI[yottasiemens], SI[YS], 
+                             SI[zettasiemens], SI[ZS], SI[exacsiemens], SI[ES], SI[petasiemens], SI[PS], 
+                             SI[terasiemens], SI[TS], SI[gigasiemens], SI[GS], SI[megasiemens], SI[MS], 
+                             SI[kilosiemens], SI[kS], SI[hectosiemens], SI[hS], SI[decasiemens], SI[daS], 
+                             SI[decisiemens], SI[dS], SI[centisiemens], SI[cS], SI[millisiemens], SI[mS], 
+                             SI[microsiemens], SI[uS], SI[nanosiemens], SI[nS], SI[picosiemens], SI[pS], 
+                             SI[femtosiemens], SI[fS], SI[attosiemens], SI[aS], SI[zeptosiemens], SI[zS], 
+                             SI[yoctosiemens], SI[yS], cgs[abfarad], cgs[aF], cgs[emu-of-electric-capacitance], 
+                             cgs[emu-F], cgs[esu-of-capacitance], cgs[esu-F], cgs[statfarad], IEUS[farad], IEUS[F], 
+                             Imperial[centimeter], Imperial[cm], Scientific[jar], Scientific[puff], SI[farad], SI[F], 
+                             SI[yottafarad], SI[YF], SI[zettafarad], SI[ZF], SI[exacfarad], SI[EF], SI[petafarad], 
+                             SI[PF], SI[terafarad], SI[TF], SI[gigafarad], SI[GF], SI[megafarad], SI[MF], 
+                             SI[kilofarad], SI[kF], SI[hectofarad], SI[hF], SI[decafarad], SI[daF], SI[decifarad], 
+                             SI[dF], SI[centifarad], SI[cF], SI[millifarad], SI[mF], SI[microfarad], SI[uF], 
+                             SI[nanofarad], SI[nF], SI[picofarad], SI[pF], SI[femtofarad], SI[fF], SI[attofarad], 
+                             SI[aF], SI[zeptofarad], SI[zF], SI[yoctofarad], SI[yF], cgs[roc], MKSA[rom], 
+                             Scientific[reciprocal-ohm-per-inch], Scientific[roi], 
+                             Scientific[reciprocal-ohm-per-foot], Scientific[rof], 
+                             Scientific[reciprocal-ohm-per-centimeter], Scientific[roc], 
+                             Scientific[reciprocal-ohm-per-meter], Scientific[siemens-per-meter], Scientific[S/m], 
+                             cgs[rayl], MKSA[rayl], cgs[maxwell], cgs[Mx], Imperial[kapp-line], Imperial[unit-pole], 
+                             Scientific[debye], Scientific[D], SI[weber], SI[Wb], US[line], SI[yottaweber], SI[YWb], 
+                             SI[zettaweber], SI[ZWb], SI[exacweber], SI[EWb], SI[petaweber], SI[PWb], SI[teraweber], 
+                             SI[TWb], SI[gigaweber], SI[GWb], SI[megaweber], SI[MWb], SI[kiloweber], SI[kWb], 
+                             SI[hectoweber], SI[hWb], SI[decaweber], SI[daWb], SI[deciweber], SI[dWb], SI[centiweber], 
+                             SI[cWb], SI[milliweber], SI[mWb], SI[microweber], SI[uWb], SI[nanoweber], SI[nWb], 
+                             SI[picoweber], SI[pWb], SI[femtoweber], SI[fWb], SI[attoweber], SI[aWb], SI[zeptoweber], 
+                             SI[zWb], SI[yoctoweber], SI[yWb], cgs[abhenry], cgs[aH], cgs[emu-of-inductance], 
+                             cgs[emu-H], cgs[esu-of-inductance], cgs[esu-H], cgs[stathenry], cgs[statH], IEUS[henry], 
+                             IEUS[H], Scientific[centimeter], Scientific[cm], SI[henry], SI[H], UK[mic], US[henry], 
+                             US[H], US[henry(mean)], US[H(mean)], SI[yottahenry], SI[YH], SI[zettahenry], SI[ZH], 
+                             SI[exachenry], SI[EH], SI[petahenry], SI[PH], SI[terahenry], SI[TH], SI[gigahenry], 
+                             SI[GH], SI[megahenry], SI[MH], SI[kilochenry], SI[kH], SI[hectohenry], SI[hH], 
+                             SI[decachenry], SI[daH], SI[decihenry], SI[dH], SI[centihenry], SI[cH], SI[millihenry], 
+                             SI[mH], SI[microhenry], SI[uH], SI[nanohenry], SI[nH], SI[picohenry], SI[pH], 
+                             SI[femtohenry], SI[fH], SI[attohenry], SI[aH], SI[zeptohenry], SI[zH], SI[yoctohenry], 
+                             SI[yH], cgs[abvolt], cgs[aV], cgs[emu-of-electric-potential], cgs[emu-V], 
+                             cgs[esu-of-electric-potential], cgs[esu-V], cgs[statvolt], cgs[statV], IEUS[volt], 
+                             IEUS[V], IEUS[volt(mean)], IEUS[V(mean)], INT[daniell], INT[volt(mean)], INT[V(mean)], 
+                             SI[volt], SI[V], UK[crocodile], US[volt], US[V], SI[yottavolt], SI[YV], SI[zettavolt], 
+                             SI[ZV], SI[exacvolt], SI[EV], SI[petavolt], SI[PV], SI[teravolt], SI[TV], SI[gigavolt], 
+                             SI[GV], SI[megavolt], SI[MV], SI[kilocvolt], SI[kV], SI[hectovolt], SI[hV], SI[decavolt], 
+                             SI[daV], SI[decivolt], SI[dV], SI[centivolt], SI[cV], SI[millivolt], SI[mV], 
+                             SI[microvolt], SI[uV], SI[nanovolt], SI[nV], SI[picovolt], SI[pV], SI[femtovolt], SI[fV], 
+                             SI[attovolt], SI[aV], SI[zeptovolt], SI[zV], SI[yoctovolt], SI[yV], cgs[abohm], cgs[aW], 
+                             cgs[emu-of-resistance], cgs[emi-W], cgs[esu-of-resistance], cgs[esu-W], cgs[statohm], 
+                             German[siemens], IEUS[ohm], IEUS[ohm(legal)], IEUS[ohm(mean)], 
+                             Scientific[lenz(resistance)], SI[jacobi], SI[ohm], SI[W], UK[preece], UK[wheatstone], 
+                             US[ohm], US[ohm(legal)], US[ohm(mean)], SI[yottaohm], SI[YW], SI[zettaohm], SI[ZW], 
+                             SI[exacohm], SI[EW], SI[petaohm], SI[PW], SI[teraohm], SI[TW], SI[gigaohm], SI[GW], 
+                             SI[megaohm], SI[MW], SI[kiloohm], SI[kW], SI[hectoohm], SI[hW], SI[decaohm], SI[daW], 
+                             SI[deciohm], SI[dW], SI[centiohm], SI[cW], SI[milliohm], SI[mW], SI[microohm], SI[uW], 
+                             SI[nanoohm], SI[nW], SI[picoohm], SI[pW], SI[femtoohm], SI[fW], SI[attoohm], SI[aW], 
+                             SI[zeptoohm], SI[zW], SI[yoctoohm], SI[yW], Imperial[ohm-circular-mil-per-foot], 
+                             Imperial[W-cmi/ft], Imperial[ohm-cmi/ft], INT[international-annealed-copper-standard], 
+                             INT[IACS], SI[ohm-meter], SI[W-m], SI[ohm-m], cgs[acoustic-ohm], cgs[ohm(acoustic)], 
+                             cgs[ohm(mechanical)], SI[ohm(mechanical)], SI[acoustic-ohm], SI[ohm(acoustic)], 
+                             a.u.[au-of-electric-field-strength], a.u.[auefs], a.u.[au-of-electric-potential], 
+                             a.u.[auep], SI[volt-per-kilometer], SI[V/km], SI[volt-per-meter], SI[V/m], 
+                             SI[volt-per-centimeter], SI[V/cm], SI[volt-per-millimeter], SI[V/mm], 
+                             SI[volt-per-micrometer], SI[V/um], SI[volt-per-nanometer], SI[V/nm], 
+                             SI[millivolt-per-meter], SI[mV/m], SI[millivolt-per-centimeter], SI[mV/cm], 
+                             SI[millivolt-per-millimeter], SI[mV/mm], SI[millivolt-per-micrometer], SI[mV/um], 
+                             SI[millivolt-per-nanometer], SI[mV/nm], SI[microvolt-per-meter], SI[uV/m], 
+                             SI[microvolt-per-centimeter], SI[uV/cm], SI[microvolt-per-millimeter], SI[uV/mm], 
+                             SI[microvolt-per-micrometer], SI[uV/um], SI[mircovolt-per-nanometer], SI[uV/nm], 
+                             Scientific[volt-per-mile], Scientific[V/mi], Scientific[volt-per-yard], Scientific[V/yd], 
+                             Scientific[volt-per-foot], Scientific[V/ft], Scientific[volt-per-inch], Scientific[V/in], 
+                             Scientific[millivolt-per-yard], Scientific[mV/yd], Scientific[millivolt-per-foot], 
+                             Scientific[mV/ft], Scientific[millivolt-per-inch], Scientific[mV/in], 
+                             Scientific[microvolt-per-yard], Scientific[uV/yd], Scientific[microvolt-per-foot], 
+                             Scientific[uV/ft], Scientific[microvolt-per-inch], Scientific[uV/in], 
+                             a.u.[au-of-magnetic-flux-density], a.u.[aumfd], cgs[gauss], cgs[Gs], cgs[G], 
+                             Scientific[gamma], Scientific[g], SI[tesla], SI[T], SI[yottatesla], SI[YT], 
+                             SI[zettatesla], SI[ZT], SI[exactesla], SI[ET], SI[petatesla], SI[PT], SI[teratesla], 
+                             SI[TT], SI[gigatesla], SI[GT], SI[megatesla], SI[MT], SI[kiloctesla], SI[kT], 
+                             SI[hectotesla], SI[hT], SI[decatesla], SI[daT], SI[decitesla], SI[dT], SI[centitesla], 
+                             SI[cT], SI[millitesla], SI[NT], SI[microtesla], SI[uT], SI[nanotesla], SI[nT], 
+                             SI[picotesla], SI[pT], SI[femtotesla], SI[fT], SI[attotesla], SI[aT], SI[zeptotesla], 
+                             SI[zT], SI[yoctotesla], SI[yT], a.u.[au-of-electric-field-strength-gradient], a.u.[ao], 
+                             a.u.[b], a.u.[auefsg], cgs[townsend], cgs[Td], SI[weber-per-kilometer], SI[Wb/km], 
+                             SI[weber-per-meter], SI[Wb/m], Si[weber-per-centimeter], Si[Wb/cm], 
+                             Si[weber-per-millimeter], Si[Wb/mm], Si[weber-per-micrometer], Si[Wb/um], 
+                             Si[weber-per-nanometer], Si[Wb/nm], Scientific[weber-per-mile], Scientific[Wb/mi], 
+                             Scientific[weber-per-yard], Scientific[Wb/yd], Scientific[weber-per-foot], 
+                             Scientific[Wb/ft], Scientific[weber-per-inch], Scientific[Wb/in], 
+                             SI[henry-per-kilometer], SI[H/km], SI[henry-per-meter], SI[H/m], 
+                             SI[henry-per-centimeter], SI[H/cm], SI[henry-per-millimeter], SI[H/mm], 
+                             SI[henry-per-micrometer], SI[H/um], SI[henry-per-nanometer], SI[H/nm], 
+                             Scientific[henry-per-mile], Scientific[H/mi], Scientific[henry-per-yard], 
+                             Scientific[H/yd], Scientific[henry-per-foot], Scientific[H/ft], 
+                             Scientific[henry-per-inch], Scientific[H/in]]
+
+AcousticImpedance Systems [cgs, SI]
+
+Units AcousticImpedance [cgs[acoustic-ohm], cgs[ohm(acoustic)], cgs[ohm(mechanical)], SI[ohm(mechanical)], 
+                         SI[acoustic-ohm], SI[ohm(acoustic)]]
+
+AcousticImpedance cgs acoustic-ohm cgs True 100000 acoustic-ohm kg/m 4.s M/L4.T 0
+AcousticImpedance cgs ohm(acoustic) cgs True 1E-05 ohm(acoustic) kg/m 4.s M/L4.T 0
+AcousticImpedance cgs ohm(mechanical) cgs True 1E-05 ohm(mechanical) kg/m 4.s M/L4.T 0
+AcousticImpedance SI ohm(mechanical) SI True 1 ohm(mechanical) kg/m 4.s M/L4.T 0
+AcousticImpedance SI acoustic-ohm SI True 1 acoustic-ohm kg/m 4.s M/L4.T 0
+AcousticImpedance SI ohm(acoustic) SI True 1 ohm(acoustic) kg/m 4.s M/L4.T 0
+
+
+name: EM type: acousticImpedance valid: True
+acousticImpedance from cgs acoustic-ohm to cgs acoustic-ohm (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from cgs acoustic-ohm to cgs ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+010 2: 1.000000000000000E+010 3: 1.000000000000000E+010
+acousticImpedance from cgs acoustic-ohm to cgs ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+010 2: 1.000000000000000E+010 3: 1.000000000000000E+010
+acousticImpedance from cgs acoustic-ohm to SI ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+005 2: 1.000000000000000E+005 3: 1.000000000000000E+005
+acousticImpedance from cgs acoustic-ohm to SI acoustic-ohm (convert): PASS value: 1: 1.000000000000000E+005 2: 1.000000000000000E+005 3: 1.000000000000000E+005
+acousticImpedance from cgs acoustic-ohm to SI ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+005 2: 1.000000000000000E+005 3: 1.000000000000000E+005
+acousticImpedance from cgs ohm(acoustic) to cgs acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-010 2: 1.000000000000000E-010 3: 1.000000000000000E-010
+acousticImpedance from cgs ohm(acoustic) to cgs ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from cgs ohm(acoustic) to cgs ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from cgs ohm(acoustic) to SI ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from cgs ohm(acoustic) to SI acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from cgs ohm(acoustic) to SI ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from cgs ohm(mechanical) to cgs acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-010 2: 1.000000000000000E-010 3: 1.000000000000000E-010
+acousticImpedance from cgs ohm(mechanical) to cgs ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from cgs ohm(mechanical) to cgs ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from cgs ohm(mechanical) to SI ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from cgs ohm(mechanical) to SI acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from cgs ohm(mechanical) to SI ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from SI ohm(mechanical) to cgs acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from SI ohm(mechanical) to cgs ohm(acoustic) (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+acousticImpedance from SI ohm(mechanical) to cgs ohm(mechanical) (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+acousticImpedance from SI ohm(mechanical) to SI ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI ohm(mechanical) to SI acoustic-ohm (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI ohm(mechanical) to SI ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI acoustic-ohm to cgs acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from SI acoustic-ohm to cgs ohm(acoustic) (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+acousticImpedance from SI acoustic-ohm to cgs ohm(mechanical) (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+acousticImpedance from SI acoustic-ohm to SI ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI acoustic-ohm to SI acoustic-ohm (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI acoustic-ohm to SI ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI ohm(acoustic) to cgs acoustic-ohm (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+acousticImpedance from SI ohm(acoustic) to cgs ohm(acoustic) (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+acousticImpedance from SI ohm(acoustic) to cgs ohm(mechanical) (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+acousticImpedance from SI ohm(acoustic) to SI ohm(mechanical) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI ohm(acoustic) to SI acoustic-ohm (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+acousticImpedance from SI ohm(acoustic) to SI ohm(acoustic) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:09 Duration: 00:00:00.0023824 Version: 1.0

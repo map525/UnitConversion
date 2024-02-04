@@ -1,0 +1,40 @@
+*****************************************
+*****************************************
+
+
+START UnitTestSystemUnits February 04, 2024 12:47:01 Version : 1.0
+
+
+Default Constructor
+UnitTestSystemUnits (Default Constructor): PASS 
+
+Name Constructor
+UnitTestSystemUnits (Name Constructor): PASS 
+
+Unit Constructor
+UnitTestSystemUnits (fullUnitName): PASS 
+UnitTestSystemUnits (rawUnitName): PASS 
+UnitTestSystemUnits (systemNames): PASS 
+UnitTestSystemUnits (systemNames): PASS 
+UnitTestSystemUnits (typeNames): PASS 
+UnitTestSystemUnits (unitNames): PASS 
+UnitTestSystemUnits (unitNames): PASS 
+UnitTestSingleSystem (value): PASS 
+
+Copy Constructor
+UnitTestSystemUnits (fullUnitName): PASS 
+UnitTestSystemUnits (rawUnitName): PASS 
+UnitTestSystemUnits (systemNames): PASS 
+UnitTestSystemUnits (systemNames): PASS 
+UnitTestSystemUnits (typeNames): PASS 
+UnitTestSystemUnits (unitNames): PASS 
+UnitTestSystemUnits (unitNames): PASS 
+UnitTestSingleSystem (value): PASS 
+
+
+END UnitTestSystemUnits February 04, 2024 12:47:01 Duration: 00:00:00.0001580 Version : 1.0
+
+
+*****************************************
+*****************************************
+

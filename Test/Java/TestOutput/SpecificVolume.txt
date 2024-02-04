@@ -1,0 +1,383 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:29:12 Version : 1.0
+
+
+name: SpecificDensity type: specificVolume valid: true
+To System: SI From System: SI
+SpecificVolume Types [specificLength, specificVolume]
+
+SpecificVolume All Systems [Imperial, UK, Scientific, FPS, US, SI]
+
+SpecificVolume All Units [Imperial[typp], Imperial[yarn-cut(wool)], Imperial[yarn-run(linen)], 
+                          Imperial[yarn-run(cotton)], UK[cut(asbestos)], Imperial[linen], Imperial[worsted], 
+                          Imperial[lea], Imperial[yarn-run(metric)], Imperial[yarn-run(wool)], 
+                          Imperial[yarn-run(worsted)], Scientific[metric], Imperial[cotton(hand)], 
+                          UK[barrel-per-long-ton], FPS[ft3/lb], UK[in3/lb], Imperial[ft3/lb], Imperial[in3/lb], 
+                          UK[bbl/lt], US[barrel-per-short-ton], Scientific[l/kg], UK[cubic-foot-per-ton], 
+                          FPS[cubic-foot-per-pound], US[bbl/st], SI[cubic-meter-per-kilogram], UK[gallon-per-pound], 
+                          UK[ft3/ton], Imperial[cubic-foot-per-pound], Imperial[cubic-inch-per-pound], 
+                          Scientific[liter-per-kilogram], SI[m3/kg]]
+
+SpecificVolume Systems [UK, FPS, Imperial, US, Scientific, SI]
+
+Units SpecificVolume [Imperial[ft3/lb], Imperial[in3/lb], Imperial[cubic-foot-per-pound], 
+                      Imperial[cubic-inch-per-pound], UK[barrel-per-long-ton], UK[in3/lb], UK[bbl/lt], 
+                      UK[cubic-foot-per-ton], UK[gallon-per-pound], UK[ft3/ton], Scientific[l/kg], 
+                      Scientific[liter-per-kilogram], FPS[ft3/lb], FPS[cubic-foot-per-pound], 
+                      US[barrel-per-short-ton], US[bbl/st], SI[cubic-meter-per-kilogram], SI[m3/kg]]
+
+SpecificVolume UK barrel-per-long-ton UK true 1.40940242777893E-4 barrel-per-long-ton m3/kg L3/M 0.0
+SpecificVolume UK in3/lb UK true 0.0100224172642057 gallon-per-pound m3/kg L3/M 0.0
+SpecificVolume UK bbl/lt UK true 1.40940242777893E-4 barrel-per-long-ton m3/kg L3/M 0.0
+SpecificVolume UK cubic-foot-per-ton UK true 2.78696252572074E-5 cubic-foot-per-ton m3/kg L3/M 0.0
+SpecificVolume UK gallon-per-pound UK true 0.0100224172642057 gallon-per-pound m3/kg L3/M 0.0
+SpecificVolume UK ft3/ton UK true 2.78696252572074E-5 cubic-foot-per-ton m3/kg L3/M 0.0
+SpecificVolume FPS ft3/lb FPS true 0.0624279605761446 cubic-foot-per-pound m3/kg L3/M 0.0
+SpecificVolume FPS cubic-foot-per-pound FPS true 0.0624279605761446 cubic-foot-per-pound m3/kg L3/M 0.0
+SpecificVolume Imperial ft3/lb Imperial true 0.0624279605761446 cubic-foot-per-pound m3/kg L3/M 0.0
+SpecificVolume Imperial in3/lb Imperial true 3.61272920000837E-5 cubic-inch-per-pound m3/kg L3/M 0.0
+SpecificVolume Imperial cubic-foot-per-pound Imperial true 0.0624279605761446 cubic-foot-per-pound m3/kg L3/M 0.0
+SpecificVolume Imperial cubic-inch-per-pound Imperial true 3.61272920000837E-5 cubic-inch-per-pound m3/kg L3/M 0.0
+SpecificVolume US barrel-per-short-ton US true 1.31440120119304E-4 barrel-per-short-ton m3/kg L3/M 0.0
+SpecificVolume US bbl/st US true 1.31440120119304E-4 barrel-per-short-ton m3/kg L3/M 0.0
+SpecificVolume Scientific l/kg Scientific true 0.001 liter-per-kilogram m3/kg L3/M 0.0
+SpecificVolume Scientific liter-per-kilogram Scientific true 0.001 liter-per-kilogram m3/kg L3/M 0.0
+SpecificVolume SI cubic-meter-per-kilogram SI true 1.0 cubic-meter-per-kilogram m3/kg L3/M 0.0
+SpecificVolume SI m3/kg SI true 1.0 cubic-meter-per-kilogram m3/kg L3/M 0.0
+
+
+name: SpecificDensity type: specificVolume valid: true
+specificVolume from UK barrel-per-long-ton to UK barrel-per-long-ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK barrel-per-long-ton to UK in3/lb (convert): PASS value: 1: 0.014062500000000035 2: 0.014062500000000035 3: 0.014062500000000035
+specificVolume from UK barrel-per-long-ton to UK bbl/lt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK barrel-per-long-ton to UK cubic-foot-per-ton (convert): PASS value: 1: 5.057127301754596 2: 5.057127301754596 3: 5.057127301754596
+specificVolume from UK barrel-per-long-ton to UK gallon-per-pound (convert): PASS value: 1: 0.014062500000000035 2: 0.014062500000000035 3: 0.014062500000000035
+specificVolume from UK barrel-per-long-ton to UK ft3/ton (convert): PASS value: 1: 5.057127301754596 2: 5.057127301754596 3: 5.057127301754596
+specificVolume from UK barrel-per-long-ton to FPS ft3/lb (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK barrel-per-long-ton to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK barrel-per-long-ton to Imperial ft3/lb (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK barrel-per-long-ton to Imperial in3/lb (convert): PASS value: 1: 3.90121248992497 2: 3.90121248992497 3: 3.90121248992497
+specificVolume from UK barrel-per-long-ton to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK barrel-per-long-ton to Imperial cubic-inch-per-pound (convert): PASS value: 1: 3.90121248992497 2: 3.90121248992497 3: 3.90121248992497
+specificVolume from UK barrel-per-long-ton to US barrel-per-short-ton (convert): PASS value: 1: 1.072277190936573 2: 1.072277190936573 3: 1.072277190936573
+specificVolume from UK barrel-per-long-ton to US bbl/st (convert): PASS value: 1: 1.072277190936573 2: 1.072277190936573 3: 1.072277190936573
+specificVolume from UK barrel-per-long-ton to Scientific l/kg (convert): PASS value: 1: 0.140940242777893 2: 0.140940242777893 3: 0.140940242777893
+specificVolume from UK barrel-per-long-ton to Scientific liter-per-kilogram (convert): PASS value: 1: 0.140940242777893 2: 0.140940242777893 3: 0.140940242777893
+specificVolume from UK barrel-per-long-ton to SI cubic-meter-per-kilogram (convert): PASS value: 1: 1.40940242777893E-4 2: 1.40940242777893E-4 3: 1.40940242777893E-4
+specificVolume from UK barrel-per-long-ton to SI m3/kg (convert): PASS value: 1: 1.40940242777893E-4 2: 1.40940242777893E-4 3: 1.40940242777893E-4
+specificVolume from UK in3/lb to UK barrel-per-long-ton (convert): PASS value: 1: 71.11111111111094 2: 71.11111111111094 3: 71.11111111111094
+specificVolume from UK in3/lb to UK in3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK in3/lb to UK bbl/lt (convert): PASS value: 1: 71.11111111111094 2: 71.11111111111094 3: 71.11111111111094
+specificVolume from UK in3/lb to UK cubic-foot-per-ton (convert): PASS value: 1: 359.6179414581037 2: 359.6179414581037 3: 359.6179414581037
+specificVolume from UK in3/lb to UK gallon-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK in3/lb to UK ft3/ton (convert): PASS value: 1: 359.6179414581037 2: 359.6179414581037 3: 359.6179414581037
+specificVolume from UK in3/lb to FPS ft3/lb (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK in3/lb to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK in3/lb to Imperial ft3/lb (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK in3/lb to Imperial in3/lb (convert): PASS value: 1: 277.41955483910834 2: 277.41955483910834 3: 277.41955483910834
+specificVolume from UK in3/lb to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK in3/lb to Imperial cubic-inch-per-pound (convert): PASS value: 1: 277.41955483910834 2: 277.41955483910834 3: 277.41955483910834
+specificVolume from UK in3/lb to US barrel-per-short-ton (convert): PASS value: 1: 76.25082246660055 2: 76.25082246660055 3: 76.25082246660055
+specificVolume from UK in3/lb to US bbl/st (convert): PASS value: 1: 76.25082246660055 2: 76.25082246660055 3: 76.25082246660055
+specificVolume from UK in3/lb to Scientific l/kg (convert): PASS value: 1: 10.0224172642057 2: 10.0224172642057 3: 10.0224172642057
+specificVolume from UK in3/lb to Scientific liter-per-kilogram (convert): PASS value: 1: 10.0224172642057 2: 10.0224172642057 3: 10.0224172642057
+specificVolume from UK in3/lb to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.0100224172642057 2: 0.0100224172642057 3: 0.0100224172642057
+specificVolume from UK in3/lb to SI m3/kg (convert): PASS value: 1: 0.0100224172642057 2: 0.0100224172642057 3: 0.0100224172642057
+specificVolume from UK bbl/lt to UK barrel-per-long-ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK bbl/lt to UK in3/lb (convert): PASS value: 1: 0.014062500000000035 2: 0.014062500000000035 3: 0.014062500000000035
+specificVolume from UK bbl/lt to UK bbl/lt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK bbl/lt to UK cubic-foot-per-ton (convert): PASS value: 1: 5.057127301754596 2: 5.057127301754596 3: 5.057127301754596
+specificVolume from UK bbl/lt to UK gallon-per-pound (convert): PASS value: 1: 0.014062500000000035 2: 0.014062500000000035 3: 0.014062500000000035
+specificVolume from UK bbl/lt to UK ft3/ton (convert): PASS value: 1: 5.057127301754596 2: 5.057127301754596 3: 5.057127301754596
+specificVolume from UK bbl/lt to FPS ft3/lb (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK bbl/lt to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK bbl/lt to Imperial ft3/lb (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK bbl/lt to Imperial in3/lb (convert): PASS value: 1: 3.90121248992497 2: 3.90121248992497 3: 3.90121248992497
+specificVolume from UK bbl/lt to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.0022576461168547293 2: 0.0022576461168547293 3: 0.0022576461168547293
+specificVolume from UK bbl/lt to Imperial cubic-inch-per-pound (convert): PASS value: 1: 3.90121248992497 2: 3.90121248992497 3: 3.90121248992497
+specificVolume from UK bbl/lt to US barrel-per-short-ton (convert): PASS value: 1: 1.072277190936573 2: 1.072277190936573 3: 1.072277190936573
+specificVolume from UK bbl/lt to US bbl/st (convert): PASS value: 1: 1.072277190936573 2: 1.072277190936573 3: 1.072277190936573
+specificVolume from UK bbl/lt to Scientific l/kg (convert): PASS value: 1: 0.140940242777893 2: 0.140940242777893 3: 0.140940242777893
+specificVolume from UK bbl/lt to Scientific liter-per-kilogram (convert): PASS value: 1: 0.140940242777893 2: 0.140940242777893 3: 0.140940242777893
+specificVolume from UK bbl/lt to SI cubic-meter-per-kilogram (convert): PASS value: 1: 1.40940242777893E-4 2: 1.40940242777893E-4 3: 1.40940242777893E-4
+specificVolume from UK bbl/lt to SI m3/kg (convert): PASS value: 1: 1.40940242777893E-4 2: 1.40940242777893E-4 3: 1.40940242777893E-4
+specificVolume from UK cubic-foot-per-ton to UK barrel-per-long-ton (convert): PASS value: 1: 0.19774072122982644 2: 0.19774072122982644 3: 0.19774072122982644
+specificVolume from UK cubic-foot-per-ton to UK in3/lb (convert): PASS value: 1: 0.002780728892294441 2: 0.002780728892294441 3: 0.002780728892294441
+specificVolume from UK cubic-foot-per-ton to UK bbl/lt (convert): PASS value: 1: 0.19774072122982644 2: 0.19774072122982644 3: 0.19774072122982644
+specificVolume from UK cubic-foot-per-ton to UK cubic-foot-per-ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK cubic-foot-per-ton to UK gallon-per-pound (convert): PASS value: 1: 0.002780728892294441 2: 0.002780728892294441 3: 0.002780728892294441
+specificVolume from UK cubic-foot-per-ton to UK ft3/ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK cubic-foot-per-ton to FPS ft3/lb (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK cubic-foot-per-ton to FPS cubic-foot-per-pound (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK cubic-foot-per-ton to Imperial ft3/lb (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK cubic-foot-per-ton to Imperial in3/lb (convert): PASS value: 1: 0.7714285714285707 2: 0.7714285714285707 3: 0.7714285714285707
+specificVolume from UK cubic-foot-per-ton to Imperial cubic-foot-per-pound (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK cubic-foot-per-ton to Imperial cubic-inch-per-pound (convert): PASS value: 1: 0.7714285714285707 2: 0.7714285714285707 3: 0.7714285714285707
+specificVolume from UK cubic-foot-per-ton to US barrel-per-short-ton (convert): PASS value: 1: 0.21203286509409022 2: 0.21203286509409022 3: 0.21203286509409022
+specificVolume from UK cubic-foot-per-ton to US bbl/st (convert): PASS value: 1: 0.21203286509409022 2: 0.21203286509409022 3: 0.21203286509409022
+specificVolume from UK cubic-foot-per-ton to Scientific l/kg (convert): PASS value: 1: 0.0278696252572074 2: 0.0278696252572074 3: 0.0278696252572074
+specificVolume from UK cubic-foot-per-ton to Scientific liter-per-kilogram (convert): PASS value: 1: 0.0278696252572074 2: 0.0278696252572074 3: 0.0278696252572074
+specificVolume from UK cubic-foot-per-ton to SI cubic-meter-per-kilogram (convert): PASS value: 1: 2.78696252572074E-5 2: 2.78696252572074E-5 3: 2.78696252572074E-5
+specificVolume from UK cubic-foot-per-ton to SI m3/kg (convert): PASS value: 1: 2.78696252572074E-5 2: 2.78696252572074E-5 3: 2.78696252572074E-5
+specificVolume from UK gallon-per-pound to UK barrel-per-long-ton (convert): PASS value: 1: 71.11111111111094 2: 71.11111111111094 3: 71.11111111111094
+specificVolume from UK gallon-per-pound to UK in3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK gallon-per-pound to UK bbl/lt (convert): PASS value: 1: 71.11111111111094 2: 71.11111111111094 3: 71.11111111111094
+specificVolume from UK gallon-per-pound to UK cubic-foot-per-ton (convert): PASS value: 1: 359.6179414581037 2: 359.6179414581037 3: 359.6179414581037
+specificVolume from UK gallon-per-pound to UK gallon-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK gallon-per-pound to UK ft3/ton (convert): PASS value: 1: 359.6179414581037 2: 359.6179414581037 3: 359.6179414581037
+specificVolume from UK gallon-per-pound to FPS ft3/lb (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK gallon-per-pound to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK gallon-per-pound to Imperial ft3/lb (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK gallon-per-pound to Imperial in3/lb (convert): PASS value: 1: 277.41955483910834 2: 277.41955483910834 3: 277.41955483910834
+specificVolume from UK gallon-per-pound to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.1605437238652248 2: 0.1605437238652248 3: 0.1605437238652248
+specificVolume from UK gallon-per-pound to Imperial cubic-inch-per-pound (convert): PASS value: 1: 277.41955483910834 2: 277.41955483910834 3: 277.41955483910834
+specificVolume from UK gallon-per-pound to US barrel-per-short-ton (convert): PASS value: 1: 76.25082246660055 2: 76.25082246660055 3: 76.25082246660055
+specificVolume from UK gallon-per-pound to US bbl/st (convert): PASS value: 1: 76.25082246660055 2: 76.25082246660055 3: 76.25082246660055
+specificVolume from UK gallon-per-pound to Scientific l/kg (convert): PASS value: 1: 10.0224172642057 2: 10.0224172642057 3: 10.0224172642057
+specificVolume from UK gallon-per-pound to Scientific liter-per-kilogram (convert): PASS value: 1: 10.0224172642057 2: 10.0224172642057 3: 10.0224172642057
+specificVolume from UK gallon-per-pound to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.0100224172642057 2: 0.0100224172642057 3: 0.0100224172642057
+specificVolume from UK gallon-per-pound to SI m3/kg (convert): PASS value: 1: 0.0100224172642057 2: 0.0100224172642057 3: 0.0100224172642057
+specificVolume from UK ft3/ton to UK barrel-per-long-ton (convert): PASS value: 1: 0.19774072122982644 2: 0.19774072122982644 3: 0.19774072122982644
+specificVolume from UK ft3/ton to UK in3/lb (convert): PASS value: 1: 0.002780728892294441 2: 0.002780728892294441 3: 0.002780728892294441
+specificVolume from UK ft3/ton to UK bbl/lt (convert): PASS value: 1: 0.19774072122982644 2: 0.19774072122982644 3: 0.19774072122982644
+specificVolume from UK ft3/ton to UK cubic-foot-per-ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK ft3/ton to UK gallon-per-pound (convert): PASS value: 1: 0.002780728892294441 2: 0.002780728892294441 3: 0.002780728892294441
+specificVolume from UK ft3/ton to UK ft3/ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from UK ft3/ton to FPS ft3/lb (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK ft3/ton to FPS cubic-foot-per-pound (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK ft3/ton to Imperial ft3/lb (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK ft3/ton to Imperial in3/lb (convert): PASS value: 1: 0.7714285714285707 2: 0.7714285714285707 3: 0.7714285714285707
+specificVolume from UK ft3/ton to Imperial cubic-foot-per-pound (convert): PASS value: 1: 4.4642857142857125E-4 2: 4.4642857142857125E-4 3: 4.4642857142857125E-4
+specificVolume from UK ft3/ton to Imperial cubic-inch-per-pound (convert): PASS value: 1: 0.7714285714285707 2: 0.7714285714285707 3: 0.7714285714285707
+specificVolume from UK ft3/ton to US barrel-per-short-ton (convert): PASS value: 1: 0.21203286509409022 2: 0.21203286509409022 3: 0.21203286509409022
+specificVolume from UK ft3/ton to US bbl/st (convert): PASS value: 1: 0.21203286509409022 2: 0.21203286509409022 3: 0.21203286509409022
+specificVolume from UK ft3/ton to Scientific l/kg (convert): PASS value: 1: 0.0278696252572074 2: 0.0278696252572074 3: 0.0278696252572074
+specificVolume from UK ft3/ton to Scientific liter-per-kilogram (convert): PASS value: 1: 0.0278696252572074 2: 0.0278696252572074 3: 0.0278696252572074
+specificVolume from UK ft3/ton to SI cubic-meter-per-kilogram (convert): PASS value: 1: 2.78696252572074E-5 2: 2.78696252572074E-5 3: 2.78696252572074E-5
+specificVolume from UK ft3/ton to SI m3/kg (convert): PASS value: 1: 2.78696252572074E-5 2: 2.78696252572074E-5 3: 2.78696252572074E-5
+specificVolume from FPS ft3/lb to UK barrel-per-long-ton (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from FPS ft3/lb to UK in3/lb (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from FPS ft3/lb to UK bbl/lt (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from FPS ft3/lb to UK cubic-foot-per-ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from FPS ft3/lb to UK gallon-per-pound (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from FPS ft3/lb to UK ft3/ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from FPS ft3/lb to FPS ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS ft3/lb to FPS cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS ft3/lb to Imperial ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS ft3/lb to Imperial in3/lb (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from FPS ft3/lb to Imperial cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS ft3/lb to Imperial cubic-inch-per-pound (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from FPS ft3/lb to US barrel-per-short-ton (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from FPS ft3/lb to US bbl/st (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from FPS ft3/lb to Scientific l/kg (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from FPS ft3/lb to Scientific liter-per-kilogram (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from FPS ft3/lb to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from FPS ft3/lb to SI m3/kg (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from FPS cubic-foot-per-pound to UK barrel-per-long-ton (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from FPS cubic-foot-per-pound to UK in3/lb (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from FPS cubic-foot-per-pound to UK bbl/lt (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from FPS cubic-foot-per-pound to UK cubic-foot-per-ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from FPS cubic-foot-per-pound to UK gallon-per-pound (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from FPS cubic-foot-per-pound to UK ft3/ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from FPS cubic-foot-per-pound to FPS ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS cubic-foot-per-pound to FPS cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS cubic-foot-per-pound to Imperial ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS cubic-foot-per-pound to Imperial in3/lb (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from FPS cubic-foot-per-pound to Imperial cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from FPS cubic-foot-per-pound to Imperial cubic-inch-per-pound (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from FPS cubic-foot-per-pound to US barrel-per-short-ton (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from FPS cubic-foot-per-pound to US bbl/st (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from FPS cubic-foot-per-pound to Scientific l/kg (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from FPS cubic-foot-per-pound to Scientific liter-per-kilogram (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from FPS cubic-foot-per-pound to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from FPS cubic-foot-per-pound to SI m3/kg (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from Imperial ft3/lb to UK barrel-per-long-ton (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from Imperial ft3/lb to UK in3/lb (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from Imperial ft3/lb to UK bbl/lt (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from Imperial ft3/lb to UK cubic-foot-per-ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from Imperial ft3/lb to UK gallon-per-pound (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from Imperial ft3/lb to UK ft3/ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from Imperial ft3/lb to FPS ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial ft3/lb to FPS cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial ft3/lb to Imperial ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial ft3/lb to Imperial in3/lb (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from Imperial ft3/lb to Imperial cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial ft3/lb to Imperial cubic-inch-per-pound (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from Imperial ft3/lb to US barrel-per-short-ton (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from Imperial ft3/lb to US bbl/st (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from Imperial ft3/lb to Scientific l/kg (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from Imperial ft3/lb to Scientific liter-per-kilogram (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from Imperial ft3/lb to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from Imperial ft3/lb to SI m3/kg (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from Imperial in3/lb to UK barrel-per-long-ton (convert): PASS value: 1: 0.25633056455718267 2: 0.25633056455718267 3: 0.25633056455718267
+specificVolume from Imperial in3/lb to UK in3/lb (convert): PASS value: 1: 0.00360464856408539 2: 0.00360464856408539 3: 0.00360464856408539
+specificVolume from Imperial in3/lb to UK bbl/lt (convert): PASS value: 1: 0.25633056455718267 2: 0.25633056455718267 3: 0.25633056455718267
+specificVolume from Imperial in3/lb to UK cubic-foot-per-ton (convert): PASS value: 1: 1.2962962962962976 2: 1.2962962962962976 3: 1.2962962962962976
+specificVolume from Imperial in3/lb to UK gallon-per-pound (convert): PASS value: 1: 0.00360464856408539 2: 0.00360464856408539 3: 0.00360464856408539
+specificVolume from Imperial in3/lb to UK ft3/ton (convert): PASS value: 1: 1.2962962962962976 2: 1.2962962962962976 3: 1.2962962962962976
+specificVolume from Imperial in3/lb to FPS ft3/lb (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial in3/lb to FPS cubic-foot-per-pound (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial in3/lb to Imperial ft3/lb (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial in3/lb to Imperial in3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial in3/lb to Imperial cubic-foot-per-pound (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial in3/lb to Imperial cubic-inch-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial in3/lb to US barrel-per-short-ton (convert): PASS value: 1: 0.2748574177145617 2: 0.2748574177145617 3: 0.2748574177145617
+specificVolume from Imperial in3/lb to US bbl/st (convert): PASS value: 1: 0.2748574177145617 2: 0.2748574177145617 3: 0.2748574177145617
+specificVolume from Imperial in3/lb to Scientific l/kg (convert): PASS value: 1: 0.0361272920000837 2: 0.0361272920000837 3: 0.0361272920000837
+specificVolume from Imperial in3/lb to Scientific liter-per-kilogram (convert): PASS value: 1: 0.0361272920000837 2: 0.0361272920000837 3: 0.0361272920000837
+specificVolume from Imperial in3/lb to SI cubic-meter-per-kilogram (convert): PASS value: 1: 3.61272920000837E-5 2: 3.61272920000837E-5 3: 3.61272920000837E-5
+specificVolume from Imperial in3/lb to SI m3/kg (convert): PASS value: 1: 3.61272920000837E-5 2: 3.61272920000837E-5 3: 3.61272920000837E-5
+specificVolume from Imperial cubic-foot-per-pound to UK barrel-per-long-ton (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from Imperial cubic-foot-per-pound to UK in3/lb (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from Imperial cubic-foot-per-pound to UK bbl/lt (convert): PASS value: 1: 442.9392155548114 2: 442.9392155548114 3: 442.9392155548114
+specificVolume from Imperial cubic-foot-per-pound to UK cubic-foot-per-ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from Imperial cubic-foot-per-pound to UK gallon-per-pound (convert): PASS value: 1: 6.228832718739551 2: 6.228832718739551 3: 6.228832718739551
+specificVolume from Imperial cubic-foot-per-pound to UK ft3/ton (convert): PASS value: 1: 2240.000000000001 2: 2240.000000000001 3: 2240.000000000001
+specificVolume from Imperial cubic-foot-per-pound to FPS ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial cubic-foot-per-pound to FPS cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial cubic-foot-per-pound to Imperial ft3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial cubic-foot-per-pound to Imperial in3/lb (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from Imperial cubic-foot-per-pound to Imperial cubic-foot-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial cubic-foot-per-pound to Imperial cubic-inch-per-pound (convert): PASS value: 1: 1727.999999999999 2: 1727.999999999999 3: 1727.999999999999
+specificVolume from Imperial cubic-foot-per-pound to US barrel-per-short-ton (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from Imperial cubic-foot-per-pound to US bbl/st (convert): PASS value: 1: 474.95361781076235 2: 474.95361781076235 3: 474.95361781076235
+specificVolume from Imperial cubic-foot-per-pound to Scientific l/kg (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from Imperial cubic-foot-per-pound to Scientific liter-per-kilogram (convert): PASS value: 1: 62.4279605761446 2: 62.4279605761446 3: 62.4279605761446
+specificVolume from Imperial cubic-foot-per-pound to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from Imperial cubic-foot-per-pound to SI m3/kg (convert): PASS value: 1: 0.0624279605761446 2: 0.0624279605761446 3: 0.0624279605761446
+specificVolume from Imperial cubic-inch-per-pound to UK barrel-per-long-ton (convert): PASS value: 1: 0.25633056455718267 2: 0.25633056455718267 3: 0.25633056455718267
+specificVolume from Imperial cubic-inch-per-pound to UK in3/lb (convert): PASS value: 1: 0.00360464856408539 2: 0.00360464856408539 3: 0.00360464856408539
+specificVolume from Imperial cubic-inch-per-pound to UK bbl/lt (convert): PASS value: 1: 0.25633056455718267 2: 0.25633056455718267 3: 0.25633056455718267
+specificVolume from Imperial cubic-inch-per-pound to UK cubic-foot-per-ton (convert): PASS value: 1: 1.2962962962962976 2: 1.2962962962962976 3: 1.2962962962962976
+specificVolume from Imperial cubic-inch-per-pound to UK gallon-per-pound (convert): PASS value: 1: 0.00360464856408539 2: 0.00360464856408539 3: 0.00360464856408539
+specificVolume from Imperial cubic-inch-per-pound to UK ft3/ton (convert): PASS value: 1: 1.2962962962962976 2: 1.2962962962962976 3: 1.2962962962962976
+specificVolume from Imperial cubic-inch-per-pound to FPS ft3/lb (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial cubic-inch-per-pound to FPS cubic-foot-per-pound (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial cubic-inch-per-pound to Imperial ft3/lb (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial cubic-inch-per-pound to Imperial in3/lb (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial cubic-inch-per-pound to Imperial cubic-foot-per-pound (convert): PASS value: 1: 5.78703703703704E-4 2: 5.78703703703704E-4 3: 5.78703703703704E-4
+specificVolume from Imperial cubic-inch-per-pound to Imperial cubic-inch-per-pound (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Imperial cubic-inch-per-pound to US barrel-per-short-ton (convert): PASS value: 1: 0.2748574177145617 2: 0.2748574177145617 3: 0.2748574177145617
+specificVolume from Imperial cubic-inch-per-pound to US bbl/st (convert): PASS value: 1: 0.2748574177145617 2: 0.2748574177145617 3: 0.2748574177145617
+specificVolume from Imperial cubic-inch-per-pound to Scientific l/kg (convert): PASS value: 1: 0.0361272920000837 2: 0.0361272920000837 3: 0.0361272920000837
+specificVolume from Imperial cubic-inch-per-pound to Scientific liter-per-kilogram (convert): PASS value: 1: 0.0361272920000837 2: 0.0361272920000837 3: 0.0361272920000837
+specificVolume from Imperial cubic-inch-per-pound to SI cubic-meter-per-kilogram (convert): PASS value: 1: 3.61272920000837E-5 2: 3.61272920000837E-5 3: 3.61272920000837E-5
+specificVolume from Imperial cubic-inch-per-pound to SI m3/kg (convert): PASS value: 1: 3.61272920000837E-5 2: 3.61272920000837E-5 3: 3.61272920000837E-5
+specificVolume from US barrel-per-short-ton to UK barrel-per-long-ton (convert): PASS value: 1: 0.9325946765001661 2: 0.9325946765001661 3: 0.9325946765001661
+specificVolume from US barrel-per-short-ton to UK in3/lb (convert): PASS value: 1: 0.013114612638283618 2: 0.013114612638283618 3: 0.013114612638283618
+specificVolume from US barrel-per-short-ton to UK bbl/lt (convert): PASS value: 1: 0.9325946765001661 2: 0.9325946765001661 3: 0.9325946765001661
+specificVolume from US barrel-per-short-ton to UK cubic-foot-per-ton (convert): PASS value: 1: 4.716249999999985 2: 4.716249999999985 3: 4.716249999999985
+specificVolume from US barrel-per-short-ton to UK gallon-per-pound (convert): PASS value: 1: 0.013114612638283618 2: 0.013114612638283618 3: 0.013114612638283618
+specificVolume from US barrel-per-short-ton to UK ft3/ton (convert): PASS value: 1: 4.716249999999985 2: 4.716249999999985 3: 4.716249999999985
+specificVolume from US barrel-per-short-ton to FPS ft3/lb (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US barrel-per-short-ton to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US barrel-per-short-ton to Imperial ft3/lb (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US barrel-per-short-ton to Imperial in3/lb (convert): PASS value: 1: 3.638249999999985 2: 3.638249999999985 3: 3.638249999999985
+specificVolume from US barrel-per-short-ton to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US barrel-per-short-ton to Imperial cubic-inch-per-pound (convert): PASS value: 1: 3.638249999999985 2: 3.638249999999985 3: 3.638249999999985
+specificVolume from US barrel-per-short-ton to US barrel-per-short-ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from US barrel-per-short-ton to US bbl/st (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from US barrel-per-short-ton to Scientific l/kg (convert): PASS value: 1: 0.13144012011930398 2: 0.13144012011930398 3: 0.13144012011930398
+specificVolume from US barrel-per-short-ton to Scientific liter-per-kilogram (convert): PASS value: 1: 0.13144012011930398 2: 0.13144012011930398 3: 0.13144012011930398
+specificVolume from US barrel-per-short-ton to SI cubic-meter-per-kilogram (convert): PASS value: 1: 1.31440120119304E-4 2: 1.31440120119304E-4 3: 1.31440120119304E-4
+specificVolume from US barrel-per-short-ton to SI m3/kg (convert): PASS value: 1: 1.31440120119304E-4 2: 1.31440120119304E-4 3: 1.31440120119304E-4
+specificVolume from US bbl/st to UK barrel-per-long-ton (convert): PASS value: 1: 0.9325946765001661 2: 0.9325946765001661 3: 0.9325946765001661
+specificVolume from US bbl/st to UK in3/lb (convert): PASS value: 1: 0.013114612638283618 2: 0.013114612638283618 3: 0.013114612638283618
+specificVolume from US bbl/st to UK bbl/lt (convert): PASS value: 1: 0.9325946765001661 2: 0.9325946765001661 3: 0.9325946765001661
+specificVolume from US bbl/st to UK cubic-foot-per-ton (convert): PASS value: 1: 4.716249999999985 2: 4.716249999999985 3: 4.716249999999985
+specificVolume from US bbl/st to UK gallon-per-pound (convert): PASS value: 1: 0.013114612638283618 2: 0.013114612638283618 3: 0.013114612638283618
+specificVolume from US bbl/st to UK ft3/ton (convert): PASS value: 1: 4.716249999999985 2: 4.716249999999985 3: 4.716249999999985
+specificVolume from US bbl/st to FPS ft3/lb (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US bbl/st to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US bbl/st to Imperial ft3/lb (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US bbl/st to Imperial in3/lb (convert): PASS value: 1: 3.638249999999985 2: 3.638249999999985 3: 3.638249999999985
+specificVolume from US bbl/st to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.0021054687499999928 2: 0.0021054687499999928 3: 0.0021054687499999928
+specificVolume from US bbl/st to Imperial cubic-inch-per-pound (convert): PASS value: 1: 3.638249999999985 2: 3.638249999999985 3: 3.638249999999985
+specificVolume from US bbl/st to US barrel-per-short-ton (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from US bbl/st to US bbl/st (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from US bbl/st to Scientific l/kg (convert): PASS value: 1: 0.13144012011930398 2: 0.13144012011930398 3: 0.13144012011930398
+specificVolume from US bbl/st to Scientific liter-per-kilogram (convert): PASS value: 1: 0.13144012011930398 2: 0.13144012011930398 3: 0.13144012011930398
+specificVolume from US bbl/st to SI cubic-meter-per-kilogram (convert): PASS value: 1: 1.31440120119304E-4 2: 1.31440120119304E-4 3: 1.31440120119304E-4
+specificVolume from US bbl/st to SI m3/kg (convert): PASS value: 1: 1.31440120119304E-4 2: 1.31440120119304E-4 3: 1.31440120119304E-4
+specificVolume from Scientific l/kg to UK barrel-per-long-ton (convert): PASS value: 1: 7.095205601255384 2: 7.095205601255384 3: 7.095205601255384
+specificVolume from Scientific l/kg to UK in3/lb (convert): PASS value: 1: 0.09977632876765408 2: 0.09977632876765408 3: 0.09977632876765408
+specificVolume from Scientific l/kg to UK bbl/lt (convert): PASS value: 1: 7.095205601255384 2: 7.095205601255384 3: 7.095205601255384
+specificVolume from Scientific l/kg to UK cubic-foot-per-ton (convert): PASS value: 1: 35.88135795767074 2: 35.88135795767074 3: 35.88135795767074
+specificVolume from Scientific l/kg to UK gallon-per-pound (convert): PASS value: 1: 0.09977632876765408 2: 0.09977632876765408 3: 0.09977632876765408
+specificVolume from Scientific l/kg to UK ft3/ton (convert): PASS value: 1: 35.88135795767074 2: 35.88135795767074 3: 35.88135795767074
+specificVolume from Scientific l/kg to FPS ft3/lb (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific l/kg to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific l/kg to Imperial ft3/lb (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific l/kg to Imperial in3/lb (convert): PASS value: 1: 27.67990471020311 2: 27.67990471020311 3: 27.67990471020311
+specificVolume from Scientific l/kg to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific l/kg to Imperial cubic-inch-per-pound (convert): PASS value: 1: 27.67990471020311 2: 27.67990471020311 3: 27.67990471020311
+specificVolume from Scientific l/kg to US barrel-per-short-ton (convert): PASS value: 1: 7.608027131231561 2: 7.608027131231561 3: 7.608027131231561
+specificVolume from Scientific l/kg to US bbl/st (convert): PASS value: 1: 7.608027131231561 2: 7.608027131231561 3: 7.608027131231561
+specificVolume from Scientific l/kg to Scientific l/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Scientific l/kg to Scientific liter-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Scientific l/kg to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificVolume from Scientific l/kg to SI m3/kg (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificVolume from Scientific liter-per-kilogram to UK barrel-per-long-ton (convert): PASS value: 1: 7.095205601255384 2: 7.095205601255384 3: 7.095205601255384
+specificVolume from Scientific liter-per-kilogram to UK in3/lb (convert): PASS value: 1: 0.09977632876765408 2: 0.09977632876765408 3: 0.09977632876765408
+specificVolume from Scientific liter-per-kilogram to UK bbl/lt (convert): PASS value: 1: 7.095205601255384 2: 7.095205601255384 3: 7.095205601255384
+specificVolume from Scientific liter-per-kilogram to UK cubic-foot-per-ton (convert): PASS value: 1: 35.88135795767074 2: 35.88135795767074 3: 35.88135795767074
+specificVolume from Scientific liter-per-kilogram to UK gallon-per-pound (convert): PASS value: 1: 0.09977632876765408 2: 0.09977632876765408 3: 0.09977632876765408
+specificVolume from Scientific liter-per-kilogram to UK ft3/ton (convert): PASS value: 1: 35.88135795767074 2: 35.88135795767074 3: 35.88135795767074
+specificVolume from Scientific liter-per-kilogram to FPS ft3/lb (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific liter-per-kilogram to FPS cubic-foot-per-pound (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific liter-per-kilogram to Imperial ft3/lb (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific liter-per-kilogram to Imperial in3/lb (convert): PASS value: 1: 27.67990471020311 2: 27.67990471020311 3: 27.67990471020311
+specificVolume from Scientific liter-per-kilogram to Imperial cubic-foot-per-pound (convert): PASS value: 1: 0.01601846337396014 2: 0.01601846337396014 3: 0.01601846337396014
+specificVolume from Scientific liter-per-kilogram to Imperial cubic-inch-per-pound (convert): PASS value: 1: 27.67990471020311 2: 27.67990471020311 3: 27.67990471020311
+specificVolume from Scientific liter-per-kilogram to US barrel-per-short-ton (convert): PASS value: 1: 7.608027131231561 2: 7.608027131231561 3: 7.608027131231561
+specificVolume from Scientific liter-per-kilogram to US bbl/st (convert): PASS value: 1: 7.608027131231561 2: 7.608027131231561 3: 7.608027131231561
+specificVolume from Scientific liter-per-kilogram to Scientific l/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Scientific liter-per-kilogram to Scientific liter-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from Scientific liter-per-kilogram to SI cubic-meter-per-kilogram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificVolume from Scientific liter-per-kilogram to SI m3/kg (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificVolume from SI cubic-meter-per-kilogram to UK barrel-per-long-ton (convert): PASS value: 1: 7095.205601255384 2: 7095.205601255384 3: 7095.205601255384
+specificVolume from SI cubic-meter-per-kilogram to UK in3/lb (convert): PASS value: 1: 99.77632876765408 2: 99.77632876765408 3: 99.77632876765408
+specificVolume from SI cubic-meter-per-kilogram to UK bbl/lt (convert): PASS value: 1: 7095.205601255384 2: 7095.205601255384 3: 7095.205601255384
+specificVolume from SI cubic-meter-per-kilogram to UK cubic-foot-per-ton (convert): PASS value: 1: 35881.357957670734 2: 35881.357957670734 3: 35881.357957670734
+specificVolume from SI cubic-meter-per-kilogram to UK gallon-per-pound (convert): PASS value: 1: 99.77632876765408 2: 99.77632876765408 3: 99.77632876765408
+specificVolume from SI cubic-meter-per-kilogram to UK ft3/ton (convert): PASS value: 1: 35881.357957670734 2: 35881.357957670734 3: 35881.357957670734
+specificVolume from SI cubic-meter-per-kilogram to FPS ft3/lb (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI cubic-meter-per-kilogram to FPS cubic-foot-per-pound (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI cubic-meter-per-kilogram to Imperial ft3/lb (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI cubic-meter-per-kilogram to Imperial in3/lb (convert): PASS value: 1: 27679.90471020311 2: 27679.90471020311 3: 27679.90471020311
+specificVolume from SI cubic-meter-per-kilogram to Imperial cubic-foot-per-pound (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI cubic-meter-per-kilogram to Imperial cubic-inch-per-pound (convert): PASS value: 1: 27679.90471020311 2: 27679.90471020311 3: 27679.90471020311
+specificVolume from SI cubic-meter-per-kilogram to US barrel-per-short-ton (convert): PASS value: 1: 7608.02713123156 2: 7608.02713123156 3: 7608.02713123156
+specificVolume from SI cubic-meter-per-kilogram to US bbl/st (convert): PASS value: 1: 7608.02713123156 2: 7608.02713123156 3: 7608.02713123156
+specificVolume from SI cubic-meter-per-kilogram to Scientific l/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificVolume from SI cubic-meter-per-kilogram to Scientific liter-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificVolume from SI cubic-meter-per-kilogram to SI cubic-meter-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from SI cubic-meter-per-kilogram to SI m3/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from SI m3/kg to UK barrel-per-long-ton (convert): PASS value: 1: 7095.205601255384 2: 7095.205601255384 3: 7095.205601255384
+specificVolume from SI m3/kg to UK in3/lb (convert): PASS value: 1: 99.77632876765408 2: 99.77632876765408 3: 99.77632876765408
+specificVolume from SI m3/kg to UK bbl/lt (convert): PASS value: 1: 7095.205601255384 2: 7095.205601255384 3: 7095.205601255384
+specificVolume from SI m3/kg to UK cubic-foot-per-ton (convert): PASS value: 1: 35881.357957670734 2: 35881.357957670734 3: 35881.357957670734
+specificVolume from SI m3/kg to UK gallon-per-pound (convert): PASS value: 1: 99.77632876765408 2: 99.77632876765408 3: 99.77632876765408
+specificVolume from SI m3/kg to UK ft3/ton (convert): PASS value: 1: 35881.357957670734 2: 35881.357957670734 3: 35881.357957670734
+specificVolume from SI m3/kg to FPS ft3/lb (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI m3/kg to FPS cubic-foot-per-pound (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI m3/kg to Imperial ft3/lb (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI m3/kg to Imperial in3/lb (convert): PASS value: 1: 27679.90471020311 2: 27679.90471020311 3: 27679.90471020311
+specificVolume from SI m3/kg to Imperial cubic-foot-per-pound (convert): PASS value: 1: 16.01846337396014 2: 16.01846337396014 3: 16.01846337396014
+specificVolume from SI m3/kg to Imperial cubic-inch-per-pound (convert): PASS value: 1: 27679.90471020311 2: 27679.90471020311 3: 27679.90471020311
+specificVolume from SI m3/kg to US barrel-per-short-ton (convert): PASS value: 1: 7608.02713123156 2: 7608.02713123156 3: 7608.02713123156
+specificVolume from SI m3/kg to US bbl/st (convert): PASS value: 1: 7608.02713123156 2: 7608.02713123156 3: 7608.02713123156
+specificVolume from SI m3/kg to Scientific l/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificVolume from SI m3/kg to Scientific liter-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificVolume from SI m3/kg to SI cubic-meter-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificVolume from SI m3/kg to SI m3/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:29:12 Duration: 0:0:0:0.011 Version : 1.0
+
+
+********************************************************************************
+

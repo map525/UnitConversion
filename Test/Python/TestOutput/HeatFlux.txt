@@ -1,0 +1,323 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:39 Version : 1.0
+
+name: Energy type: heatFlux valid: True
+To System: SI From System: SI
+HeatFlux Types [energy, heatFlux, thermalConductance, heatTransfer, thermalConductivity, radiantEnergy, entropy, 
+                molarEntropy, heatInsulation, energyConsumption, specificHeatCapacity, specificHeat]
+
+HeatFlux All Systems [a.u., US, Imperial, UK, FPS, Scientific, INT, cgs, SI, MKpS]
+
+HeatFlux All Units [a.u.[au-of-energy], a.u.[Eh], a.u.[aue], US[barrel-oil-equivalent], US[bboe], US[BeV], 
+                    Imperial[board-of-trade-unit], UK[british-thermal-unit(15.56oC)], UK[Btu(15.56oC)], 
+                    UK[british-thermal-unit(39oF)], UK[Btu(39oF)], UK[british-thermal-unit(4oC)], UK[Btu(4oC)], 
+                    US[british=thermal-unit(59oF)], US[Btu(59oF)], UK[british-thermal-unit-(60oF)], UK[Btu(60oF)], 
+                    UK[british-thermal-unit(Gas)], UK[Btu(Gas)], UK[british-thermal-unit(GIA)], UK[Btu(GIA)], 
+                    UK[british-thermal-unit(ISO)], UK[Btu(ISO)], UK[british-thermal-unit(IT)], UK[Btu(IT)], 
+                    FPS[british-thermal-unit(mean)], FPS[Btu(mean)], UK[british-thermal-unit(mean)], UK[Btu(mean)], 
+                    UK[british-thermal-unit(therm)], UK[Btu(threm)], Scientific[calorie], Scientific[Cal], 
+                    Scientific[kcal], Scientific[calorie(15oC)], Scientific[cal(15oC)], Scientific[calorie(20oC)], 
+                    Scientific[cal(20oC)], Scientific[calorie(4oC)], Scientific[cal(4oC)], INT[calorie(IT)], 
+                    INT[cal(IT)], Scientific[calorie(mean)], Scientific[cal(mean)], US[calorie(therm)], 
+                    US[cal(therm)], Imperial[celsius-heat-unit], Imperial[Chu], Imperial[chu], Imperial[CHU], 
+                    Imperial[centigrade-heat-unit], Imperial[cthu], Imperial[Cthu], 
+                    Imperial[centigrade-heat-unit(15oC)], Imperial[chu(15oC)], FPS[duty], UK[duty], 
+                    cgs[dyne-centimeter], cgs[dyn-cm], Scientific[electronvolt], Scientific[eV], cgs[erg], 
+                    FPS[foot-pound-force], FPS[ft-lbf], FPS[foot-poundal], FPS[ft-pdl], UK[foot-poundal], UK[ft-pdl], 
+                    UK[foot-pound-force], UK[ft-lbf], Scientific[frigorie], Scientific[fg], a.u.[hartree], INT[joule], 
+                    INT[J], SI[joule], SI[J], UK[kelvin], Scientific[kilocalorie(15oC)], Scientific[kcal(15oC)], 
+                    Scientific[kilocalorie(20oC)], Scientific[kcal(20oC)], Scientific[kilocalorie(4oC)], 
+                    Scientific[kcal(4oC)], INT[kilocalorie(IT)], INT[kcal(IT)], Scientific[kilocalorie(mean)], 
+                    Scientific[kcal(mean)], US[kilocalorie(therm)], US[kcal(therm)], Scientific[kilogram-calorie], 
+                    Scientific[kgCal], MKpS[kilogram-force-meter], MKpS[kgfm], Scientific[kiloton-equivalent(TNT)], 
+                    Scientific[kt(TNT)], Scientific[kilowatt-hour], Scientific[kWhr], Scientific[liter-atmosphere], 
+                    Scientific[latm], Scientific[megatonne-equivalent(TNT)], Scientific[Mt(TNT)], 
+                    Scientific[micri-erg], SI[newton-meter], SI[N-m], Imperial[pound-centigrade-unit], Imperial[pcu], 
+                    Scientific[prout], US[Q-unit], US[quad], US[quadrillion(Btu)], Scientific[rydberg], 
+                    Scientific[Ry], Imperial[therm], US[therm], Scientific[thermie(15oC)], Scientific[th(15oC)], 
+                    INT[tonne-coal-equivalent], INT[tce], INT[tonne-oil-equivalent], INT[toe], SI[yottajoule], SI[YJ], 
+                    SI[zettajoule], SI[ZJ], SI[exacjoule], SI[EJ], SI[petajoule], SI[PJ], SI[terajoule], SI[TJ], 
+                    SI[gigajoule], SI[GJ], SI[megajoule], SI[MJ], SI[kilojoule], SI[kJ], SI[hectojoule], SI[hJ], 
+                    SI[decajoule], SI[daJ], SI[decijoule], SI[dJ], SI[centijoule], SI[cJ], SI[millijoule], SI[mJ], 
+                    SI[microjoule], SI[uJ], SI[nanojoule], SI[nJ], SI[picojoule], SI[pJ], SI[femtojoule], SI[fJ], 
+                    SI[attojoule], SI[aJ], SI[zeptojoule], SI[zv], SI[yoctojoule], SI[yJ], 
+                    Imperial[britishthermalunit(IT)-per-hour-per-square-foot], Imperial[Btu(IT)/hr-ft], 
+                    Imperial[british-thermal-unit(therm)-per-hour-per-square-foot], Imperial[Btu(therm)/hr-ft2], 
+                    Scientific[finsen-unit], Scientific[FU], US[gurley-unit], Scientific[heat-flux-unit], 
+                    Scientific[HFU], Scientific[langley], Scientific[met], Scientific[pyron], 
+                    SI[watt-per-square-meter], SI[W/m2], SI[thermal-ampere], SI[watt-per-per-kelvin], SI[W/K], 
+                    Imperial[british-thermal-unit(IT)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                    Imperial[Btu(IT)/hr-ft2-oF], 
+                    Imperial[british-thermal-unit(therm)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                    Imperial[Btu(therm)/hr-ft2-oF], Imperial[USI], UK[U-factor], 
+                    Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                    Imperial[Btu(IT)-in/hr-ft2-oF], 
+                    Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                    Imperial[Btu(IT)-in/sec-ft2-oF], 
+                    Imperial[british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree], 
+                    Imperial[Btu(IT)/hr-ft-oF], Imperial[british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree], 
+                    Imperial[Btu(IT)/hr-in-oF], 
+                    Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                    Imperial[Btu(therm)-in/hr-ft2-oF], 
+                    Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                    Imperial[Btu(therm)-in/sec-ft2-oF], 
+                    Imperial[british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree], 
+                    Imperial[Btu(term)/ft-hr-oF], 
+                    Imperial[british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree], 
+                    Imperial[Btu(term)/in-hr-oF], 
+                    Scientific[calorie(IT)-per-centimeter-per-second-per-degree-celsius], 
+                    Scientific[cal(IT)/cm-sec-oC], 
+                    Scientific[calorie(therm)-per-centimeter-per-second-per-degree-celsius], 
+                    Scientific[cal(therm)/cm-sec-oC], cgs[fourier], SI[joule-per-second-per-centimeter-per-kelvin], 
+                    SI[J/s-cm-K], SI[joule-per-second-per-meter-per-kelvin], SI[J/s-m-K], 
+                    cgs[watt-per-centimeter-per-celsius-degree], cgs[W/cm-oC], SI[watt-per-centimeter-per-kelvin], 
+                    SI[W/cm-K], SI[watt-per-meter-per-kelvin], SI[W/m-K], cgs[dyne-per-centimeter], cgs[dyn/cm], 
+                    cgs[erg-per-square-centimeter], cgs[erg/cm2], Imperial[langley], INT[langley], 
+                    Scientific[flux-unit], Scientific[fu], SI[joule-per-square-meter], SI[J/m2], 
+                    Imperial[british-thermal-unit(IT)-per-fahrenheit-degree], Imperial[Btu(IT)/oF], 
+                    Scientific[carnot], Scientific[clausius(rank)], Scientific[Cl], SI[coulomb(thermal)], SI[C/K], 
+                    SI[joule-per-kelvin], SI[J/K], Scientific[entropy-unit], Scientific[eu], 
+                    Scientific[unit-of-entropy], Scientific[ue], SI[joule-per-mole-per-kelvin], SI[J/mol-K], 
+                    Imperial[R-value], UK[clo], UK[tog], cgs[brewster], cgs[B], US[energy-factor(clothes-washers)], 
+                    US[EF], US[gallon-per-hour-horsepower], US[gal/hr-HP], Scientific[mayer], 
+                    UK[british-thermal-unit(IT)-per-pound-fahrenheit-degree], UK[Btu(IT)/lb-oF], 
+                    UK[british-thermal-unit(therm)-per-pound-fahrenheit-degree], UK[Btu(threm)/lb-oF], 
+                    Scientific[calorie(therm)-per-gram], Scientific[cal(therm)/g], 
+                    Scientific[calorie(therm)-per-kilogram], Scientific[cal(therm)/kg], 
+                    Scientific[calorie(IT)-per-gram], Scientific[cal(IT)/g], Scientific[calorie(IT)-per-kilogram], 
+                    Scientific[cal(IT)/kg], Scientific[calorie(mean)-per-gram], Scientific[cal(mean)/g], 
+                    Scientific[calorie(mean)-per-kilogram], Scientific[cal(mean)/kg], 
+                    Scientific[calorie-per-kilogram], Scientific[cal/kg], Scientific[calorie(15oC)-per-kilogram], 
+                    Scientific[cal(15oC)/kg], Scientific[calorie(20oC)-per-kilogram], Scientific[cal(20oC)/kg], 
+                    Scientific[calorie(4oC)-per-kilogram], Scientific[cal(4oC)/kg], Scientific[calorie-per-gram], 
+                    Scientific[cal/g], Scientific[calorie(15oC)-per-gram], Scientific[cal(15oC)/g], 
+                    Scientific[calorie(20oC)-per-gram], Scientific[cal(20oC)/g], Scientific[calorie(4oC)-per-gram], 
+                    Scientific[cal(4oC)/g]]
+
+HeatFlux Systems [Imperial, Scientific, US, SI]
+
+Units HeatFlux [US[gurley-unit], Imperial[britishthermalunit(IT)-per-hour-per-square-foot], Imperial[Btu(IT)/hr-ft], 
+                Imperial[british-thermal-unit(therm)-per-hour-per-square-foot], Imperial[Btu(therm)/hr-ft2], 
+                Scientific[finsen-unit], Scientific[FU], Scientific[heat-flux-unit], Scientific[HFU], 
+                Scientific[langley], Scientific[met], Scientific[pyron], SI[watt-per-square-meter], SI[W/m2]]
+
+HeatFlux Imperial britishthermalunit(IT)-per-hour-per-square-foot Imperial True 3.15459074506305 britishthermalunit(IT)-per-hour-per-square-foot kg/s3 M/T3 0.0
+HeatFlux Imperial Btu(IT)/hr-ft Imperial True 3.15459074506305 britishthermalunit(IT)-per-hour-per-square-foot kg/s3 M/T3 0.0
+HeatFlux Imperial british-thermal-unit(therm)-per-hour-per-square-foot Imperial True 3.15248105410906 british-thermal-unit(therm)-per-hour-per-square-foot kg/s3 M/T3 0.0
+HeatFlux Imperial Btu(therm)/hr-ft2 Imperial True 3.15248105410906 british-thermal-unit(therm)-per-hour-per-square-foot kg/s3 M/T3 0.0
+HeatFlux Scientific finsen-unit Scientific True 1e-05 finsen-unit kg/s3 M/T3 0.0
+HeatFlux Scientific FU Scientific True 1e-05 finsen-unit kg/s3 M/T3 0.0
+HeatFlux Scientific heat-flux-unit Scientific True 0.041855 heat-flux-unit kg/s3 M/T3 0.0
+HeatFlux Scientific HFU Scientific True 0.041855 heat-flux-unit kg/s3 M/T3 0.0
+HeatFlux Scientific langley Scientific True 697.583333333333 langley kg/s3 M/T3 0.0
+HeatFlux Scientific met Scientific True 58.15 met kg/s3 M/T3 0.0
+HeatFlux Scientific pyron Scientific True 697.583333333333 pyron kg/s3 M/T3 0.0
+HeatFlux US gurley-unit US True 1.52973412287807e-06 gurley-unit kg/s3 M/T3 0.0
+HeatFlux SI watt-per-square-meter SI True 1.0 watt-per-square-meter kg/s3 M/T3 0.0
+HeatFlux SI W/m2 SI True 1.0 watt-per-square-meter kg/s3 M/T3 0.0
+
+
+name: Energy type: heatFlux valid: True
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 1.0006692160611845 2: 1.0006692160611845 3: 1.0006692160611845
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 1.0006692160611845 2: 1.0006692160611845 3: 1.0006692160611845
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific finsen-unit (convert): PASS value: 1: 315459.074506305 2: 315459.074506305 3: 315459.074506305
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific FU (convert): PASS value: 1: 315459.074506305 2: 315459.074506305 3: 315459.074506305
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific heat-flux-unit (convert): PASS value: 1: 75.369507706679 2: 75.369507706679 3: 75.369507706679
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific HFU (convert): PASS value: 1: 75.369507706679 2: 75.369507706679 3: 75.369507706679
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific langley (convert): PASS value: 1: 0.0045221704624007425 2: 0.0045221704624007425 3: 0.0045221704624007425
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific met (convert): PASS value: 1: 0.054249195959811695 2: 0.054249195959811695 3: 0.054249195959811695
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to Scientific pyron (convert): PASS value: 1: 0.0045221704624007425 2: 0.0045221704624007425 3: 0.0045221704624007425
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to US gurley-unit (convert): PASS value: 1: 2062182.3739722462 2: 2062182.3739722462 3: 2062182.3739722462
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to SI watt-per-square-meter (convert): PASS value: 1: 3.15459074506305 2: 3.15459074506305 3: 3.15459074506305
+heatFlux from Imperial britishthermalunit(IT)-per-hour-per-square-foot to SI W/m2 (convert): PASS value: 1: 3.15459074506305 2: 3.15459074506305 3: 3.15459074506305
+heatFlux from Imperial Btu(IT)/hr-ft to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial Btu(IT)/hr-ft to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial Btu(IT)/hr-ft to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 1.0006692160611845 2: 1.0006692160611845 3: 1.0006692160611845
+heatFlux from Imperial Btu(IT)/hr-ft to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 1.0006692160611845 2: 1.0006692160611845 3: 1.0006692160611845
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific finsen-unit (convert): PASS value: 1: 315459.074506305 2: 315459.074506305 3: 315459.074506305
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific FU (convert): PASS value: 1: 315459.074506305 2: 315459.074506305 3: 315459.074506305
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific heat-flux-unit (convert): PASS value: 1: 75.369507706679 2: 75.369507706679 3: 75.369507706679
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific HFU (convert): PASS value: 1: 75.369507706679 2: 75.369507706679 3: 75.369507706679
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific langley (convert): PASS value: 1: 0.0045221704624007425 2: 0.0045221704624007425 3: 0.0045221704624007425
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific met (convert): PASS value: 1: 0.054249195959811695 2: 0.054249195959811695 3: 0.054249195959811695
+heatFlux from Imperial Btu(IT)/hr-ft to Scientific pyron (convert): PASS value: 1: 0.0045221704624007425 2: 0.0045221704624007425 3: 0.0045221704624007425
+heatFlux from Imperial Btu(IT)/hr-ft to US gurley-unit (convert): PASS value: 1: 2062182.3739722462 2: 2062182.3739722462 3: 2062182.3739722462
+heatFlux from Imperial Btu(IT)/hr-ft to SI watt-per-square-meter (convert): PASS value: 1: 3.15459074506305 2: 3.15459074506305 3: 3.15459074506305
+heatFlux from Imperial Btu(IT)/hr-ft to SI W/m2 (convert): PASS value: 1: 3.15459074506305 2: 3.15459074506305 3: 3.15459074506305
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 0.9993312314894439 2: 0.9993312314894439 3: 0.9993312314894439
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 0.9993312314894439 2: 0.9993312314894439 3: 0.9993312314894439
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific finsen-unit (convert): PASS value: 1: 315248.105410906 2: 315248.105410906 3: 315248.105410906
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific FU (convert): PASS value: 1: 315248.105410906 2: 315248.105410906 3: 315248.105410906
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific heat-flux-unit (convert): PASS value: 1: 75.31910295326867 2: 75.31910295326867 3: 75.31910295326867
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific HFU (convert): PASS value: 1: 75.31910295326867 2: 75.31910295326867 3: 75.31910295326867
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific langley (convert): PASS value: 1: 0.004519146177196122 2: 0.004519146177196122 3: 0.004519146177196122
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific met (convert): PASS value: 1: 0.054212915805830784 2: 0.054212915805830784 3: 0.054212915805830784
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to Scientific pyron (convert): PASS value: 1: 0.004519146177196122 2: 0.004519146177196122 3: 0.004519146177196122
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to US gurley-unit (convert): PASS value: 1: 2060803.2513375096 2: 2060803.2513375096 3: 2060803.2513375096
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to SI watt-per-square-meter (convert): PASS value: 1: 3.15248105410906 2: 3.15248105410906 3: 3.15248105410906
+heatFlux from Imperial british-thermal-unit(therm)-per-hour-per-square-foot to SI W/m2 (convert): PASS value: 1: 3.15248105410906 2: 3.15248105410906 3: 3.15248105410906
+heatFlux from Imperial Btu(therm)/hr-ft2 to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 0.9993312314894439 2: 0.9993312314894439 3: 0.9993312314894439
+heatFlux from Imperial Btu(therm)/hr-ft2 to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 0.9993312314894439 2: 0.9993312314894439 3: 0.9993312314894439
+heatFlux from Imperial Btu(therm)/hr-ft2 to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial Btu(therm)/hr-ft2 to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific finsen-unit (convert): PASS value: 1: 315248.105410906 2: 315248.105410906 3: 315248.105410906
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific FU (convert): PASS value: 1: 315248.105410906 2: 315248.105410906 3: 315248.105410906
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific heat-flux-unit (convert): PASS value: 1: 75.31910295326867 2: 75.31910295326867 3: 75.31910295326867
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific HFU (convert): PASS value: 1: 75.31910295326867 2: 75.31910295326867 3: 75.31910295326867
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific langley (convert): PASS value: 1: 0.004519146177196122 2: 0.004519146177196122 3: 0.004519146177196122
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific met (convert): PASS value: 1: 0.054212915805830784 2: 0.054212915805830784 3: 0.054212915805830784
+heatFlux from Imperial Btu(therm)/hr-ft2 to Scientific pyron (convert): PASS value: 1: 0.004519146177196122 2: 0.004519146177196122 3: 0.004519146177196122
+heatFlux from Imperial Btu(therm)/hr-ft2 to US gurley-unit (convert): PASS value: 1: 2060803.2513375096 2: 2060803.2513375096 3: 2060803.2513375096
+heatFlux from Imperial Btu(therm)/hr-ft2 to SI watt-per-square-meter (convert): PASS value: 1: 3.15248105410906 2: 3.15248105410906 3: 3.15248105410906
+heatFlux from Imperial Btu(therm)/hr-ft2 to SI W/m2 (convert): PASS value: 1: 3.15248105410906 2: 3.15248105410906 3: 3.15248105410906
+heatFlux from Scientific finsen-unit to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 3.169983306281504e-06 2: 3.169983306281504e-06 3: 3.169983306281504e-06
+heatFlux from Scientific finsen-unit to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 3.169983306281504e-06 2: 3.169983306281504e-06 3: 3.169983306281504e-06
+heatFlux from Scientific finsen-unit to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 3.1721047100237546e-06 2: 3.1721047100237546e-06 3: 3.1721047100237546e-06
+heatFlux from Scientific finsen-unit to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 3.1721047100237546e-06 2: 3.1721047100237546e-06 3: 3.1721047100237546e-06
+heatFlux from Scientific finsen-unit to Scientific finsen-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific finsen-unit to Scientific FU (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific finsen-unit to Scientific heat-flux-unit (convert): PASS value: 1: 0.00023892008123282762 2: 0.00023892008123282762 3: 0.00023892008123282762
+heatFlux from Scientific finsen-unit to Scientific HFU (convert): PASS value: 1: 0.00023892008123282762 2: 0.00023892008123282762 3: 0.00023892008123282762
+heatFlux from Scientific finsen-unit to Scientific langley (convert): PASS value: 1: 1.4335204873969665e-08 2: 1.4335204873969665e-08 3: 1.4335204873969665e-08
+heatFlux from Scientific finsen-unit to Scientific met (convert): PASS value: 1: 1.7196904557179708e-07 2: 1.7196904557179708e-07 3: 1.7196904557179708e-07
+heatFlux from Scientific finsen-unit to Scientific pyron (convert): PASS value: 1: 1.4335204873969665e-08 2: 1.4335204873969665e-08 3: 1.4335204873969665e-08
+heatFlux from Scientific finsen-unit to US gurley-unit (convert): PASS value: 1: 6.537083699999982 2: 6.537083699999982 3: 6.537083699999982
+heatFlux from Scientific finsen-unit to SI watt-per-square-meter (convert): PASS value: 1: 1e-05 2: 1e-05 3: 1e-05
+heatFlux from Scientific finsen-unit to SI W/m2 (convert): PASS value: 1: 1e-05 2: 1e-05 3: 1e-05
+heatFlux from Scientific FU to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 3.169983306281504e-06 2: 3.169983306281504e-06 3: 3.169983306281504e-06
+heatFlux from Scientific FU to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 3.169983306281504e-06 2: 3.169983306281504e-06 3: 3.169983306281504e-06
+heatFlux from Scientific FU to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 3.1721047100237546e-06 2: 3.1721047100237546e-06 3: 3.1721047100237546e-06
+heatFlux from Scientific FU to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 3.1721047100237546e-06 2: 3.1721047100237546e-06 3: 3.1721047100237546e-06
+heatFlux from Scientific FU to Scientific finsen-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific FU to Scientific FU (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific FU to Scientific heat-flux-unit (convert): PASS value: 1: 0.00023892008123282762 2: 0.00023892008123282762 3: 0.00023892008123282762
+heatFlux from Scientific FU to Scientific HFU (convert): PASS value: 1: 0.00023892008123282762 2: 0.00023892008123282762 3: 0.00023892008123282762
+heatFlux from Scientific FU to Scientific langley (convert): PASS value: 1: 1.4335204873969665e-08 2: 1.4335204873969665e-08 3: 1.4335204873969665e-08
+heatFlux from Scientific FU to Scientific met (convert): PASS value: 1: 1.7196904557179708e-07 2: 1.7196904557179708e-07 3: 1.7196904557179708e-07
+heatFlux from Scientific FU to Scientific pyron (convert): PASS value: 1: 1.4335204873969665e-08 2: 1.4335204873969665e-08 3: 1.4335204873969665e-08
+heatFlux from Scientific FU to US gurley-unit (convert): PASS value: 1: 6.537083699999982 2: 6.537083699999982 3: 6.537083699999982
+heatFlux from Scientific FU to SI watt-per-square-meter (convert): PASS value: 1: 1e-05 2: 1e-05 3: 1e-05
+heatFlux from Scientific FU to SI W/m2 (convert): PASS value: 1: 1e-05 2: 1e-05 3: 1e-05
+heatFlux from Scientific heat-flux-unit to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 0.013267965128441235 2: 0.013267965128441235 3: 0.013267965128441235
+heatFlux from Scientific heat-flux-unit to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 0.013267965128441235 2: 0.013267965128441235 3: 0.013267965128441235
+heatFlux from Scientific heat-flux-unit to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 0.013276844263804426 2: 0.013276844263804426 3: 0.013276844263804426
+heatFlux from Scientific heat-flux-unit to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 0.013276844263804426 2: 0.013276844263804426 3: 0.013276844263804426
+heatFlux from Scientific heat-flux-unit to Scientific finsen-unit (convert): PASS value: 1: 4185.5 2: 4185.5 3: 4185.5
+heatFlux from Scientific heat-flux-unit to Scientific FU (convert): PASS value: 1: 4185.5 2: 4185.5 3: 4185.5
+heatFlux from Scientific heat-flux-unit to Scientific heat-flux-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific heat-flux-unit to Scientific HFU (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific heat-flux-unit to Scientific langley (convert): PASS value: 1: 6.000000000000003e-05 2: 6.000000000000003e-05 3: 6.000000000000003e-05
+heatFlux from Scientific heat-flux-unit to Scientific met (convert): PASS value: 1: 0.0007197764402407567 2: 0.0007197764402407567 3: 0.0007197764402407567
+heatFlux from Scientific heat-flux-unit to Scientific pyron (convert): PASS value: 1: 6.000000000000003e-05 2: 6.000000000000003e-05 3: 6.000000000000003e-05
+heatFlux from Scientific heat-flux-unit to US gurley-unit (convert): PASS value: 1: 27360.963826349926 2: 27360.963826349926 3: 27360.963826349926
+heatFlux from Scientific heat-flux-unit to SI watt-per-square-meter (convert): PASS value: 1: 0.041855 2: 0.041855 3: 0.041855
+heatFlux from Scientific heat-flux-unit to SI W/m2 (convert): PASS value: 1: 0.041855 2: 0.041855 3: 0.041855
+heatFlux from Scientific HFU to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 0.013267965128441235 2: 0.013267965128441235 3: 0.013267965128441235
+heatFlux from Scientific HFU to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 0.013267965128441235 2: 0.013267965128441235 3: 0.013267965128441235
+heatFlux from Scientific HFU to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 0.013276844263804426 2: 0.013276844263804426 3: 0.013276844263804426
+heatFlux from Scientific HFU to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 0.013276844263804426 2: 0.013276844263804426 3: 0.013276844263804426
+heatFlux from Scientific HFU to Scientific finsen-unit (convert): PASS value: 1: 4185.5 2: 4185.5 3: 4185.5
+heatFlux from Scientific HFU to Scientific FU (convert): PASS value: 1: 4185.5 2: 4185.5 3: 4185.5
+heatFlux from Scientific HFU to Scientific heat-flux-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific HFU to Scientific HFU (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific HFU to Scientific langley (convert): PASS value: 1: 6.000000000000003e-05 2: 6.000000000000003e-05 3: 6.000000000000003e-05
+heatFlux from Scientific HFU to Scientific met (convert): PASS value: 1: 0.0007197764402407567 2: 0.0007197764402407567 3: 0.0007197764402407567
+heatFlux from Scientific HFU to Scientific pyron (convert): PASS value: 1: 6.000000000000003e-05 2: 6.000000000000003e-05 3: 6.000000000000003e-05
+heatFlux from Scientific HFU to US gurley-unit (convert): PASS value: 1: 27360.963826349926 2: 27360.963826349926 3: 27360.963826349926
+heatFlux from Scientific HFU to SI watt-per-square-meter (convert): PASS value: 1: 0.041855 2: 0.041855 3: 0.041855
+heatFlux from Scientific HFU to SI W/m2 (convert): PASS value: 1: 0.041855 2: 0.041855 3: 0.041855
+heatFlux from Scientific langley to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 221.13275214068713 2: 221.13275214068713 3: 221.13275214068713
+heatFlux from Scientific langley to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 221.13275214068713 2: 221.13275214068713 3: 221.13275214068713
+heatFlux from Scientific langley to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 221.28073773007364 2: 221.28073773007364 3: 221.28073773007364
+heatFlux from Scientific langley to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 221.28073773007364 2: 221.28073773007364 3: 221.28073773007364
+heatFlux from Scientific langley to Scientific finsen-unit (convert): PASS value: 1: 69758333.3333333 2: 69758333.3333333 3: 69758333.3333333
+heatFlux from Scientific langley to Scientific FU (convert): PASS value: 1: 69758333.3333333 2: 69758333.3333333 3: 69758333.3333333
+heatFlux from Scientific langley to Scientific heat-flux-unit (convert): PASS value: 1: 16666.666666666657 2: 16666.666666666657 3: 16666.666666666657
+heatFlux from Scientific langley to Scientific HFU (convert): PASS value: 1: 16666.666666666657 2: 16666.666666666657 3: 16666.666666666657
+heatFlux from Scientific langley to Scientific langley (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific langley to Scientific met (convert): PASS value: 1: 11.996274004012607 2: 11.996274004012607 3: 11.996274004012607
+heatFlux from Scientific langley to Scientific pyron (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific langley to US gurley-unit (convert): PASS value: 1: 456016063.7724985 2: 456016063.7724985 3: 456016063.7724985
+heatFlux from Scientific langley to SI watt-per-square-meter (convert): PASS value: 1: 697.583333333333 2: 697.583333333333 3: 697.583333333333
+heatFlux from Scientific langley to SI W/m2 (convert): PASS value: 1: 697.583333333333 2: 697.583333333333 3: 697.583333333333
+heatFlux from Scientific met to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 18.433452926026945 2: 18.433452926026945 3: 18.433452926026945
+heatFlux from Scientific met to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 18.433452926026945 2: 18.433452926026945 3: 18.433452926026945
+heatFlux from Scientific met to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 18.44578888878813 2: 18.44578888878813 3: 18.44578888878813
+heatFlux from Scientific met to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 18.44578888878813 2: 18.44578888878813 3: 18.44578888878813
+heatFlux from Scientific met to Scientific finsen-unit (convert): PASS value: 1: 5814999.999999999 2: 5814999.999999999 3: 5814999.999999999
+heatFlux from Scientific met to Scientific FU (convert): PASS value: 1: 5814999.999999999 2: 5814999.999999999 3: 5814999.999999999
+heatFlux from Scientific met to Scientific heat-flux-unit (convert): PASS value: 1: 1389.3202723688926 2: 1389.3202723688926 3: 1389.3202723688926
+heatFlux from Scientific met to Scientific HFU (convert): PASS value: 1: 1389.3202723688926 2: 1389.3202723688926 3: 1389.3202723688926
+heatFlux from Scientific met to Scientific langley (convert): PASS value: 1: 0.08335921634213359 2: 0.08335921634213359 3: 0.08335921634213359
+heatFlux from Scientific met to Scientific met (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific met to Scientific pyron (convert): PASS value: 1: 0.08335921634213359 2: 0.08335921634213359 3: 0.08335921634213359
+heatFlux from Scientific met to US gurley-unit (convert): PASS value: 1: 38013141.71549989 2: 38013141.71549989 3: 38013141.71549989
+heatFlux from Scientific met to SI watt-per-square-meter (convert): PASS value: 1: 58.15 2: 58.15 3: 58.15
+heatFlux from Scientific met to SI W/m2 (convert): PASS value: 1: 58.15 2: 58.15 3: 58.15
+heatFlux from Scientific pyron to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 221.13275214068713 2: 221.13275214068713 3: 221.13275214068713
+heatFlux from Scientific pyron to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 221.13275214068713 2: 221.13275214068713 3: 221.13275214068713
+heatFlux from Scientific pyron to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 221.28073773007364 2: 221.28073773007364 3: 221.28073773007364
+heatFlux from Scientific pyron to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 221.28073773007364 2: 221.28073773007364 3: 221.28073773007364
+heatFlux from Scientific pyron to Scientific finsen-unit (convert): PASS value: 1: 69758333.3333333 2: 69758333.3333333 3: 69758333.3333333
+heatFlux from Scientific pyron to Scientific FU (convert): PASS value: 1: 69758333.3333333 2: 69758333.3333333 3: 69758333.3333333
+heatFlux from Scientific pyron to Scientific heat-flux-unit (convert): PASS value: 1: 16666.666666666657 2: 16666.666666666657 3: 16666.666666666657
+heatFlux from Scientific pyron to Scientific HFU (convert): PASS value: 1: 16666.666666666657 2: 16666.666666666657 3: 16666.666666666657
+heatFlux from Scientific pyron to Scientific langley (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific pyron to Scientific met (convert): PASS value: 1: 11.996274004012607 2: 11.996274004012607 3: 11.996274004012607
+heatFlux from Scientific pyron to Scientific pyron (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from Scientific pyron to US gurley-unit (convert): PASS value: 1: 456016063.7724985 2: 456016063.7724985 3: 456016063.7724985
+heatFlux from Scientific pyron to SI watt-per-square-meter (convert): PASS value: 1: 697.583333333333 2: 697.583333333333 3: 697.583333333333
+heatFlux from Scientific pyron to SI W/m2 (convert): PASS value: 1: 697.583333333333 2: 697.583333333333 3: 697.583333333333
+heatFlux from US gurley-unit to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 4.84923163257266e-07 2: 4.84923163257266e-07 3: 4.84923163257266e-07
+heatFlux from US gurley-unit to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 4.84923163257266e-07 2: 4.84923163257266e-07 3: 4.84923163257266e-07
+heatFlux from US gurley-unit to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 4.852476816265582e-07 2: 4.852476816265582e-07 3: 4.852476816265582e-07
+heatFlux from US gurley-unit to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 4.852476816265582e-07 2: 4.852476816265582e-07 3: 4.852476816265582e-07
+heatFlux from US gurley-unit to Scientific finsen-unit (convert): PASS value: 1: 0.15297341228780698 2: 0.15297341228780698 3: 0.15297341228780698
+heatFlux from US gurley-unit to Scientific FU (convert): PASS value: 1: 0.15297341228780698 2: 0.15297341228780698 3: 0.15297341228780698
+heatFlux from US gurley-unit to Scientific heat-flux-unit (convert): PASS value: 1: 3.654842009026568e-05 2: 3.654842009026568e-05 3: 3.654842009026568e-05
+heatFlux from US gurley-unit to Scientific HFU (convert): PASS value: 1: 3.654842009026568e-05 2: 3.654842009026568e-05 3: 3.654842009026568e-05
+heatFlux from US gurley-unit to Scientific langley (convert): PASS value: 1: 2.1929052054159416e-09 2: 2.1929052054159416e-09 3: 2.1929052054159416e-09
+heatFlux from US gurley-unit to Scientific met (convert): PASS value: 1: 2.6306691708995187e-08 2: 2.6306691708995187e-08 3: 2.6306691708995187e-08
+heatFlux from US gurley-unit to Scientific pyron (convert): PASS value: 1: 2.1929052054159416e-09 2: 2.1929052054159416e-09 3: 2.1929052054159416e-09
+heatFlux from US gurley-unit to US gurley-unit (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from US gurley-unit to SI watt-per-square-meter (convert): PASS value: 1: 1.52973412287807e-06 2: 1.52973412287807e-06 3: 1.52973412287807e-06
+heatFlux from US gurley-unit to SI W/m2 (convert): PASS value: 1: 1.52973412287807e-06 2: 1.52973412287807e-06 3: 1.52973412287807e-06
+heatFlux from SI watt-per-square-meter to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 0.31699833062815036 2: 0.31699833062815036 3: 0.31699833062815036
+heatFlux from SI watt-per-square-meter to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 0.31699833062815036 2: 0.31699833062815036 3: 0.31699833062815036
+heatFlux from SI watt-per-square-meter to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 0.3172104710023754 2: 0.3172104710023754 3: 0.3172104710023754
+heatFlux from SI watt-per-square-meter to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 0.3172104710023754 2: 0.3172104710023754 3: 0.3172104710023754
+heatFlux from SI watt-per-square-meter to Scientific finsen-unit (convert): PASS value: 1: 99999.99999999999 2: 99999.99999999999 3: 99999.99999999999
+heatFlux from SI watt-per-square-meter to Scientific FU (convert): PASS value: 1: 99999.99999999999 2: 99999.99999999999 3: 99999.99999999999
+heatFlux from SI watt-per-square-meter to Scientific heat-flux-unit (convert): PASS value: 1: 23.89200812328276 2: 23.89200812328276 3: 23.89200812328276
+heatFlux from SI watt-per-square-meter to Scientific HFU (convert): PASS value: 1: 23.89200812328276 2: 23.89200812328276 3: 23.89200812328276
+heatFlux from SI watt-per-square-meter to Scientific langley (convert): PASS value: 1: 0.0014335204873969663 2: 0.0014335204873969663 3: 0.0014335204873969663
+heatFlux from SI watt-per-square-meter to Scientific met (convert): PASS value: 1: 0.017196904557179708 2: 0.017196904557179708 3: 0.017196904557179708
+heatFlux from SI watt-per-square-meter to Scientific pyron (convert): PASS value: 1: 0.0014335204873969663 2: 0.0014335204873969663 3: 0.0014335204873969663
+heatFlux from SI watt-per-square-meter to US gurley-unit (convert): PASS value: 1: 653708.3699999981 2: 653708.3699999981 3: 653708.3699999981
+heatFlux from SI watt-per-square-meter to SI watt-per-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from SI watt-per-square-meter to SI W/m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from SI W/m2 to Imperial britishthermalunit(IT)-per-hour-per-square-foot (convert): PASS value: 1: 0.31699833062815036 2: 0.31699833062815036 3: 0.31699833062815036
+heatFlux from SI W/m2 to Imperial Btu(IT)/hr-ft (convert): PASS value: 1: 0.31699833062815036 2: 0.31699833062815036 3: 0.31699833062815036
+heatFlux from SI W/m2 to Imperial british-thermal-unit(therm)-per-hour-per-square-foot (convert): PASS value: 1: 0.3172104710023754 2: 0.3172104710023754 3: 0.3172104710023754
+heatFlux from SI W/m2 to Imperial Btu(therm)/hr-ft2 (convert): PASS value: 1: 0.3172104710023754 2: 0.3172104710023754 3: 0.3172104710023754
+heatFlux from SI W/m2 to Scientific finsen-unit (convert): PASS value: 1: 99999.99999999999 2: 99999.99999999999 3: 99999.99999999999
+heatFlux from SI W/m2 to Scientific FU (convert): PASS value: 1: 99999.99999999999 2: 99999.99999999999 3: 99999.99999999999
+heatFlux from SI W/m2 to Scientific heat-flux-unit (convert): PASS value: 1: 23.89200812328276 2: 23.89200812328276 3: 23.89200812328276
+heatFlux from SI W/m2 to Scientific HFU (convert): PASS value: 1: 23.89200812328276 2: 23.89200812328276 3: 23.89200812328276
+heatFlux from SI W/m2 to Scientific langley (convert): PASS value: 1: 0.0014335204873969663 2: 0.0014335204873969663 3: 0.0014335204873969663
+heatFlux from SI W/m2 to Scientific met (convert): PASS value: 1: 0.017196904557179708 2: 0.017196904557179708 3: 0.017196904557179708
+heatFlux from SI W/m2 to Scientific pyron (convert): PASS value: 1: 0.0014335204873969663 2: 0.0014335204873969663 3: 0.0014335204873969663
+heatFlux from SI W/m2 to US gurley-unit (convert): PASS value: 1: 653708.3699999981 2: 653708.3699999981 3: 653708.3699999981
+heatFlux from SI W/m2 to SI watt-per-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatFlux from SI W/m2 to SI W/m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:39 Duration: 0:00:00.010912 Version : 1.0
+
+********************************************************************************

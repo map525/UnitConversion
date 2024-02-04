@@ -1,0 +1,12 @@
+.vs
+.suo
+*.db
+*.tlog
+*.obj
+*,recipe
+*.v2
+Mass.txt
+Area.txt
+Length.txt
+Liquid.txt
+Dry.txt

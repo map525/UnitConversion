@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnitConversionLib">
+      <HintPath>..\..\..\..\UnitConversionLibrary\CS\Libraries\Debug\UnitConversionLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

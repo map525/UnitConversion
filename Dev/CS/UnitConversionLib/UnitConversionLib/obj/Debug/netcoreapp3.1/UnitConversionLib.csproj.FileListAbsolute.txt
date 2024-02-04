@@ -1,0 +1,9 @@
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\bin\Debug\netcoreapp3.1\UnitConversionLib.deps.json
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\bin\Debug\netcoreapp3.1\UnitConversionLib.dll
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\bin\Debug\netcoreapp3.1\UnitConversionLib.pdb
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\obj\Debug\netcoreapp3.1\UnitConversionLib.csprojAssemblyReference.cache
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\obj\Debug\netcoreapp3.1\UnitConversionLib.AssemblyInfoInputs.cache
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\obj\Debug\netcoreapp3.1\UnitConversionLib.AssemblyInfo.cs
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\obj\Debug\netcoreapp3.1\UnitConversionLib.csproj.CoreCompileInputs.cache
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\obj\Debug\netcoreapp3.1\UnitConversionLib.dll
+C:\Users\map52\Desktop\GitRepository\UnitConversion\Dev\CS\UnitConversionLib\UnitConversionLib\obj\Debug\netcoreapp3.1\UnitConversionLib.pdb

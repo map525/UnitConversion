@@ -1,0 +1,95 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:11 Version: 1.0
+name: Force type: momentum valid: True
+To System: SI From System: SI
+Momentum Types [force, momentum, action, massFlow, quadMoment]
+
+Momentum All Systems [a.u., CAN, cgs, FPS, Imperial, MKpS, MTS, Scientific, SI, UK, US]
+
+Momentum All Units [a.u.[au-of-force], a.u.[auf], CAN[ounce-force], CAN[ozf], cgs[dyne], cgs[dyn], FPS[pound-force], 
+                    FPS[lbf], FPS[poundal], FPS[pdl], Imperial[kilopound-force], Imperial[kipf], Imperial[kip-force], 
+                    Imperial[ouncedal], Imperial[odl], Imperial[pound-force], Imperial[lbf], Imperial[tondal], 
+                    Imperial[tdl], MKpS[kilogram-force], MKpS[kgf], MKpS[kgp], MKpS[kilogram-weight], MKpS[kgw], 
+                    MKpS[pond], MKpS[p], MTS[funal], MTS[sthene], MTS[sn], MTS[sth], MTS[ton-force(metric)], 
+                    Scientific[crinal], Scientific[slug-force], SI[newton], SI[N], UK[ounce-force], UK[ozf], 
+                    UK[ton-force(long)], US[ounce-force], US[ozf], US[ton-force(short)], SI[yottanewton], SI[YN], 
+                    SI[zettanewton], SI[ZN], SI[exacnewton], SI[EN], SI[petanewton], SI[PN], SI[teranewton], SI[TN], 
+                    SI[giganewton], SI[GN], SI[meganewton], SI[MN], SI[kilonewton], SI[kN], SI[hectonewton], SI[hN], 
+                    SI[decacnewton], SI[daN], SI[decinewton], SI[dN], SI[centinewton], SI[cN], SI[millinewton], 
+                    SI[NH], SI[micronewton], SI[uN], SI[nanonewton], SI[nN], SI[piconewton], SI[pN], SI[femtonewton], 
+                    SI[fN], SI[attonewton], SI[aN], SI[zeptonewton], SI[zN], SI[yoctonewton], SI[yN], 
+                    a.u.[au-of-linear-momentum], a.u.[aulm], cgs[bole], cgs[gramcentimeter-per-second], cgs[gcm/sec], 
+                    SI[newton-second], SI[N-sec], a.u.[au-of-action], a.u.[aua], a.u.[au-of-angular-momentum], 
+                    a.u.[auam], Scientific[planck], SI[joule-second], SI[J-sec], Scientific[sumner-unit], 
+                    SI[kilogram-per-second], SI[kg/sec], SI[newton-per-meter], SI[N/m], Imperial[bisquare-foot], 
+                    Imperial[ft4], Imperial[bisquare-inch], Imperial[in4], SI[bisquare-meter], SI[m4], 
+                    US[barrel-mile], US[bbl-mi], US[mi4]]
+
+Momentum Systems [a.u., cgs, SI]
+
+Units Momentum [a.u.[au-of-linear-momentum], a.u.[aulm], cgs[bole], cgs[gramcentimeter-per-second], cgs[gcm/sec], 
+                SI[newton-second], SI[N-sec]]
+
+Momentum a.u. au-of-linear-momentum a.u. True 1.99285191410003E-24 au-of-linear-momentum kg.m/s M.L/T 0
+Momentum a.u. aulm a.u. True 1.99285191410003E-24 au-of-linear-momentum kg.m/s M.L/T 0
+Momentum cgs bole cgs True 1E-05 bole kg.m/s M.L/T 0
+Momentum cgs gramcentimeter-per-second cgs True 1E-05 gramcentimeter-per-second kg.m/s M.L/T 0
+Momentum cgs gcm/sec cgs True 1E-05 gramcentimeter-per-second kg.m/s M.L/T 0
+Momentum SI newton-second SI True 1 newton-second kg.m/s M.L/T 0
+Momentum SI N-sec SI True 1 newton-second kg.m/s M.L/T 0
+
+
+name: Force type: momentum valid: True
+momentum from a.u. au-of-linear-momentum to a.u. au-of-linear-momentum (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from a.u. au-of-linear-momentum to a.u. aulm (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from a.u. au-of-linear-momentum to cgs bole (convert): PASS value: 1: 1.992851914100030E-019 2: 1.992851914100030E-019 3: 1.992851914100030E-019
+momentum from a.u. au-of-linear-momentum to cgs gramcentimeter-per-second (convert): PASS value: 1: 1.992851914100030E-019 2: 1.992851914100030E-019 3: 1.992851914100030E-019
+momentum from a.u. au-of-linear-momentum to cgs gcm/sec (convert): PASS value: 1: 1.992851914100030E-019 2: 1.992851914100030E-019 3: 1.992851914100030E-019
+momentum from a.u. au-of-linear-momentum to SI newton-second (convert): PASS value: 1: 1.992851914100030E-024 2: 1.992851914100030E-024 3: 1.992851914100030E-024
+momentum from a.u. au-of-linear-momentum to SI N-sec (convert): PASS value: 1: 1.992851914100030E-024 2: 1.992851914100030E-024 3: 1.992851914100030E-024
+momentum from a.u. aulm to a.u. au-of-linear-momentum (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from a.u. aulm to a.u. aulm (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from a.u. aulm to cgs bole (convert): PASS value: 1: 1.992851914100030E-019 2: 1.992851914100030E-019 3: 1.992851914100030E-019
+momentum from a.u. aulm to cgs gramcentimeter-per-second (convert): PASS value: 1: 1.992851914100030E-019 2: 1.992851914100030E-019 3: 1.992851914100030E-019
+momentum from a.u. aulm to cgs gcm/sec (convert): PASS value: 1: 1.992851914100030E-019 2: 1.992851914100030E-019 3: 1.992851914100030E-019
+momentum from a.u. aulm to SI newton-second (convert): PASS value: 1: 1.992851914100030E-024 2: 1.992851914100030E-024 3: 1.992851914100030E-024
+momentum from a.u. aulm to SI N-sec (convert): PASS value: 1: 1.992851914100030E-024 2: 1.992851914100030E-024 3: 1.992851914100030E-024
+momentum from cgs bole to a.u. au-of-linear-momentum (convert): PASS value: 1: 5.017934312753987E+018 2: 5.017934312753987E+018 3: 5.017934312753987E+018
+momentum from cgs bole to a.u. aulm (convert): PASS value: 1: 5.017934312753987E+018 2: 5.017934312753987E+018 3: 5.017934312753987E+018
+momentum from cgs bole to cgs bole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs bole to cgs gramcentimeter-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs bole to cgs gcm/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs bole to SI newton-second (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+momentum from cgs bole to SI N-sec (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+momentum from cgs gramcentimeter-per-second to a.u. au-of-linear-momentum (convert): PASS value: 1: 5.017934312753987E+018 2: 5.017934312753987E+018 3: 5.017934312753987E+018
+momentum from cgs gramcentimeter-per-second to a.u. aulm (convert): PASS value: 1: 5.017934312753987E+018 2: 5.017934312753987E+018 3: 5.017934312753987E+018
+momentum from cgs gramcentimeter-per-second to cgs bole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs gramcentimeter-per-second to cgs gramcentimeter-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs gramcentimeter-per-second to cgs gcm/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs gramcentimeter-per-second to SI newton-second (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+momentum from cgs gramcentimeter-per-second to SI N-sec (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+momentum from cgs gcm/sec to a.u. au-of-linear-momentum (convert): PASS value: 1: 5.017934312753987E+018 2: 5.017934312753987E+018 3: 5.017934312753987E+018
+momentum from cgs gcm/sec to a.u. aulm (convert): PASS value: 1: 5.017934312753987E+018 2: 5.017934312753987E+018 3: 5.017934312753987E+018
+momentum from cgs gcm/sec to cgs bole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs gcm/sec to cgs gramcentimeter-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs gcm/sec to cgs gcm/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from cgs gcm/sec to SI newton-second (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+momentum from cgs gcm/sec to SI N-sec (convert): PASS value: 1: 1.000000000000000E-005 2: 1.000000000000000E-005 3: 1.000000000000000E-005
+momentum from SI newton-second to a.u. au-of-linear-momentum (convert): PASS value: 1: 5.017934312753986E+023 2: 5.017934312753986E+023 3: 5.017934312753986E+023
+momentum from SI newton-second to a.u. aulm (convert): PASS value: 1: 5.017934312753986E+023 2: 5.017934312753986E+023 3: 5.017934312753986E+023
+momentum from SI newton-second to cgs bole (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+momentum from SI newton-second to cgs gramcentimeter-per-second (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+momentum from SI newton-second to cgs gcm/sec (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+momentum from SI newton-second to SI newton-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from SI newton-second to SI N-sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from SI N-sec to a.u. au-of-linear-momentum (convert): PASS value: 1: 5.017934312753986E+023 2: 5.017934312753986E+023 3: 5.017934312753986E+023
+momentum from SI N-sec to a.u. aulm (convert): PASS value: 1: 5.017934312753986E+023 2: 5.017934312753986E+023 3: 5.017934312753986E+023
+momentum from SI N-sec to cgs bole (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+momentum from SI N-sec to cgs gramcentimeter-per-second (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+momentum from SI N-sec to cgs gcm/sec (convert): PASS value: 1: 9.999999999999999E+004 2: 9.999999999999999E+004 3: 9.999999999999999E+004
+momentum from SI N-sec to SI newton-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+momentum from SI N-sec to SI N-sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:11 Duration: 00:00:00.0009744 Version: 1.0

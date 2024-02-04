@@ -1,0 +1,6 @@
+﻿  Example.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 999 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  ExampleCpp.vcxproj -> C:\Users\map52\Desktop\GitRepository\UnitConversion\Examples\CPP\Win32\Release\ExampleCpp.exe

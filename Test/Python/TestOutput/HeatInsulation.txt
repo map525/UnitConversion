@@ -1,0 +1,130 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:39 Version : 1.0
+
+name: Energy type: heatInsulation valid: True
+To System: UK From System: UK
+HeatInsulation Types [energy, heatFlux, thermalConductance, heatTransfer, thermalConductivity, radiantEnergy, entropy, 
+                      molarEntropy, heatInsulation, energyConsumption, specificHeatCapacity, specificHeat]
+
+HeatInsulation All Systems [a.u., US, Imperial, UK, FPS, Scientific, INT, cgs, SI, MKpS]
+
+HeatInsulation All Units [a.u.[au-of-energy], a.u.[Eh], a.u.[aue], US[barrel-oil-equivalent], US[bboe], US[BeV], 
+                          Imperial[board-of-trade-unit], UK[british-thermal-unit(15.56oC)], UK[Btu(15.56oC)], 
+                          UK[british-thermal-unit(39oF)], UK[Btu(39oF)], UK[british-thermal-unit(4oC)], UK[Btu(4oC)], 
+                          US[british=thermal-unit(59oF)], US[Btu(59oF)], UK[british-thermal-unit-(60oF)], 
+                          UK[Btu(60oF)], UK[british-thermal-unit(Gas)], UK[Btu(Gas)], UK[british-thermal-unit(GIA)], 
+                          UK[Btu(GIA)], UK[british-thermal-unit(ISO)], UK[Btu(ISO)], UK[british-thermal-unit(IT)], 
+                          UK[Btu(IT)], FPS[british-thermal-unit(mean)], FPS[Btu(mean)], 
+                          UK[british-thermal-unit(mean)], UK[Btu(mean)], UK[british-thermal-unit(therm)], 
+                          UK[Btu(threm)], Scientific[calorie], Scientific[Cal], Scientific[kcal], 
+                          Scientific[calorie(15oC)], Scientific[cal(15oC)], Scientific[calorie(20oC)], 
+                          Scientific[cal(20oC)], Scientific[calorie(4oC)], Scientific[cal(4oC)], INT[calorie(IT)], 
+                          INT[cal(IT)], Scientific[calorie(mean)], Scientific[cal(mean)], US[calorie(therm)], 
+                          US[cal(therm)], Imperial[celsius-heat-unit], Imperial[Chu], Imperial[chu], Imperial[CHU], 
+                          Imperial[centigrade-heat-unit], Imperial[cthu], Imperial[Cthu], 
+                          Imperial[centigrade-heat-unit(15oC)], Imperial[chu(15oC)], FPS[duty], UK[duty], 
+                          cgs[dyne-centimeter], cgs[dyn-cm], Scientific[electronvolt], Scientific[eV], cgs[erg], 
+                          FPS[foot-pound-force], FPS[ft-lbf], FPS[foot-poundal], FPS[ft-pdl], UK[foot-poundal], 
+                          UK[ft-pdl], UK[foot-pound-force], UK[ft-lbf], Scientific[frigorie], Scientific[fg], 
+                          a.u.[hartree], INT[joule], INT[J], SI[joule], SI[J], UK[kelvin], 
+                          Scientific[kilocalorie(15oC)], Scientific[kcal(15oC)], Scientific[kilocalorie(20oC)], 
+                          Scientific[kcal(20oC)], Scientific[kilocalorie(4oC)], Scientific[kcal(4oC)], 
+                          INT[kilocalorie(IT)], INT[kcal(IT)], Scientific[kilocalorie(mean)], Scientific[kcal(mean)], 
+                          US[kilocalorie(therm)], US[kcal(therm)], Scientific[kilogram-calorie], Scientific[kgCal], 
+                          MKpS[kilogram-force-meter], MKpS[kgfm], Scientific[kiloton-equivalent(TNT)], 
+                          Scientific[kt(TNT)], Scientific[kilowatt-hour], Scientific[kWhr], 
+                          Scientific[liter-atmosphere], Scientific[latm], Scientific[megatonne-equivalent(TNT)], 
+                          Scientific[Mt(TNT)], Scientific[micri-erg], SI[newton-meter], SI[N-m], 
+                          Imperial[pound-centigrade-unit], Imperial[pcu], Scientific[prout], US[Q-unit], US[quad], 
+                          US[quadrillion(Btu)], Scientific[rydberg], Scientific[Ry], Imperial[therm], US[therm], 
+                          Scientific[thermie(15oC)], Scientific[th(15oC)], INT[tonne-coal-equivalent], INT[tce], 
+                          INT[tonne-oil-equivalent], INT[toe], SI[yottajoule], SI[YJ], SI[zettajoule], SI[ZJ], 
+                          SI[exacjoule], SI[EJ], SI[petajoule], SI[PJ], SI[terajoule], SI[TJ], SI[gigajoule], SI[GJ], 
+                          SI[megajoule], SI[MJ], SI[kilojoule], SI[kJ], SI[hectojoule], SI[hJ], SI[decajoule], 
+                          SI[daJ], SI[decijoule], SI[dJ], SI[centijoule], SI[cJ], SI[millijoule], SI[mJ], 
+                          SI[microjoule], SI[uJ], SI[nanojoule], SI[nJ], SI[picojoule], SI[pJ], SI[femtojoule], 
+                          SI[fJ], SI[attojoule], SI[aJ], SI[zeptojoule], SI[zv], SI[yoctojoule], SI[yJ], 
+                          Imperial[britishthermalunit(IT)-per-hour-per-square-foot], Imperial[Btu(IT)/hr-ft], 
+                          Imperial[british-thermal-unit(therm)-per-hour-per-square-foot], Imperial[Btu(therm)/hr-ft2], 
+                          Scientific[finsen-unit], Scientific[FU], US[gurley-unit], Scientific[heat-flux-unit], 
+                          Scientific[HFU], Scientific[langley], Scientific[met], Scientific[pyron], 
+                          SI[watt-per-square-meter], SI[W/m2], SI[thermal-ampere], SI[watt-per-per-kelvin], SI[W/K], 
+                          Imperial[british-thermal-unit(IT)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                          Imperial[Btu(IT)/hr-ft2-oF], 
+                          Imperial[british-thermal-unit(therm)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                          Imperial[Btu(therm)/hr-ft2-oF], Imperial[USI], UK[U-factor], 
+                          Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                          Imperial[Btu(IT)-in/hr-ft2-oF], 
+                          Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                          Imperial[Btu(IT)-in/sec-ft2-oF], 
+                          Imperial[british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree], 
+                          Imperial[Btu(IT)/hr-ft-oF], 
+                          Imperial[british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree], 
+                          Imperial[Btu(IT)/hr-in-oF], 
+                          Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                          Imperial[Btu(therm)-in/hr-ft2-oF], 
+                          Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                          Imperial[Btu(therm)-in/sec-ft2-oF], 
+                          Imperial[british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree], 
+                          Imperial[Btu(term)/ft-hr-oF], 
+                          Imperial[british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree], 
+                          Imperial[Btu(term)/in-hr-oF], 
+                          Scientific[calorie(IT)-per-centimeter-per-second-per-degree-celsius], 
+                          Scientific[cal(IT)/cm-sec-oC], 
+                          Scientific[calorie(therm)-per-centimeter-per-second-per-degree-celsius], 
+                          Scientific[cal(therm)/cm-sec-oC], cgs[fourier], 
+                          SI[joule-per-second-per-centimeter-per-kelvin], SI[J/s-cm-K], 
+                          SI[joule-per-second-per-meter-per-kelvin], SI[J/s-m-K], 
+                          cgs[watt-per-centimeter-per-celsius-degree], cgs[W/cm-oC], 
+                          SI[watt-per-centimeter-per-kelvin], SI[W/cm-K], SI[watt-per-meter-per-kelvin], SI[W/m-K], 
+                          cgs[dyne-per-centimeter], cgs[dyn/cm], cgs[erg-per-square-centimeter], cgs[erg/cm2], 
+                          Imperial[langley], INT[langley], Scientific[flux-unit], Scientific[fu], 
+                          SI[joule-per-square-meter], SI[J/m2], 
+                          Imperial[british-thermal-unit(IT)-per-fahrenheit-degree], Imperial[Btu(IT)/oF], 
+                          Scientific[carnot], Scientific[clausius(rank)], Scientific[Cl], SI[coulomb(thermal)], 
+                          SI[C/K], SI[joule-per-kelvin], SI[J/K], Scientific[entropy-unit], Scientific[eu], 
+                          Scientific[unit-of-entropy], Scientific[ue], SI[joule-per-mole-per-kelvin], SI[J/mol-K], 
+                          Imperial[R-value], UK[clo], UK[tog], cgs[brewster], cgs[B], 
+                          US[energy-factor(clothes-washers)], US[EF], US[gallon-per-hour-horsepower], US[gal/hr-HP], 
+                          Scientific[mayer], UK[british-thermal-unit(IT)-per-pound-fahrenheit-degree], 
+                          UK[Btu(IT)/lb-oF], UK[british-thermal-unit(therm)-per-pound-fahrenheit-degree], 
+                          UK[Btu(threm)/lb-oF], Scientific[calorie(therm)-per-gram], Scientific[cal(therm)/g], 
+                          Scientific[calorie(therm)-per-kilogram], Scientific[cal(therm)/kg], 
+                          Scientific[calorie(IT)-per-gram], Scientific[cal(IT)/g], 
+                          Scientific[calorie(IT)-per-kilogram], Scientific[cal(IT)/kg], 
+                          Scientific[calorie(mean)-per-gram], Scientific[cal(mean)/g], 
+                          Scientific[calorie(mean)-per-kilogram], Scientific[cal(mean)/kg], 
+                          Scientific[calorie-per-kilogram], Scientific[cal/kg], 
+                          Scientific[calorie(15oC)-per-kilogram], Scientific[cal(15oC)/kg], 
+                          Scientific[calorie(20oC)-per-kilogram], Scientific[cal(20oC)/kg], 
+                          Scientific[calorie(4oC)-per-kilogram], Scientific[cal(4oC)/kg], 
+                          Scientific[calorie-per-gram], Scientific[cal/g], Scientific[calorie(15oC)-per-gram], 
+                          Scientific[cal(15oC)/g], Scientific[calorie(20oC)-per-gram], Scientific[cal(20oC)/g], 
+                          Scientific[calorie(4oC)-per-gram], Scientific[cal(4oC)/g]]
+
+HeatInsulation Systems [Imperial, UK]
+
+Units HeatInsulation [Imperial[R-value], UK[clo], UK[tog]]
+
+HeatInsulation Imperial R-value Imperial True 0.176110183682306 R-value s3.K/kg T3.Q/M 0.0
+HeatInsulation UK clo UK True 0.154820212638872 clo s3.K/kg T3.Q/M 0.0
+HeatInsulation UK tog UK True 0.1 tog s3.K/kg T3.Q/M 0.0
+
+
+name: Energy type: heatInsulation valid: True
+heatInsulation from Imperial R-value to Imperial R-value (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatInsulation from Imperial R-value to UK clo (convert): PASS value: 1: 1.1375141571023042 2: 1.1375141571023042 3: 1.1375141571023042
+heatInsulation from Imperial R-value to UK tog (convert): PASS value: 1: 1.7611018368230598 2: 1.7611018368230598 3: 1.7611018368230598
+heatInsulation from UK clo to Imperial R-value (convert): PASS value: 1: 0.8791099378907011 2: 0.8791099378907011 3: 0.8791099378907011
+heatInsulation from UK clo to UK clo (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+heatInsulation from UK clo to UK tog (convert): PASS value: 1: 1.5482021263887198 2: 1.5482021263887198 3: 1.5482021263887198
+heatInsulation from UK tog to Imperial R-value (convert): PASS value: 1: 0.5678263341113483 2: 0.5678263341113483 3: 0.5678263341113483
+heatInsulation from UK tog to UK clo (convert): PASS value: 1: 0.6459104938271618 2: 0.6459104938271618 3: 0.6459104938271618
+heatInsulation from UK tog to UK tog (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:39 Duration: 0:00:00.001995 Version : 1.0
+
+********************************************************************************

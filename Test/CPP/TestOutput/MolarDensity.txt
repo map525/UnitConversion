@@ -1,0 +1,258 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:22:08 Version : 1.0
+
+name: Molarity type: molarDensity valid: 1
+To System: SI From System: SI
+MolarDensity Types [enzymaticActivity, molarAbsorption, molarCharge, molarDensity, molarity, quantity, 
+                    radiochemicalYield, surfaceMolarity]
+MolarDensity All Systems [SI, Scientific, INT, US, Imperial]
+MolarDensity All Units [SI[kat], SI[katal], Scientific[IU], Scientific[UI], Scientific[international-unit], 
+                        SI[cm2/mol], SI[m2/mol], SI[mm2/mol], SI[square-centimeter-per-mole], 
+                        SI[square-meter-per-mole], SI[square-millimeter-per-mole], Scientific[ft2/mol], 
+                        Scientific[in2/mol], Scientific[square-foot-per-mole], Scientific[square-inch-per-mole], 
+                        Scientific[square-yard-per-mole], Scientific[yd2/mol], Scientific[F(12C)], 
+                        Scientific[F(chemical)], Scientific[F(physical)], Scientific[faraday(12C)], 
+                        Scientific[faraday(chemical)], Scientific[faraday(physical)], SI[cm3/mol], 
+                        SI[cubic-centimeter-per-mole], SI[cubic-meter-per-mole], SI[cubic-millimeter-per-mole], 
+                        SI[m3/mol], SI[mm3/mol], Scientific[amagat(atm)], Scientific[amagat(bar)], 
+                        Scientific[cubic-foot-per-mole], Scientific[cubic-inch-per-mole], 
+                        Scientific[cubic-yard-per-mole], Scientific[ft3/mol], Scientific[in3/mol], 
+                        Scientific[yd3/mol], INT[M], INT[chlorometric-degree], INT[molar], INT[oChl], Scientific[D], 
+                        Scientific[demal], Scientific[mol/cm3], Scientific[mol/dm3], Scientific[mol/ft3], 
+                        Scientific[mol/in3], Scientific[mol/l], Scientific[mol/m3], Scientific[mol/mm3], 
+                        Scientific[mol/yd3], Scientific[mole-per-centicubic-decimeter], 
+                        Scientific[mole-per-centicubic-meter], Scientific[mole-per-cubic-centimeter], 
+                        Scientific[mole-per-cubic-decimeter], Scientific[mole-per-cubic-foot], 
+                        Scientific[mole-per-cubic-in], Scientific[mole-per-cubic-meter], 
+                        Scientific[mole-per-cubic-millimeter], Scientific[mole-per-cubic-yard], 
+                        Scientific[mole-per-liter], US[Ar], US[american-run], INT[SCF], INT[SCM(bar)], 
+                        INT[ft3(60oF-atm)], INT[m3(STP-bar)], INT[standard-cubic-foot], 
+                        INT[standard-cubic-meter(bar)], Imperial[lbmol], Imperial[pound-mole], SI[mol], SI[mole], 
+                        Scientific[SCM(atm)], Scientific[m3(STP-atm)], Scientific[standard-cubic-meter-(atm)], 
+                        INT[G-vaIue(old)], SI[G-value], Scientific[gibbs], Scientific[mole-per-square-centimeter], 
+                        Scientific[mole-per-square-foot], Scientific[mole-per-square-inch], 
+                        Scientific[mole-per-square-meter], Scientific[mole-per-square-millimeter], 
+                        Scientific[mole-per-square-yard], Scientific[mole/cm2], Scientific[mole/ft2], 
+                        Scientific[mole/in2], Scientific[mole/m2], Scientific[mole/mm2], Scientific[mole/yd2]]
+MolarDensity Systems [SI, Scientific]
+Units MolarDensity [SI[cm3/mol], SI[cubic-centimeter-per-mole], SI[cubic-meter-per-mole], 
+                    SI[cubic-millimeter-per-mole], SI[m3/mol], SI[mm3/mol], Scientific[amagat(atm)], 
+                    Scientific[amagat(bar)], Scientific[cubic-foot-per-mole], Scientific[cubic-inch-per-mole], 
+                    Scientific[cubic-yard-per-mole], Scientific[ft3/mol], Scientific[in3/mol], Scientific[yd3/mol]]
+MolarDensity SI cm3/mol SI 1 1e-06 cubic-centimeter-per-mole m3/mol L3/N 0
+MolarDensity SI cubic-centimeter-per-mole SI 1 1e-06 cubic-centimeter-per-mole m3/mol L3/N 0
+MolarDensity SI cubic-meter-per-mole SI 1 1 cubic-meter-per-mole m3/mol L3/N 0
+MolarDensity SI cubic-millimeter-per-mole SI 1 1e-09 cubic-millimeter-per-mole m3/mol L3/N 0
+MolarDensity SI m3/mol SI 1 1 cubic-meter-per-mole m3/mol L3/N 0
+MolarDensity SI mm3/mol SI 1 1e-09 cubic-millimeter-per-mole m3/mol L3/N 0
+MolarDensity Scientific amagat(atm) Scientific 1 0.022414 amagat(atm) m3/mol L3/N 0
+MolarDensity Scientific amagat(bar) Scientific 1 0.022711 amagat(bar) m3/mol L3/N 0
+MolarDensity Scientific cubic-foot-per-mole Scientific 1 0.0283168 cubic-foot-per-mole m3/mol L3/N 0
+MolarDensity Scientific cubic-inch-per-mole Scientific 1 1.63871e-05 cubic-inch-per-mole m3/mol L3/N 0
+MolarDensity Scientific cubic-yard-per-mole Scientific 1 0.764555 cubic-yard-per-mole m3/mol L3/N 0
+MolarDensity Scientific ft3/mol Scientific 1 0.0283168 cubic-foot-per-mole m3/mol L3/N 0
+MolarDensity Scientific in3/mol Scientific 1 1.63871e-05 cubic-inch-per-mole m3/mol L3/N 0
+MolarDensity Scientific yd3/mol Scientific 1 0.764555 cubic-yard-per-mole m3/mol L3/N 0
+
+name: Molarity type: molarDensity valid: 1
+molarDensity from SI cm3/mol to SI cm3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cm3/mol to SI cubic-centimeter-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cm3/mol to SI cubic-meter-per-mole (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cm3/mol to SI cubic-millimeter-per-mole (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+molarDensity from SI cm3/mol to SI m3/mol (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cm3/mol to SI mm3/mol (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+molarDensity from SI cm3/mol to Scientific amagat(atm) (convert): PASS value: 1: 0.000045 2: 0.000045 3: 0.000045
+molarDensity from SI cm3/mol to Scientific amagat(bar) (convert): PASS value: 1: 0.000044 2: 0.000044 3: 0.000044
+molarDensity from SI cm3/mol to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.000035 2: 0.000035 3: 0.000035
+molarDensity from SI cm3/mol to Scientific cubic-inch-per-mole (convert): PASS value: 1: 0.061024 2: 0.061024 3: 0.061024
+molarDensity from SI cm3/mol to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cm3/mol to Scientific ft3/mol (convert): PASS value: 1: 0.000035 2: 0.000035 3: 0.000035
+molarDensity from SI cm3/mol to Scientific in3/mol (convert): PASS value: 1: 0.061024 2: 0.061024 3: 0.061024
+molarDensity from SI cm3/mol to Scientific yd3/mol (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cubic-centimeter-per-mole to SI cm3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cubic-centimeter-per-mole to SI cubic-centimeter-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cubic-centimeter-per-mole to SI cubic-meter-per-mole (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cubic-centimeter-per-mole to SI cubic-millimeter-per-mole (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+molarDensity from SI cubic-centimeter-per-mole to SI m3/mol (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cubic-centimeter-per-mole to SI mm3/mol (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+molarDensity from SI cubic-centimeter-per-mole to Scientific amagat(atm) (convert): PASS value: 1: 0.000045 2: 0.000045 3: 0.000045
+molarDensity from SI cubic-centimeter-per-mole to Scientific amagat(bar) (convert): PASS value: 1: 0.000044 2: 0.000044 3: 0.000044
+molarDensity from SI cubic-centimeter-per-mole to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.000035 2: 0.000035 3: 0.000035
+molarDensity from SI cubic-centimeter-per-mole to Scientific cubic-inch-per-mole (convert): PASS value: 1: 0.061024 2: 0.061024 3: 0.061024
+molarDensity from SI cubic-centimeter-per-mole to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cubic-centimeter-per-mole to Scientific ft3/mol (convert): PASS value: 1: 0.000035 2: 0.000035 3: 0.000035
+molarDensity from SI cubic-centimeter-per-mole to Scientific in3/mol (convert): PASS value: 1: 0.061024 2: 0.061024 3: 0.061024
+molarDensity from SI cubic-centimeter-per-mole to Scientific yd3/mol (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+molarDensity from SI cubic-meter-per-mole to SI cm3/mol (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+molarDensity from SI cubic-meter-per-mole to SI cubic-centimeter-per-mole (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+molarDensity from SI cubic-meter-per-mole to SI cubic-meter-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cubic-meter-per-mole to SI cubic-millimeter-per-mole (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+molarDensity from SI cubic-meter-per-mole to SI m3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cubic-meter-per-mole to SI mm3/mol (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+molarDensity from SI cubic-meter-per-mole to Scientific amagat(atm) (convert): PASS value: 1: 44.614988 2: 44.614988 3: 44.614988
+molarDensity from SI cubic-meter-per-mole to Scientific amagat(bar) (convert): PASS value: 1: 44.031570 2: 44.031570 3: 44.031570
+molarDensity from SI cubic-meter-per-mole to Scientific cubic-foot-per-mole (convert): PASS value: 1: 35.314667 2: 35.314667 3: 35.314667
+molarDensity from SI cubic-meter-per-mole to Scientific cubic-inch-per-mole (convert): PASS value: 1: 61023.744095 2: 61023.744095 3: 61023.744095
+molarDensity from SI cubic-meter-per-mole to Scientific cubic-yard-per-mole (convert): PASS value: 1: 1.307951 2: 1.307951 3: 1.307951
+molarDensity from SI cubic-meter-per-mole to Scientific ft3/mol (convert): PASS value: 1: 35.314667 2: 35.314667 3: 35.314667
+molarDensity from SI cubic-meter-per-mole to Scientific in3/mol (convert): PASS value: 1: 61023.744095 2: 61023.744095 3: 61023.744095
+molarDensity from SI cubic-meter-per-mole to Scientific yd3/mol (convert): PASS value: 1: 1.307951 2: 1.307951 3: 1.307951
+molarDensity from SI cubic-millimeter-per-mole to SI cm3/mol (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+molarDensity from SI cubic-millimeter-per-mole to SI cubic-centimeter-per-mole (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+molarDensity from SI cubic-millimeter-per-mole to SI cubic-meter-per-mole (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to SI cubic-millimeter-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cubic-millimeter-per-mole to SI m3/mol (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to SI mm3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI cubic-millimeter-per-mole to Scientific amagat(atm) (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to Scientific amagat(bar) (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to Scientific cubic-inch-per-mole (convert): PASS value: 1: 0.000061 2: 0.000061 3: 0.000061
+molarDensity from SI cubic-millimeter-per-mole to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to Scientific ft3/mol (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI cubic-millimeter-per-mole to Scientific in3/mol (convert): PASS value: 1: 0.000061 2: 0.000061 3: 0.000061
+molarDensity from SI cubic-millimeter-per-mole to Scientific yd3/mol (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI m3/mol to SI cm3/mol (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+molarDensity from SI m3/mol to SI cubic-centimeter-per-mole (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+molarDensity from SI m3/mol to SI cubic-meter-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI m3/mol to SI cubic-millimeter-per-mole (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+molarDensity from SI m3/mol to SI m3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI m3/mol to SI mm3/mol (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+molarDensity from SI m3/mol to Scientific amagat(atm) (convert): PASS value: 1: 44.614988 2: 44.614988 3: 44.614988
+molarDensity from SI m3/mol to Scientific amagat(bar) (convert): PASS value: 1: 44.031570 2: 44.031570 3: 44.031570
+molarDensity from SI m3/mol to Scientific cubic-foot-per-mole (convert): PASS value: 1: 35.314667 2: 35.314667 3: 35.314667
+molarDensity from SI m3/mol to Scientific cubic-inch-per-mole (convert): PASS value: 1: 61023.744095 2: 61023.744095 3: 61023.744095
+molarDensity from SI m3/mol to Scientific cubic-yard-per-mole (convert): PASS value: 1: 1.307951 2: 1.307951 3: 1.307951
+molarDensity from SI m3/mol to Scientific ft3/mol (convert): PASS value: 1: 35.314667 2: 35.314667 3: 35.314667
+molarDensity from SI m3/mol to Scientific in3/mol (convert): PASS value: 1: 61023.744095 2: 61023.744095 3: 61023.744095
+molarDensity from SI m3/mol to Scientific yd3/mol (convert): PASS value: 1: 1.307951 2: 1.307951 3: 1.307951
+molarDensity from SI mm3/mol to SI cm3/mol (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+molarDensity from SI mm3/mol to SI cubic-centimeter-per-mole (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+molarDensity from SI mm3/mol to SI cubic-meter-per-mole (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to SI cubic-millimeter-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI mm3/mol to SI m3/mol (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to SI mm3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from SI mm3/mol to Scientific amagat(atm) (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to Scientific amagat(bar) (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to Scientific cubic-inch-per-mole (convert): PASS value: 1: 0.000061 2: 0.000061 3: 0.000061
+molarDensity from SI mm3/mol to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to Scientific ft3/mol (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from SI mm3/mol to Scientific in3/mol (convert): PASS value: 1: 0.000061 2: 0.000061 3: 0.000061
+molarDensity from SI mm3/mol to Scientific yd3/mol (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+molarDensity from Scientific amagat(atm) to SI cm3/mol (convert): PASS value: 1: 22413.992168 2: 22413.992168 3: 22413.992168
+molarDensity from Scientific amagat(atm) to SI cubic-centimeter-per-mole (convert): PASS value: 1: 22413.992168 2: 22413.992168 3: 22413.992168
+molarDensity from Scientific amagat(atm) to SI cubic-meter-per-mole (convert): PASS value: 1: 0.022414 2: 0.022414 3: 0.022414
+molarDensity from Scientific amagat(atm) to SI cubic-millimeter-per-mole (convert): PASS value: 1: 22413992.167717 2: 22413992.167717 3: 22413992.167717
+molarDensity from Scientific amagat(atm) to SI m3/mol (convert): PASS value: 1: 0.022414 2: 0.022414 3: 0.022414
+molarDensity from Scientific amagat(atm) to SI mm3/mol (convert): PASS value: 1: 22413992.167717 2: 22413992.167717 3: 22413992.167717
+molarDensity from Scientific amagat(atm) to Scientific amagat(atm) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific amagat(atm) to Scientific amagat(bar) (convert): PASS value: 1: 0.986923 2: 0.986923 3: 0.986923
+molarDensity from Scientific amagat(atm) to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.791543 2: 0.791543 3: 0.791543
+molarDensity from Scientific amagat(atm) to Scientific cubic-inch-per-mole (convert): PASS value: 1: 1367.785722 2: 1367.785722 3: 1367.785722
+molarDensity from Scientific amagat(atm) to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.029316 2: 0.029316 3: 0.029316
+molarDensity from Scientific amagat(atm) to Scientific ft3/mol (convert): PASS value: 1: 0.791543 2: 0.791543 3: 0.791543
+molarDensity from Scientific amagat(atm) to Scientific in3/mol (convert): PASS value: 1: 1367.785722 2: 1367.785722 3: 1367.785722
+molarDensity from Scientific amagat(atm) to Scientific yd3/mol (convert): PASS value: 1: 0.029316 2: 0.029316 3: 0.029316
+molarDensity from Scientific amagat(bar) to SI cm3/mol (convert): PASS value: 1: 22710.977564 2: 22710.977564 3: 22710.977564
+molarDensity from Scientific amagat(bar) to SI cubic-centimeter-per-mole (convert): PASS value: 1: 22710.977564 2: 22710.977564 3: 22710.977564
+molarDensity from Scientific amagat(bar) to SI cubic-meter-per-mole (convert): PASS value: 1: 0.022711 2: 0.022711 3: 0.022711
+molarDensity from Scientific amagat(bar) to SI cubic-millimeter-per-mole (convert): PASS value: 1: 22710977.563940 2: 22710977.563940 3: 22710977.563940
+molarDensity from Scientific amagat(bar) to SI m3/mol (convert): PASS value: 1: 0.022711 2: 0.022711 3: 0.022711
+molarDensity from Scientific amagat(bar) to SI mm3/mol (convert): PASS value: 1: 22710977.563940 2: 22710977.563940 3: 22710977.563940
+molarDensity from Scientific amagat(bar) to Scientific amagat(atm) (convert): PASS value: 1: 1.013250 2: 1.013250 3: 1.013250
+molarDensity from Scientific amagat(bar) to Scientific amagat(bar) (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific amagat(bar) to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.802031 2: 0.802031 3: 0.802031
+molarDensity from Scientific amagat(bar) to Scientific cubic-inch-per-mole (convert): PASS value: 1: 1385.908883 2: 1385.908883 3: 1385.908883
+molarDensity from Scientific amagat(bar) to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.029705 2: 0.029705 3: 0.029705
+molarDensity from Scientific amagat(bar) to Scientific ft3/mol (convert): PASS value: 1: 0.802031 2: 0.802031 3: 0.802031
+molarDensity from Scientific amagat(bar) to Scientific in3/mol (convert): PASS value: 1: 1385.908883 2: 1385.908883 3: 1385.908883
+molarDensity from Scientific amagat(bar) to Scientific yd3/mol (convert): PASS value: 1: 0.029705 2: 0.029705 3: 0.029705
+molarDensity from Scientific cubic-foot-per-mole to SI cm3/mol (convert): PASS value: 1: 28316.846592 2: 28316.846592 3: 28316.846592
+molarDensity from Scientific cubic-foot-per-mole to SI cubic-centimeter-per-mole (convert): PASS value: 1: 28316.846592 2: 28316.846592 3: 28316.846592
+molarDensity from Scientific cubic-foot-per-mole to SI cubic-meter-per-mole (convert): PASS value: 1: 0.028317 2: 0.028317 3: 0.028317
+molarDensity from Scientific cubic-foot-per-mole to SI cubic-millimeter-per-mole (convert): PASS value: 1: 28316846.592000 2: 28316846.592000 3: 28316846.592000
+molarDensity from Scientific cubic-foot-per-mole to SI m3/mol (convert): PASS value: 1: 0.028317 2: 0.028317 3: 0.028317
+molarDensity from Scientific cubic-foot-per-mole to SI mm3/mol (convert): PASS value: 1: 28316846.592000 2: 28316846.592000 3: 28316846.592000
+molarDensity from Scientific cubic-foot-per-mole to Scientific amagat(atm) (convert): PASS value: 1: 1.263356 2: 1.263356 3: 1.263356
+molarDensity from Scientific cubic-foot-per-mole to Scientific amagat(bar) (convert): PASS value: 1: 1.246835 2: 1.246835 3: 1.246835
+molarDensity from Scientific cubic-foot-per-mole to Scientific cubic-foot-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific cubic-foot-per-mole to Scientific cubic-inch-per-mole (convert): PASS value: 1: 1728.000000 2: 1728.000000 3: 1728.000000
+molarDensity from Scientific cubic-foot-per-mole to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.037037 2: 0.037037 3: 0.037037
+molarDensity from Scientific cubic-foot-per-mole to Scientific ft3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific cubic-foot-per-mole to Scientific in3/mol (convert): PASS value: 1: 1728.000000 2: 1728.000000 3: 1728.000000
+molarDensity from Scientific cubic-foot-per-mole to Scientific yd3/mol (convert): PASS value: 1: 0.037037 2: 0.037037 3: 0.037037
+molarDensity from Scientific cubic-inch-per-mole to SI cm3/mol (convert): PASS value: 1: 16.387064 2: 16.387064 3: 16.387064
+molarDensity from Scientific cubic-inch-per-mole to SI cubic-centimeter-per-mole (convert): PASS value: 1: 16.387064 2: 16.387064 3: 16.387064
+molarDensity from Scientific cubic-inch-per-mole to SI cubic-meter-per-mole (convert): PASS value: 1: 0.000016 2: 0.000016 3: 0.000016
+molarDensity from Scientific cubic-inch-per-mole to SI cubic-millimeter-per-mole (convert): PASS value: 1: 16387.064000 2: 16387.064000 3: 16387.064000
+molarDensity from Scientific cubic-inch-per-mole to SI m3/mol (convert): PASS value: 1: 0.000016 2: 0.000016 3: 0.000016
+molarDensity from Scientific cubic-inch-per-mole to SI mm3/mol (convert): PASS value: 1: 16387.064000 2: 16387.064000 3: 16387.064000
+molarDensity from Scientific cubic-inch-per-mole to Scientific amagat(atm) (convert): PASS value: 1: 0.000731 2: 0.000731 3: 0.000731
+molarDensity from Scientific cubic-inch-per-mole to Scientific amagat(bar) (convert): PASS value: 1: 0.000722 2: 0.000722 3: 0.000722
+molarDensity from Scientific cubic-inch-per-mole to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.000579 2: 0.000579 3: 0.000579
+molarDensity from Scientific cubic-inch-per-mole to Scientific cubic-inch-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific cubic-inch-per-mole to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.000021 2: 0.000021 3: 0.000021
+molarDensity from Scientific cubic-inch-per-mole to Scientific ft3/mol (convert): PASS value: 1: 0.000579 2: 0.000579 3: 0.000579
+molarDensity from Scientific cubic-inch-per-mole to Scientific in3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific cubic-inch-per-mole to Scientific yd3/mol (convert): PASS value: 1: 0.000021 2: 0.000021 3: 0.000021
+molarDensity from Scientific cubic-yard-per-mole to SI cm3/mol (convert): PASS value: 1: 764554.857984 2: 764554.857984 3: 764554.857984
+molarDensity from Scientific cubic-yard-per-mole to SI cubic-centimeter-per-mole (convert): PASS value: 1: 764554.857984 2: 764554.857984 3: 764554.857984
+molarDensity from Scientific cubic-yard-per-mole to SI cubic-meter-per-mole (convert): PASS value: 1: 0.764555 2: 0.764555 3: 0.764555
+molarDensity from Scientific cubic-yard-per-mole to SI cubic-millimeter-per-mole (convert): PASS value: 1: 764554857.984000 2: 764554857.984000 3: 764554857.984000
+molarDensity from Scientific cubic-yard-per-mole to SI m3/mol (convert): PASS value: 1: 0.764555 2: 0.764555 3: 0.764555
+molarDensity from Scientific cubic-yard-per-mole to SI mm3/mol (convert): PASS value: 1: 764554857.984000 2: 764554857.984000 3: 764554857.984000
+molarDensity from Scientific cubic-yard-per-mole to Scientific amagat(atm) (convert): PASS value: 1: 34.110606 2: 34.110606 3: 34.110606
+molarDensity from Scientific cubic-yard-per-mole to Scientific amagat(bar) (convert): PASS value: 1: 33.664551 2: 33.664551 3: 33.664551
+molarDensity from Scientific cubic-yard-per-mole to Scientific cubic-foot-per-mole (convert): PASS value: 1: 27.000000 2: 27.000000 3: 27.000000
+molarDensity from Scientific cubic-yard-per-mole to Scientific cubic-inch-per-mole (convert): PASS value: 1: 46656.000000 2: 46656.000000 3: 46656.000000
+molarDensity from Scientific cubic-yard-per-mole to Scientific cubic-yard-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific cubic-yard-per-mole to Scientific ft3/mol (convert): PASS value: 1: 27.000000 2: 27.000000 3: 27.000000
+molarDensity from Scientific cubic-yard-per-mole to Scientific in3/mol (convert): PASS value: 1: 46656.000000 2: 46656.000000 3: 46656.000000
+molarDensity from Scientific cubic-yard-per-mole to Scientific yd3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific ft3/mol to SI cm3/mol (convert): PASS value: 1: 28316.846592 2: 28316.846592 3: 28316.846592
+molarDensity from Scientific ft3/mol to SI cubic-centimeter-per-mole (convert): PASS value: 1: 28316.846592 2: 28316.846592 3: 28316.846592
+molarDensity from Scientific ft3/mol to SI cubic-meter-per-mole (convert): PASS value: 1: 0.028317 2: 0.028317 3: 0.028317
+molarDensity from Scientific ft3/mol to SI cubic-millimeter-per-mole (convert): PASS value: 1: 28316846.592000 2: 28316846.592000 3: 28316846.592000
+molarDensity from Scientific ft3/mol to SI m3/mol (convert): PASS value: 1: 0.028317 2: 0.028317 3: 0.028317
+molarDensity from Scientific ft3/mol to SI mm3/mol (convert): PASS value: 1: 28316846.592000 2: 28316846.592000 3: 28316846.592000
+molarDensity from Scientific ft3/mol to Scientific amagat(atm) (convert): PASS value: 1: 1.263356 2: 1.263356 3: 1.263356
+molarDensity from Scientific ft3/mol to Scientific amagat(bar) (convert): PASS value: 1: 1.246835 2: 1.246835 3: 1.246835
+molarDensity from Scientific ft3/mol to Scientific cubic-foot-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific ft3/mol to Scientific cubic-inch-per-mole (convert): PASS value: 1: 1728.000000 2: 1728.000000 3: 1728.000000
+molarDensity from Scientific ft3/mol to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.037037 2: 0.037037 3: 0.037037
+molarDensity from Scientific ft3/mol to Scientific ft3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific ft3/mol to Scientific in3/mol (convert): PASS value: 1: 1728.000000 2: 1728.000000 3: 1728.000000
+molarDensity from Scientific ft3/mol to Scientific yd3/mol (convert): PASS value: 1: 0.037037 2: 0.037037 3: 0.037037
+molarDensity from Scientific in3/mol to SI cm3/mol (convert): PASS value: 1: 16.387064 2: 16.387064 3: 16.387064
+molarDensity from Scientific in3/mol to SI cubic-centimeter-per-mole (convert): PASS value: 1: 16.387064 2: 16.387064 3: 16.387064
+molarDensity from Scientific in3/mol to SI cubic-meter-per-mole (convert): PASS value: 1: 0.000016 2: 0.000016 3: 0.000016
+molarDensity from Scientific in3/mol to SI cubic-millimeter-per-mole (convert): PASS value: 1: 16387.064000 2: 16387.064000 3: 16387.064000
+molarDensity from Scientific in3/mol to SI m3/mol (convert): PASS value: 1: 0.000016 2: 0.000016 3: 0.000016
+molarDensity from Scientific in3/mol to SI mm3/mol (convert): PASS value: 1: 16387.064000 2: 16387.064000 3: 16387.064000
+molarDensity from Scientific in3/mol to Scientific amagat(atm) (convert): PASS value: 1: 0.000731 2: 0.000731 3: 0.000731
+molarDensity from Scientific in3/mol to Scientific amagat(bar) (convert): PASS value: 1: 0.000722 2: 0.000722 3: 0.000722
+molarDensity from Scientific in3/mol to Scientific cubic-foot-per-mole (convert): PASS value: 1: 0.000579 2: 0.000579 3: 0.000579
+molarDensity from Scientific in3/mol to Scientific cubic-inch-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific in3/mol to Scientific cubic-yard-per-mole (convert): PASS value: 1: 0.000021 2: 0.000021 3: 0.000021
+molarDensity from Scientific in3/mol to Scientific ft3/mol (convert): PASS value: 1: 0.000579 2: 0.000579 3: 0.000579
+molarDensity from Scientific in3/mol to Scientific in3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific in3/mol to Scientific yd3/mol (convert): PASS value: 1: 0.000021 2: 0.000021 3: 0.000021
+molarDensity from Scientific yd3/mol to SI cm3/mol (convert): PASS value: 1: 764554.857984 2: 764554.857984 3: 764554.857984
+molarDensity from Scientific yd3/mol to SI cubic-centimeter-per-mole (convert): PASS value: 1: 764554.857984 2: 764554.857984 3: 764554.857984
+molarDensity from Scientific yd3/mol to SI cubic-meter-per-mole (convert): PASS value: 1: 0.764555 2: 0.764555 3: 0.764555
+molarDensity from Scientific yd3/mol to SI cubic-millimeter-per-mole (convert): PASS value: 1: 764554857.984000 2: 764554857.984000 3: 764554857.984000
+molarDensity from Scientific yd3/mol to SI m3/mol (convert): PASS value: 1: 0.764555 2: 0.764555 3: 0.764555
+molarDensity from Scientific yd3/mol to SI mm3/mol (convert): PASS value: 1: 764554857.984000 2: 764554857.984000 3: 764554857.984000
+molarDensity from Scientific yd3/mol to Scientific amagat(atm) (convert): PASS value: 1: 34.110606 2: 34.110606 3: 34.110606
+molarDensity from Scientific yd3/mol to Scientific amagat(bar) (convert): PASS value: 1: 33.664551 2: 33.664551 3: 33.664551
+molarDensity from Scientific yd3/mol to Scientific cubic-foot-per-mole (convert): PASS value: 1: 27.000000 2: 27.000000 3: 27.000000
+molarDensity from Scientific yd3/mol to Scientific cubic-inch-per-mole (convert): PASS value: 1: 46656.000000 2: 46656.000000 3: 46656.000000
+molarDensity from Scientific yd3/mol to Scientific cubic-yard-per-mole (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+molarDensity from Scientific yd3/mol to Scientific ft3/mol (convert): PASS value: 1: 27.000000 2: 27.000000 3: 27.000000
+molarDensity from Scientific yd3/mol to Scientific in3/mol (convert): PASS value: 1: 46656.000000 2: 46656.000000 3: 46656.000000
+molarDensity from Scientific yd3/mol to Scientific yd3/mol (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:22:08 Duration: 0.056 Version : 1.0
+
+*********************************************************************************

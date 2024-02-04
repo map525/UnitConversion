@@ -1,0 +1,936 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:40 Version : 1.0
+
+name: Energy type: specificHeat valid: True
+To System: Scientific From System: Scientific
+SpecificHeat Types [energy, heatFlux, thermalConductance, heatTransfer, thermalConductivity, radiantEnergy, entropy, 
+                    molarEntropy, heatInsulation, energyConsumption, specificHeatCapacity, specificHeat]
+
+SpecificHeat All Systems [a.u., US, Imperial, UK, FPS, Scientific, INT, cgs, SI, MKpS]
+
+SpecificHeat All Units [a.u.[au-of-energy], a.u.[Eh], a.u.[aue], US[barrel-oil-equivalent], US[bboe], US[BeV], 
+                        Imperial[board-of-trade-unit], UK[british-thermal-unit(15.56oC)], UK[Btu(15.56oC)], 
+                        UK[british-thermal-unit(39oF)], UK[Btu(39oF)], UK[british-thermal-unit(4oC)], UK[Btu(4oC)], 
+                        US[british=thermal-unit(59oF)], US[Btu(59oF)], UK[british-thermal-unit-(60oF)], UK[Btu(60oF)], 
+                        UK[british-thermal-unit(Gas)], UK[Btu(Gas)], UK[british-thermal-unit(GIA)], UK[Btu(GIA)], 
+                        UK[british-thermal-unit(ISO)], UK[Btu(ISO)], UK[british-thermal-unit(IT)], UK[Btu(IT)], 
+                        FPS[british-thermal-unit(mean)], FPS[Btu(mean)], UK[british-thermal-unit(mean)], 
+                        UK[Btu(mean)], UK[british-thermal-unit(therm)], UK[Btu(threm)], Scientific[calorie], 
+                        Scientific[Cal], Scientific[kcal], Scientific[calorie(15oC)], Scientific[cal(15oC)], 
+                        Scientific[calorie(20oC)], Scientific[cal(20oC)], Scientific[calorie(4oC)], 
+                        Scientific[cal(4oC)], INT[calorie(IT)], INT[cal(IT)], Scientific[calorie(mean)], 
+                        Scientific[cal(mean)], US[calorie(therm)], US[cal(therm)], Imperial[celsius-heat-unit], 
+                        Imperial[Chu], Imperial[chu], Imperial[CHU], Imperial[centigrade-heat-unit], Imperial[cthu], 
+                        Imperial[Cthu], Imperial[centigrade-heat-unit(15oC)], Imperial[chu(15oC)], FPS[duty], 
+                        UK[duty], cgs[dyne-centimeter], cgs[dyn-cm], Scientific[electronvolt], Scientific[eV], 
+                        cgs[erg], FPS[foot-pound-force], FPS[ft-lbf], FPS[foot-poundal], FPS[ft-pdl], 
+                        UK[foot-poundal], UK[ft-pdl], UK[foot-pound-force], UK[ft-lbf], Scientific[frigorie], 
+                        Scientific[fg], a.u.[hartree], INT[joule], INT[J], SI[joule], SI[J], UK[kelvin], 
+                        Scientific[kilocalorie(15oC)], Scientific[kcal(15oC)], Scientific[kilocalorie(20oC)], 
+                        Scientific[kcal(20oC)], Scientific[kilocalorie(4oC)], Scientific[kcal(4oC)], 
+                        INT[kilocalorie(IT)], INT[kcal(IT)], Scientific[kilocalorie(mean)], Scientific[kcal(mean)], 
+                        US[kilocalorie(therm)], US[kcal(therm)], Scientific[kilogram-calorie], Scientific[kgCal], 
+                        MKpS[kilogram-force-meter], MKpS[kgfm], Scientific[kiloton-equivalent(TNT)], 
+                        Scientific[kt(TNT)], Scientific[kilowatt-hour], Scientific[kWhr], 
+                        Scientific[liter-atmosphere], Scientific[latm], Scientific[megatonne-equivalent(TNT)], 
+                        Scientific[Mt(TNT)], Scientific[micri-erg], SI[newton-meter], SI[N-m], 
+                        Imperial[pound-centigrade-unit], Imperial[pcu], Scientific[prout], US[Q-unit], US[quad], 
+                        US[quadrillion(Btu)], Scientific[rydberg], Scientific[Ry], Imperial[therm], US[therm], 
+                        Scientific[thermie(15oC)], Scientific[th(15oC)], INT[tonne-coal-equivalent], INT[tce], 
+                        INT[tonne-oil-equivalent], INT[toe], SI[yottajoule], SI[YJ], SI[zettajoule], SI[ZJ], 
+                        SI[exacjoule], SI[EJ], SI[petajoule], SI[PJ], SI[terajoule], SI[TJ], SI[gigajoule], SI[GJ], 
+                        SI[megajoule], SI[MJ], SI[kilojoule], SI[kJ], SI[hectojoule], SI[hJ], SI[decajoule], SI[daJ], 
+                        SI[decijoule], SI[dJ], SI[centijoule], SI[cJ], SI[millijoule], SI[mJ], SI[microjoule], SI[uJ], 
+                        SI[nanojoule], SI[nJ], SI[picojoule], SI[pJ], SI[femtojoule], SI[fJ], SI[attojoule], SI[aJ], 
+                        SI[zeptojoule], SI[zv], SI[yoctojoule], SI[yJ], 
+                        Imperial[britishthermalunit(IT)-per-hour-per-square-foot], Imperial[Btu(IT)/hr-ft], 
+                        Imperial[british-thermal-unit(therm)-per-hour-per-square-foot], Imperial[Btu(therm)/hr-ft2], 
+                        Scientific[finsen-unit], Scientific[FU], US[gurley-unit], Scientific[heat-flux-unit], 
+                        Scientific[HFU], Scientific[langley], Scientific[met], Scientific[pyron], 
+                        SI[watt-per-square-meter], SI[W/m2], SI[thermal-ampere], SI[watt-per-per-kelvin], SI[W/K], 
+                        Imperial[british-thermal-unit(IT)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                        Imperial[Btu(IT)/hr-ft2-oF], 
+                        Imperial[british-thermal-unit(therm)-per-square-foot-per-hour-per-fahrenheit-degree], 
+                        Imperial[Btu(therm)/hr-ft2-oF], Imperial[USI], UK[U-factor], 
+                        Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                        Imperial[Btu(IT)-in/hr-ft2-oF], 
+                        Imperial[british-thermal-unit(IT)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                        Imperial[Btu(IT)-in/sec-ft2-oF], 
+                        Imperial[british-thermal-unit(IT)-per-foot-per-hour-fahrenheit-degree], 
+                        Imperial[Btu(IT)/hr-ft-oF], 
+                        Imperial[british-thermal-unit(IT)-per-in-per-hour-fahrenheit-degree], 
+                        Imperial[Btu(IT)/hr-in-oF], 
+                        Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-hour-per-fahrenheit-degree], 
+                        Imperial[Btu(therm)-in/hr-ft2-oF], 
+                        Imperial[british-thermal-unit(therm)-inch-per-square-foot-per-second-per-fahrenheit-degree], 
+                        Imperial[Btu(therm)-in/sec-ft2-oF], 
+                        Imperial[british-thermal-unit(therm)-per-foot-per-hour-per-fahrenheit-degree], 
+                        Imperial[Btu(term)/ft-hr-oF], 
+                        Imperial[british-thermal-unit(therm)-per-inch-per-hour-per-fahrenheit-degree], 
+                        Imperial[Btu(term)/in-hr-oF], 
+                        Scientific[calorie(IT)-per-centimeter-per-second-per-degree-celsius], 
+                        Scientific[cal(IT)/cm-sec-oC], 
+                        Scientific[calorie(therm)-per-centimeter-per-second-per-degree-celsius], 
+                        Scientific[cal(therm)/cm-sec-oC], cgs[fourier], 
+                        SI[joule-per-second-per-centimeter-per-kelvin], SI[J/s-cm-K], 
+                        SI[joule-per-second-per-meter-per-kelvin], SI[J/s-m-K], 
+                        cgs[watt-per-centimeter-per-celsius-degree], cgs[W/cm-oC], SI[watt-per-centimeter-per-kelvin], 
+                        SI[W/cm-K], SI[watt-per-meter-per-kelvin], SI[W/m-K], cgs[dyne-per-centimeter], cgs[dyn/cm], 
+                        cgs[erg-per-square-centimeter], cgs[erg/cm2], Imperial[langley], INT[langley], 
+                        Scientific[flux-unit], Scientific[fu], SI[joule-per-square-meter], SI[J/m2], 
+                        Imperial[british-thermal-unit(IT)-per-fahrenheit-degree], Imperial[Btu(IT)/oF], 
+                        Scientific[carnot], Scientific[clausius(rank)], Scientific[Cl], SI[coulomb(thermal)], SI[C/K], 
+                        SI[joule-per-kelvin], SI[J/K], Scientific[entropy-unit], Scientific[eu], 
+                        Scientific[unit-of-entropy], Scientific[ue], SI[joule-per-mole-per-kelvin], SI[J/mol-K], 
+                        Imperial[R-value], UK[clo], UK[tog], cgs[brewster], cgs[B], 
+                        US[energy-factor(clothes-washers)], US[EF], US[gallon-per-hour-horsepower], US[gal/hr-HP], 
+                        Scientific[mayer], UK[british-thermal-unit(IT)-per-pound-fahrenheit-degree], 
+                        UK[Btu(IT)/lb-oF], UK[british-thermal-unit(therm)-per-pound-fahrenheit-degree], 
+                        UK[Btu(threm)/lb-oF], Scientific[calorie(therm)-per-gram], Scientific[cal(therm)/g], 
+                        Scientific[calorie(therm)-per-kilogram], Scientific[cal(therm)/kg], 
+                        Scientific[calorie(IT)-per-gram], Scientific[cal(IT)/g], Scientific[calorie(IT)-per-kilogram], 
+                        Scientific[cal(IT)/kg], Scientific[calorie(mean)-per-gram], Scientific[cal(mean)/g], 
+                        Scientific[calorie(mean)-per-kilogram], Scientific[cal(mean)/kg], 
+                        Scientific[calorie-per-kilogram], Scientific[cal/kg], Scientific[calorie(15oC)-per-kilogram], 
+                        Scientific[cal(15oC)/kg], Scientific[calorie(20oC)-per-kilogram], Scientific[cal(20oC)/kg], 
+                        Scientific[calorie(4oC)-per-kilogram], Scientific[cal(4oC)/kg], Scientific[calorie-per-gram], 
+                        Scientific[cal/g], Scientific[calorie(15oC)-per-gram], Scientific[cal(15oC)/g], 
+                        Scientific[calorie(20oC)-per-gram], Scientific[cal(20oC)/g], 
+                        Scientific[calorie(4oC)-per-gram], Scientific[cal(4oC)/g]]
+
+SpecificHeat Systems [Scientific]
+
+Units SpecificHeat [Scientific[calorie(therm)-per-gram], Scientific[cal(therm)/g], 
+                    Scientific[calorie(therm)-per-kilogram], Scientific[cal(therm)/kg], 
+                    Scientific[calorie(IT)-per-gram], Scientific[cal(IT)/g], Scientific[calorie(IT)-per-kilogram], 
+                    Scientific[cal(IT)/kg], Scientific[calorie(mean)-per-gram], Scientific[cal(mean)/g], 
+                    Scientific[calorie(mean)-per-kilogram], Scientific[cal(mean)/kg], 
+                    Scientific[calorie-per-kilogram], Scientific[cal/kg], Scientific[calorie(15oC)-per-kilogram], 
+                    Scientific[cal(15oC)/kg], Scientific[calorie(20oC)-per-kilogram], Scientific[cal(20oC)/kg], 
+                    Scientific[calorie(4oC)-per-kilogram], Scientific[cal(4oC)/kg], Scientific[calorie-per-gram], 
+                    Scientific[cal/g], Scientific[calorie(15oC)-per-gram], Scientific[cal(15oC)/g], 
+                    Scientific[calorie(20oC)-per-gram], Scientific[cal(20oC)/g], Scientific[calorie(4oC)-per-gram], 
+                    Scientific[cal(4oC)/g]]
+
+SpecificHeat Scientific calorie(therm)-per-gram Scientific True 4184.0 calorie(therm)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(therm)/g Scientific True 4184.0 calorie(therm)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(therm)-per-kilogram Scientific True 4.184 calorie(therm)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(therm)/kg Scientific True 4.184 calorie(therm)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(IT)-per-gram Scientific True 4186.8 calorie(IT)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(IT)/g Scientific True 4186.8 calorie(IT)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(IT)-per-kilogram Scientific True 4.1868 calorie(IT)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(IT)/kg Scientific True 4.1868 calorie(IT)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(mean)-per-gram Scientific True 4190.02 calorie(mean)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(mean)/g Scientific True 4190.02 calorie(mean)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(mean)-per-kilogram Scientific True 4.19002 calorie(mean)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(mean)/kg Scientific True 4.19002 calorie(mean)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie-per-kilogram Scientific True 4184.0 calorie-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal/kg Scientific True 4184.0 calorie-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(15oC)-per-kilogram Scientific True 4.1855 calorie(15oC)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(15oC)/kg Scientific True 4.1855 calorie(15oC)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(20oC)-per-kilogram Scientific True 4.19002 calorie(20oC)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(20oC)/kg Scientific True 4.19002 calorie(20oC)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(4oC)-per-kilogram Scientific True 4.2045 calorie(4oC)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(4oC)/kg Scientific True 4.2045 calorie(4oC)-per-kilogram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie-per-gram Scientific True 4184000.0 calorie-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal/g Scientific True 4184000.0 calorie-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(15oC)-per-gram Scientific True 4185.5 calorie(15oC)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(15oC)/g Scientific True 4185.5 calorie(15oC)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(20oC)-per-gram Scientific True 4190.02 calorie(20oC)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(20oC)/g Scientific True 4190.02 calorie(20oC)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific calorie(4oC)-per-gram Scientific True 4204.5 calorie(4oC)-per-gram m/s3.K L/T3.Q 0.0
+SpecificHeat Scientific cal(4oC)/g Scientific True 4204.5 calorie(4oC)-per-gram m/s3.K L/T3.Q 0.0
+
+
+name: Energy type: specificHeat valid: True
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie(therm)-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific calorie(therm)-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific cal(therm)/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(therm)/g to Scientific cal(therm)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(therm)/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal(therm)/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal(therm)/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific cal(therm)/g to Scientific cal(IT)/g (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific cal(therm)/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific cal(therm)/g to Scientific cal(IT)/kg (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific cal(therm)/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal(therm)/g to Scientific cal(mean)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal(therm)/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal(therm)/g to Scientific cal(mean)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal(therm)/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(therm)/g to Scientific cal/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(therm)/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific cal(therm)/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific cal(therm)/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal(therm)/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal(therm)/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific cal(therm)/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific cal(therm)/g to Scientific calorie-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(therm)/g to Scientific cal/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(therm)/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific cal(therm)/g to Scientific cal(15oC)/g (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific cal(therm)/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal(therm)/g to Scientific cal(20oC)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal(therm)/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific cal(therm)/g to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.000999331231489443 2: 0.000999331231489443 3: 0.000999331231489443
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.000999331231489443 2: 0.000999331231489443 3: 0.000999331231489443
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 0.9993312314894431 2: 0.9993312314894431 3: 0.9993312314894431
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 0.9993312314894431 2: 0.9993312314894431 3: 0.9993312314894431
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 0.9996416198781507 2: 0.9996416198781507 3: 0.9996416198781507
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 0.9996416198781507 2: 0.9996416198781507 3: 0.9996416198781507
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal/g (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0009996416198781509 2: 0.0009996416198781509 3: 0.0009996416198781509
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0009996416198781509 2: 0.0009996416198781509 3: 0.0009996416198781509
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009951242716137471 2: 0.0009951242716137471 3: 0.0009951242716137471
+specificHeat from Scientific calorie(therm)-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009951242716137471 2: 0.0009951242716137471 3: 0.0009951242716137471
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(therm)/kg to Scientific cal(therm)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(therm)/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.000999331231489443 2: 0.000999331231489443 3: 0.000999331231489443
+specificHeat from Scientific cal(therm)/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.000999331231489443 2: 0.000999331231489443 3: 0.000999331231489443
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 0.9993312314894431 2: 0.9993312314894431 3: 0.9993312314894431
+specificHeat from Scientific cal(therm)/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 0.9993312314894431 2: 0.9993312314894431 3: 0.9993312314894431
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific cal(therm)/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific cal(therm)/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific cal(therm)/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(therm)/kg to Scientific cal/kg (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 0.9996416198781507 2: 0.9996416198781507 3: 0.9996416198781507
+specificHeat from Scientific cal(therm)/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 0.9996416198781507 2: 0.9996416198781507 3: 0.9996416198781507
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific cal(therm)/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 0.9985632526813716 2: 0.9985632526813716 3: 0.9985632526813716
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific cal(therm)/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific cal(therm)/kg to Scientific calorie-per-gram (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+specificHeat from Scientific cal(therm)/kg to Scientific cal/g (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0009996416198781509 2: 0.0009996416198781509 3: 0.0009996416198781509
+specificHeat from Scientific cal(therm)/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0009996416198781509 2: 0.0009996416198781509 3: 0.0009996416198781509
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific cal(therm)/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009985632526813713 2: 0.0009985632526813713 3: 0.0009985632526813713
+specificHeat from Scientific cal(therm)/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009951242716137471 2: 0.0009951242716137471 3: 0.0009951242716137471
+specificHeat from Scientific cal(therm)/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009951242716137471 2: 0.0009951242716137471 3: 0.0009951242716137471
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.6692160611855 2: 1000.6692160611855 3: 1000.6692160611855
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.6692160611855 2: 1000.6692160611855 3: 1000.6692160611855
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal/kg (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1000.3105961056027 2: 1000.3105961056027 3: 1000.3105961056027
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1000.3105961056027 2: 1000.3105961056027 3: 1000.3105961056027
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.7902247591866 2: 995.7902247591866 3: 995.7902247591866
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.7902247591866 2: 995.7902247591866 3: 995.7902247591866
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal/g (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific calorie(IT)-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9957902247591867 2: 0.9957902247591867 3: 0.9957902247591867
+specificHeat from Scientific calorie(IT)-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9957902247591867 2: 0.9957902247591867 3: 0.9957902247591867
+specificHeat from Scientific cal(IT)/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific cal(IT)/g to Scientific cal(therm)/g (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific cal(IT)/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.6692160611855 2: 1000.6692160611855 3: 1000.6692160611855
+specificHeat from Scientific cal(IT)/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.6692160611855 2: 1000.6692160611855 3: 1000.6692160611855
+specificHeat from Scientific cal(IT)/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(IT)/g to Scientific cal(IT)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(IT)/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+specificHeat from Scientific cal(IT)/g to Scientific cal(IT)/kg (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+specificHeat from Scientific cal(IT)/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific cal(IT)/g to Scientific cal(mean)/g (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific cal(IT)/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific cal(IT)/g to Scientific cal(mean)/kg (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific cal(IT)/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific cal(IT)/g to Scientific cal/kg (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific cal(IT)/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1000.3105961056027 2: 1000.3105961056027 3: 1000.3105961056027
+specificHeat from Scientific cal(IT)/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 1000.3105961056027 2: 1000.3105961056027 3: 1000.3105961056027
+specificHeat from Scientific cal(IT)/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific cal(IT)/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 999.2315072481756 2: 999.2315072481756 3: 999.2315072481756
+specificHeat from Scientific cal(IT)/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.7902247591866 2: 995.7902247591866 3: 995.7902247591866
+specificHeat from Scientific cal(IT)/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.7902247591866 2: 995.7902247591866 3: 995.7902247591866
+specificHeat from Scientific cal(IT)/g to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific cal(IT)/g to Scientific cal/g (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific cal(IT)/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific cal(IT)/g to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific cal(IT)/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific cal(IT)/g to Scientific cal(20oC)/g (convert): PASS value: 1: 0.9992315072481753 2: 0.9992315072481753 3: 0.9992315072481753
+specificHeat from Scientific cal(IT)/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9957902247591867 2: 0.9957902247591867 3: 0.9957902247591867
+specificHeat from Scientific cal(IT)/g to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9957902247591867 2: 0.9957902247591867 3: 0.9957902247591867
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9957902247591864 2: 0.9957902247591864 3: 0.9957902247591864
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9957902247591864 2: 0.9957902247591864 3: 0.9957902247591864
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 1.0006692160611854e-06 2: 1.0006692160611854e-06 3: 1.0006692160611854e-06
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal/g (convert): PASS value: 1: 1.0006692160611854e-06 2: 1.0006692160611854e-06 3: 1.0006692160611854e-06
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010003105961056027 2: 0.0010003105961056027 3: 0.0010003105961056027
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010003105961056027 2: 0.0010003105961056027 3: 0.0010003105961056027
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009957902247591866 2: 0.0009957902247591866 3: 0.0009957902247591866
+specificHeat from Scientific calorie(IT)-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009957902247591866 2: 0.0009957902247591866 3: 0.0009957902247591866
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific cal(IT)/kg to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific cal(IT)/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0006692160611854 2: 1.0006692160611854 3: 1.0006692160611854
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(IT)/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(IT)/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific cal(IT)/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific cal(IT)/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific cal(IT)/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific cal(IT)/kg to Scientific cal/kg (convert): PASS value: 1: 0.0010006692160611855 2: 0.0010006692160611855 3: 0.0010006692160611855
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific cal(IT)/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0003105961056027 2: 1.0003105961056027 3: 1.0003105961056027
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific cal(IT)/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 0.9992315072481754 2: 0.9992315072481754 3: 0.9992315072481754
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9957902247591864 2: 0.9957902247591864 3: 0.9957902247591864
+specificHeat from Scientific cal(IT)/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9957902247591864 2: 0.9957902247591864 3: 0.9957902247591864
+specificHeat from Scientific cal(IT)/kg to Scientific calorie-per-gram (convert): PASS value: 1: 1.0006692160611854e-06 2: 1.0006692160611854e-06 3: 1.0006692160611854e-06
+specificHeat from Scientific cal(IT)/kg to Scientific cal/g (convert): PASS value: 1: 1.0006692160611854e-06 2: 1.0006692160611854e-06 3: 1.0006692160611854e-06
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010003105961056027 2: 0.0010003105961056027 3: 0.0010003105961056027
+specificHeat from Scientific cal(IT)/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010003105961056027 2: 0.0010003105961056027 3: 0.0010003105961056027
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific cal(IT)/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009992315072481753 2: 0.0009992315072481753 3: 0.0009992315072481753
+specificHeat from Scientific cal(IT)/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009957902247591866 2: 0.0009957902247591866 3: 0.0009957902247591866
+specificHeat from Scientific cal(IT)/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009957902247591866 2: 0.0009957902247591866 3: 0.0009957902247591866
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal/kg (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal/g (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific calorie(mean)-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific cal(mean)/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(mean)/g to Scientific cal(therm)/g (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(mean)/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific cal(mean)/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific cal(mean)/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(mean)/g to Scientific cal(IT)/g (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(mean)/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific cal(mean)/g to Scientific cal(IT)/kg (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific cal(mean)/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/g to Scientific cal(mean)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(mean)/g to Scientific cal(mean)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(mean)/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(mean)/g to Scientific cal/kg (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(mean)/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific cal(mean)/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific cal(mean)/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(mean)/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(mean)/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific cal(mean)/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific cal(mean)/g to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific cal(mean)/g to Scientific cal/g (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific cal(mean)/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific cal(mean)/g to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific cal(mean)/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/g to Scientific cal(20oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific cal(mean)/g to Scientific cal(4oC)/g (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal/g (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific calorie(mean)-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(mean)/kg to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific cal(mean)/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific cal(mean)/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(mean)/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(mean)/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(mean)/kg to Scientific cal/kg (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific cal(mean)/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific cal(mean)/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific cal(mean)/kg to Scientific calorie-per-gram (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific cal(mean)/kg to Scientific cal/g (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific cal(mean)/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(mean)/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(mean)/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific cal(mean)/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie-per-kilogram to Scientific cal/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific calorie-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific calorie-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific cal/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal/kg to Scientific cal(therm)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific cal/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.9993312314894429 2: 0.9993312314894429 3: 0.9993312314894429
+specificHeat from Scientific cal/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific cal/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 999.3312314894431 2: 999.3312314894431 3: 999.3312314894431
+specificHeat from Scientific cal/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal/kg to Scientific cal/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific cal/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 999.6416198781507 2: 999.6416198781507 3: 999.6416198781507
+specificHeat from Scientific cal/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 998.5632526813715 2: 998.5632526813715 3: 998.5632526813715
+specificHeat from Scientific cal/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific cal/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.124271613747 2: 995.124271613747 3: 995.124271613747
+specificHeat from Scientific cal/kg to Scientific calorie-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal/kg to Scientific cal/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific cal/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.9996416198781508 2: 0.9996416198781508 3: 0.9996416198781508
+specificHeat from Scientific cal/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.9985632526813714 2: 0.9985632526813714 3: 0.9985632526813714
+specificHeat from Scientific cal/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific cal/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9951242716137472 2: 0.9951242716137472 3: 0.9951242716137472
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0009996895003343842 2: 0.0009996895003343842 3: 0.0009996895003343842
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.0009996895003343842 2: 0.0009996895003343842 3: 0.0009996895003343842
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 0.9996895003343843 2: 0.9996895003343843 3: 0.9996895003343843
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 0.9996895003343843 2: 0.9996895003343843 3: 0.9996895003343843
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 1.0003585086042066e-06 2: 1.0003585086042066e-06 3: 1.0003585086042066e-06
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal/g (convert): PASS value: 1: 1.0003585086042066e-06 2: 1.0003585086042066e-06 3: 1.0003585086042066e-06
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009954810322273754 2: 0.0009954810322273754 3: 0.0009954810322273754
+specificHeat from Scientific calorie(15oC)-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009954810322273754 2: 0.0009954810322273754 3: 0.0009954810322273754
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0009996895003343842 2: 0.0009996895003343842 3: 0.0009996895003343842
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.0009996895003343842 2: 0.0009996895003343842 3: 0.0009996895003343842
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 0.9996895003343843 2: 0.9996895003343843 3: 0.9996895003343843
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 0.9996895003343843 2: 0.9996895003343843 3: 0.9996895003343843
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific cal(15oC)/kg to Scientific cal/kg (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 0.9989212461993023 2: 0.9989212461993023 3: 0.9989212461993023
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie-per-gram (convert): PASS value: 1: 1.0003585086042066e-06 2: 1.0003585086042066e-06 3: 1.0003585086042066e-06
+specificHeat from Scientific cal(15oC)/kg to Scientific cal/g (convert): PASS value: 1: 1.0003585086042066e-06 2: 1.0003585086042066e-06 3: 1.0003585086042066e-06
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.000998921246199302 2: 0.000998921246199302 3: 0.000998921246199302
+specificHeat from Scientific cal(15oC)/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009954810322273754 2: 0.0009954810322273754 3: 0.0009954810322273754
+specificHeat from Scientific cal(15oC)/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009954810322273754 2: 0.0009954810322273754 3: 0.0009954810322273754
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal/g (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific calorie(20oC)-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0014388145315487 2: 1.0014388145315487 3: 1.0014388145315487
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.0010007690837871403 2: 0.0010007690837871403 3: 0.0010007690837871403
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(20oC)/kg to Scientific cal/kg (convert): PASS value: 1: 0.0010014388145315487 2: 0.0010014388145315487 3: 0.0010014388145315487
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0010799187671722 2: 1.0010799187671722 3: 1.0010799187671722
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 0.9965560708764417 2: 0.9965560708764417 3: 0.9965560708764417
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie-per-gram (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific cal(20oC)/kg to Scientific cal/g (convert): PASS value: 1: 1.0014388145315486e-06 2: 1.0014388145315486e-06 3: 1.0014388145315486e-06
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010010799187671724 2: 0.0010010799187671724 3: 0.0010010799187671724
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0009999999999999998 2: 0.0009999999999999998 3: 0.0009999999999999998
+specificHeat from Scientific cal(20oC)/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific cal(20oC)/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.0009965560708764419 2: 0.0009965560708764419 3: 0.0009965560708764419
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0010042275723703066 2: 0.0010042275723703066 3: 0.0010042275723703066
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(IT)/g (convert): PASS value: 1: 0.0010042275723703066 2: 0.0010042275723703066 3: 0.0010042275723703066
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(mean)/g (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(mean)/kg (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal/kg (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(20oC)/kg (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(4oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie-per-gram (convert): PASS value: 1: 1.0048996175908223e-06 2: 1.0048996175908223e-06 3: 1.0048996175908223e-06
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal/g (convert): PASS value: 1: 1.0048996175908223e-06 2: 1.0048996175908223e-06 3: 1.0048996175908223e-06
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010045394815434239 2: 0.0010045394815434239 3: 0.0010045394815434239
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010045394815434239 2: 0.0010045394815434239 3: 0.0010045394815434239
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie(4oC)-per-kilogram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(therm)/g (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(therm)/kg (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.0010042275723703066 2: 0.0010042275723703066 3: 0.0010042275723703066
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(IT)/g (convert): PASS value: 1: 0.0010042275723703066 2: 0.0010042275723703066 3: 0.0010042275723703066
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(IT)/kg (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(mean)/g (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(mean)/kg (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie-per-kilogram (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific cal(4oC)/kg to Scientific cal/kg (convert): PASS value: 1: 0.0010048996175908223 2: 0.0010048996175908223 3: 0.0010048996175908223
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(15oC)/kg (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(20oC)/kg (convert): PASS value: 1: 1.0034558307597579 2: 1.0034558307597579 3: 1.0034558307597579
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(4oC)/kg (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie-per-gram (convert): PASS value: 1: 1.0048996175908223e-06 2: 1.0048996175908223e-06 3: 1.0048996175908223e-06
+specificHeat from Scientific cal(4oC)/kg to Scientific cal/g (convert): PASS value: 1: 1.0048996175908223e-06 2: 1.0048996175908223e-06 3: 1.0048996175908223e-06
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 0.0010045394815434239 2: 0.0010045394815434239 3: 0.0010045394815434239
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(15oC)/g (convert): PASS value: 1: 0.0010045394815434239 2: 0.0010045394815434239 3: 0.0010045394815434239
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(20oC)/g (convert): PASS value: 1: 0.0010034558307597577 2: 0.0010034558307597577 3: 0.0010034558307597577
+specificHeat from Scientific cal(4oC)/kg to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific cal(4oC)/kg to Scientific cal(4oC)/g (convert): PASS value: 1: 0.001 2: 0.001 3: 0.001
+specificHeat from Scientific calorie-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+specificHeat from Scientific calorie-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+specificHeat from Scientific calorie-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 999.331231489443 2: 999.331231489443 3: 999.331231489443
+specificHeat from Scientific calorie-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 999.331231489443 2: 999.331231489443 3: 999.331231489443
+specificHeat from Scientific calorie-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999331.2314894431 2: 999331.2314894431 3: 999331.2314894431
+specificHeat from Scientific calorie-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 999331.2314894431 2: 999331.2314894431 3: 999331.2314894431
+specificHeat from Scientific calorie-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific calorie-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific calorie-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific calorie-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific calorie-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie-per-gram to Scientific cal/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 999641.6198781508 2: 999641.6198781508 3: 999641.6198781508
+specificHeat from Scientific calorie-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 999641.6198781508 2: 999641.6198781508 3: 999641.6198781508
+specificHeat from Scientific calorie-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific calorie-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific calorie-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995124.2716137471 2: 995124.2716137471 3: 995124.2716137471
+specificHeat from Scientific calorie-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 995124.2716137471 2: 995124.2716137471 3: 995124.2716137471
+specificHeat from Scientific calorie-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie-per-gram to Scientific cal/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 999.6416198781508 2: 999.6416198781508 3: 999.6416198781508
+specificHeat from Scientific calorie-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 999.6416198781508 2: 999.6416198781508 3: 999.6416198781508
+specificHeat from Scientific calorie-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific calorie-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific calorie-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 995.1242716137472 2: 995.1242716137472 3: 995.1242716137472
+specificHeat from Scientific calorie-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 995.1242716137472 2: 995.1242716137472 3: 995.1242716137472
+specificHeat from Scientific cal/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal/g to Scientific cal(therm)/g (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+specificHeat from Scientific cal/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+specificHeat from Scientific cal/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 999.331231489443 2: 999.331231489443 3: 999.331231489443
+specificHeat from Scientific cal/g to Scientific cal(IT)/g (convert): PASS value: 1: 999.331231489443 2: 999.331231489443 3: 999.331231489443
+specificHeat from Scientific cal/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999331.2314894431 2: 999331.2314894431 3: 999331.2314894431
+specificHeat from Scientific cal/g to Scientific cal(IT)/kg (convert): PASS value: 1: 999331.2314894431 2: 999331.2314894431 3: 999331.2314894431
+specificHeat from Scientific cal/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific cal/g to Scientific cal(mean)/g (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific cal/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific cal/g to Scientific cal(mean)/kg (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific cal/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal/g to Scientific cal/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 999641.6198781508 2: 999641.6198781508 3: 999641.6198781508
+specificHeat from Scientific cal/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 999641.6198781508 2: 999641.6198781508 3: 999641.6198781508
+specificHeat from Scientific cal/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific cal/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 998563.2526813715 2: 998563.2526813715 3: 998563.2526813715
+specificHeat from Scientific cal/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995124.2716137471 2: 995124.2716137471 3: 995124.2716137471
+specificHeat from Scientific cal/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 995124.2716137471 2: 995124.2716137471 3: 995124.2716137471
+specificHeat from Scientific cal/g to Scientific calorie-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal/g to Scientific cal/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 999.6416198781508 2: 999.6416198781508 3: 999.6416198781508
+specificHeat from Scientific cal/g to Scientific cal(15oC)/g (convert): PASS value: 1: 999.6416198781508 2: 999.6416198781508 3: 999.6416198781508
+specificHeat from Scientific cal/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific cal/g to Scientific cal(20oC)/g (convert): PASS value: 1: 998.5632526813713 2: 998.5632526813713 3: 998.5632526813713
+specificHeat from Scientific cal/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 995.1242716137472 2: 995.1242716137472 3: 995.1242716137472
+specificHeat from Scientific cal/g to Scientific cal(4oC)/g (convert): PASS value: 1: 995.1242716137472 2: 995.1242716137472 3: 995.1242716137472
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.3585086042065 2: 1000.3585086042065 3: 1000.3585086042065
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.3585086042065 2: 1000.3585086042065 3: 1000.3585086042065
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.9996895003343842 2: 0.9996895003343842 3: 0.9996895003343842
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 0.9996895003343842 2: 0.9996895003343842 3: 0.9996895003343842
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999.6895003343843 2: 999.6895003343843 3: 999.6895003343843
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 999.6895003343843 2: 999.6895003343843 3: 999.6895003343843
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal/kg (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.4810322273753 2: 995.4810322273753 3: 995.4810322273753
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.4810322273753 2: 995.4810322273753 3: 995.4810322273753
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal/g (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific calorie(15oC)-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific cal(15oC)/g to Scientific cal(therm)/g (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1000.3585086042065 2: 1000.3585086042065 3: 1000.3585086042065
+specificHeat from Scientific cal(15oC)/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1000.3585086042065 2: 1000.3585086042065 3: 1000.3585086042065
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 0.9996895003343842 2: 0.9996895003343842 3: 0.9996895003343842
+specificHeat from Scientific cal(15oC)/g to Scientific cal(IT)/g (convert): PASS value: 1: 0.9996895003343842 2: 0.9996895003343842 3: 0.9996895003343842
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 999.6895003343843 2: 999.6895003343843 3: 999.6895003343843
+specificHeat from Scientific cal(15oC)/g to Scientific cal(IT)/kg (convert): PASS value: 1: 999.6895003343843 2: 999.6895003343843 3: 999.6895003343843
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific cal(15oC)/g to Scientific cal(mean)/g (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific cal(15oC)/g to Scientific cal(mean)/kg (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific cal(15oC)/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific cal(15oC)/g to Scientific cal/kg (convert): PASS value: 1: 1.0003585086042066 2: 1.0003585086042066 3: 1.0003585086042066
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal(15oC)/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 1000.0 2: 1000.0 3: 1000.0
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific cal(15oC)/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 998.9212461993022 2: 998.9212461993022 3: 998.9212461993022
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 995.4810322273753 2: 995.4810322273753 3: 995.4810322273753
+specificHeat from Scientific cal(15oC)/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 995.4810322273753 2: 995.4810322273753 3: 995.4810322273753
+specificHeat from Scientific cal(15oC)/g to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific cal(15oC)/g to Scientific cal/g (convert): PASS value: 1: 0.0010003585086042065 2: 0.0010003585086042065 3: 0.0010003585086042065
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(15oC)/g to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific cal(15oC)/g to Scientific cal(20oC)/g (convert): PASS value: 1: 0.998921246199302 2: 0.998921246199302 3: 0.998921246199302
+specificHeat from Scientific cal(15oC)/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific cal(15oC)/g to Scientific cal(4oC)/g (convert): PASS value: 1: 0.9954810322273754 2: 0.9954810322273754 3: 0.9954810322273754
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal/kg (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal/g (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific calorie(20oC)-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(20oC)/g to Scientific cal(therm)/g (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific cal(20oC)/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1001.4388145315488 2: 1001.4388145315488 3: 1001.4388145315488
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(20oC)/g to Scientific cal(IT)/g (convert): PASS value: 1: 1.0007690837871406 2: 1.0007690837871406 3: 1.0007690837871406
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific cal(20oC)/g to Scientific cal(IT)/kg (convert): PASS value: 1: 1000.7690837871406 2: 1000.7690837871406 3: 1000.7690837871406
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/g to Scientific cal(mean)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(20oC)/g to Scientific cal(mean)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(20oC)/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(20oC)/g to Scientific cal/kg (convert): PASS value: 1: 1.001438814531549 2: 1.001438814531549 3: 1.001438814531549
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific cal(20oC)/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 1001.0799187671724 2: 1001.0799187671724 3: 1001.0799187671724
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(20oC)/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 1000.0000000000002 2: 1000.0000000000002 3: 1000.0000000000002
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific cal(20oC)/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 996.5560708764419 2: 996.5560708764419 3: 996.5560708764419
+specificHeat from Scientific cal(20oC)/g to Scientific calorie-per-gram (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific cal(20oC)/g to Scientific cal/g (convert): PASS value: 1: 0.0010014388145315489 2: 0.0010014388145315489 3: 0.0010014388145315489
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific cal(20oC)/g to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0010799187671724 2: 1.0010799187671724 3: 1.0010799187671724
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/g to Scientific cal(20oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(20oC)/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific cal(20oC)/g to Scientific cal(4oC)/g (convert): PASS value: 1: 0.996556070876442 2: 0.996556070876442 3: 0.996556070876442
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(therm)/g (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1004.8996175908221 2: 1004.8996175908221 3: 1004.8996175908221
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(therm)/kg (convert): PASS value: 1: 1004.8996175908221 2: 1004.8996175908221 3: 1004.8996175908221
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(IT)/g (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1004.2275723703067 2: 1004.2275723703067 3: 1004.2275723703067
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(IT)/kg (convert): PASS value: 1: 1004.2275723703067 2: 1004.2275723703067 3: 1004.2275723703067
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(mean)/g (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(mean)/kg (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal/kg (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1004.5394815434237 2: 1004.5394815434237 3: 1004.5394815434237
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(15oC)/kg (convert): PASS value: 1: 1004.5394815434237 2: 1004.5394815434237 3: 1004.5394815434237
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(20oC)/kg (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 999.9999999999999 2: 999.9999999999999 3: 999.9999999999999
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(4oC)/kg (convert): PASS value: 1: 999.9999999999999 2: 999.9999999999999 3: 999.9999999999999
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie-per-gram (convert): PASS value: 1: 0.001004899617590822 2: 0.001004899617590822 3: 0.001004899617590822
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal/g (convert): PASS value: 1: 0.001004899617590822 2: 0.001004899617590822 3: 0.001004899617590822
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(20oC)/g (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific calorie(4oC)-per-gram to Scientific cal(4oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(therm)-per-gram (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific cal(4oC)/g to Scientific cal(therm)/g (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(therm)-per-kilogram (convert): PASS value: 1: 1004.8996175908221 2: 1004.8996175908221 3: 1004.8996175908221
+specificHeat from Scientific cal(4oC)/g to Scientific cal(therm)/kg (convert): PASS value: 1: 1004.8996175908221 2: 1004.8996175908221 3: 1004.8996175908221
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(IT)-per-gram (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific cal(4oC)/g to Scientific cal(IT)/g (convert): PASS value: 1: 1.0042275723703067 2: 1.0042275723703067 3: 1.0042275723703067
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(IT)-per-kilogram (convert): PASS value: 1: 1004.2275723703067 2: 1004.2275723703067 3: 1004.2275723703067
+specificHeat from Scientific cal(4oC)/g to Scientific cal(IT)/kg (convert): PASS value: 1: 1004.2275723703067 2: 1004.2275723703067 3: 1004.2275723703067
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(mean)-per-gram (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific cal(4oC)/g to Scientific cal(mean)/g (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(mean)-per-kilogram (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific cal(4oC)/g to Scientific cal(mean)/kg (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific cal(4oC)/g to Scientific calorie-per-kilogram (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific cal(4oC)/g to Scientific cal/kg (convert): PASS value: 1: 1.0048996175908222 2: 1.0048996175908222 3: 1.0048996175908222
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(15oC)-per-kilogram (convert): PASS value: 1: 1004.5394815434237 2: 1004.5394815434237 3: 1004.5394815434237
+specificHeat from Scientific cal(4oC)/g to Scientific cal(15oC)/kg (convert): PASS value: 1: 1004.5394815434237 2: 1004.5394815434237 3: 1004.5394815434237
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(20oC)-per-kilogram (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific cal(4oC)/g to Scientific cal(20oC)/kg (convert): PASS value: 1: 1003.4558307597578 2: 1003.4558307597578 3: 1003.4558307597578
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(4oC)-per-kilogram (convert): PASS value: 1: 999.9999999999999 2: 999.9999999999999 3: 999.9999999999999
+specificHeat from Scientific cal(4oC)/g to Scientific cal(4oC)/kg (convert): PASS value: 1: 999.9999999999999 2: 999.9999999999999 3: 999.9999999999999
+specificHeat from Scientific cal(4oC)/g to Scientific calorie-per-gram (convert): PASS value: 1: 0.001004899617590822 2: 0.001004899617590822 3: 0.001004899617590822
+specificHeat from Scientific cal(4oC)/g to Scientific cal/g (convert): PASS value: 1: 0.001004899617590822 2: 0.001004899617590822 3: 0.001004899617590822
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(15oC)-per-gram (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific cal(4oC)/g to Scientific cal(15oC)/g (convert): PASS value: 1: 1.0045394815434237 2: 1.0045394815434237 3: 1.0045394815434237
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(20oC)-per-gram (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific cal(4oC)/g to Scientific cal(20oC)/g (convert): PASS value: 1: 1.0034558307597576 2: 1.0034558307597576 3: 1.0034558307597576
+specificHeat from Scientific cal(4oC)/g to Scientific calorie(4oC)-per-gram (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+specificHeat from Scientific cal(4oC)/g to Scientific cal(4oC)/g (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:40 Duration: 0:00:00.026930 Version : 1.0
+
+********************************************************************************

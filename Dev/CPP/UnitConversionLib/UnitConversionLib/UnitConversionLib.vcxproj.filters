@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated">
+      <UniqueIdentifier>{9a04792e-46f1-42d0-8171-8880d214c384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\BaseSystem.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\CanonicalSystem.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\ConstantGroup.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Constants.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Conversion.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\ConversionBase.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Convert.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Converter.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\SingleSystem.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\SystemUnits.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\TypeGroup.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\UBase.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\UnitConversions.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Value.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Includes\Version.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Angle.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Computer.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Count.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Density.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\DU_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\EM.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Energy.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Flow.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Force.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Frequency.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\GLOBAL_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Luminosity.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Molarity.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PC_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PD_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PM_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Power.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Pressure.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Radiation.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SI_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SpecificDensity.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SYSTEM_UNITS.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Temperature.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Time.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\VelAccJrk.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Viscosity.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Wavenumber.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\WGS84_MODEL.hpp">
+      <Filter>Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\BaseSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\CanonicalSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\ConstantGroup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Constants.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Conversion.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\ConversionBase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Convert.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Converter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\SingleSystem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\SystemUnits.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\TypeGroup.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\UBase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\UnitConversions.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Value.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\UnitConversion\Source\Version.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Angle.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Computer.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Count.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Density.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\DU_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\EM.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Energy.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Flow.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Force.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Frequency.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\GLOBAL_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Luminosity.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Molarity.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PC_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PD_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\PM_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Power.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Pressure.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Radiation.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SI_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SpecificDensity.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\SYSTEM_UNITS.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Temperature.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Time.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\VelAccJrk.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Viscosity.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\Wavenumber.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnitConversionLibrary\CPP\Generated\WGS84_MODEL.cpp">
+      <Filter>Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+*********************************************************************************
+
+START UnitConversionUnitsTest February 04, 2024 13:38:18 Version : 1.0
+
+Start Units Test
+
+Units UNITS [Acceleration, AcousticImpedance, Action, Angle, AngularAcceleration, AngularVelocity, Area, Capacitance, 
+             Charge, ChargeDensity, Computer, Conductivity, Count, Current, CurrentDensity, Density, Dry, 
+             DynamicViscosity, ElectricConductance, ElectricElastance, ElectricFieldGradient, ElectricFieldStrength, 
+             Energy, EnergyConsumption, Entropy, EnzymaticActivity, Exposure, ExposureRate, Flow, Force, Frequency, 
+             HeatFlux, HeatInsulation, HeatTransfer, Illuminance, Inductance, Invalid, Jerk, KinematicViscosity, 
+             Length, LinearDensity, Liquid, Luminance, LuminousFlux, LuminousIntensity, MagneticDipoleMoment, 
+             MagneticFieldStrength, MagneticFluxDensity, MagneticInduction, MagneticPermeability, MagneticPotential, 
+             MagneticReluctance, Mass, MassFlow, MolarAbsorption, MolarCharge, MolarDensity, MolarEntropy, Molarity, 
+             Momentum, ParticleFlux, Permeability, Potential, Power, Pressure, QuadMoment, Quantity, RadiantEnergy, 
+             RadiantIntensity, RadioactiveConcentration, RadiochemicalYield, Resistance, Resistivity, 
+             ScreenResolution, SolidAngle, SpecificAcousticImpedance, SpecificEnergy, SpecificHeat, 
+             SpecificHeatCapacity, SpecificLength, SpecificRadioactivity, SpecificVolume, SurfaceChargeDensity, 
+             SurfaceDensity, SurfaceMolarity, Temperature, ThermalConductance, ThermalConductivity, Time, Velocity, 
+             Volume, Voxel, Wavenumber]
+
+END UnitConversionUnitsTest February 04, 2024 13:38:18 Duration: 0.032 Version : 1.0
+
+*********************************************************************************

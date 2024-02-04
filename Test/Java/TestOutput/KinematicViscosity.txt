@@ -1,0 +1,817 @@
+********************************************************************************
+
+
+START UnitConversionUnitsTest February 04, 2024 12:35:08 Version : 1.0
+
+
+name: Viscosity type: kinematicViscosity valid: true
+To System: SI From System: SI
+KinematicViscosity Types [kinematicViscosity, dynamicViscosity]
+
+KinematicViscosity All Systems [cgs, Imperial, SI, FPS, MTS, MKpS]
+
+KinematicViscosity All Units [cgs[cSt], cgs[lentor], Imperial[square-foot-per-second], 
+                              SI[square-centimeter-per-second], Imperial[in2/hr], Imperial[mm2/sec], cgs[stokes], 
+                              cgs[St], Imperial[square-millimeter-per-hour], Imperial[square-foot-per-hour], 
+                              Imperial[square-centimeter-per-hour], Imperial[ft2/hr], SI[square-meter-per-second], 
+                              Imperial[square-inch-per-hour], cgs[millistokes], Imperial[cm2/hr], Imperial[in2/sec], 
+                              cgs[centistokes], Imperial[square-inch-per-second], SI[m2/sec], cgs[mSt], 
+                              Imperial[m2/hr], Imperial[mm2/hr], Imperial[ft2/sec], 
+                              Imperial[square-millimeter-per-second], SI[cm2/sec], Imperial[square-meter-per-hour], 
+                              Imperial[kip-sec/m2], SI[attopoiseuille], SI[millipascal-second], SI[aPo], SI[Pa-sec], 
+                              FPS[reynolds], SI[YPo], SI[megapoiseuille], cgs[], SI[hPo], cgs[mPo], MTS[sn-sec/m2], 
+                              SI[newton-second-per-square-meter], SI[dPo], Imperial[lbf-hr/ft2], SI[pPo], 
+                              cgs[barye-second], SI[N-sec/m2], Imperial[poundal-second-per-square-foot], 
+                              SI[hectopoiseuille], SI[uPo], SI[exacpoiseuille], cgs[cPo], FPS[reyns], SI[EPo], 
+                              SI[ZPo], SI[MPo], MTS[sthene-sec/m2], cgs[dyne-second-per-square-centimeter], 
+                              SI[yottapoiseuille], SI[decipoiseuille], SI[femtopoiseuille], cgs[poise], cgs[Po], 
+                              SI[decapoiseuille], SI[mPo], SI[yPo], SI[millipoiseuille], MTS[pieze-second], 
+                              Imperial[kilopound-hour-per-square-meter], MKpS[kgf-sec/m2], SI[terapoiseuille], 
+                              SI[daPo], cgs[barye-sec], SI[micropoiseuille], cgs[mP], SI[pascal-second], SI[cPo], 
+                              SI[picopoiseuille], SI[yoctopoiseuille], SI[PPo], cgs[cP], Imperial[lbf-sec/ft2], 
+                              SI[mPa-sec], SI[gigapoiseuille], SI[fPo], MTS[pz-sec], SI[petapoiseuille], SI[nPo], 
+                              cgs[centipoise], SI[zPo], SI[poiseuille], Imperial[pound-force-second-per-square-foot], 
+                              SI[zettapoiseuille], SI[GPo], MTS[sthene-second-per-square-meter], cgs[P], 
+                              MKpS[kilogram-force-second-per-square-meter], cgs[millipoise], Imperial[pdl-sec/ft2], 
+                              SI[TPo], SI[kilocpoiseuille], SI[kPo], Imperial[pound-force-hour-per-square-foot], 
+                              cgs[dyn-sec/cm2], Imperial[kip-hr/m2], Imperial[kilopound-second-per-square-meter], 
+                              SI[centipoiseuille], SI[zeptopoiseuille], SI[nanopoiseuille]]
+
+KinematicViscosity Systems [cgs, Imperial, SI]
+
+Units KinematicViscosity [cgs[cSt], cgs[lentor], cgs[stokes], cgs[St], cgs[millistokes], cgs[centistokes], cgs[mSt], 
+                          Imperial[square-foot-per-second], Imperial[in2/hr], Imperial[mm2/sec], 
+                          Imperial[square-millimeter-per-hour], Imperial[square-foot-per-hour], 
+                          Imperial[square-centimeter-per-hour], Imperial[ft2/hr], Imperial[square-inch-per-hour], 
+                          Imperial[cm2/hr], Imperial[in2/sec], Imperial[square-inch-per-second], Imperial[m2/hr], 
+                          Imperial[mm2/hr], Imperial[ft2/sec], Imperial[square-millimeter-per-second], 
+                          Imperial[square-meter-per-hour], SI[square-centimeter-per-second], 
+                          SI[square-meter-per-second], SI[m2/sec], SI[cm2/sec]]
+
+KinematicViscosity cgs cSt cgs true 1.0E-6 centistokes m2/s L2/T 0.0
+KinematicViscosity cgs lentor cgs true 1.0E-8 lentor m2/s L2/T 0.0
+KinematicViscosity cgs stokes cgs true 1.0E-8 stokes m2/s L2/T 0.0
+KinematicViscosity cgs St cgs true 1.0E-8 stokes m2/s L2/T 0.0
+KinematicViscosity cgs millistokes cgs true 1.0E-7 millistokes m2/s L2/T 0.0
+KinematicViscosity cgs centistokes cgs true 1.0E-6 centistokes m2/s L2/T 0.0
+KinematicViscosity cgs mSt cgs true 1.0E-7 millistokes m2/s L2/T 0.0
+KinematicViscosity Imperial square-foot-per-second Imperial true 0.09290304 square-foot-per-second m2/s L2/T 0.0
+KinematicViscosity Imperial in2/hr Imperial true 1.79211111111111E-7 square-inch-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial mm2/sec Imperial true 1.0E-6 square-millimeter-per-second m2/s L2/T 0.0
+KinematicViscosity Imperial square-millimeter-per-hour Imperial true 2.77777777777778E-10 square-millimeter-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial square-foot-per-hour Imperial true 2.58064E-5 square-foot-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial square-centimeter-per-hour Imperial true 2.77777777777778E-8 square-centimeter-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial ft2/hr Imperial true 2.58064E-5 square-foot-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial square-inch-per-hour Imperial true 1.79211111111111E-7 square-inch-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial cm2/hr Imperial true 2.77777777777778E-8 square-centimeter-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial in2/sec Imperial true 6.4516E-4 square-inch-per-second m2/s L2/T 0.0
+KinematicViscosity Imperial square-inch-per-second Imperial true 6.4516E-4 square-inch-per-second m2/s L2/T 0.0
+KinematicViscosity Imperial m2/hr Imperial true 2.77777777777778E-4 square-meter-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial mm2/hr Imperial true 2.77777777777778E-10 square-millimeter-per-hour m2/s L2/T 0.0
+KinematicViscosity Imperial ft2/sec Imperial true 0.09290304 square-foot-per-second m2/s L2/T 0.0
+KinematicViscosity Imperial square-millimeter-per-second Imperial true 1.0E-6 square-millimeter-per-second m2/s L2/T 0.0
+KinematicViscosity Imperial square-meter-per-hour Imperial true 2.77777777777778E-4 square-meter-per-hour m2/s L2/T 0.0
+KinematicViscosity SI square-centimeter-per-second SI true 1.0E-4 square-centimeter-per-second m2/s L2/T 0.0
+KinematicViscosity SI square-meter-per-second SI true 1.0 square-meter-per-second m2/s L2/T 0.0
+KinematicViscosity SI m2/sec SI true 1.0 square-meter-per-second m2/s L2/T 0.0
+KinematicViscosity SI cm2/sec SI true 1.0E-4 square-centimeter-per-second m2/s L2/T 0.0
+
+
+name: Viscosity type: kinematicViscosity valid: true
+kinematicViscosity from cgs cSt to cgs cSt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs cSt to cgs lentor (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from cgs cSt to cgs stokes (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from cgs cSt to cgs St (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from cgs cSt to cgs millistokes (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs cSt to cgs centistokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs cSt to cgs mSt (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs cSt to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from cgs cSt to Imperial in2/hr (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from cgs cSt to Imperial mm2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs cSt to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from cgs cSt to Imperial square-foot-per-hour (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from cgs cSt to Imperial square-centimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs cSt to Imperial ft2/hr (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from cgs cSt to Imperial square-inch-per-hour (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from cgs cSt to Imperial cm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs cSt to Imperial in2/sec (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from cgs cSt to Imperial square-inch-per-second (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from cgs cSt to Imperial m2/hr (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from cgs cSt to Imperial mm2/hr (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from cgs cSt to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from cgs cSt to Imperial square-millimeter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs cSt to Imperial square-meter-per-hour (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from cgs cSt to SI square-centimeter-per-second (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from cgs cSt to SI square-meter-per-second (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from cgs cSt to SI m2/sec (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from cgs cSt to SI cm2/sec (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from cgs lentor to cgs cSt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs lentor to cgs lentor (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs lentor to cgs stokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs lentor to cgs St (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs lentor to cgs millistokes (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs lentor to cgs centistokes (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs lentor to cgs mSt (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs lentor to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709722E-7 2: 1.0763910416709722E-7 3: 1.0763910416709722E-7
+kinematicViscosity from cgs lentor to Imperial in2/hr (convert): PASS value: 1: 0.05580011160022323 2: 0.05580011160022323 3: 0.05580011160022323
+kinematicViscosity from cgs lentor to Imperial mm2/sec (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs lentor to Imperial square-millimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs lentor to Imperial square-foot-per-hour (convert): PASS value: 1: 3.8750077500155E-4 2: 3.8750077500155E-4 3: 3.8750077500155E-4
+kinematicViscosity from cgs lentor to Imperial square-centimeter-per-hour (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from cgs lentor to Imperial ft2/hr (convert): PASS value: 1: 3.8750077500155E-4 2: 3.8750077500155E-4 3: 3.8750077500155E-4
+kinematicViscosity from cgs lentor to Imperial square-inch-per-hour (convert): PASS value: 1: 0.05580011160022323 2: 0.05580011160022323 3: 0.05580011160022323
+kinematicViscosity from cgs lentor to Imperial cm2/hr (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from cgs lentor to Imperial in2/sec (convert): PASS value: 1: 1.5500031000062E-5 2: 1.5500031000062E-5 3: 1.5500031000062E-5
+kinematicViscosity from cgs lentor to Imperial square-inch-per-second (convert): PASS value: 1: 1.5500031000062E-5 2: 1.5500031000062E-5 3: 1.5500031000062E-5
+kinematicViscosity from cgs lentor to Imperial m2/hr (convert): PASS value: 1: 3.5999999999999974E-5 2: 3.5999999999999974E-5 3: 3.5999999999999974E-5
+kinematicViscosity from cgs lentor to Imperial mm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs lentor to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709722E-7 2: 1.0763910416709722E-7 3: 1.0763910416709722E-7
+kinematicViscosity from cgs lentor to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs lentor to Imperial square-meter-per-hour (convert): PASS value: 1: 3.5999999999999974E-5 2: 3.5999999999999974E-5 3: 3.5999999999999974E-5
+kinematicViscosity from cgs lentor to SI square-centimeter-per-second (convert): PASS value: 1: 9.999999999999999E-5 2: 9.999999999999999E-5 3: 9.999999999999999E-5
+kinematicViscosity from cgs lentor to SI square-meter-per-second (convert): PASS value: 1: 1.0E-8 2: 1.0E-8 3: 1.0E-8
+kinematicViscosity from cgs lentor to SI m2/sec (convert): PASS value: 1: 1.0E-8 2: 1.0E-8 3: 1.0E-8
+kinematicViscosity from cgs lentor to SI cm2/sec (convert): PASS value: 1: 9.999999999999999E-5 2: 9.999999999999999E-5 3: 9.999999999999999E-5
+kinematicViscosity from cgs stokes to cgs cSt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs stokes to cgs lentor (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs stokes to cgs stokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs stokes to cgs St (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs stokes to cgs millistokes (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs stokes to cgs centistokes (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs stokes to cgs mSt (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs stokes to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709722E-7 2: 1.0763910416709722E-7 3: 1.0763910416709722E-7
+kinematicViscosity from cgs stokes to Imperial in2/hr (convert): PASS value: 1: 0.05580011160022323 2: 0.05580011160022323 3: 0.05580011160022323
+kinematicViscosity from cgs stokes to Imperial mm2/sec (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs stokes to Imperial square-millimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs stokes to Imperial square-foot-per-hour (convert): PASS value: 1: 3.8750077500155E-4 2: 3.8750077500155E-4 3: 3.8750077500155E-4
+kinematicViscosity from cgs stokes to Imperial square-centimeter-per-hour (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from cgs stokes to Imperial ft2/hr (convert): PASS value: 1: 3.8750077500155E-4 2: 3.8750077500155E-4 3: 3.8750077500155E-4
+kinematicViscosity from cgs stokes to Imperial square-inch-per-hour (convert): PASS value: 1: 0.05580011160022323 2: 0.05580011160022323 3: 0.05580011160022323
+kinematicViscosity from cgs stokes to Imperial cm2/hr (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from cgs stokes to Imperial in2/sec (convert): PASS value: 1: 1.5500031000062E-5 2: 1.5500031000062E-5 3: 1.5500031000062E-5
+kinematicViscosity from cgs stokes to Imperial square-inch-per-second (convert): PASS value: 1: 1.5500031000062E-5 2: 1.5500031000062E-5 3: 1.5500031000062E-5
+kinematicViscosity from cgs stokes to Imperial m2/hr (convert): PASS value: 1: 3.5999999999999974E-5 2: 3.5999999999999974E-5 3: 3.5999999999999974E-5
+kinematicViscosity from cgs stokes to Imperial mm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs stokes to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709722E-7 2: 1.0763910416709722E-7 3: 1.0763910416709722E-7
+kinematicViscosity from cgs stokes to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs stokes to Imperial square-meter-per-hour (convert): PASS value: 1: 3.5999999999999974E-5 2: 3.5999999999999974E-5 3: 3.5999999999999974E-5
+kinematicViscosity from cgs stokes to SI square-centimeter-per-second (convert): PASS value: 1: 9.999999999999999E-5 2: 9.999999999999999E-5 3: 9.999999999999999E-5
+kinematicViscosity from cgs stokes to SI square-meter-per-second (convert): PASS value: 1: 1.0E-8 2: 1.0E-8 3: 1.0E-8
+kinematicViscosity from cgs stokes to SI m2/sec (convert): PASS value: 1: 1.0E-8 2: 1.0E-8 3: 1.0E-8
+kinematicViscosity from cgs stokes to SI cm2/sec (convert): PASS value: 1: 9.999999999999999E-5 2: 9.999999999999999E-5 3: 9.999999999999999E-5
+kinematicViscosity from cgs St to cgs cSt (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs St to cgs lentor (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs St to cgs stokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs St to cgs St (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs St to cgs millistokes (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs St to cgs centistokes (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs St to cgs mSt (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs St to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709722E-7 2: 1.0763910416709722E-7 3: 1.0763910416709722E-7
+kinematicViscosity from cgs St to Imperial in2/hr (convert): PASS value: 1: 0.05580011160022323 2: 0.05580011160022323 3: 0.05580011160022323
+kinematicViscosity from cgs St to Imperial mm2/sec (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs St to Imperial square-millimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs St to Imperial square-foot-per-hour (convert): PASS value: 1: 3.8750077500155E-4 2: 3.8750077500155E-4 3: 3.8750077500155E-4
+kinematicViscosity from cgs St to Imperial square-centimeter-per-hour (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from cgs St to Imperial ft2/hr (convert): PASS value: 1: 3.8750077500155E-4 2: 3.8750077500155E-4 3: 3.8750077500155E-4
+kinematicViscosity from cgs St to Imperial square-inch-per-hour (convert): PASS value: 1: 0.05580011160022323 2: 0.05580011160022323 3: 0.05580011160022323
+kinematicViscosity from cgs St to Imperial cm2/hr (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from cgs St to Imperial in2/sec (convert): PASS value: 1: 1.5500031000062E-5 2: 1.5500031000062E-5 3: 1.5500031000062E-5
+kinematicViscosity from cgs St to Imperial square-inch-per-second (convert): PASS value: 1: 1.5500031000062E-5 2: 1.5500031000062E-5 3: 1.5500031000062E-5
+kinematicViscosity from cgs St to Imperial m2/hr (convert): PASS value: 1: 3.5999999999999974E-5 2: 3.5999999999999974E-5 3: 3.5999999999999974E-5
+kinematicViscosity from cgs St to Imperial mm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs St to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709722E-7 2: 1.0763910416709722E-7 3: 1.0763910416709722E-7
+kinematicViscosity from cgs St to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from cgs St to Imperial square-meter-per-hour (convert): PASS value: 1: 3.5999999999999974E-5 2: 3.5999999999999974E-5 3: 3.5999999999999974E-5
+kinematicViscosity from cgs St to SI square-centimeter-per-second (convert): PASS value: 1: 9.999999999999999E-5 2: 9.999999999999999E-5 3: 9.999999999999999E-5
+kinematicViscosity from cgs St to SI square-meter-per-second (convert): PASS value: 1: 1.0E-8 2: 1.0E-8 3: 1.0E-8
+kinematicViscosity from cgs St to SI m2/sec (convert): PASS value: 1: 1.0E-8 2: 1.0E-8 3: 1.0E-8
+kinematicViscosity from cgs St to SI cm2/sec (convert): PASS value: 1: 9.999999999999999E-5 2: 9.999999999999999E-5 3: 9.999999999999999E-5
+kinematicViscosity from cgs millistokes to cgs cSt (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs millistokes to cgs lentor (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs millistokes to cgs stokes (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs millistokes to cgs St (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs millistokes to cgs millistokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs millistokes to cgs centistokes (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs millistokes to cgs mSt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs millistokes to Imperial square-foot-per-second (convert): PASS value: 1: 1.076391041670972E-6 2: 1.076391041670972E-6 3: 1.076391041670972E-6
+kinematicViscosity from cgs millistokes to Imperial in2/hr (convert): PASS value: 1: 0.5580011160022323 2: 0.5580011160022323 3: 0.5580011160022323
+kinematicViscosity from cgs millistokes to Imperial mm2/sec (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs millistokes to Imperial square-millimeter-per-hour (convert): PASS value: 1: 359.99999999999966 2: 359.99999999999966 3: 359.99999999999966
+kinematicViscosity from cgs millistokes to Imperial square-foot-per-hour (convert): PASS value: 1: 0.0038750077500154996 2: 0.0038750077500154996 3: 0.0038750077500154996
+kinematicViscosity from cgs millistokes to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3.599999999999997 2: 3.599999999999997 3: 3.599999999999997
+kinematicViscosity from cgs millistokes to Imperial ft2/hr (convert): PASS value: 1: 0.0038750077500154996 2: 0.0038750077500154996 3: 0.0038750077500154996
+kinematicViscosity from cgs millistokes to Imperial square-inch-per-hour (convert): PASS value: 1: 0.5580011160022323 2: 0.5580011160022323 3: 0.5580011160022323
+kinematicViscosity from cgs millistokes to Imperial cm2/hr (convert): PASS value: 1: 3.599999999999997 2: 3.599999999999997 3: 3.599999999999997
+kinematicViscosity from cgs millistokes to Imperial in2/sec (convert): PASS value: 1: 1.5500031000062E-4 2: 1.5500031000062E-4 3: 1.5500031000062E-4
+kinematicViscosity from cgs millistokes to Imperial square-inch-per-second (convert): PASS value: 1: 1.5500031000062E-4 2: 1.5500031000062E-4 3: 1.5500031000062E-4
+kinematicViscosity from cgs millistokes to Imperial m2/hr (convert): PASS value: 1: 3.599999999999997E-4 2: 3.599999999999997E-4 3: 3.599999999999997E-4
+kinematicViscosity from cgs millistokes to Imperial mm2/hr (convert): PASS value: 1: 359.99999999999966 2: 359.99999999999966 3: 359.99999999999966
+kinematicViscosity from cgs millistokes to Imperial ft2/sec (convert): PASS value: 1: 1.076391041670972E-6 2: 1.076391041670972E-6 3: 1.076391041670972E-6
+kinematicViscosity from cgs millistokes to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs millistokes to Imperial square-meter-per-hour (convert): PASS value: 1: 3.599999999999997E-4 2: 3.599999999999997E-4 3: 3.599999999999997E-4
+kinematicViscosity from cgs millistokes to SI square-centimeter-per-second (convert): PASS value: 1: 9.999999999999998E-4 2: 9.999999999999998E-4 3: 9.999999999999998E-4
+kinematicViscosity from cgs millistokes to SI square-meter-per-second (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+kinematicViscosity from cgs millistokes to SI m2/sec (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+kinematicViscosity from cgs millistokes to SI cm2/sec (convert): PASS value: 1: 9.999999999999998E-4 2: 9.999999999999998E-4 3: 9.999999999999998E-4
+kinematicViscosity from cgs centistokes to cgs cSt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs centistokes to cgs lentor (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from cgs centistokes to cgs stokes (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from cgs centistokes to cgs St (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from cgs centistokes to cgs millistokes (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs centistokes to cgs centistokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs centistokes to cgs mSt (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs centistokes to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from cgs centistokes to Imperial in2/hr (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from cgs centistokes to Imperial mm2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs centistokes to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from cgs centistokes to Imperial square-foot-per-hour (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from cgs centistokes to Imperial square-centimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs centistokes to Imperial ft2/hr (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from cgs centistokes to Imperial square-inch-per-hour (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from cgs centistokes to Imperial cm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from cgs centistokes to Imperial in2/sec (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from cgs centistokes to Imperial square-inch-per-second (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from cgs centistokes to Imperial m2/hr (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from cgs centistokes to Imperial mm2/hr (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from cgs centistokes to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from cgs centistokes to Imperial square-millimeter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs centistokes to Imperial square-meter-per-hour (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from cgs centistokes to SI square-centimeter-per-second (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from cgs centistokes to SI square-meter-per-second (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from cgs centistokes to SI m2/sec (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from cgs centistokes to SI cm2/sec (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from cgs mSt to cgs cSt (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs mSt to cgs lentor (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs mSt to cgs stokes (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs mSt to cgs St (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from cgs mSt to cgs millistokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs mSt to cgs centistokes (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs mSt to cgs mSt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from cgs mSt to Imperial square-foot-per-second (convert): PASS value: 1: 1.076391041670972E-6 2: 1.076391041670972E-6 3: 1.076391041670972E-6
+kinematicViscosity from cgs mSt to Imperial in2/hr (convert): PASS value: 1: 0.5580011160022323 2: 0.5580011160022323 3: 0.5580011160022323
+kinematicViscosity from cgs mSt to Imperial mm2/sec (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs mSt to Imperial square-millimeter-per-hour (convert): PASS value: 1: 359.99999999999966 2: 359.99999999999966 3: 359.99999999999966
+kinematicViscosity from cgs mSt to Imperial square-foot-per-hour (convert): PASS value: 1: 0.0038750077500154996 2: 0.0038750077500154996 3: 0.0038750077500154996
+kinematicViscosity from cgs mSt to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3.599999999999997 2: 3.599999999999997 3: 3.599999999999997
+kinematicViscosity from cgs mSt to Imperial ft2/hr (convert): PASS value: 1: 0.0038750077500154996 2: 0.0038750077500154996 3: 0.0038750077500154996
+kinematicViscosity from cgs mSt to Imperial square-inch-per-hour (convert): PASS value: 1: 0.5580011160022323 2: 0.5580011160022323 3: 0.5580011160022323
+kinematicViscosity from cgs mSt to Imperial cm2/hr (convert): PASS value: 1: 3.599999999999997 2: 3.599999999999997 3: 3.599999999999997
+kinematicViscosity from cgs mSt to Imperial in2/sec (convert): PASS value: 1: 1.5500031000062E-4 2: 1.5500031000062E-4 3: 1.5500031000062E-4
+kinematicViscosity from cgs mSt to Imperial square-inch-per-second (convert): PASS value: 1: 1.5500031000062E-4 2: 1.5500031000062E-4 3: 1.5500031000062E-4
+kinematicViscosity from cgs mSt to Imperial m2/hr (convert): PASS value: 1: 3.599999999999997E-4 2: 3.599999999999997E-4 3: 3.599999999999997E-4
+kinematicViscosity from cgs mSt to Imperial mm2/hr (convert): PASS value: 1: 359.99999999999966 2: 359.99999999999966 3: 359.99999999999966
+kinematicViscosity from cgs mSt to Imperial ft2/sec (convert): PASS value: 1: 1.076391041670972E-6 2: 1.076391041670972E-6 3: 1.076391041670972E-6
+kinematicViscosity from cgs mSt to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.1 2: 0.1 3: 0.1
+kinematicViscosity from cgs mSt to Imperial square-meter-per-hour (convert): PASS value: 1: 3.599999999999997E-4 2: 3.599999999999997E-4 3: 3.599999999999997E-4
+kinematicViscosity from cgs mSt to SI square-centimeter-per-second (convert): PASS value: 1: 9.999999999999998E-4 2: 9.999999999999998E-4 3: 9.999999999999998E-4
+kinematicViscosity from cgs mSt to SI square-meter-per-second (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+kinematicViscosity from cgs mSt to SI m2/sec (convert): PASS value: 1: 1.0E-7 2: 1.0E-7 3: 1.0E-7
+kinematicViscosity from cgs mSt to SI cm2/sec (convert): PASS value: 1: 9.999999999999998E-4 2: 9.999999999999998E-4 3: 9.999999999999998E-4
+kinematicViscosity from Imperial square-foot-per-second to cgs cSt (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial square-foot-per-second to cgs lentor (convert): PASS value: 1: 9290304.0 2: 9290304.0 3: 9290304.0
+kinematicViscosity from Imperial square-foot-per-second to cgs stokes (convert): PASS value: 1: 9290304.0 2: 9290304.0 3: 9290304.0
+kinematicViscosity from Imperial square-foot-per-second to cgs St (convert): PASS value: 1: 9290304.0 2: 9290304.0 3: 9290304.0
+kinematicViscosity from Imperial square-foot-per-second to cgs millistokes (convert): PASS value: 1: 929030.4000000001 2: 929030.4000000001 3: 929030.4000000001
+kinematicViscosity from Imperial square-foot-per-second to cgs centistokes (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial square-foot-per-second to cgs mSt (convert): PASS value: 1: 929030.4000000001 2: 929030.4000000001 3: 929030.4000000001
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-foot-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-foot-per-second to Imperial in2/hr (convert): PASS value: 1: 518400.00000000035 2: 518400.00000000035 3: 518400.00000000035
+kinematicViscosity from Imperial square-foot-per-second to Imperial mm2/sec (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3.344509439999997E8 2: 3.344509439999997E8 3: 3.344509439999997E8
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-foot-per-hour (convert): PASS value: 1: 3600.0 2: 3600.0 3: 3600.0
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3344509.4399999976 2: 3344509.4399999976 3: 3344509.4399999976
+kinematicViscosity from Imperial square-foot-per-second to Imperial ft2/hr (convert): PASS value: 1: 3600.0 2: 3600.0 3: 3600.0
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-inch-per-hour (convert): PASS value: 1: 518400.00000000035 2: 518400.00000000035 3: 518400.00000000035
+kinematicViscosity from Imperial square-foot-per-second to Imperial cm2/hr (convert): PASS value: 1: 3344509.4399999976 2: 3344509.4399999976 3: 3344509.4399999976
+kinematicViscosity from Imperial square-foot-per-second to Imperial in2/sec (convert): PASS value: 1: 144.0 2: 144.0 3: 144.0
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-inch-per-second (convert): PASS value: 1: 144.0 2: 144.0 3: 144.0
+kinematicViscosity from Imperial square-foot-per-second to Imperial m2/hr (convert): PASS value: 1: 334.45094399999977 2: 334.45094399999977 3: 334.45094399999977
+kinematicViscosity from Imperial square-foot-per-second to Imperial mm2/hr (convert): PASS value: 1: 3.344509439999997E8 2: 3.344509439999997E8 3: 3.344509439999997E8
+kinematicViscosity from Imperial square-foot-per-second to Imperial ft2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-millimeter-per-second (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial square-foot-per-second to Imperial square-meter-per-hour (convert): PASS value: 1: 334.45094399999977 2: 334.45094399999977 3: 334.45094399999977
+kinematicViscosity from Imperial square-foot-per-second to SI square-centimeter-per-second (convert): PASS value: 1: 929.0304 2: 929.0304 3: 929.0304
+kinematicViscosity from Imperial square-foot-per-second to SI square-meter-per-second (convert): PASS value: 1: 0.09290304 2: 0.09290304 3: 0.09290304
+kinematicViscosity from Imperial square-foot-per-second to SI m2/sec (convert): PASS value: 1: 0.09290304 2: 0.09290304 3: 0.09290304
+kinematicViscosity from Imperial square-foot-per-second to SI cm2/sec (convert): PASS value: 1: 929.0304 2: 929.0304 3: 929.0304
+kinematicViscosity from Imperial in2/hr to cgs cSt (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial in2/hr to cgs lentor (convert): PASS value: 1: 17.921111111111102 2: 17.921111111111102 3: 17.921111111111102
+kinematicViscosity from Imperial in2/hr to cgs stokes (convert): PASS value: 1: 17.921111111111102 2: 17.921111111111102 3: 17.921111111111102
+kinematicViscosity from Imperial in2/hr to cgs St (convert): PASS value: 1: 17.921111111111102 2: 17.921111111111102 3: 17.921111111111102
+kinematicViscosity from Imperial in2/hr to cgs millistokes (convert): PASS value: 1: 1.79211111111111 2: 1.79211111111111 3: 1.79211111111111
+kinematicViscosity from Imperial in2/hr to cgs centistokes (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial in2/hr to cgs mSt (convert): PASS value: 1: 1.79211111111111 2: 1.79211111111111 3: 1.79211111111111
+kinematicViscosity from Imperial in2/hr to Imperial square-foot-per-second (convert): PASS value: 1: 1.929012345679011E-6 2: 1.929012345679011E-6 3: 1.929012345679011E-6
+kinematicViscosity from Imperial in2/hr to Imperial in2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial in2/hr to Imperial mm2/sec (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial in2/hr to Imperial square-millimeter-per-hour (convert): PASS value: 1: 645.1599999999991 2: 645.1599999999991 3: 645.1599999999991
+kinematicViscosity from Imperial in2/hr to Imperial square-foot-per-hour (convert): PASS value: 1: 0.006944444444444441 2: 0.006944444444444441 3: 0.006944444444444441
+kinematicViscosity from Imperial in2/hr to Imperial square-centimeter-per-hour (convert): PASS value: 1: 6.451599999999991 2: 6.451599999999991 3: 6.451599999999991
+kinematicViscosity from Imperial in2/hr to Imperial ft2/hr (convert): PASS value: 1: 0.006944444444444441 2: 0.006944444444444441 3: 0.006944444444444441
+kinematicViscosity from Imperial in2/hr to Imperial square-inch-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial in2/hr to Imperial cm2/hr (convert): PASS value: 1: 6.451599999999991 2: 6.451599999999991 3: 6.451599999999991
+kinematicViscosity from Imperial in2/hr to Imperial in2/sec (convert): PASS value: 1: 2.777777777777776E-4 2: 2.777777777777776E-4 3: 2.777777777777776E-4
+kinematicViscosity from Imperial in2/hr to Imperial square-inch-per-second (convert): PASS value: 1: 2.777777777777776E-4 2: 2.777777777777776E-4 3: 2.777777777777776E-4
+kinematicViscosity from Imperial in2/hr to Imperial m2/hr (convert): PASS value: 1: 6.451599999999991E-4 2: 6.451599999999991E-4 3: 6.451599999999991E-4
+kinematicViscosity from Imperial in2/hr to Imperial mm2/hr (convert): PASS value: 1: 645.1599999999991 2: 645.1599999999991 3: 645.1599999999991
+kinematicViscosity from Imperial in2/hr to Imperial ft2/sec (convert): PASS value: 1: 1.929012345679011E-6 2: 1.929012345679011E-6 3: 1.929012345679011E-6
+kinematicViscosity from Imperial in2/hr to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial in2/hr to Imperial square-meter-per-hour (convert): PASS value: 1: 6.451599999999991E-4 2: 6.451599999999991E-4 3: 6.451599999999991E-4
+kinematicViscosity from Imperial in2/hr to SI square-centimeter-per-second (convert): PASS value: 1: 0.00179211111111111 2: 0.00179211111111111 3: 0.00179211111111111
+kinematicViscosity from Imperial in2/hr to SI square-meter-per-second (convert): PASS value: 1: 1.79211111111111E-7 2: 1.79211111111111E-7 3: 1.79211111111111E-7
+kinematicViscosity from Imperial in2/hr to SI m2/sec (convert): PASS value: 1: 1.79211111111111E-7 2: 1.79211111111111E-7 3: 1.79211111111111E-7
+kinematicViscosity from Imperial in2/hr to SI cm2/sec (convert): PASS value: 1: 0.00179211111111111 2: 0.00179211111111111 3: 0.00179211111111111
+kinematicViscosity from Imperial mm2/sec to cgs cSt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial mm2/sec to cgs lentor (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from Imperial mm2/sec to cgs stokes (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from Imperial mm2/sec to cgs St (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from Imperial mm2/sec to cgs millistokes (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from Imperial mm2/sec to cgs centistokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial mm2/sec to cgs mSt (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from Imperial mm2/sec to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from Imperial mm2/sec to Imperial in2/hr (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from Imperial mm2/sec to Imperial mm2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial mm2/sec to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from Imperial mm2/sec to Imperial square-foot-per-hour (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from Imperial mm2/sec to Imperial square-centimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from Imperial mm2/sec to Imperial ft2/hr (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from Imperial mm2/sec to Imperial square-inch-per-hour (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from Imperial mm2/sec to Imperial cm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from Imperial mm2/sec to Imperial in2/sec (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from Imperial mm2/sec to Imperial square-inch-per-second (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from Imperial mm2/sec to Imperial m2/hr (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from Imperial mm2/sec to Imperial mm2/hr (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from Imperial mm2/sec to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from Imperial mm2/sec to Imperial square-millimeter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial mm2/sec to Imperial square-meter-per-hour (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from Imperial mm2/sec to SI square-centimeter-per-second (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from Imperial mm2/sec to SI square-meter-per-second (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from Imperial mm2/sec to SI m2/sec (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from Imperial mm2/sec to SI cm2/sec (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs cSt (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs lentor (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs stokes (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs St (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs millistokes (convert): PASS value: 1: 0.0027777777777777805 2: 0.0027777777777777805 3: 0.0027777777777777805
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs centistokes (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial square-millimeter-per-hour to cgs mSt (convert): PASS value: 1: 0.0027777777777777805 2: 0.0027777777777777805 3: 0.0027777777777777805
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-foot-per-second (convert): PASS value: 1: 2.9899751157527032E-9 2: 2.9899751157527032E-9 3: 2.9899751157527032E-9
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial in2/hr (convert): PASS value: 1: 0.0015500031000062022 2: 0.0015500031000062022 3: 0.0015500031000062022
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial mm2/sec (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-millimeter-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-foot-per-hour (convert): PASS value: 1: 1.0763910416709732E-5 2: 1.0763910416709732E-5 3: 1.0763910416709732E-5
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-centimeter-per-hour (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial ft2/hr (convert): PASS value: 1: 1.0763910416709732E-5 2: 1.0763910416709732E-5 3: 1.0763910416709732E-5
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-inch-per-hour (convert): PASS value: 1: 0.0015500031000062022 2: 0.0015500031000062022 3: 0.0015500031000062022
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial cm2/hr (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial in2/sec (convert): PASS value: 1: 4.305564166683893E-7 2: 4.305564166683893E-7 3: 4.305564166683893E-7
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-inch-per-second (convert): PASS value: 1: 4.305564166683893E-7 2: 4.305564166683893E-7 3: 4.305564166683893E-7
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial m2/hr (convert): PASS value: 1: 1.0000000000000002E-6 2: 1.0000000000000002E-6 3: 1.0000000000000002E-6
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial mm2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial ft2/sec (convert): PASS value: 1: 2.9899751157527032E-9 2: 2.9899751157527032E-9 3: 2.9899751157527032E-9
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-millimeter-per-second (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial square-millimeter-per-hour to Imperial square-meter-per-hour (convert): PASS value: 1: 1.0000000000000002E-6 2: 1.0000000000000002E-6 3: 1.0000000000000002E-6
+kinematicViscosity from Imperial square-millimeter-per-hour to SI square-centimeter-per-second (convert): PASS value: 1: 2.77777777777778E-6 2: 2.77777777777778E-6 3: 2.77777777777778E-6
+kinematicViscosity from Imperial square-millimeter-per-hour to SI square-meter-per-second (convert): PASS value: 1: 2.77777777777778E-10 2: 2.77777777777778E-10 3: 2.77777777777778E-10
+kinematicViscosity from Imperial square-millimeter-per-hour to SI m2/sec (convert): PASS value: 1: 2.77777777777778E-10 2: 2.77777777777778E-10 3: 2.77777777777778E-10
+kinematicViscosity from Imperial square-millimeter-per-hour to SI cm2/sec (convert): PASS value: 1: 2.77777777777778E-6 2: 2.77777777777778E-6 3: 2.77777777777778E-6
+kinematicViscosity from Imperial square-foot-per-hour to cgs cSt (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial square-foot-per-hour to cgs lentor (convert): PASS value: 1: 2580.64 2: 2580.64 3: 2580.64
+kinematicViscosity from Imperial square-foot-per-hour to cgs stokes (convert): PASS value: 1: 2580.64 2: 2580.64 3: 2580.64
+kinematicViscosity from Imperial square-foot-per-hour to cgs St (convert): PASS value: 1: 2580.64 2: 2580.64 3: 2580.64
+kinematicViscosity from Imperial square-foot-per-hour to cgs millistokes (convert): PASS value: 1: 258.064 2: 258.064 3: 258.064
+kinematicViscosity from Imperial square-foot-per-hour to cgs centistokes (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial square-foot-per-hour to cgs mSt (convert): PASS value: 1: 258.064 2: 258.064 3: 258.064
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-foot-per-second (convert): PASS value: 1: 2.777777777777778E-4 2: 2.777777777777778E-4 3: 2.777777777777778E-4
+kinematicViscosity from Imperial square-foot-per-hour to Imperial in2/hr (convert): PASS value: 1: 144.00000000000009 2: 144.00000000000009 3: 144.00000000000009
+kinematicViscosity from Imperial square-foot-per-hour to Imperial mm2/sec (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-millimeter-per-hour (convert): PASS value: 1: 92903.03999999992 2: 92903.03999999992 3: 92903.03999999992
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-foot-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-centimeter-per-hour (convert): PASS value: 1: 929.0303999999993 2: 929.0303999999993 3: 929.0303999999993
+kinematicViscosity from Imperial square-foot-per-hour to Imperial ft2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-inch-per-hour (convert): PASS value: 1: 144.00000000000009 2: 144.00000000000009 3: 144.00000000000009
+kinematicViscosity from Imperial square-foot-per-hour to Imperial cm2/hr (convert): PASS value: 1: 929.0303999999993 2: 929.0303999999993 3: 929.0303999999993
+kinematicViscosity from Imperial square-foot-per-hour to Imperial in2/sec (convert): PASS value: 1: 0.04 2: 0.04 3: 0.04
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-inch-per-second (convert): PASS value: 1: 0.04 2: 0.04 3: 0.04
+kinematicViscosity from Imperial square-foot-per-hour to Imperial m2/hr (convert): PASS value: 1: 0.09290303999999994 2: 0.09290303999999994 3: 0.09290303999999994
+kinematicViscosity from Imperial square-foot-per-hour to Imperial mm2/hr (convert): PASS value: 1: 92903.03999999992 2: 92903.03999999992 3: 92903.03999999992
+kinematicViscosity from Imperial square-foot-per-hour to Imperial ft2/sec (convert): PASS value: 1: 2.777777777777778E-4 2: 2.777777777777778E-4 3: 2.777777777777778E-4
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-millimeter-per-second (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial square-foot-per-hour to Imperial square-meter-per-hour (convert): PASS value: 1: 0.09290303999999994 2: 0.09290303999999994 3: 0.09290303999999994
+kinematicViscosity from Imperial square-foot-per-hour to SI square-centimeter-per-second (convert): PASS value: 1: 0.258064 2: 0.258064 3: 0.258064
+kinematicViscosity from Imperial square-foot-per-hour to SI square-meter-per-second (convert): PASS value: 1: 2.58064E-5 2: 2.58064E-5 3: 2.58064E-5
+kinematicViscosity from Imperial square-foot-per-hour to SI m2/sec (convert): PASS value: 1: 2.58064E-5 2: 2.58064E-5 3: 2.58064E-5
+kinematicViscosity from Imperial square-foot-per-hour to SI cm2/sec (convert): PASS value: 1: 0.258064 2: 0.258064 3: 0.258064
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs cSt (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs lentor (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs stokes (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs St (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs millistokes (convert): PASS value: 1: 0.277777777777778 2: 0.277777777777778 3: 0.277777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs centistokes (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to cgs mSt (convert): PASS value: 1: 0.277777777777778 2: 0.277777777777778 3: 0.277777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-foot-per-second (convert): PASS value: 1: 2.989975115752703E-7 2: 2.989975115752703E-7 3: 2.989975115752703E-7
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial in2/hr (convert): PASS value: 1: 0.1550003100006202 2: 0.1550003100006202 3: 0.1550003100006202
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial mm2/sec (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-millimeter-per-hour (convert): PASS value: 1: 99.99999999999999 2: 99.99999999999999 3: 99.99999999999999
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-foot-per-hour (convert): PASS value: 1: 0.001076391041670973 2: 0.001076391041670973 3: 0.001076391041670973
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-centimeter-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial ft2/hr (convert): PASS value: 1: 0.001076391041670973 2: 0.001076391041670973 3: 0.001076391041670973
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-inch-per-hour (convert): PASS value: 1: 0.1550003100006202 2: 0.1550003100006202 3: 0.1550003100006202
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial cm2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial in2/sec (convert): PASS value: 1: 4.3055641666838926E-5 2: 4.3055641666838926E-5 3: 4.3055641666838926E-5
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-inch-per-second (convert): PASS value: 1: 4.3055641666838926E-5 2: 4.3055641666838926E-5 3: 4.3055641666838926E-5
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial m2/hr (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial mm2/hr (convert): PASS value: 1: 99.99999999999999 2: 99.99999999999999 3: 99.99999999999999
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial ft2/sec (convert): PASS value: 1: 2.989975115752703E-7 2: 2.989975115752703E-7 3: 2.989975115752703E-7
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial square-centimeter-per-hour to Imperial square-meter-per-hour (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from Imperial square-centimeter-per-hour to SI square-centimeter-per-second (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial square-centimeter-per-hour to SI square-meter-per-second (convert): PASS value: 1: 2.77777777777778E-8 2: 2.77777777777778E-8 3: 2.77777777777778E-8
+kinematicViscosity from Imperial square-centimeter-per-hour to SI m2/sec (convert): PASS value: 1: 2.77777777777778E-8 2: 2.77777777777778E-8 3: 2.77777777777778E-8
+kinematicViscosity from Imperial square-centimeter-per-hour to SI cm2/sec (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial ft2/hr to cgs cSt (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial ft2/hr to cgs lentor (convert): PASS value: 1: 2580.64 2: 2580.64 3: 2580.64
+kinematicViscosity from Imperial ft2/hr to cgs stokes (convert): PASS value: 1: 2580.64 2: 2580.64 3: 2580.64
+kinematicViscosity from Imperial ft2/hr to cgs St (convert): PASS value: 1: 2580.64 2: 2580.64 3: 2580.64
+kinematicViscosity from Imperial ft2/hr to cgs millistokes (convert): PASS value: 1: 258.064 2: 258.064 3: 258.064
+kinematicViscosity from Imperial ft2/hr to cgs centistokes (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial ft2/hr to cgs mSt (convert): PASS value: 1: 258.064 2: 258.064 3: 258.064
+kinematicViscosity from Imperial ft2/hr to Imperial square-foot-per-second (convert): PASS value: 1: 2.777777777777778E-4 2: 2.777777777777778E-4 3: 2.777777777777778E-4
+kinematicViscosity from Imperial ft2/hr to Imperial in2/hr (convert): PASS value: 1: 144.00000000000009 2: 144.00000000000009 3: 144.00000000000009
+kinematicViscosity from Imperial ft2/hr to Imperial mm2/sec (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial ft2/hr to Imperial square-millimeter-per-hour (convert): PASS value: 1: 92903.03999999992 2: 92903.03999999992 3: 92903.03999999992
+kinematicViscosity from Imperial ft2/hr to Imperial square-foot-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial ft2/hr to Imperial square-centimeter-per-hour (convert): PASS value: 1: 929.0303999999993 2: 929.0303999999993 3: 929.0303999999993
+kinematicViscosity from Imperial ft2/hr to Imperial ft2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial ft2/hr to Imperial square-inch-per-hour (convert): PASS value: 1: 144.00000000000009 2: 144.00000000000009 3: 144.00000000000009
+kinematicViscosity from Imperial ft2/hr to Imperial cm2/hr (convert): PASS value: 1: 929.0303999999993 2: 929.0303999999993 3: 929.0303999999993
+kinematicViscosity from Imperial ft2/hr to Imperial in2/sec (convert): PASS value: 1: 0.04 2: 0.04 3: 0.04
+kinematicViscosity from Imperial ft2/hr to Imperial square-inch-per-second (convert): PASS value: 1: 0.04 2: 0.04 3: 0.04
+kinematicViscosity from Imperial ft2/hr to Imperial m2/hr (convert): PASS value: 1: 0.09290303999999994 2: 0.09290303999999994 3: 0.09290303999999994
+kinematicViscosity from Imperial ft2/hr to Imperial mm2/hr (convert): PASS value: 1: 92903.03999999992 2: 92903.03999999992 3: 92903.03999999992
+kinematicViscosity from Imperial ft2/hr to Imperial ft2/sec (convert): PASS value: 1: 2.777777777777778E-4 2: 2.777777777777778E-4 3: 2.777777777777778E-4
+kinematicViscosity from Imperial ft2/hr to Imperial square-millimeter-per-second (convert): PASS value: 1: 25.806400000000004 2: 25.806400000000004 3: 25.806400000000004
+kinematicViscosity from Imperial ft2/hr to Imperial square-meter-per-hour (convert): PASS value: 1: 0.09290303999999994 2: 0.09290303999999994 3: 0.09290303999999994
+kinematicViscosity from Imperial ft2/hr to SI square-centimeter-per-second (convert): PASS value: 1: 0.258064 2: 0.258064 3: 0.258064
+kinematicViscosity from Imperial ft2/hr to SI square-meter-per-second (convert): PASS value: 1: 2.58064E-5 2: 2.58064E-5 3: 2.58064E-5
+kinematicViscosity from Imperial ft2/hr to SI m2/sec (convert): PASS value: 1: 2.58064E-5 2: 2.58064E-5 3: 2.58064E-5
+kinematicViscosity from Imperial ft2/hr to SI cm2/sec (convert): PASS value: 1: 0.258064 2: 0.258064 3: 0.258064
+kinematicViscosity from Imperial square-inch-per-hour to cgs cSt (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to cgs lentor (convert): PASS value: 1: 17.921111111111102 2: 17.921111111111102 3: 17.921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to cgs stokes (convert): PASS value: 1: 17.921111111111102 2: 17.921111111111102 3: 17.921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to cgs St (convert): PASS value: 1: 17.921111111111102 2: 17.921111111111102 3: 17.921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to cgs millistokes (convert): PASS value: 1: 1.79211111111111 2: 1.79211111111111 3: 1.79211111111111
+kinematicViscosity from Imperial square-inch-per-hour to cgs centistokes (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to cgs mSt (convert): PASS value: 1: 1.79211111111111 2: 1.79211111111111 3: 1.79211111111111
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-foot-per-second (convert): PASS value: 1: 1.929012345679011E-6 2: 1.929012345679011E-6 3: 1.929012345679011E-6
+kinematicViscosity from Imperial square-inch-per-hour to Imperial in2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-inch-per-hour to Imperial mm2/sec (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-millimeter-per-hour (convert): PASS value: 1: 645.1599999999991 2: 645.1599999999991 3: 645.1599999999991
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-foot-per-hour (convert): PASS value: 1: 0.006944444444444441 2: 0.006944444444444441 3: 0.006944444444444441
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-centimeter-per-hour (convert): PASS value: 1: 6.451599999999991 2: 6.451599999999991 3: 6.451599999999991
+kinematicViscosity from Imperial square-inch-per-hour to Imperial ft2/hr (convert): PASS value: 1: 0.006944444444444441 2: 0.006944444444444441 3: 0.006944444444444441
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-inch-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-inch-per-hour to Imperial cm2/hr (convert): PASS value: 1: 6.451599999999991 2: 6.451599999999991 3: 6.451599999999991
+kinematicViscosity from Imperial square-inch-per-hour to Imperial in2/sec (convert): PASS value: 1: 2.777777777777776E-4 2: 2.777777777777776E-4 3: 2.777777777777776E-4
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-inch-per-second (convert): PASS value: 1: 2.777777777777776E-4 2: 2.777777777777776E-4 3: 2.777777777777776E-4
+kinematicViscosity from Imperial square-inch-per-hour to Imperial m2/hr (convert): PASS value: 1: 6.451599999999991E-4 2: 6.451599999999991E-4 3: 6.451599999999991E-4
+kinematicViscosity from Imperial square-inch-per-hour to Imperial mm2/hr (convert): PASS value: 1: 645.1599999999991 2: 645.1599999999991 3: 645.1599999999991
+kinematicViscosity from Imperial square-inch-per-hour to Imperial ft2/sec (convert): PASS value: 1: 1.929012345679011E-6 2: 1.929012345679011E-6 3: 1.929012345679011E-6
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.17921111111111102 2: 0.17921111111111102 3: 0.17921111111111102
+kinematicViscosity from Imperial square-inch-per-hour to Imperial square-meter-per-hour (convert): PASS value: 1: 6.451599999999991E-4 2: 6.451599999999991E-4 3: 6.451599999999991E-4
+kinematicViscosity from Imperial square-inch-per-hour to SI square-centimeter-per-second (convert): PASS value: 1: 0.00179211111111111 2: 0.00179211111111111 3: 0.00179211111111111
+kinematicViscosity from Imperial square-inch-per-hour to SI square-meter-per-second (convert): PASS value: 1: 1.79211111111111E-7 2: 1.79211111111111E-7 3: 1.79211111111111E-7
+kinematicViscosity from Imperial square-inch-per-hour to SI m2/sec (convert): PASS value: 1: 1.79211111111111E-7 2: 1.79211111111111E-7 3: 1.79211111111111E-7
+kinematicViscosity from Imperial square-inch-per-hour to SI cm2/sec (convert): PASS value: 1: 0.00179211111111111 2: 0.00179211111111111 3: 0.00179211111111111
+kinematicViscosity from Imperial cm2/hr to cgs cSt (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial cm2/hr to cgs lentor (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial cm2/hr to cgs stokes (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial cm2/hr to cgs St (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial cm2/hr to cgs millistokes (convert): PASS value: 1: 0.277777777777778 2: 0.277777777777778 3: 0.277777777777778
+kinematicViscosity from Imperial cm2/hr to cgs centistokes (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial cm2/hr to cgs mSt (convert): PASS value: 1: 0.277777777777778 2: 0.277777777777778 3: 0.277777777777778
+kinematicViscosity from Imperial cm2/hr to Imperial square-foot-per-second (convert): PASS value: 1: 2.989975115752703E-7 2: 2.989975115752703E-7 3: 2.989975115752703E-7
+kinematicViscosity from Imperial cm2/hr to Imperial in2/hr (convert): PASS value: 1: 0.1550003100006202 2: 0.1550003100006202 3: 0.1550003100006202
+kinematicViscosity from Imperial cm2/hr to Imperial mm2/sec (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial cm2/hr to Imperial square-millimeter-per-hour (convert): PASS value: 1: 99.99999999999999 2: 99.99999999999999 3: 99.99999999999999
+kinematicViscosity from Imperial cm2/hr to Imperial square-foot-per-hour (convert): PASS value: 1: 0.001076391041670973 2: 0.001076391041670973 3: 0.001076391041670973
+kinematicViscosity from Imperial cm2/hr to Imperial square-centimeter-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial cm2/hr to Imperial ft2/hr (convert): PASS value: 1: 0.001076391041670973 2: 0.001076391041670973 3: 0.001076391041670973
+kinematicViscosity from Imperial cm2/hr to Imperial square-inch-per-hour (convert): PASS value: 1: 0.1550003100006202 2: 0.1550003100006202 3: 0.1550003100006202
+kinematicViscosity from Imperial cm2/hr to Imperial cm2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial cm2/hr to Imperial in2/sec (convert): PASS value: 1: 4.3055641666838926E-5 2: 4.3055641666838926E-5 3: 4.3055641666838926E-5
+kinematicViscosity from Imperial cm2/hr to Imperial square-inch-per-second (convert): PASS value: 1: 4.3055641666838926E-5 2: 4.3055641666838926E-5 3: 4.3055641666838926E-5
+kinematicViscosity from Imperial cm2/hr to Imperial m2/hr (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from Imperial cm2/hr to Imperial mm2/hr (convert): PASS value: 1: 99.99999999999999 2: 99.99999999999999 3: 99.99999999999999
+kinematicViscosity from Imperial cm2/hr to Imperial ft2/sec (convert): PASS value: 1: 2.989975115752703E-7 2: 2.989975115752703E-7 3: 2.989975115752703E-7
+kinematicViscosity from Imperial cm2/hr to Imperial square-millimeter-per-second (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial cm2/hr to Imperial square-meter-per-hour (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from Imperial cm2/hr to SI square-centimeter-per-second (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial cm2/hr to SI square-meter-per-second (convert): PASS value: 1: 2.77777777777778E-8 2: 2.77777777777778E-8 3: 2.77777777777778E-8
+kinematicViscosity from Imperial cm2/hr to SI m2/sec (convert): PASS value: 1: 2.77777777777778E-8 2: 2.77777777777778E-8 3: 2.77777777777778E-8
+kinematicViscosity from Imperial cm2/hr to SI cm2/sec (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial in2/sec to cgs cSt (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial in2/sec to cgs lentor (convert): PASS value: 1: 64516.0 2: 64516.0 3: 64516.0
+kinematicViscosity from Imperial in2/sec to cgs stokes (convert): PASS value: 1: 64516.0 2: 64516.0 3: 64516.0
+kinematicViscosity from Imperial in2/sec to cgs St (convert): PASS value: 1: 64516.0 2: 64516.0 3: 64516.0
+kinematicViscosity from Imperial in2/sec to cgs millistokes (convert): PASS value: 1: 6451.6 2: 6451.6 3: 6451.6
+kinematicViscosity from Imperial in2/sec to cgs centistokes (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial in2/sec to cgs mSt (convert): PASS value: 1: 6451.6 2: 6451.6 3: 6451.6
+kinematicViscosity from Imperial in2/sec to Imperial square-foot-per-second (convert): PASS value: 1: 0.006944444444444444 2: 0.006944444444444444 3: 0.006944444444444444
+kinematicViscosity from Imperial in2/sec to Imperial in2/hr (convert): PASS value: 1: 3600.000000000002 2: 3600.000000000002 3: 3600.000000000002
+kinematicViscosity from Imperial in2/sec to Imperial mm2/sec (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial in2/sec to Imperial square-millimeter-per-hour (convert): PASS value: 1: 2322575.9999999977 2: 2322575.9999999977 3: 2322575.9999999977
+kinematicViscosity from Imperial in2/sec to Imperial square-foot-per-hour (convert): PASS value: 1: 25.0 2: 25.0 3: 25.0
+kinematicViscosity from Imperial in2/sec to Imperial square-centimeter-per-hour (convert): PASS value: 1: 23225.75999999998 2: 23225.75999999998 3: 23225.75999999998
+kinematicViscosity from Imperial in2/sec to Imperial ft2/hr (convert): PASS value: 1: 25.0 2: 25.0 3: 25.0
+kinematicViscosity from Imperial in2/sec to Imperial square-inch-per-hour (convert): PASS value: 1: 3600.000000000002 2: 3600.000000000002 3: 3600.000000000002
+kinematicViscosity from Imperial in2/sec to Imperial cm2/hr (convert): PASS value: 1: 23225.75999999998 2: 23225.75999999998 3: 23225.75999999998
+kinematicViscosity from Imperial in2/sec to Imperial in2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial in2/sec to Imperial square-inch-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial in2/sec to Imperial m2/hr (convert): PASS value: 1: 2.322575999999998 2: 2.322575999999998 3: 2.322575999999998
+kinematicViscosity from Imperial in2/sec to Imperial mm2/hr (convert): PASS value: 1: 2322575.9999999977 2: 2322575.9999999977 3: 2322575.9999999977
+kinematicViscosity from Imperial in2/sec to Imperial ft2/sec (convert): PASS value: 1: 0.006944444444444444 2: 0.006944444444444444 3: 0.006944444444444444
+kinematicViscosity from Imperial in2/sec to Imperial square-millimeter-per-second (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial in2/sec to Imperial square-meter-per-hour (convert): PASS value: 1: 2.322575999999998 2: 2.322575999999998 3: 2.322575999999998
+kinematicViscosity from Imperial in2/sec to SI square-centimeter-per-second (convert): PASS value: 1: 6.451599999999999 2: 6.451599999999999 3: 6.451599999999999
+kinematicViscosity from Imperial in2/sec to SI square-meter-per-second (convert): PASS value: 1: 6.4516E-4 2: 6.4516E-4 3: 6.4516E-4
+kinematicViscosity from Imperial in2/sec to SI m2/sec (convert): PASS value: 1: 6.4516E-4 2: 6.4516E-4 3: 6.4516E-4
+kinematicViscosity from Imperial in2/sec to SI cm2/sec (convert): PASS value: 1: 6.451599999999999 2: 6.451599999999999 3: 6.451599999999999
+kinematicViscosity from Imperial square-inch-per-second to cgs cSt (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial square-inch-per-second to cgs lentor (convert): PASS value: 1: 64516.0 2: 64516.0 3: 64516.0
+kinematicViscosity from Imperial square-inch-per-second to cgs stokes (convert): PASS value: 1: 64516.0 2: 64516.0 3: 64516.0
+kinematicViscosity from Imperial square-inch-per-second to cgs St (convert): PASS value: 1: 64516.0 2: 64516.0 3: 64516.0
+kinematicViscosity from Imperial square-inch-per-second to cgs millistokes (convert): PASS value: 1: 6451.6 2: 6451.6 3: 6451.6
+kinematicViscosity from Imperial square-inch-per-second to cgs centistokes (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial square-inch-per-second to cgs mSt (convert): PASS value: 1: 6451.6 2: 6451.6 3: 6451.6
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-foot-per-second (convert): PASS value: 1: 0.006944444444444444 2: 0.006944444444444444 3: 0.006944444444444444
+kinematicViscosity from Imperial square-inch-per-second to Imperial in2/hr (convert): PASS value: 1: 3600.000000000002 2: 3600.000000000002 3: 3600.000000000002
+kinematicViscosity from Imperial square-inch-per-second to Imperial mm2/sec (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-millimeter-per-hour (convert): PASS value: 1: 2322575.9999999977 2: 2322575.9999999977 3: 2322575.9999999977
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-foot-per-hour (convert): PASS value: 1: 25.0 2: 25.0 3: 25.0
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-centimeter-per-hour (convert): PASS value: 1: 23225.75999999998 2: 23225.75999999998 3: 23225.75999999998
+kinematicViscosity from Imperial square-inch-per-second to Imperial ft2/hr (convert): PASS value: 1: 25.0 2: 25.0 3: 25.0
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-inch-per-hour (convert): PASS value: 1: 3600.000000000002 2: 3600.000000000002 3: 3600.000000000002
+kinematicViscosity from Imperial square-inch-per-second to Imperial cm2/hr (convert): PASS value: 1: 23225.75999999998 2: 23225.75999999998 3: 23225.75999999998
+kinematicViscosity from Imperial square-inch-per-second to Imperial in2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-inch-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-inch-per-second to Imperial m2/hr (convert): PASS value: 1: 2.322575999999998 2: 2.322575999999998 3: 2.322575999999998
+kinematicViscosity from Imperial square-inch-per-second to Imperial mm2/hr (convert): PASS value: 1: 2322575.9999999977 2: 2322575.9999999977 3: 2322575.9999999977
+kinematicViscosity from Imperial square-inch-per-second to Imperial ft2/sec (convert): PASS value: 1: 0.006944444444444444 2: 0.006944444444444444 3: 0.006944444444444444
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-millimeter-per-second (convert): PASS value: 1: 645.16 2: 645.16 3: 645.16
+kinematicViscosity from Imperial square-inch-per-second to Imperial square-meter-per-hour (convert): PASS value: 1: 2.322575999999998 2: 2.322575999999998 3: 2.322575999999998
+kinematicViscosity from Imperial square-inch-per-second to SI square-centimeter-per-second (convert): PASS value: 1: 6.451599999999999 2: 6.451599999999999 3: 6.451599999999999
+kinematicViscosity from Imperial square-inch-per-second to SI square-meter-per-second (convert): PASS value: 1: 6.4516E-4 2: 6.4516E-4 3: 6.4516E-4
+kinematicViscosity from Imperial square-inch-per-second to SI m2/sec (convert): PASS value: 1: 6.4516E-4 2: 6.4516E-4 3: 6.4516E-4
+kinematicViscosity from Imperial square-inch-per-second to SI cm2/sec (convert): PASS value: 1: 6.451599999999999 2: 6.451599999999999 3: 6.451599999999999
+kinematicViscosity from Imperial m2/hr to cgs cSt (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial m2/hr to cgs lentor (convert): PASS value: 1: 27777.7777777778 2: 27777.7777777778 3: 27777.7777777778
+kinematicViscosity from Imperial m2/hr to cgs stokes (convert): PASS value: 1: 27777.7777777778 2: 27777.7777777778 3: 27777.7777777778
+kinematicViscosity from Imperial m2/hr to cgs St (convert): PASS value: 1: 27777.7777777778 2: 27777.7777777778 3: 27777.7777777778
+kinematicViscosity from Imperial m2/hr to cgs millistokes (convert): PASS value: 1: 2777.77777777778 2: 2777.77777777778 3: 2777.77777777778
+kinematicViscosity from Imperial m2/hr to cgs centistokes (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial m2/hr to cgs mSt (convert): PASS value: 1: 2777.77777777778 2: 2777.77777777778 3: 2777.77777777778
+kinematicViscosity from Imperial m2/hr to Imperial square-foot-per-second (convert): PASS value: 1: 0.0029899751157527027 2: 0.0029899751157527027 3: 0.0029899751157527027
+kinematicViscosity from Imperial m2/hr to Imperial in2/hr (convert): PASS value: 1: 1550.003100006202 2: 1550.003100006202 3: 1550.003100006202
+kinematicViscosity from Imperial m2/hr to Imperial mm2/sec (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial m2/hr to Imperial square-millimeter-per-hour (convert): PASS value: 1: 999999.9999999999 2: 999999.9999999999 3: 999999.9999999999
+kinematicViscosity from Imperial m2/hr to Imperial square-foot-per-hour (convert): PASS value: 1: 10.76391041670973 2: 10.76391041670973 3: 10.76391041670973
+kinematicViscosity from Imperial m2/hr to Imperial square-centimeter-per-hour (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from Imperial m2/hr to Imperial ft2/hr (convert): PASS value: 1: 10.76391041670973 2: 10.76391041670973 3: 10.76391041670973
+kinematicViscosity from Imperial m2/hr to Imperial square-inch-per-hour (convert): PASS value: 1: 1550.003100006202 2: 1550.003100006202 3: 1550.003100006202
+kinematicViscosity from Imperial m2/hr to Imperial cm2/hr (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from Imperial m2/hr to Imperial in2/sec (convert): PASS value: 1: 0.43055641666838923 2: 0.43055641666838923 3: 0.43055641666838923
+kinematicViscosity from Imperial m2/hr to Imperial square-inch-per-second (convert): PASS value: 1: 0.43055641666838923 2: 0.43055641666838923 3: 0.43055641666838923
+kinematicViscosity from Imperial m2/hr to Imperial m2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial m2/hr to Imperial mm2/hr (convert): PASS value: 1: 999999.9999999999 2: 999999.9999999999 3: 999999.9999999999
+kinematicViscosity from Imperial m2/hr to Imperial ft2/sec (convert): PASS value: 1: 0.0029899751157527027 2: 0.0029899751157527027 3: 0.0029899751157527027
+kinematicViscosity from Imperial m2/hr to Imperial square-millimeter-per-second (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial m2/hr to Imperial square-meter-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial m2/hr to SI square-centimeter-per-second (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial m2/hr to SI square-meter-per-second (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial m2/hr to SI m2/sec (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial m2/hr to SI cm2/sec (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial mm2/hr to cgs cSt (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial mm2/hr to cgs lentor (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial mm2/hr to cgs stokes (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial mm2/hr to cgs St (convert): PASS value: 1: 0.0277777777777778 2: 0.0277777777777778 3: 0.0277777777777778
+kinematicViscosity from Imperial mm2/hr to cgs millistokes (convert): PASS value: 1: 0.0027777777777777805 2: 0.0027777777777777805 3: 0.0027777777777777805
+kinematicViscosity from Imperial mm2/hr to cgs centistokes (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial mm2/hr to cgs mSt (convert): PASS value: 1: 0.0027777777777777805 2: 0.0027777777777777805 3: 0.0027777777777777805
+kinematicViscosity from Imperial mm2/hr to Imperial square-foot-per-second (convert): PASS value: 1: 2.9899751157527032E-9 2: 2.9899751157527032E-9 3: 2.9899751157527032E-9
+kinematicViscosity from Imperial mm2/hr to Imperial in2/hr (convert): PASS value: 1: 0.0015500031000062022 2: 0.0015500031000062022 3: 0.0015500031000062022
+kinematicViscosity from Imperial mm2/hr to Imperial mm2/sec (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial mm2/hr to Imperial square-millimeter-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial mm2/hr to Imperial square-foot-per-hour (convert): PASS value: 1: 1.0763910416709732E-5 2: 1.0763910416709732E-5 3: 1.0763910416709732E-5
+kinematicViscosity from Imperial mm2/hr to Imperial square-centimeter-per-hour (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from Imperial mm2/hr to Imperial ft2/hr (convert): PASS value: 1: 1.0763910416709732E-5 2: 1.0763910416709732E-5 3: 1.0763910416709732E-5
+kinematicViscosity from Imperial mm2/hr to Imperial square-inch-per-hour (convert): PASS value: 1: 0.0015500031000062022 2: 0.0015500031000062022 3: 0.0015500031000062022
+kinematicViscosity from Imperial mm2/hr to Imperial cm2/hr (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+kinematicViscosity from Imperial mm2/hr to Imperial in2/sec (convert): PASS value: 1: 4.305564166683893E-7 2: 4.305564166683893E-7 3: 4.305564166683893E-7
+kinematicViscosity from Imperial mm2/hr to Imperial square-inch-per-second (convert): PASS value: 1: 4.305564166683893E-7 2: 4.305564166683893E-7 3: 4.305564166683893E-7
+kinematicViscosity from Imperial mm2/hr to Imperial m2/hr (convert): PASS value: 1: 1.0000000000000002E-6 2: 1.0000000000000002E-6 3: 1.0000000000000002E-6
+kinematicViscosity from Imperial mm2/hr to Imperial mm2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial mm2/hr to Imperial ft2/sec (convert): PASS value: 1: 2.9899751157527032E-9 2: 2.9899751157527032E-9 3: 2.9899751157527032E-9
+kinematicViscosity from Imperial mm2/hr to Imperial square-millimeter-per-second (convert): PASS value: 1: 2.7777777777777805E-4 2: 2.7777777777777805E-4 3: 2.7777777777777805E-4
+kinematicViscosity from Imperial mm2/hr to Imperial square-meter-per-hour (convert): PASS value: 1: 1.0000000000000002E-6 2: 1.0000000000000002E-6 3: 1.0000000000000002E-6
+kinematicViscosity from Imperial mm2/hr to SI square-centimeter-per-second (convert): PASS value: 1: 2.77777777777778E-6 2: 2.77777777777778E-6 3: 2.77777777777778E-6
+kinematicViscosity from Imperial mm2/hr to SI square-meter-per-second (convert): PASS value: 1: 2.77777777777778E-10 2: 2.77777777777778E-10 3: 2.77777777777778E-10
+kinematicViscosity from Imperial mm2/hr to SI m2/sec (convert): PASS value: 1: 2.77777777777778E-10 2: 2.77777777777778E-10 3: 2.77777777777778E-10
+kinematicViscosity from Imperial mm2/hr to SI cm2/sec (convert): PASS value: 1: 2.77777777777778E-6 2: 2.77777777777778E-6 3: 2.77777777777778E-6
+kinematicViscosity from Imperial ft2/sec to cgs cSt (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial ft2/sec to cgs lentor (convert): PASS value: 1: 9290304.0 2: 9290304.0 3: 9290304.0
+kinematicViscosity from Imperial ft2/sec to cgs stokes (convert): PASS value: 1: 9290304.0 2: 9290304.0 3: 9290304.0
+kinematicViscosity from Imperial ft2/sec to cgs St (convert): PASS value: 1: 9290304.0 2: 9290304.0 3: 9290304.0
+kinematicViscosity from Imperial ft2/sec to cgs millistokes (convert): PASS value: 1: 929030.4000000001 2: 929030.4000000001 3: 929030.4000000001
+kinematicViscosity from Imperial ft2/sec to cgs centistokes (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial ft2/sec to cgs mSt (convert): PASS value: 1: 929030.4000000001 2: 929030.4000000001 3: 929030.4000000001
+kinematicViscosity from Imperial ft2/sec to Imperial square-foot-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial ft2/sec to Imperial in2/hr (convert): PASS value: 1: 518400.00000000035 2: 518400.00000000035 3: 518400.00000000035
+kinematicViscosity from Imperial ft2/sec to Imperial mm2/sec (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial ft2/sec to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3.344509439999997E8 2: 3.344509439999997E8 3: 3.344509439999997E8
+kinematicViscosity from Imperial ft2/sec to Imperial square-foot-per-hour (convert): PASS value: 1: 3600.0 2: 3600.0 3: 3600.0
+kinematicViscosity from Imperial ft2/sec to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3344509.4399999976 2: 3344509.4399999976 3: 3344509.4399999976
+kinematicViscosity from Imperial ft2/sec to Imperial ft2/hr (convert): PASS value: 1: 3600.0 2: 3600.0 3: 3600.0
+kinematicViscosity from Imperial ft2/sec to Imperial square-inch-per-hour (convert): PASS value: 1: 518400.00000000035 2: 518400.00000000035 3: 518400.00000000035
+kinematicViscosity from Imperial ft2/sec to Imperial cm2/hr (convert): PASS value: 1: 3344509.4399999976 2: 3344509.4399999976 3: 3344509.4399999976
+kinematicViscosity from Imperial ft2/sec to Imperial in2/sec (convert): PASS value: 1: 144.0 2: 144.0 3: 144.0
+kinematicViscosity from Imperial ft2/sec to Imperial square-inch-per-second (convert): PASS value: 1: 144.0 2: 144.0 3: 144.0
+kinematicViscosity from Imperial ft2/sec to Imperial m2/hr (convert): PASS value: 1: 334.45094399999977 2: 334.45094399999977 3: 334.45094399999977
+kinematicViscosity from Imperial ft2/sec to Imperial mm2/hr (convert): PASS value: 1: 3.344509439999997E8 2: 3.344509439999997E8 3: 3.344509439999997E8
+kinematicViscosity from Imperial ft2/sec to Imperial ft2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial ft2/sec to Imperial square-millimeter-per-second (convert): PASS value: 1: 92903.04000000001 2: 92903.04000000001 3: 92903.04000000001
+kinematicViscosity from Imperial ft2/sec to Imperial square-meter-per-hour (convert): PASS value: 1: 334.45094399999977 2: 334.45094399999977 3: 334.45094399999977
+kinematicViscosity from Imperial ft2/sec to SI square-centimeter-per-second (convert): PASS value: 1: 929.0304 2: 929.0304 3: 929.0304
+kinematicViscosity from Imperial ft2/sec to SI square-meter-per-second (convert): PASS value: 1: 0.09290304 2: 0.09290304 3: 0.09290304
+kinematicViscosity from Imperial ft2/sec to SI m2/sec (convert): PASS value: 1: 0.09290304 2: 0.09290304 3: 0.09290304
+kinematicViscosity from Imperial ft2/sec to SI cm2/sec (convert): PASS value: 1: 929.0304 2: 929.0304 3: 929.0304
+kinematicViscosity from Imperial square-millimeter-per-second to cgs cSt (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-millimeter-per-second to cgs lentor (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from Imperial square-millimeter-per-second to cgs stokes (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from Imperial square-millimeter-per-second to cgs St (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+kinematicViscosity from Imperial square-millimeter-per-second to cgs millistokes (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from Imperial square-millimeter-per-second to cgs centistokes (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-millimeter-per-second to cgs mSt (convert): PASS value: 1: 10.0 2: 10.0 3: 10.0
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-foot-per-second (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial in2/hr (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial mm2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-foot-per-hour (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-centimeter-per-hour (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial ft2/hr (convert): PASS value: 1: 0.038750077500154995 2: 0.038750077500154995 3: 0.038750077500154995
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-inch-per-hour (convert): PASS value: 1: 5.580011160022323 2: 5.580011160022323 3: 5.580011160022323
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial cm2/hr (convert): PASS value: 1: 35.99999999999997 2: 35.99999999999997 3: 35.99999999999997
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial in2/sec (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-inch-per-second (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial m2/hr (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial mm2/hr (convert): PASS value: 1: 3599.999999999997 2: 3599.999999999997 3: 3599.999999999997
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial ft2/sec (convert): PASS value: 1: 1.0763910416709721E-5 2: 1.0763910416709721E-5 3: 1.0763910416709721E-5
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-millimeter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-millimeter-per-second to Imperial square-meter-per-hour (convert): PASS value: 1: 0.003599999999999997 2: 0.003599999999999997 3: 0.003599999999999997
+kinematicViscosity from Imperial square-millimeter-per-second to SI square-centimeter-per-second (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from Imperial square-millimeter-per-second to SI square-meter-per-second (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from Imperial square-millimeter-per-second to SI m2/sec (convert): PASS value: 1: 1.0E-6 2: 1.0E-6 3: 1.0E-6
+kinematicViscosity from Imperial square-millimeter-per-second to SI cm2/sec (convert): PASS value: 1: 0.009999999999999998 2: 0.009999999999999998 3: 0.009999999999999998
+kinematicViscosity from Imperial square-meter-per-hour to cgs cSt (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial square-meter-per-hour to cgs lentor (convert): PASS value: 1: 27777.7777777778 2: 27777.7777777778 3: 27777.7777777778
+kinematicViscosity from Imperial square-meter-per-hour to cgs stokes (convert): PASS value: 1: 27777.7777777778 2: 27777.7777777778 3: 27777.7777777778
+kinematicViscosity from Imperial square-meter-per-hour to cgs St (convert): PASS value: 1: 27777.7777777778 2: 27777.7777777778 3: 27777.7777777778
+kinematicViscosity from Imperial square-meter-per-hour to cgs millistokes (convert): PASS value: 1: 2777.77777777778 2: 2777.77777777778 3: 2777.77777777778
+kinematicViscosity from Imperial square-meter-per-hour to cgs centistokes (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial square-meter-per-hour to cgs mSt (convert): PASS value: 1: 2777.77777777778 2: 2777.77777777778 3: 2777.77777777778
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-foot-per-second (convert): PASS value: 1: 0.0029899751157527027 2: 0.0029899751157527027 3: 0.0029899751157527027
+kinematicViscosity from Imperial square-meter-per-hour to Imperial in2/hr (convert): PASS value: 1: 1550.003100006202 2: 1550.003100006202 3: 1550.003100006202
+kinematicViscosity from Imperial square-meter-per-hour to Imperial mm2/sec (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-millimeter-per-hour (convert): PASS value: 1: 999999.9999999999 2: 999999.9999999999 3: 999999.9999999999
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-foot-per-hour (convert): PASS value: 1: 10.76391041670973 2: 10.76391041670973 3: 10.76391041670973
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-centimeter-per-hour (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from Imperial square-meter-per-hour to Imperial ft2/hr (convert): PASS value: 1: 10.76391041670973 2: 10.76391041670973 3: 10.76391041670973
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-inch-per-hour (convert): PASS value: 1: 1550.003100006202 2: 1550.003100006202 3: 1550.003100006202
+kinematicViscosity from Imperial square-meter-per-hour to Imperial cm2/hr (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from Imperial square-meter-per-hour to Imperial in2/sec (convert): PASS value: 1: 0.43055641666838923 2: 0.43055641666838923 3: 0.43055641666838923
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-inch-per-second (convert): PASS value: 1: 0.43055641666838923 2: 0.43055641666838923 3: 0.43055641666838923
+kinematicViscosity from Imperial square-meter-per-hour to Imperial m2/hr (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-meter-per-hour to Imperial mm2/hr (convert): PASS value: 1: 999999.9999999999 2: 999999.9999999999 3: 999999.9999999999
+kinematicViscosity from Imperial square-meter-per-hour to Imperial ft2/sec (convert): PASS value: 1: 0.0029899751157527027 2: 0.0029899751157527027 3: 0.0029899751157527027
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-millimeter-per-second (convert): PASS value: 1: 277.777777777778 2: 277.777777777778 3: 277.777777777778
+kinematicViscosity from Imperial square-meter-per-hour to Imperial square-meter-per-hour (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from Imperial square-meter-per-hour to SI square-centimeter-per-second (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from Imperial square-meter-per-hour to SI square-meter-per-second (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial square-meter-per-hour to SI m2/sec (convert): PASS value: 1: 2.77777777777778E-4 2: 2.77777777777778E-4 3: 2.77777777777778E-4
+kinematicViscosity from Imperial square-meter-per-hour to SI cm2/sec (convert): PASS value: 1: 2.77777777777778 2: 2.77777777777778 3: 2.77777777777778
+kinematicViscosity from SI square-centimeter-per-second to cgs cSt (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI square-centimeter-per-second to cgs lentor (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI square-centimeter-per-second to cgs stokes (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI square-centimeter-per-second to cgs St (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI square-centimeter-per-second to cgs millistokes (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+kinematicViscosity from SI square-centimeter-per-second to cgs centistokes (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI square-centimeter-per-second to cgs mSt (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-foot-per-second (convert): PASS value: 1: 0.0010763910416709721 2: 0.0010763910416709721 3: 0.0010763910416709721
+kinematicViscosity from SI square-centimeter-per-second to Imperial in2/hr (convert): PASS value: 1: 558.0011160022324 2: 558.0011160022324 3: 558.0011160022324
+kinematicViscosity from SI square-centimeter-per-second to Imperial mm2/sec (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-millimeter-per-hour (convert): PASS value: 1: 359999.9999999997 2: 359999.9999999997 3: 359999.9999999997
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-foot-per-hour (convert): PASS value: 1: 3.8750077500155 2: 3.8750077500155 3: 3.8750077500155
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI square-centimeter-per-second to Imperial ft2/hr (convert): PASS value: 1: 3.8750077500155 2: 3.8750077500155 3: 3.8750077500155
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-inch-per-hour (convert): PASS value: 1: 558.0011160022324 2: 558.0011160022324 3: 558.0011160022324
+kinematicViscosity from SI square-centimeter-per-second to Imperial cm2/hr (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI square-centimeter-per-second to Imperial in2/sec (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-inch-per-second (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+kinematicViscosity from SI square-centimeter-per-second to Imperial m2/hr (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from SI square-centimeter-per-second to Imperial mm2/hr (convert): PASS value: 1: 359999.9999999997 2: 359999.9999999997 3: 359999.9999999997
+kinematicViscosity from SI square-centimeter-per-second to Imperial ft2/sec (convert): PASS value: 1: 0.0010763910416709721 2: 0.0010763910416709721 3: 0.0010763910416709721
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-millimeter-per-second (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI square-centimeter-per-second to Imperial square-meter-per-hour (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from SI square-centimeter-per-second to SI square-centimeter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI square-centimeter-per-second to SI square-meter-per-second (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from SI square-centimeter-per-second to SI m2/sec (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from SI square-centimeter-per-second to SI cm2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI square-meter-per-second to cgs cSt (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI square-meter-per-second to cgs lentor (convert): PASS value: 1: 1.0E8 2: 1.0E8 3: 1.0E8
+kinematicViscosity from SI square-meter-per-second to cgs stokes (convert): PASS value: 1: 1.0E8 2: 1.0E8 3: 1.0E8
+kinematicViscosity from SI square-meter-per-second to cgs St (convert): PASS value: 1: 1.0E8 2: 1.0E8 3: 1.0E8
+kinematicViscosity from SI square-meter-per-second to cgs millistokes (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+kinematicViscosity from SI square-meter-per-second to cgs centistokes (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI square-meter-per-second to cgs mSt (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+kinematicViscosity from SI square-meter-per-second to Imperial square-foot-per-second (convert): PASS value: 1: 10.763910416709722 2: 10.763910416709722 3: 10.763910416709722
+kinematicViscosity from SI square-meter-per-second to Imperial in2/hr (convert): PASS value: 1: 5580011.160022323 2: 5580011.160022323 3: 5580011.160022323
+kinematicViscosity from SI square-meter-per-second to Imperial mm2/sec (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI square-meter-per-second to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3.5999999999999967E9 2: 3.5999999999999967E9 3: 3.5999999999999967E9
+kinematicViscosity from SI square-meter-per-second to Imperial square-foot-per-hour (convert): PASS value: 1: 38750.077500155 2: 38750.077500155 3: 38750.077500155
+kinematicViscosity from SI square-meter-per-second to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3.599999999999997E7 2: 3.599999999999997E7 3: 3.599999999999997E7
+kinematicViscosity from SI square-meter-per-second to Imperial ft2/hr (convert): PASS value: 1: 38750.077500155 2: 38750.077500155 3: 38750.077500155
+kinematicViscosity from SI square-meter-per-second to Imperial square-inch-per-hour (convert): PASS value: 1: 5580011.160022323 2: 5580011.160022323 3: 5580011.160022323
+kinematicViscosity from SI square-meter-per-second to Imperial cm2/hr (convert): PASS value: 1: 3.599999999999997E7 2: 3.599999999999997E7 3: 3.599999999999997E7
+kinematicViscosity from SI square-meter-per-second to Imperial in2/sec (convert): PASS value: 1: 1550.0031000062002 2: 1550.0031000062002 3: 1550.0031000062002
+kinematicViscosity from SI square-meter-per-second to Imperial square-inch-per-second (convert): PASS value: 1: 1550.0031000062002 2: 1550.0031000062002 3: 1550.0031000062002
+kinematicViscosity from SI square-meter-per-second to Imperial m2/hr (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI square-meter-per-second to Imperial mm2/hr (convert): PASS value: 1: 3.5999999999999967E9 2: 3.5999999999999967E9 3: 3.5999999999999967E9
+kinematicViscosity from SI square-meter-per-second to Imperial ft2/sec (convert): PASS value: 1: 10.763910416709722 2: 10.763910416709722 3: 10.763910416709722
+kinematicViscosity from SI square-meter-per-second to Imperial square-millimeter-per-second (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI square-meter-per-second to Imperial square-meter-per-hour (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI square-meter-per-second to SI square-centimeter-per-second (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI square-meter-per-second to SI square-meter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI square-meter-per-second to SI m2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI square-meter-per-second to SI cm2/sec (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI m2/sec to cgs cSt (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI m2/sec to cgs lentor (convert): PASS value: 1: 1.0E8 2: 1.0E8 3: 1.0E8
+kinematicViscosity from SI m2/sec to cgs stokes (convert): PASS value: 1: 1.0E8 2: 1.0E8 3: 1.0E8
+kinematicViscosity from SI m2/sec to cgs St (convert): PASS value: 1: 1.0E8 2: 1.0E8 3: 1.0E8
+kinematicViscosity from SI m2/sec to cgs millistokes (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+kinematicViscosity from SI m2/sec to cgs centistokes (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI m2/sec to cgs mSt (convert): PASS value: 1: 1.0E7 2: 1.0E7 3: 1.0E7
+kinematicViscosity from SI m2/sec to Imperial square-foot-per-second (convert): PASS value: 1: 10.763910416709722 2: 10.763910416709722 3: 10.763910416709722
+kinematicViscosity from SI m2/sec to Imperial in2/hr (convert): PASS value: 1: 5580011.160022323 2: 5580011.160022323 3: 5580011.160022323
+kinematicViscosity from SI m2/sec to Imperial mm2/sec (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI m2/sec to Imperial square-millimeter-per-hour (convert): PASS value: 1: 3.5999999999999967E9 2: 3.5999999999999967E9 3: 3.5999999999999967E9
+kinematicViscosity from SI m2/sec to Imperial square-foot-per-hour (convert): PASS value: 1: 38750.077500155 2: 38750.077500155 3: 38750.077500155
+kinematicViscosity from SI m2/sec to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3.599999999999997E7 2: 3.599999999999997E7 3: 3.599999999999997E7
+kinematicViscosity from SI m2/sec to Imperial ft2/hr (convert): PASS value: 1: 38750.077500155 2: 38750.077500155 3: 38750.077500155
+kinematicViscosity from SI m2/sec to Imperial square-inch-per-hour (convert): PASS value: 1: 5580011.160022323 2: 5580011.160022323 3: 5580011.160022323
+kinematicViscosity from SI m2/sec to Imperial cm2/hr (convert): PASS value: 1: 3.599999999999997E7 2: 3.599999999999997E7 3: 3.599999999999997E7
+kinematicViscosity from SI m2/sec to Imperial in2/sec (convert): PASS value: 1: 1550.0031000062002 2: 1550.0031000062002 3: 1550.0031000062002
+kinematicViscosity from SI m2/sec to Imperial square-inch-per-second (convert): PASS value: 1: 1550.0031000062002 2: 1550.0031000062002 3: 1550.0031000062002
+kinematicViscosity from SI m2/sec to Imperial m2/hr (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI m2/sec to Imperial mm2/hr (convert): PASS value: 1: 3.5999999999999967E9 2: 3.5999999999999967E9 3: 3.5999999999999967E9
+kinematicViscosity from SI m2/sec to Imperial ft2/sec (convert): PASS value: 1: 10.763910416709722 2: 10.763910416709722 3: 10.763910416709722
+kinematicViscosity from SI m2/sec to Imperial square-millimeter-per-second (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+kinematicViscosity from SI m2/sec to Imperial square-meter-per-hour (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI m2/sec to SI square-centimeter-per-second (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI m2/sec to SI square-meter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI m2/sec to SI m2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI m2/sec to SI cm2/sec (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI cm2/sec to cgs cSt (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI cm2/sec to cgs lentor (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI cm2/sec to cgs stokes (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI cm2/sec to cgs St (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+kinematicViscosity from SI cm2/sec to cgs millistokes (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+kinematicViscosity from SI cm2/sec to cgs centistokes (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI cm2/sec to cgs mSt (convert): PASS value: 1: 1000.0000000000001 2: 1000.0000000000001 3: 1000.0000000000001
+kinematicViscosity from SI cm2/sec to Imperial square-foot-per-second (convert): PASS value: 1: 0.0010763910416709721 2: 0.0010763910416709721 3: 0.0010763910416709721
+kinematicViscosity from SI cm2/sec to Imperial in2/hr (convert): PASS value: 1: 558.0011160022324 2: 558.0011160022324 3: 558.0011160022324
+kinematicViscosity from SI cm2/sec to Imperial mm2/sec (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI cm2/sec to Imperial square-millimeter-per-hour (convert): PASS value: 1: 359999.9999999997 2: 359999.9999999997 3: 359999.9999999997
+kinematicViscosity from SI cm2/sec to Imperial square-foot-per-hour (convert): PASS value: 1: 3.8750077500155 2: 3.8750077500155 3: 3.8750077500155
+kinematicViscosity from SI cm2/sec to Imperial square-centimeter-per-hour (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI cm2/sec to Imperial ft2/hr (convert): PASS value: 1: 3.8750077500155 2: 3.8750077500155 3: 3.8750077500155
+kinematicViscosity from SI cm2/sec to Imperial square-inch-per-hour (convert): PASS value: 1: 558.0011160022324 2: 558.0011160022324 3: 558.0011160022324
+kinematicViscosity from SI cm2/sec to Imperial cm2/hr (convert): PASS value: 1: 3599.9999999999973 2: 3599.9999999999973 3: 3599.9999999999973
+kinematicViscosity from SI cm2/sec to Imperial in2/sec (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+kinematicViscosity from SI cm2/sec to Imperial square-inch-per-second (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+kinematicViscosity from SI cm2/sec to Imperial m2/hr (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from SI cm2/sec to Imperial mm2/hr (convert): PASS value: 1: 359999.9999999997 2: 359999.9999999997 3: 359999.9999999997
+kinematicViscosity from SI cm2/sec to Imperial ft2/sec (convert): PASS value: 1: 0.0010763910416709721 2: 0.0010763910416709721 3: 0.0010763910416709721
+kinematicViscosity from SI cm2/sec to Imperial square-millimeter-per-second (convert): PASS value: 1: 100.00000000000001 2: 100.00000000000001 3: 100.00000000000001
+kinematicViscosity from SI cm2/sec to Imperial square-meter-per-hour (convert): PASS value: 1: 0.3599999999999997 2: 0.3599999999999997 3: 0.3599999999999997
+kinematicViscosity from SI cm2/sec to SI square-centimeter-per-second (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+kinematicViscosity from SI cm2/sec to SI square-meter-per-second (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from SI cm2/sec to SI m2/sec (convert): PASS value: 1: 1.0E-4 2: 1.0E-4 3: 1.0E-4
+kinematicViscosity from SI cm2/sec to SI cm2/sec (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionUnitsTest February 04, 2024 12:35:08 Duration: 0:0:0:0.021 Version : 1.0
+
+
+********************************************************************************
+

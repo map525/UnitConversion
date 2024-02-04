@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UnitConversionTest": {
+      "commandName": "Project",
+      "commandLineArgs": "ALL"
+    }
+  }
+}

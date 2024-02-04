@@ -1,0 +1,386 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestBaseSystem.cpp"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 26,
+                  "endLine": 123,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?runOut@UnitTestBaseSystem@@MEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29914.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x003DB1C0 -il C:\\Users\\map52\\AppData\\Local\\Temp\\_CL_d2e7721aast -typedil -f ..\\UnitTests\\UnitTestBaseSystem.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829914 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\map52\\Desktop\\UnitConversion\\UnitConversionLibrary\\CPP\\UnitConversion\\Includes -I C:\\Users\\map52\\Desktop\\UnitConversion\\UnitConversionLibrary\\CPP\\Generated -I C:\\Users\\map52\\Desktop\\UnitConversion\\Test\\CPP\\BaseTest -I C:\\Users\\map52\\Desktop\\UnitConversion\\Test\\CPP\\compTests -I C:\\Users\\map52\\Desktop\\UnitConversion\\Test\\CPP\\UnitTests -I C:\\Users\\map52\\Desktop\\UnitConversion\\Test\\CPP\\SystemTests -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Release\\UnitTestBaseSystem.obj -Fdx64\\Release\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\map52\\Desktop\\UnitConversion\\Test\\CPP\\UnitConversionTest -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestTypeGroup.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3c71decd0cdd4700ebcbccb786d3f057"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittesttypegroup.hpp"
+          },
+          "hashes": {
+            "md5": "56e48d8253bc086f19cf968f8f97158b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/basetest/unitconversionbasetest.hpp"
+          },
+          "hashes": {
+            "md5": "1b9882e7da31631f5712c0e7176a3209"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/typegroup.hpp"
+          },
+          "hashes": {
+            "md5": "0cac66e97b5ad3f1fa3ef6dd7bc4491e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/ubase.hpp"
+          },
+          "hashes": {
+            "md5": "aee8fc5946ce7f5a754aab3a2edbf59c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/value.hpp"
+          },
+          "hashes": {
+            "md5": "753c0ffda289b51481131c611de1624f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestSystemUnits.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f7242102fa907edeff70e667de7f4550"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestsystemunits.hpp"
+          },
+          "hashes": {
+            "md5": "fd30fbd73a3616d0eed8cc0ab24f4289"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/systemunits.hpp"
+          },
+          "hashes": {
+            "md5": "fc9fd783d06638a4b0ac0ba569e88777"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/conversionbase.hpp"
+          },
+          "hashes": {
+            "md5": "2fd7cfeda456dffb4db34ff7407e1bbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/basesystem.hpp"
+          },
+          "hashes": {
+            "md5": "cf2331649ae942a46f08c0dbb412c4c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestSingleSystem.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2a5bab98365df0f7e82b99da862d3f30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestsinglesystem.hpp"
+          },
+          "hashes": {
+            "md5": "e23f5d0ff5bbf5ecc46f7a6c3d5d3be2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/singlesystem.hpp"
+          },
+          "hashes": {
+            "md5": "7470da6f12061f8c09b47e5759174917"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/conversion.hpp"
+          },
+          "hashes": {
+            "md5": "9d10d4bd536c18296b4ca701378ae6d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestConverter.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8e4db9510695c67c3a91e0cef4f79237"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestconverter.hpp"
+          },
+          "hashes": {
+            "md5": "0205fe38e45b91fc88fa08fb68cac817"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/converter.hpp"
+          },
+          "hashes": {
+            "md5": "3f503c9c04f2f22031a1f58d91c76214"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/convert.hpp"
+          },
+          "hashes": {
+            "md5": "ca5d4e7030c9d8db97273e95a5611ce3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestConvert.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1fa72fd81a1149dbca016884579a5bf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestconvert.hpp"
+          },
+          "hashes": {
+            "md5": "9201c3d350e628f5519c8ad143306722"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestConversionBase.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "df62e0e97a0c3fb23a9ed4d28afed44b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestconversionbase.hpp"
+          },
+          "hashes": {
+            "md5": "e4d947d26a846ed061c3a85322a0207f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestConversion.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "bd470d802d698c1450f6e5400cfa8fc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestconversion.hpp"
+          },
+          "hashes": {
+            "md5": "038eda14e4d8e0ac42156491184f6e54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestConstants.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "6ee7acd78b4fbb92ff160b6daff84c37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestconstants.hpp"
+          },
+          "hashes": {
+            "md5": "01cf3a231f0d7f540a25b3db6b1f130f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/constants.hpp"
+          },
+          "hashes": {
+            "md5": "b759bf20b156e6bea435e49afa093719"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/constantgroup.hpp"
+          },
+          "hashes": {
+            "md5": "aa14f5beba685d3e11814620376d6713"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestConstantGroup.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f6422c2ee6a19caad00b9ba35d108e80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestconstantgroup.hpp"
+          },
+          "hashes": {
+            "md5": "23c9f198972e481758417240aec0d354"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestCanonicalSystem.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "12ef75f639bec67029e2aa322c49c7f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestcanonicalsystem.hpp"
+          },
+          "hashes": {
+            "md5": "ff2e4e520e92da43113d0007e8419a54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/unitconversionlibrary/cpp/unitconversion/includes/canonicalsystem.hpp"
+          },
+          "hashes": {
+            "md5": "ceb519eac4a7cb17119aac6f17109d25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/map52/Desktop/UnitConversion/Test/CPP/UnitTests/UnitTestBaseSystem.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5f4241972ac6db9a0d58bda0304018f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/map52/desktop/unitconversion/test/cpp/unittests/unittestbasesystem.hpp"
+          },
+          "hashes": {
+            "md5": "5872b335997a4813d8601818c3d5525b"
+          }
+        }
+      ]
+    }
+  ]
+}

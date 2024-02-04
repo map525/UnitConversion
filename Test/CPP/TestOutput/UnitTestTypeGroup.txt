@@ -1,0 +1,47 @@
+*********************************************************************************
+
+START UnitTestTypeGroup February 04, 2024 13:38:05 Version : 1.0
+
+Default Constructor
+UnitTestTypeGroup (Default Constructor): PASS 
+
+Empty Constructor
+UnitTestTypeGroup (Empty Constructor): PASS 
+
+Constructor
+UnitTestTypeGroup (check): PASS 
+UnitTestTypeGroup (valid): PASS 
+UnitTestTypeGroup (name): PASS 
+UnitTestTypeGroup (version): PASS 
+UnitTestTypeGroup (unit): PASS 
+UnitTestTypeGroup (addUnit): PASS 
+UnitTestTypeGroup (removeUnit): PASS 
+UnitTestTypeGroup (systemNames): PASS 
+UnitTestTypeGroup (unitNames): PASS 
+
+Copy Constructor
+UnitTestTypeGroup (check): PASS 
+UnitTestTypeGroup (valid): PASS 
+UnitTestTypeGroup (name): PASS 
+UnitTestTypeGroup (version): PASS 
+UnitTestTypeGroup (unit): PASS 
+UnitTestTypeGroup (addUnit): PASS 
+UnitTestTypeGroup (removeUnit): PASS 
+UnitTestTypeGroup (systemNames): PASS 
+UnitTestTypeGroup (unitNames): PASS 
+
+Assignment Operator
+UnitTestTypeGroup (check): PASS 
+UnitTestTypeGroup (valid): PASS 
+UnitTestTypeGroup (name): PASS 
+UnitTestTypeGroup (version): PASS 
+UnitTestTypeGroup (unit): PASS 
+UnitTestTypeGroup (addUnit): PASS 
+UnitTestTypeGroup (removeUnit): PASS 
+UnitTestTypeGroup (systemNames): PASS 
+UnitTestTypeGroup (unitNames): PASS 
+
+
+END UnitTestTypeGroup February 04, 2024 13:38:05 Duration: 0.001 Version : 1.0
+
+*********************************************************************************

@@ -1,0 +1,231 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:22:44 Version : 1.0
+
+name: Luminosity type: radiantIntensity valid: 1
+To System: SI From System: SI
+RadiantIntensity Types [illuminance, luminance, luminousFlux, luminousIntensity, radiantIntensity]
+RadiantIntensity All Systems [German, SI, UK, French, MKSA, Scientific, US, cgs, Imperial, INT]
+RadiantIntensity All Units [German[nox], German[skot], SI[Elx], SI[Glx], SI[Mlx], SI[Plx], SI[Tlx], SI[Ylx], SI[Zlx], 
+                            SI[alx], SI[attolux], SI[centilux], SI[clx], SI[dalx], SI[decalux], SI[decilux], SI[dlx], 
+                            SI[exalux], SI[femtolux], SI[flx], SI[gigalux], SI[hectolux], SI[hlx], SI[kilolux], 
+                            SI[klx], SI[lux], SI[lx], SI[megalux], SI[microlux], SI[millilux], SI[mlx], SI[nanolux], 
+                            SI[nlx], SI[petalux], SI[picolux], SI[plx], SI[teralux], SI[ulx], SI[ylx], SI[yoctolux], 
+                            SI[yottalux], SI[zeptolux], SI[zettalux], SI[zlx], UK[dt-cd], UK[fc], UK[foot-candle], 
+                            UK[ft-C], French[blondel], German[apostilb], German[asb], MKSA[nit], 
+                            SI[candela-per-square-meter], SI[cd/m2], Scientific[brill], Scientific[luxon], 
+                            Scientific[troland], US[L], US[candela-per-square-foot], US[cd/ft2], US[foot-lambert], 
+                            US[ft-L], US[lambert], cgs[ph], cgs[phot], cgs[sb], cgs[stilb], 
+                            Imperial[candlepower(spherical)], SI[Elm], SI[Glm], SI[Mlm], SI[Plm], SI[Tlm], SI[Ylm], 
+                            SI[Zlm], SI[alm], SI[attolumen], SI[centilumen], SI[clm], SI[dalm], SI[decalumen], 
+                            SI[decilumen], SI[dlm], SI[exalumen], SI[femtolumen], SI[flm], SI[gigalumen], 
+                            SI[hectolumen], SI[hlm], SI[kilolumen], SI[klm], SI[lm], SI[lumen], SI[megalumen], 
+                            SI[microlumen], SI[millilumen], SI[mlm], SI[nanolumen], SI[nlm], SI[petalumen], 
+                            SI[picolumen], SI[plm], SI[teralumen], SI[ulm], SI[ylm], SI[yoctolumen], SI[yottalumen], 
+                            SI[zeptolumen], SI[zettalumen], SI[zlm], French[bn], French[bougie-nouvelle], 
+                            French[carcel], German[HK], German[hefner-unit], German[hefnerkerze], German[hu], INT[bi], 
+                            INT[bougie-decimale-inlemationale], INT[c], INT[candle(new)], INT[candle], SI[Ecd], 
+                            SI[Gcd], SI[Mcd], SI[Pcd], SI[Tcd], SI[Ycd], SI[Zcd], SI[acd], SI[attocandela], 
+                            SI[candela], SI[ccd], SI[cd], SI[centicandela], SI[dacd], SI[dcd], SI[decacandela], 
+                            SI[decicandela], SI[exacandela], SI[fcd], SI[femtocandela], SI[gigacandela], SI[hcd], 
+                            SI[hectocandela], SI[kcd], SI[kilocandela], SI[mcd], SI[megacandela], SI[microcandela], 
+                            SI[millicandela], SI[nanocandela], SI[ncd], SI[pcd], SI[petacandela], SI[picocandela], 
+                            SI[teracandela], SI[ucd], SI[ycd], SI[yoctocandela], SI[yottacandela], SI[zcd], 
+                            SI[zeptocandela], SI[zettacandela], Scientific[bd], Scientific[bougie-decimale], 
+                            Scientific[violle], UK[bn], UK[bougie-nouvelle], UK[c], UK[candle(int)], 
+                            UK[candle(pentane)], UK[carcel-unit], SI[GW/W], SI[MW/W], SI[W/W], 
+                            SI[gigawatt-per-steradian], SI[kW/W], SI[kilowatt-per-steradian], SI[mW/W], 
+                            SI[megawatt-per-steradian], SI[microwatt-per-steradian], SI[milliwatt-per-steradian], 
+                            SI[uW/W], SI[watt-per-steradian], cgs[lumberg]]
+RadiantIntensity Systems [SI, cgs]
+Units RadiantIntensity [SI[GW/W], SI[MW/W], SI[W/W], SI[gigawatt-per-steradian], SI[kW/W], SI[kilowatt-per-steradian], 
+                        SI[mW/W], SI[megawatt-per-steradian], SI[microwatt-per-steradian], 
+                        SI[milliwatt-per-steradian], SI[uW/W], SI[watt-per-steradian], cgs[lumberg]]
+RadiantIntensity SI GW/W SI 1 1e+09 gigawatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI MW/W SI 1 1e+06 megawatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI W/W SI 1 1 watt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI gigawatt-per-steradian SI 1 1e+09 gigawatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI kW/W SI 1 1000 kilowatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI kilowatt-per-steradian SI 1 1000 kilowatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI mW/W SI 1 0.001 milliwatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI megawatt-per-steradian SI 1 1e+06 megawatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI microwatt-per-steradian SI 1 1e-06 microwatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI milliwatt-per-steradian SI 1 0.001 milliwatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI uW/W SI 1 1e-06 microwatt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity SI watt-per-steradian SI 1 1 watt-per-steradian kg.m2/s3.sr M.L2/T3.W 0
+RadiantIntensity cgs lumberg cgs 1 1e-07 lumberg kg.m2/s3.sr M.L2/T3.W 0
+
+name: Luminosity type: radiantIntensity valid: 1
+radiantIntensity from SI GW/W to SI GW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI GW/W to SI MW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI GW/W to SI W/W (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI GW/W to SI gigawatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI GW/W to SI kW/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI GW/W to SI kilowatt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI GW/W to SI mW/W (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI GW/W to SI megawatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI GW/W to SI microwatt-per-steradian (convert): PASS value: 1: 1000000000000000.000000 2: 1000000000000000.000000 3: 1000000000000000.000000
+radiantIntensity from SI GW/W to SI milliwatt-per-steradian (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI GW/W to SI uW/W (convert): PASS value: 1: 1000000000000000.000000 2: 1000000000000000.000000 3: 1000000000000000.000000
+radiantIntensity from SI GW/W to SI watt-per-steradian (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI GW/W to cgs lumberg (convert): PASS value: 1: 10000000000000000.000000 2: 10000000000000000.000000 3: 10000000000000000.000000
+radiantIntensity from SI MW/W to SI GW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI MW/W to SI MW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI MW/W to SI W/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI MW/W to SI gigawatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI MW/W to SI kW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI MW/W to SI kilowatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI MW/W to SI mW/W (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI MW/W to SI megawatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI MW/W to SI microwatt-per-steradian (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI MW/W to SI milliwatt-per-steradian (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI MW/W to SI uW/W (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI MW/W to SI watt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI MW/W to cgs lumberg (convert): PASS value: 1: 10000000000000.000000 2: 10000000000000.000000 3: 10000000000000.000000
+radiantIntensity from SI W/W to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI W/W to SI MW/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI W/W to SI W/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI W/W to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI W/W to SI kW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI W/W to SI kilowatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI W/W to SI mW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI W/W to SI megawatt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI W/W to SI microwatt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI W/W to SI milliwatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI W/W to SI uW/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI W/W to SI watt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI W/W to cgs lumberg (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI GW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI gigawatt-per-steradian to SI MW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI W/W (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI gigawatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI gigawatt-per-steradian to SI kW/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI kilowatt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI mW/W (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI megawatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI microwatt-per-steradian (convert): PASS value: 1: 1000000000000000.000000 2: 1000000000000000.000000 3: 1000000000000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI milliwatt-per-steradian (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI uW/W (convert): PASS value: 1: 1000000000000000.000000 2: 1000000000000000.000000 3: 1000000000000000.000000
+radiantIntensity from SI gigawatt-per-steradian to SI watt-per-steradian (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI gigawatt-per-steradian to cgs lumberg (convert): PASS value: 1: 10000000000000000.000000 2: 10000000000000000.000000 3: 10000000000000000.000000
+radiantIntensity from SI kW/W to SI GW/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI kW/W to SI MW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI kW/W to SI W/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI kW/W to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI kW/W to SI kW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI kW/W to SI kilowatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI kW/W to SI mW/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI kW/W to SI megawatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI kW/W to SI microwatt-per-steradian (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI kW/W to SI milliwatt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI kW/W to SI uW/W (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI kW/W to SI watt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI kW/W to cgs lumberg (convert): PASS value: 1: 10000000000.000000 2: 10000000000.000000 3: 10000000000.000000
+radiantIntensity from SI kilowatt-per-steradian to SI GW/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI kilowatt-per-steradian to SI MW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI kilowatt-per-steradian to SI W/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI kilowatt-per-steradian to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI kilowatt-per-steradian to SI kW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI kilowatt-per-steradian to SI kilowatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI kilowatt-per-steradian to SI mW/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI kilowatt-per-steradian to SI megawatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI kilowatt-per-steradian to SI microwatt-per-steradian (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI kilowatt-per-steradian to SI milliwatt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI kilowatt-per-steradian to SI uW/W (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI kilowatt-per-steradian to SI watt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI kilowatt-per-steradian to cgs lumberg (convert): PASS value: 1: 10000000000.000000 2: 10000000000.000000 3: 10000000000.000000
+radiantIntensity from SI mW/W to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI mW/W to SI MW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI mW/W to SI W/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI mW/W to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI mW/W to SI kW/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI mW/W to SI kilowatt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI mW/W to SI mW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI mW/W to SI megawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI mW/W to SI microwatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI mW/W to SI milliwatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI mW/W to SI uW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI mW/W to SI watt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI mW/W to cgs lumberg (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+radiantIntensity from SI megawatt-per-steradian to SI GW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI megawatt-per-steradian to SI MW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI megawatt-per-steradian to SI W/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI megawatt-per-steradian to SI gigawatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI megawatt-per-steradian to SI kW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI megawatt-per-steradian to SI kilowatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI megawatt-per-steradian to SI mW/W (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI megawatt-per-steradian to SI megawatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI megawatt-per-steradian to SI microwatt-per-steradian (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI megawatt-per-steradian to SI milliwatt-per-steradian (convert): PASS value: 1: 1000000000.000000 2: 1000000000.000000 3: 1000000000.000000
+radiantIntensity from SI megawatt-per-steradian to SI uW/W (convert): PASS value: 1: 1000000000000.000000 2: 1000000000000.000000 3: 1000000000000.000000
+radiantIntensity from SI megawatt-per-steradian to SI watt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI megawatt-per-steradian to cgs lumberg (convert): PASS value: 1: 10000000000000.000000 2: 10000000000000.000000 3: 10000000000000.000000
+radiantIntensity from SI microwatt-per-steradian to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI microwatt-per-steradian to SI MW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI microwatt-per-steradian to SI W/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI microwatt-per-steradian to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI microwatt-per-steradian to SI kW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI microwatt-per-steradian to SI kilowatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI microwatt-per-steradian to SI mW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI microwatt-per-steradian to SI megawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI microwatt-per-steradian to SI microwatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI microwatt-per-steradian to SI milliwatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI microwatt-per-steradian to SI uW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI microwatt-per-steradian to SI watt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI microwatt-per-steradian to cgs lumberg (convert): PASS value: 1: 10.000000 2: 10.000000 3: 10.000000
+radiantIntensity from SI milliwatt-per-steradian to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI milliwatt-per-steradian to SI MW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI milliwatt-per-steradian to SI W/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI milliwatt-per-steradian to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI milliwatt-per-steradian to SI kW/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI milliwatt-per-steradian to SI kilowatt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI milliwatt-per-steradian to SI mW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI milliwatt-per-steradian to SI megawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI milliwatt-per-steradian to SI microwatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI milliwatt-per-steradian to SI milliwatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI milliwatt-per-steradian to SI uW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI milliwatt-per-steradian to SI watt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI milliwatt-per-steradian to cgs lumberg (convert): PASS value: 1: 10000.000000 2: 10000.000000 3: 10000.000000
+radiantIntensity from SI uW/W to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI uW/W to SI MW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI uW/W to SI W/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI uW/W to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI uW/W to SI kW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI uW/W to SI kilowatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI uW/W to SI mW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI uW/W to SI megawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI uW/W to SI microwatt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI uW/W to SI milliwatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI uW/W to SI uW/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI uW/W to SI watt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI uW/W to cgs lumberg (convert): PASS value: 1: 10.000000 2: 10.000000 3: 10.000000
+radiantIntensity from SI watt-per-steradian to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI watt-per-steradian to SI MW/W (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI watt-per-steradian to SI W/W (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI watt-per-steradian to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from SI watt-per-steradian to SI kW/W (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI watt-per-steradian to SI kilowatt-per-steradian (convert): PASS value: 1: 0.001000 2: 0.001000 3: 0.001000
+radiantIntensity from SI watt-per-steradian to SI mW/W (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI watt-per-steradian to SI megawatt-per-steradian (convert): PASS value: 1: 0.000001 2: 0.000001 3: 0.000001
+radiantIntensity from SI watt-per-steradian to SI microwatt-per-steradian (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI watt-per-steradian to SI milliwatt-per-steradian (convert): PASS value: 1: 1000.000000 2: 1000.000000 3: 1000.000000
+radiantIntensity from SI watt-per-steradian to SI uW/W (convert): PASS value: 1: 1000000.000000 2: 1000000.000000 3: 1000000.000000
+radiantIntensity from SI watt-per-steradian to SI watt-per-steradian (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radiantIntensity from SI watt-per-steradian to cgs lumberg (convert): PASS value: 1: 10000000.000000 2: 10000000.000000 3: 10000000.000000
+radiantIntensity from cgs lumberg to SI GW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI MW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI W/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI gigawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI kW/W (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI kilowatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI mW/W (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+radiantIntensity from cgs lumberg to SI megawatt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to SI microwatt-per-steradian (convert): PASS value: 1: 0.100000 2: 0.100000 3: 0.100000
+radiantIntensity from cgs lumberg to SI milliwatt-per-steradian (convert): PASS value: 1: 0.000100 2: 0.000100 3: 0.000100
+radiantIntensity from cgs lumberg to SI uW/W (convert): PASS value: 1: 0.100000 2: 0.100000 3: 0.100000
+radiantIntensity from cgs lumberg to SI watt-per-steradian (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radiantIntensity from cgs lumberg to cgs lumberg (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:22:44 Duration: 0.047 Version : 1.0
+
+*********************************************************************************

@@ -1,0 +1,36 @@
+********************************************************************************
+
+START UnitTestSingleSystem 02/04/2024 12:44:27 Version : 1.0
+
+Default Constructor
+UnitTestSingleSystem (Default Constructor): PASS 
+
+Name Constructor
+UnitTestSingleSystem (Name Constructor): PASS 
+
+Unit Constructor
+UnitTestSingleSystem (typeGroup, unitNames): PASS 
+UnitTestSingleSystem (rawUnitName): PASS 
+UnitTestSingleSystem (fullUnitName): PASS 
+UnitTestSingleSystem (systemNames): PASS 
+UnitTestSingleSystem (systemNames): PASS 
+UnitTestSingleSystem (typeNames): PASS 
+UnitTestSingleSystem (unitNames): PASS 
+UnitTestSingleSystem (unitNames): PASS 
+UnitTestSingleSystem (convertUnit): PASS 
+
+Copy Constructor
+UnitTestSingleSystem (typeGroup, unitNames): PASS 
+UnitTestSingleSystem (rawUnitName): PASS 
+UnitTestSingleSystem (fullUnitName): PASS 
+UnitTestSingleSystem (systemNames): PASS 
+UnitTestSingleSystem (systemNames): PASS 
+UnitTestSingleSystem (typeNames): PASS 
+UnitTestSingleSystem (unitNames): PASS 
+UnitTestSingleSystem (unitNames): PASS 
+UnitTestSingleSystem (convertUnit): PASS 
+
+
+END UnitTestSingleSystem 02/04/2024 12:44:27 Duration: 0:00:00.003990 Version : 1.0
+
+********************************************************************************

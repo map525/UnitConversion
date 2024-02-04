@@ -1,0 +1,620 @@
+********************************************************************************
+
+START UnitConversionUnitsTest 02/04/2024 12:27:28 Version : 1.0
+
+name: EM type: surfaceChargeDensity valid: True
+To System: Scientific From System: Scientific
+SurfaceChargeDensity Types [current, charge, magneticFieldStrength, permeability, magneticDipoleMoment, 
+                            currentDensity, surfaceChargeDensity, chargeDensity, magneticReluctance, 
+                            electricElastance, electricConductance, capacitance, conductivity, 
+                            specificAcousticImpedance, magneticInduction, inductance, potential, resistance, 
+                            resistivity, acousticImpedance, electricFieldStrength, magneticFluxDensity, 
+                            electricFieldGradient, magneticPotential, magneticPermeability]
+
+SurfaceChargeDensity All Systems [cgs, IEUS, INT, MKSA, SI, a.u., Scientific, US, Imperial, MKS, UK, German, Si]
+
+SurfaceChargeDensity All Units [cgs[abampere], cgs[aA], IEUS[ampere], INT[ampere], MKSA[ampere], MKSA[A], SI[ampere], 
+                                SI[A], IEUS[ampere(mean)], INT[ampere(mean)], SI[ampere-tum], SI[A-turn], SI[At], 
+                                a.u.[au-of-electric-curent], a.u.[auec], cgs[biot], cgs[Bi], cgs[emu-of-current], 
+                                cgs[emuc], Scientific[galvat], cgs[gilbert], cgs[Gb], Scientific[pragilbert], 
+                                cgs[statampere], cgs[statA], cgs[abcoulomb], cgs[aC], SI[ampere-hour], SI[A-hr], 
+                                a.u.[au-of-electric-charge], a.u.[aue], SI[coulomb], SI[C], IEUS[coulomb(int)], 
+                                IEUS[C], cgs[emu-of-charge], cgs[esu-of-charge], cgs[franklin], cgs[Fr], 
+                                cgs[statcoulomb], cgs[statC], SI[yottacoulomb], SI[YC], SI[zettacoulomb], SI[ZC], 
+                                SI[exacoulomb], SI[EC], SI[petacoulomb], SI[PC], SI[teracoulomb], SI[TC], 
+                                SI[gigacoulomb], SI[GC], SI[megacoulomb], SI[MC], SI[kilocoulomb], SI[kC], 
+                                SI[hectocoulomb], SI[hC], SI[decacoulomb], SI[daC], SI[decicoulomb], SI[dC], 
+                                SI[centicoulomb], SI[cC], SI[millicoulomb], SI[mC], SI[microcoulomb], SI[uC], 
+                                SI[nanocoulomb], SI[nC], SI[picocoulomb], SI[pC], SI[femtocoulomb], SI[fC], 
+                                SI[attocoulomb], SI[aC], SI[zeptocoulomb], SI[zC], SI[yoctocoulomb], SI[yC], 
+                                SI[ampere-per-meter], SI[A/m], Scientific[lenz], cgs[oersted], cgs[CE], cgs[ce], 
+                                Scientific[praoersted], US[perm(0oC)], US[perm(23oC)], SI[ampere-square-meter], 
+                                SI[A-m2], a.u.[au-of-magnetic-dipole-moment], a.u.[audpm], Scientific[magneton(bohr)], 
+                                Scientific[uB], Scientific[B], Scientific[bohr-magneton], 
+                                Scientific[magneton(nuclear)], Scientific[uN], Scientific[BN], 
+                                Scientific[nuclear-magneton], Imperial[ampere-per-square-inch], Imperial[A/in2], 
+                                Imperial[ampere-per-square-foot], Imperial[A/ft2], Imperial[ampere-per-square-yard], 
+                                Imperial[A/yd2], Imperial[milliampere-per-square-inch], Imperial[mA/in2], 
+                                Imperial[milliampere-per-square-foot], Imperial[mA/ft2], 
+                                Imperial[milliampere-per-square-yard], Imperial[mA/yd2], 
+                                Imperial[microampere-per-square-inch], Imperial[uA/in2], 
+                                Imperial[microampere-per-square-foot], Imperial[uA/ft2], 
+                                Imperial[microampere-per-square-yard], Imperial[uA/yd2], SI[ampere-per-square-meter], 
+                                SI[A/m2], SI[ampere-per-square-decimeter], SI[A/dm2], 
+                                SI[ampere-per-square-centimeter], SI[A/cm2], SI[ampere-per-square-millimeter], 
+                                SI[A/mm2], SI[ampere-per-square-micrometer], SI[A/um2], 
+                                SI[ampere-per-square-nanometer], SI[A/nm2], Scientific[milliampere-per-square-meter], 
+                                Scientific[mA/m2], SI[milliampere-per-square-decimeter], SI[mA/dm2], 
+                                Scientific[milliampere-per-square-centimeter], Scientific[mA/cm2], 
+                                Scientific[milliampere-per-square-millimeter], Scientific[mA/mm2], 
+                                Scientific[milliampere-per-square-micrometer], Scientific[mA/um2], 
+                                Scientific[milliampere-per-square-nanometer], Scientific[mA/nm2], 
+                                Scientific[microampere-per-square-meter], Scientific[uA/m2], 
+                                SI[microampere-per-square-decimeter], SI[uA/dm2], 
+                                Scientific[microampere-per-square-centimeter], Scientific[uA/cm2], 
+                                Scientific[microampere-per-square-millimeter], Scientific[uA/mm2], 
+                                Scientific[microampere-per-square-micrometer], Scientific[uA/um2], 
+                                Scientific[microampere-per-square-nanometer], Scientific[uA/nm2], 
+                                SI[coulomb-per-square-kilometer], SI[C/km2], SI[coulomb-per-square-meter], SI[C/m2], 
+                                SI[coulomb-per-square-centimeter], SI[C/cm2], SI[coulomb-per-square-millimeter], 
+                                SI[C/mm2], SI[coulomb-per-square-micrometer], SI[C/um2], 
+                                SI[coulomb-per-square-nanometer], SI[C/nm2], Scientific[coulomb-per-square-mile], 
+                                Scientific[C/mi2], Scientific[coulomb-per-square-yard], Scientific[C/yd2], 
+                                Scientific[coulomb-per-square-foot], Scientific[C/ft2], 
+                                Scientific[coulomb-per-square-inch], Scientific[C/in2], 
+                                a.u.[au-of-electric-charge-density], a.u.[auecd], SI[coulomb-per-cubic-kilometer], 
+                                SI[C/km3], SI[coulomb-per-cubic-meter], SI[C/m3], SI[coulomb-per-cubic-centimeter], 
+                                SI[C/cm3], SI[coulomb-per-cubic-millimeter], SI[C/mm3], 
+                                SI[coulomb-per-cubic-micrometer], SI[C/um3], SI[coulomb-per-cubic-nanometer], 
+                                SI[C/nm3], Scientific[coulomb-per-cubic-mile], Scientific[C/mi3], 
+                                Scientific[coulomb-per-cubic-yard], Scientific[C/yd3], 
+                                Scientific[coulomb-per-cubic-foot], Scientific[C/ft3], 
+                                Scientific[coulomb-per-cubic-inch], Scientific[C/in3], MKS[yrneh], SI[sturgeon], 
+                                Scientific[farad-per-square-second], Scientific[F/s2], 
+                                Scientific[farad-per-square-minute], Scientific[F/min2], 
+                                Scientific[farad-per-square-hour], Scientific[F/hr2], 
+                                Scientific[farad-per-square-day], Scientific[F/day2], 
+                                Scientific[farad-per-square-month], Scientific[F/mon2], 
+                                Scientific[farad-per-square-year], Scientific[F/yr2], US[daraf], 
+                                Scientific[henry-per-square-second], Scientific[H/sec2], 
+                                Scientific[henry-per-square-minute], Scientific[H/min2], 
+                                Scientific[henry-per-square-hour], Scientific[H/hr2], 
+                                Scientific[henry-per-square-day], Scientific[H/day2], 
+                                Scientific[henry-per-square-month], Scientific[H/mon2], 
+                                Scientific[henry-per-square-year], Scientific[H/yr2], 
+                                Imperial[ringing-equivalent-number], Imperial[REN], cgs[abmho], cgs[aS], cgs[1/aW], 
+                                cgs[emu-of-conductance], cgs[emu-S], cgs[esu-of-conductance], cgs[esu-S], 
+                                cgs[statmho], INT[mho], Scientific[gemmbo], SI[siemens], SI[S], SI[yottasiemens], 
+                                SI[YS], SI[zettasiemens], SI[ZS], SI[exacsiemens], SI[ES], SI[petasiemens], SI[PS], 
+                                SI[terasiemens], SI[TS], SI[gigasiemens], SI[GS], SI[megasiemens], SI[MS], 
+                                SI[kilosiemens], SI[kS], SI[hectosiemens], SI[hS], SI[decasiemens], SI[daS], 
+                                SI[decisiemens], SI[dS], SI[centisiemens], SI[cS], SI[millisiemens], SI[mS], 
+                                SI[microsiemens], SI[uS], SI[nanosiemens], SI[nS], SI[picosiemens], SI[pS], 
+                                SI[femtosiemens], SI[fS], SI[attosiemens], SI[aS], SI[zeptosiemens], SI[zS], 
+                                SI[yoctosiemens], SI[yS], cgs[abfarad], cgs[aF], cgs[emu-of-electric-capacitance], 
+                                cgs[emu-F], cgs[esu-of-capacitance], cgs[esu-F], cgs[statfarad], IEUS[farad], IEUS[F], 
+                                Imperial[centimeter], Imperial[cm], Scientific[jar], Scientific[puff], SI[farad], 
+                                SI[F], SI[yottafarad], SI[YF], SI[zettafarad], SI[ZF], SI[exacfarad], SI[EF], 
+                                SI[petafarad], SI[PF], SI[terafarad], SI[TF], SI[gigafarad], SI[GF], SI[megafarad], 
+                                SI[MF], SI[kilofarad], SI[kF], SI[hectofarad], SI[hF], SI[decafarad], SI[daF], 
+                                SI[decifarad], SI[dF], SI[centifarad], SI[cF], SI[millifarad], SI[mF], SI[microfarad], 
+                                SI[uF], SI[nanofarad], SI[nF], SI[picofarad], SI[pF], SI[femtofarad], SI[fF], 
+                                SI[attofarad], SI[aF], SI[zeptofarad], SI[zF], SI[yoctofarad], SI[yF], cgs[roc], 
+                                MKSA[rom], Scientific[reciprocal-ohm-per-inch], Scientific[roi], 
+                                Scientific[reciprocal-ohm-per-foot], Scientific[rof], 
+                                Scientific[reciprocal-ohm-per-centimeter], Scientific[roc], 
+                                Scientific[reciprocal-ohm-per-meter], Scientific[siemens-per-meter], Scientific[S/m], 
+                                cgs[rayl], MKSA[rayl], cgs[maxwell], cgs[Mx], Imperial[kapp-line], 
+                                Imperial[unit-pole], Scientific[debye], Scientific[D], SI[weber], SI[Wb], US[line], 
+                                SI[yottaweber], SI[YWb], SI[zettaweber], SI[ZWb], SI[exacweber], SI[EWb], 
+                                SI[petaweber], SI[PWb], SI[teraweber], SI[TWb], SI[gigaweber], SI[GWb], SI[megaweber], 
+                                SI[MWb], SI[kiloweber], SI[kWb], SI[hectoweber], SI[hWb], SI[decaweber], SI[daWb], 
+                                SI[deciweber], SI[dWb], SI[centiweber], SI[cWb], SI[milliweber], SI[mWb], 
+                                SI[microweber], SI[uWb], SI[nanoweber], SI[nWb], SI[picoweber], SI[pWb], 
+                                SI[femtoweber], SI[fWb], SI[attoweber], SI[aWb], SI[zeptoweber], SI[zWb], 
+                                SI[yoctoweber], SI[yWb], cgs[abhenry], cgs[aH], cgs[emu-of-inductance], cgs[emu-H], 
+                                cgs[esu-of-inductance], cgs[esu-H], cgs[stathenry], cgs[statH], IEUS[henry], IEUS[H], 
+                                Scientific[centimeter], Scientific[cm], SI[henry], SI[H], UK[mic], US[henry], US[H], 
+                                US[henry(mean)], US[H(mean)], SI[yottahenry], SI[YH], SI[zettahenry], SI[ZH], 
+                                SI[exachenry], SI[EH], SI[petahenry], SI[PH], SI[terahenry], SI[TH], SI[gigahenry], 
+                                SI[GH], SI[megahenry], SI[MH], SI[kilochenry], SI[kH], SI[hectohenry], SI[hH], 
+                                SI[decachenry], SI[daH], SI[decihenry], SI[dH], SI[centihenry], SI[cH], 
+                                SI[millihenry], SI[mH], SI[microhenry], SI[uH], SI[nanohenry], SI[nH], SI[picohenry], 
+                                SI[pH], SI[femtohenry], SI[fH], SI[attohenry], SI[aH], SI[zeptohenry], SI[zH], 
+                                SI[yoctohenry], SI[yH], cgs[abvolt], cgs[aV], cgs[emu-of-electric-potential], 
+                                cgs[emu-V], cgs[esu-of-electric-potential], cgs[esu-V], cgs[statvolt], cgs[statV], 
+                                IEUS[volt], IEUS[V], IEUS[volt(mean)], IEUS[V(mean)], INT[daniell], INT[volt(mean)], 
+                                INT[V(mean)], SI[volt], SI[V], UK[crocodile], US[volt], US[V], SI[yottavolt], SI[YV], 
+                                SI[zettavolt], SI[ZV], SI[exacvolt], SI[EV], SI[petavolt], SI[PV], SI[teravolt], 
+                                SI[TV], SI[gigavolt], SI[GV], SI[megavolt], SI[MV], SI[kilocvolt], SI[kV], 
+                                SI[hectovolt], SI[hV], SI[decavolt], SI[daV], SI[decivolt], SI[dV], SI[centivolt], 
+                                SI[cV], SI[millivolt], SI[mV], SI[microvolt], SI[uV], SI[nanovolt], SI[nV], 
+                                SI[picovolt], SI[pV], SI[femtovolt], SI[fV], SI[attovolt], SI[aV], SI[zeptovolt], 
+                                SI[zV], SI[yoctovolt], SI[yV], cgs[abohm], cgs[aW], cgs[emu-of-resistance], 
+                                cgs[emi-W], cgs[esu-of-resistance], cgs[esu-W], cgs[statohm], German[siemens], 
+                                IEUS[ohm], IEUS[ohm(legal)], IEUS[ohm(mean)], Scientific[lenz(resistance)], 
+                                SI[jacobi], SI[ohm], SI[W], UK[preece], UK[wheatstone], US[ohm], US[ohm(legal)], 
+                                US[ohm(mean)], SI[yottaohm], SI[YW], SI[zettaohm], SI[ZW], SI[exacohm], SI[EW], 
+                                SI[petaohm], SI[PW], SI[teraohm], SI[TW], SI[gigaohm], SI[GW], SI[megaohm], SI[MW], 
+                                SI[kiloohm], SI[kW], SI[hectoohm], SI[hW], SI[decaohm], SI[daW], SI[deciohm], SI[dW], 
+                                SI[centiohm], SI[cW], SI[milliohm], SI[mW], SI[microohm], SI[uW], SI[nanoohm], SI[nW], 
+                                SI[picoohm], SI[pW], SI[femtoohm], SI[fW], SI[attoohm], SI[aW], SI[zeptoohm], SI[zW], 
+                                SI[yoctoohm], SI[yW], Imperial[ohm-circular-mil-per-foot], Imperial[W-cmi/ft], 
+                                Imperial[ohm-cmi/ft], INT[international-annealed-copper-standard], INT[IACS], 
+                                SI[ohm-meter], SI[W-m], SI[ohm-m], cgs[acoustic-ohm], cgs[ohm(acoustic)], 
+                                cgs[ohm(mechanical)], SI[ohm(mechanical)], SI[acoustic-ohm], SI[ohm(acoustic)], 
+                                a.u.[au-of-electric-field-strength], a.u.[auefs], a.u.[au-of-electric-potential], 
+                                a.u.[auep], SI[volt-per-kilometer], SI[V/km], SI[volt-per-meter], SI[V/m], 
+                                SI[volt-per-centimeter], SI[V/cm], SI[volt-per-millimeter], SI[V/mm], 
+                                SI[volt-per-micrometer], SI[V/um], SI[volt-per-nanometer], SI[V/nm], 
+                                SI[millivolt-per-meter], SI[mV/m], SI[millivolt-per-centimeter], SI[mV/cm], 
+                                SI[millivolt-per-millimeter], SI[mV/mm], SI[millivolt-per-micrometer], SI[mV/um], 
+                                SI[millivolt-per-nanometer], SI[mV/nm], SI[microvolt-per-meter], SI[uV/m], 
+                                SI[microvolt-per-centimeter], SI[uV/cm], SI[microvolt-per-millimeter], SI[uV/mm], 
+                                SI[microvolt-per-micrometer], SI[uV/um], SI[mircovolt-per-nanometer], SI[uV/nm], 
+                                Scientific[volt-per-mile], Scientific[V/mi], Scientific[volt-per-yard], 
+                                Scientific[V/yd], Scientific[volt-per-foot], Scientific[V/ft], 
+                                Scientific[volt-per-inch], Scientific[V/in], Scientific[millivolt-per-yard], 
+                                Scientific[mV/yd], Scientific[millivolt-per-foot], Scientific[mV/ft], 
+                                Scientific[millivolt-per-inch], Scientific[mV/in], Scientific[microvolt-per-yard], 
+                                Scientific[uV/yd], Scientific[microvolt-per-foot], Scientific[uV/ft], 
+                                Scientific[microvolt-per-inch], Scientific[uV/in], a.u.[au-of-magnetic-flux-density], 
+                                a.u.[aumfd], cgs[gauss], cgs[Gs], cgs[G], Scientific[gamma], Scientific[g], SI[tesla], 
+                                SI[T], SI[yottatesla], SI[YT], SI[zettatesla], SI[ZT], SI[exactesla], SI[ET], 
+                                SI[petatesla], SI[PT], SI[teratesla], SI[TT], SI[gigatesla], SI[GT], SI[megatesla], 
+                                SI[MT], SI[kiloctesla], SI[kT], SI[hectotesla], SI[hT], SI[decatesla], SI[daT], 
+                                SI[decitesla], SI[dT], SI[centitesla], SI[cT], SI[millitesla], SI[NT], SI[microtesla], 
+                                SI[uT], SI[nanotesla], SI[nT], SI[picotesla], SI[pT], SI[femtotesla], SI[fT], 
+                                SI[attotesla], SI[aT], SI[zeptotesla], SI[zT], SI[yoctotesla], SI[yT], 
+                                a.u.[au-of-electric-field-strength-gradient], a.u.[ao], a.u.[b], a.u.[auefsg], 
+                                cgs[townsend], cgs[Td], SI[weber-per-kilometer], SI[Wb/km], SI[weber-per-meter], 
+                                SI[Wb/m], Si[weber-per-centimeter], Si[Wb/cm], Si[weber-per-millimeter], Si[Wb/mm], 
+                                Si[weber-per-micrometer], Si[Wb/um], Si[weber-per-nanometer], Si[Wb/nm], 
+                                Scientific[weber-per-mile], Scientific[Wb/mi], Scientific[weber-per-yard], 
+                                Scientific[Wb/yd], Scientific[weber-per-foot], Scientific[Wb/ft], 
+                                Scientific[weber-per-inch], Scientific[Wb/in], SI[henry-per-kilometer], SI[H/km], 
+                                SI[henry-per-meter], SI[H/m], SI[henry-per-centimeter], SI[H/cm], 
+                                SI[henry-per-millimeter], SI[H/mm], SI[henry-per-micrometer], SI[H/um], 
+                                SI[henry-per-nanometer], SI[H/nm], Scientific[henry-per-mile], Scientific[H/mi], 
+                                Scientific[henry-per-yard], Scientific[H/yd], Scientific[henry-per-foot], 
+                                Scientific[H/ft], Scientific[henry-per-inch], Scientific[H/in]]
+
+SurfaceChargeDensity Systems [SI, Scientific]
+
+Units SurfaceChargeDensity [SI[coulomb-per-square-kilometer], SI[C/km2], SI[coulomb-per-square-meter], SI[C/m2], 
+                            SI[coulomb-per-square-centimeter], SI[C/cm2], SI[coulomb-per-square-millimeter], 
+                            SI[C/mm2], SI[coulomb-per-square-micrometer], SI[C/um2], SI[coulomb-per-square-nanometer], 
+                            SI[C/nm2], Scientific[coulomb-per-square-mile], Scientific[C/mi2], 
+                            Scientific[coulomb-per-square-yard], Scientific[C/yd2], 
+                            Scientific[coulomb-per-square-foot], Scientific[C/ft2], 
+                            Scientific[coulomb-per-square-inch], Scientific[C/in2]]
+
+SurfaceChargeDensity SI coulomb-per-square-kilometer SI True 1e-06 coulomb-per-square-kilometer s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI C/km2 SI True 1e-06 coulomb-per-square-kilometer s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI coulomb-per-square-meter SI True 1.0 coulomb-per-square-meter s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI C/m2 SI True 1.0 coulomb-per-square-meter s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI coulomb-per-square-centimeter SI True 10000.0 coulomb-per-square-centimeter s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI C/cm2 SI True 10000.0 coulomb-per-square-centimeter s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI coulomb-per-square-millimeter SI True 1000000.0 coulomb-per-square-millimeter s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI C/mm2 SI True 1000000.0 coulomb-per-square-millimeter s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI coulomb-per-square-micrometer SI True 1000000000000.0 coulomb-per-square-micrometer s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI C/um2 SI True 1000000000000.0 coulomb-per-square-micrometer s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI coulomb-per-square-nanometer SI True 1e+18 coulomb-per-square-nanometer s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity SI C/nm2 SI True 1e+18 coulomb-per-square-nanometer s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific coulomb-per-square-mile Scientific True 3.86102158542446e-07 coulomb-per-square-mile s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific C/mi2 Scientific True 3.86102158542446e-07 coulomb-per-square-mile s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific coulomb-per-square-yard Scientific True 1.19599004630108 coulomb-per-square-yard s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific C/yd2 Scientific True 1.19599004630108 coulomb-per-square-yard s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific coulomb-per-square-foot Scientific True 10.7639104167097 coulomb-per-square-foot s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific C/ft2 Scientific True 10.7639104167097 coulomb-per-square-foot s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific coulomb-per-square-inch Scientific True 1550.0031000062 coulomb-per-square-inch s.A/m2 T.I/L2 0.0
+SurfaceChargeDensity Scientific C/in2 Scientific True 1550.0031000062 coulomb-per-square-inch s.A/m2 T.I/L2 0.0
+
+
+name: EM type: surfaceChargeDensity valid: True
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI C/km2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI coulomb-per-square-meter (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI C/m2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI coulomb-per-square-centimeter (convert): PASS value: 1: 9.999999999999999e-11 2: 9.999999999999999e-11 3: 9.999999999999999e-11
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI C/cm2 (convert): PASS value: 1: 9.999999999999999e-11 2: 9.999999999999999e-11 3: 9.999999999999999e-11
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI C/mm2 (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI coulomb-per-square-micrometer (convert): PASS value: 1: 9.999999999999999e-19 2: 9.999999999999999e-19 3: 9.999999999999999e-19
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI C/um2 (convert): PASS value: 1: 9.999999999999999e-19 2: 9.999999999999999e-19 3: 9.999999999999999e-19
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-24 2: 1e-24 3: 1e-24
+surfaceChargeDensity from SI coulomb-per-square-kilometer to SI C/nm2 (convert): PASS value: 1: 1e-24 2: 1e-24 3: 1e-24
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2.589988110335999 2: 2.589988110335999 3: 2.589988110335999
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific C/mi2 (convert): PASS value: 1: 2.589988110335999 2: 2.589988110335999 3: 2.589988110335999
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8.361273600000002e-07 2: 8.361273600000002e-07 3: 8.361273600000002e-07
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific C/yd2 (convert): PASS value: 1: 8.361273600000002e-07 2: 8.361273600000002e-07 3: 8.361273600000002e-07
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific coulomb-per-square-foot (convert): PASS value: 1: 9.290304000000018e-08 2: 9.290304000000018e-08 3: 9.290304000000018e-08
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific C/ft2 (convert): PASS value: 1: 9.290304000000018e-08 2: 9.290304000000018e-08 3: 9.290304000000018e-08
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific coulomb-per-square-inch (convert): PASS value: 1: 6.4516e-10 2: 6.4516e-10 3: 6.4516e-10
+surfaceChargeDensity from SI coulomb-per-square-kilometer to Scientific C/in2 (convert): PASS value: 1: 6.4516e-10 2: 6.4516e-10 3: 6.4516e-10
+surfaceChargeDensity from SI C/km2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/km2 to SI C/km2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/km2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/km2 to SI C/m2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/km2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 9.999999999999999e-11 2: 9.999999999999999e-11 3: 9.999999999999999e-11
+surfaceChargeDensity from SI C/km2 to SI C/cm2 (convert): PASS value: 1: 9.999999999999999e-11 2: 9.999999999999999e-11 3: 9.999999999999999e-11
+surfaceChargeDensity from SI C/km2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI C/km2 to SI C/mm2 (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI C/km2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 9.999999999999999e-19 2: 9.999999999999999e-19 3: 9.999999999999999e-19
+surfaceChargeDensity from SI C/km2 to SI C/um2 (convert): PASS value: 1: 9.999999999999999e-19 2: 9.999999999999999e-19 3: 9.999999999999999e-19
+surfaceChargeDensity from SI C/km2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-24 2: 1e-24 3: 1e-24
+surfaceChargeDensity from SI C/km2 to SI C/nm2 (convert): PASS value: 1: 1e-24 2: 1e-24 3: 1e-24
+surfaceChargeDensity from SI C/km2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2.589988110335999 2: 2.589988110335999 3: 2.589988110335999
+surfaceChargeDensity from SI C/km2 to Scientific C/mi2 (convert): PASS value: 1: 2.589988110335999 2: 2.589988110335999 3: 2.589988110335999
+surfaceChargeDensity from SI C/km2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8.361273600000002e-07 2: 8.361273600000002e-07 3: 8.361273600000002e-07
+surfaceChargeDensity from SI C/km2 to Scientific C/yd2 (convert): PASS value: 1: 8.361273600000002e-07 2: 8.361273600000002e-07 3: 8.361273600000002e-07
+surfaceChargeDensity from SI C/km2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 9.290304000000018e-08 2: 9.290304000000018e-08 3: 9.290304000000018e-08
+surfaceChargeDensity from SI C/km2 to Scientific C/ft2 (convert): PASS value: 1: 9.290304000000018e-08 2: 9.290304000000018e-08 3: 9.290304000000018e-08
+surfaceChargeDensity from SI C/km2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 6.4516e-10 2: 6.4516e-10 3: 6.4516e-10
+surfaceChargeDensity from SI C/km2 to Scientific C/in2 (convert): PASS value: 1: 6.4516e-10 2: 6.4516e-10 3: 6.4516e-10
+surfaceChargeDensity from SI coulomb-per-square-meter to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-meter to SI C/km2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-meter to SI coulomb-per-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-meter to SI C/m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-meter to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.0001 2: 0.0001 3: 0.0001
+surfaceChargeDensity from SI coulomb-per-square-meter to SI C/cm2 (convert): PASS value: 1: 0.0001 2: 0.0001 3: 0.0001
+surfaceChargeDensity from SI coulomb-per-square-meter to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-meter to SI C/mm2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-meter to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI coulomb-per-square-meter to SI C/um2 (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI coulomb-per-square-meter to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-18 2: 1e-18 3: 1e-18
+surfaceChargeDensity from SI coulomb-per-square-meter to SI C/nm2 (convert): PASS value: 1: 1e-18 2: 1e-18 3: 1e-18
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2589988.110335999 2: 2589988.110335999 3: 2589988.110335999
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific C/mi2 (convert): PASS value: 1: 2589988.110335999 2: 2589988.110335999 3: 2589988.110335999
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific coulomb-per-square-yard (convert): PASS value: 1: 0.8361273600000002 2: 0.8361273600000002 3: 0.8361273600000002
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific C/yd2 (convert): PASS value: 1: 0.8361273600000002 2: 0.8361273600000002 3: 0.8361273600000002
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific coulomb-per-square-foot (convert): PASS value: 1: 0.09290304000000019 2: 0.09290304000000019 3: 0.09290304000000019
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific C/ft2 (convert): PASS value: 1: 0.09290304000000019 2: 0.09290304000000019 3: 0.09290304000000019
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific coulomb-per-square-inch (convert): PASS value: 1: 0.00064516 2: 0.00064516 3: 0.00064516
+surfaceChargeDensity from SI coulomb-per-square-meter to Scientific C/in2 (convert): PASS value: 1: 0.00064516 2: 0.00064516 3: 0.00064516
+surfaceChargeDensity from SI C/m2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/m2 to SI C/km2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/m2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/m2 to SI C/m2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/m2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.0001 2: 0.0001 3: 0.0001
+surfaceChargeDensity from SI C/m2 to SI C/cm2 (convert): PASS value: 1: 0.0001 2: 0.0001 3: 0.0001
+surfaceChargeDensity from SI C/m2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/m2 to SI C/mm2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/m2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI C/m2 to SI C/um2 (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI C/m2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-18 2: 1e-18 3: 1e-18
+surfaceChargeDensity from SI C/m2 to SI C/nm2 (convert): PASS value: 1: 1e-18 2: 1e-18 3: 1e-18
+surfaceChargeDensity from SI C/m2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2589988.110335999 2: 2589988.110335999 3: 2589988.110335999
+surfaceChargeDensity from SI C/m2 to Scientific C/mi2 (convert): PASS value: 1: 2589988.110335999 2: 2589988.110335999 3: 2589988.110335999
+surfaceChargeDensity from SI C/m2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 0.8361273600000002 2: 0.8361273600000002 3: 0.8361273600000002
+surfaceChargeDensity from SI C/m2 to Scientific C/yd2 (convert): PASS value: 1: 0.8361273600000002 2: 0.8361273600000002 3: 0.8361273600000002
+surfaceChargeDensity from SI C/m2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 0.09290304000000019 2: 0.09290304000000019 3: 0.09290304000000019
+surfaceChargeDensity from SI C/m2 to Scientific C/ft2 (convert): PASS value: 1: 0.09290304000000019 2: 0.09290304000000019 3: 0.09290304000000019
+surfaceChargeDensity from SI C/m2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 0.00064516 2: 0.00064516 3: 0.00064516
+surfaceChargeDensity from SI C/m2 to Scientific C/in2 (convert): PASS value: 1: 0.00064516 2: 0.00064516 3: 0.00064516
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI coulomb-per-square-kilometer (convert): PASS value: 1: 10000000000.0 2: 10000000000.0 3: 10000000000.0
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI C/km2 (convert): PASS value: 1: 10000000000.0 2: 10000000000.0 3: 10000000000.0
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI coulomb-per-square-meter (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI C/m2 (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI coulomb-per-square-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI C/cm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI coulomb-per-square-millimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI C/mm2 (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1e-08 2: 1e-08 3: 1e-08
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI C/um2 (convert): PASS value: 1: 1e-08 2: 1e-08 3: 1e-08
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-14 2: 1e-14 3: 1e-14
+surfaceChargeDensity from SI coulomb-per-square-centimeter to SI C/nm2 (convert): PASS value: 1: 1e-14 2: 1e-14 3: 1e-14
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific coulomb-per-square-mile (convert): PASS value: 1: 25899881103.359993 2: 25899881103.359993 3: 25899881103.359993
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific C/mi2 (convert): PASS value: 1: 25899881103.359993 2: 25899881103.359993 3: 25899881103.359993
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8361.273600000002 2: 8361.273600000002 3: 8361.273600000002
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific C/yd2 (convert): PASS value: 1: 8361.273600000002 2: 8361.273600000002 3: 8361.273600000002
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific coulomb-per-square-foot (convert): PASS value: 1: 929.0304000000019 2: 929.0304000000019 3: 929.0304000000019
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific C/ft2 (convert): PASS value: 1: 929.0304000000019 2: 929.0304000000019 3: 929.0304000000019
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific coulomb-per-square-inch (convert): PASS value: 1: 6.4516 2: 6.4516 3: 6.4516
+surfaceChargeDensity from SI coulomb-per-square-centimeter to Scientific C/in2 (convert): PASS value: 1: 6.4516 2: 6.4516 3: 6.4516
+surfaceChargeDensity from SI C/cm2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 10000000000.0 2: 10000000000.0 3: 10000000000.0
+surfaceChargeDensity from SI C/cm2 to SI C/km2 (convert): PASS value: 1: 10000000000.0 2: 10000000000.0 3: 10000000000.0
+surfaceChargeDensity from SI C/cm2 to SI coulomb-per-square-meter (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+surfaceChargeDensity from SI C/cm2 to SI C/m2 (convert): PASS value: 1: 10000.0 2: 10000.0 3: 10000.0
+surfaceChargeDensity from SI C/cm2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/cm2 to SI C/cm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/cm2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+surfaceChargeDensity from SI C/cm2 to SI C/mm2 (convert): PASS value: 1: 0.01 2: 0.01 3: 0.01
+surfaceChargeDensity from SI C/cm2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1e-08 2: 1e-08 3: 1e-08
+surfaceChargeDensity from SI C/cm2 to SI C/um2 (convert): PASS value: 1: 1e-08 2: 1e-08 3: 1e-08
+surfaceChargeDensity from SI C/cm2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-14 2: 1e-14 3: 1e-14
+surfaceChargeDensity from SI C/cm2 to SI C/nm2 (convert): PASS value: 1: 1e-14 2: 1e-14 3: 1e-14
+surfaceChargeDensity from SI C/cm2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 25899881103.359993 2: 25899881103.359993 3: 25899881103.359993
+surfaceChargeDensity from SI C/cm2 to Scientific C/mi2 (convert): PASS value: 1: 25899881103.359993 2: 25899881103.359993 3: 25899881103.359993
+surfaceChargeDensity from SI C/cm2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8361.273600000002 2: 8361.273600000002 3: 8361.273600000002
+surfaceChargeDensity from SI C/cm2 to Scientific C/yd2 (convert): PASS value: 1: 8361.273600000002 2: 8361.273600000002 3: 8361.273600000002
+surfaceChargeDensity from SI C/cm2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 929.0304000000019 2: 929.0304000000019 3: 929.0304000000019
+surfaceChargeDensity from SI C/cm2 to Scientific C/ft2 (convert): PASS value: 1: 929.0304000000019 2: 929.0304000000019 3: 929.0304000000019
+surfaceChargeDensity from SI C/cm2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 6.4516 2: 6.4516 3: 6.4516
+surfaceChargeDensity from SI C/cm2 to Scientific C/in2 (convert): PASS value: 1: 6.4516 2: 6.4516 3: 6.4516
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI C/km2 (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI coulomb-per-square-meter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI C/m2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI coulomb-per-square-centimeter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI C/cm2 (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI C/mm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI C/um2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI coulomb-per-square-millimeter to SI C/nm2 (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2589988110335.999 2: 2589988110335.999 3: 2589988110335.999
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific C/mi2 (convert): PASS value: 1: 2589988110335.999 2: 2589988110335.999 3: 2589988110335.999
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific coulomb-per-square-yard (convert): PASS value: 1: 836127.3600000002 2: 836127.3600000002 3: 836127.3600000002
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific C/yd2 (convert): PASS value: 1: 836127.3600000002 2: 836127.3600000002 3: 836127.3600000002
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific coulomb-per-square-foot (convert): PASS value: 1: 92903.04000000018 2: 92903.04000000018 3: 92903.04000000018
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific C/ft2 (convert): PASS value: 1: 92903.04000000018 2: 92903.04000000018 3: 92903.04000000018
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific coulomb-per-square-inch (convert): PASS value: 1: 645.1600000000001 2: 645.1600000000001 3: 645.1600000000001
+surfaceChargeDensity from SI coulomb-per-square-millimeter to Scientific C/in2 (convert): PASS value: 1: 645.1600000000001 2: 645.1600000000001 3: 645.1600000000001
+surfaceChargeDensity from SI C/mm2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI C/mm2 to SI C/km2 (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI C/mm2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/mm2 to SI C/m2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/mm2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+surfaceChargeDensity from SI C/mm2 to SI C/cm2 (convert): PASS value: 1: 100.0 2: 100.0 3: 100.0
+surfaceChargeDensity from SI C/mm2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/mm2 to SI C/mm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/mm2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/mm2 to SI C/um2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/mm2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI C/mm2 to SI C/nm2 (convert): PASS value: 1: 1e-12 2: 1e-12 3: 1e-12
+surfaceChargeDensity from SI C/mm2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2589988110335.999 2: 2589988110335.999 3: 2589988110335.999
+surfaceChargeDensity from SI C/mm2 to Scientific C/mi2 (convert): PASS value: 1: 2589988110335.999 2: 2589988110335.999 3: 2589988110335.999
+surfaceChargeDensity from SI C/mm2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 836127.3600000002 2: 836127.3600000002 3: 836127.3600000002
+surfaceChargeDensity from SI C/mm2 to Scientific C/yd2 (convert): PASS value: 1: 836127.3600000002 2: 836127.3600000002 3: 836127.3600000002
+surfaceChargeDensity from SI C/mm2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 92903.04000000018 2: 92903.04000000018 3: 92903.04000000018
+surfaceChargeDensity from SI C/mm2 to Scientific C/ft2 (convert): PASS value: 1: 92903.04000000018 2: 92903.04000000018 3: 92903.04000000018
+surfaceChargeDensity from SI C/mm2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 645.1600000000001 2: 645.1600000000001 3: 645.1600000000001
+surfaceChargeDensity from SI C/mm2 to Scientific C/in2 (convert): PASS value: 1: 645.1600000000001 2: 645.1600000000001 3: 645.1600000000001
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI C/km2 (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI coulomb-per-square-meter (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI C/m2 (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI coulomb-per-square-centimeter (convert): PASS value: 1: 100000000.0 2: 100000000.0 3: 100000000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI C/cm2 (convert): PASS value: 1: 100000000.0 2: 100000000.0 3: 100000000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI C/mm2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI C/um2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-micrometer to SI C/nm2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2.589988110335999e+18 2: 2.589988110335999e+18 3: 2.589988110335999e+18
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific C/mi2 (convert): PASS value: 1: 2.589988110335999e+18 2: 2.589988110335999e+18 3: 2.589988110335999e+18
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific coulomb-per-square-yard (convert): PASS value: 1: 836127360000.0002 2: 836127360000.0002 3: 836127360000.0002
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific C/yd2 (convert): PASS value: 1: 836127360000.0002 2: 836127360000.0002 3: 836127360000.0002
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific coulomb-per-square-foot (convert): PASS value: 1: 92903040000.00018 2: 92903040000.00018 3: 92903040000.00018
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific C/ft2 (convert): PASS value: 1: 92903040000.00018 2: 92903040000.00018 3: 92903040000.00018
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific coulomb-per-square-inch (convert): PASS value: 1: 645160000.0 2: 645160000.0 3: 645160000.0
+surfaceChargeDensity from SI coulomb-per-square-micrometer to Scientific C/in2 (convert): PASS value: 1: 645160000.0 2: 645160000.0 3: 645160000.0
+surfaceChargeDensity from SI C/um2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI C/um2 to SI C/km2 (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI C/um2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI C/um2 to SI C/m2 (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI C/um2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 100000000.0 2: 100000000.0 3: 100000000.0
+surfaceChargeDensity from SI C/um2 to SI C/cm2 (convert): PASS value: 1: 100000000.0 2: 100000000.0 3: 100000000.0
+surfaceChargeDensity from SI C/um2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/um2 to SI C/mm2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/um2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/um2 to SI C/um2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/um2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/um2 to SI C/nm2 (convert): PASS value: 1: 1e-06 2: 1e-06 3: 1e-06
+surfaceChargeDensity from SI C/um2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2.589988110335999e+18 2: 2.589988110335999e+18 3: 2.589988110335999e+18
+surfaceChargeDensity from SI C/um2 to Scientific C/mi2 (convert): PASS value: 1: 2.589988110335999e+18 2: 2.589988110335999e+18 3: 2.589988110335999e+18
+surfaceChargeDensity from SI C/um2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 836127360000.0002 2: 836127360000.0002 3: 836127360000.0002
+surfaceChargeDensity from SI C/um2 to Scientific C/yd2 (convert): PASS value: 1: 836127360000.0002 2: 836127360000.0002 3: 836127360000.0002
+surfaceChargeDensity from SI C/um2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 92903040000.00018 2: 92903040000.00018 3: 92903040000.00018
+surfaceChargeDensity from SI C/um2 to Scientific C/ft2 (convert): PASS value: 1: 92903040000.00018 2: 92903040000.00018 3: 92903040000.00018
+surfaceChargeDensity from SI C/um2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 645160000.0 2: 645160000.0 3: 645160000.0
+surfaceChargeDensity from SI C/um2 to Scientific C/in2 (convert): PASS value: 1: 645160000.0 2: 645160000.0 3: 645160000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1e+24 2: 1e+24 3: 1e+24
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI C/km2 (convert): PASS value: 1: 1e+24 2: 1e+24 3: 1e+24
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI coulomb-per-square-meter (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI C/m2 (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI coulomb-per-square-centimeter (convert): PASS value: 1: 100000000000000.0 2: 100000000000000.0 3: 100000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI C/cm2 (convert): PASS value: 1: 100000000000000.0 2: 100000000000000.0 3: 100000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI C/mm2 (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI C/um2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to SI C/nm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2.5899881103359994e+24 2: 2.5899881103359994e+24 3: 2.5899881103359994e+24
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific C/mi2 (convert): PASS value: 1: 2.5899881103359994e+24 2: 2.5899881103359994e+24 3: 2.5899881103359994e+24
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8.361273600000003e+17 2: 8.361273600000003e+17 3: 8.361273600000003e+17
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific C/yd2 (convert): PASS value: 1: 8.361273600000003e+17 2: 8.361273600000003e+17 3: 8.361273600000003e+17
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific coulomb-per-square-foot (convert): PASS value: 1: 9.29030400000002e+16 2: 9.29030400000002e+16 3: 9.29030400000002e+16
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific C/ft2 (convert): PASS value: 1: 9.29030400000002e+16 2: 9.29030400000002e+16 3: 9.29030400000002e+16
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific coulomb-per-square-inch (convert): PASS value: 1: 645160000000000.0 2: 645160000000000.0 3: 645160000000000.0
+surfaceChargeDensity from SI coulomb-per-square-nanometer to Scientific C/in2 (convert): PASS value: 1: 645160000000000.0 2: 645160000000000.0 3: 645160000000000.0
+surfaceChargeDensity from SI C/nm2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1e+24 2: 1e+24 3: 1e+24
+surfaceChargeDensity from SI C/nm2 to SI C/km2 (convert): PASS value: 1: 1e+24 2: 1e+24 3: 1e+24
+surfaceChargeDensity from SI C/nm2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI C/nm2 to SI C/m2 (convert): PASS value: 1: 1e+18 2: 1e+18 3: 1e+18
+surfaceChargeDensity from SI C/nm2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 100000000000000.0 2: 100000000000000.0 3: 100000000000000.0
+surfaceChargeDensity from SI C/nm2 to SI C/cm2 (convert): PASS value: 1: 100000000000000.0 2: 100000000000000.0 3: 100000000000000.0
+surfaceChargeDensity from SI C/nm2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI C/nm2 to SI C/mm2 (convert): PASS value: 1: 1000000000000.0 2: 1000000000000.0 3: 1000000000000.0
+surfaceChargeDensity from SI C/nm2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/nm2 to SI C/um2 (convert): PASS value: 1: 1000000.0 2: 1000000.0 3: 1000000.0
+surfaceChargeDensity from SI C/nm2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/nm2 to SI C/nm2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from SI C/nm2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 2.5899881103359994e+24 2: 2.5899881103359994e+24 3: 2.5899881103359994e+24
+surfaceChargeDensity from SI C/nm2 to Scientific C/mi2 (convert): PASS value: 1: 2.5899881103359994e+24 2: 2.5899881103359994e+24 3: 2.5899881103359994e+24
+surfaceChargeDensity from SI C/nm2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8.361273600000003e+17 2: 8.361273600000003e+17 3: 8.361273600000003e+17
+surfaceChargeDensity from SI C/nm2 to Scientific C/yd2 (convert): PASS value: 1: 8.361273600000003e+17 2: 8.361273600000003e+17 3: 8.361273600000003e+17
+surfaceChargeDensity from SI C/nm2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 9.29030400000002e+16 2: 9.29030400000002e+16 3: 9.29030400000002e+16
+surfaceChargeDensity from SI C/nm2 to Scientific C/ft2 (convert): PASS value: 1: 9.29030400000002e+16 2: 9.29030400000002e+16 3: 9.29030400000002e+16
+surfaceChargeDensity from SI C/nm2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 645160000000000.0 2: 645160000000000.0 3: 645160000000000.0
+surfaceChargeDensity from SI C/nm2 to Scientific C/in2 (convert): PASS value: 1: 645160000000000.0 2: 645160000000000.0 3: 645160000000000.0
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI coulomb-per-square-kilometer (convert): PASS value: 1: 0.386102158542446 2: 0.386102158542446 3: 0.386102158542446
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI C/km2 (convert): PASS value: 1: 0.386102158542446 2: 0.386102158542446 3: 0.386102158542446
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI coulomb-per-square-meter (convert): PASS value: 1: 3.86102158542446e-07 2: 3.86102158542446e-07 3: 3.86102158542446e-07
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI C/m2 (convert): PASS value: 1: 3.86102158542446e-07 2: 3.86102158542446e-07 3: 3.86102158542446e-07
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI coulomb-per-square-centimeter (convert): PASS value: 1: 3.8610215854244596e-11 2: 3.8610215854244596e-11 3: 3.8610215854244596e-11
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI C/cm2 (convert): PASS value: 1: 3.8610215854244596e-11 2: 3.8610215854244596e-11 3: 3.8610215854244596e-11
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI coulomb-per-square-millimeter (convert): PASS value: 1: 3.8610215854244597e-13 2: 3.8610215854244597e-13 3: 3.8610215854244597e-13
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI C/mm2 (convert): PASS value: 1: 3.8610215854244597e-13 2: 3.8610215854244597e-13 3: 3.8610215854244597e-13
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI coulomb-per-square-micrometer (convert): PASS value: 1: 3.86102158542446e-19 2: 3.86102158542446e-19 3: 3.86102158542446e-19
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI C/um2 (convert): PASS value: 1: 3.86102158542446e-19 2: 3.86102158542446e-19 3: 3.86102158542446e-19
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI coulomb-per-square-nanometer (convert): PASS value: 1: 3.8610215854244597e-25 2: 3.8610215854244597e-25 3: 3.8610215854244597e-25
+surfaceChargeDensity from Scientific coulomb-per-square-mile to SI C/nm2 (convert): PASS value: 1: 3.8610215854244597e-25 2: 3.8610215854244597e-25 3: 3.8610215854244597e-25
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific coulomb-per-square-mile (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific C/mi2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific coulomb-per-square-yard (convert): PASS value: 1: 3.228305785123969e-07 2: 3.228305785123969e-07 3: 3.228305785123969e-07
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific C/yd2 (convert): PASS value: 1: 3.228305785123969e-07 2: 3.228305785123969e-07 3: 3.228305785123969e-07
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific coulomb-per-square-foot (convert): PASS value: 1: 3.5870064279155275e-08 2: 3.5870064279155275e-08 3: 3.5870064279155275e-08
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific C/ft2 (convert): PASS value: 1: 3.5870064279155275e-08 2: 3.5870064279155275e-08 3: 3.5870064279155275e-08
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific coulomb-per-square-inch (convert): PASS value: 1: 2.4909766860524446e-10 2: 2.4909766860524446e-10 3: 2.4909766860524446e-10
+surfaceChargeDensity from Scientific coulomb-per-square-mile to Scientific C/in2 (convert): PASS value: 1: 2.4909766860524446e-10 2: 2.4909766860524446e-10 3: 2.4909766860524446e-10
+surfaceChargeDensity from Scientific C/mi2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 0.386102158542446 2: 0.386102158542446 3: 0.386102158542446
+surfaceChargeDensity from Scientific C/mi2 to SI C/km2 (convert): PASS value: 1: 0.386102158542446 2: 0.386102158542446 3: 0.386102158542446
+surfaceChargeDensity from Scientific C/mi2 to SI coulomb-per-square-meter (convert): PASS value: 1: 3.86102158542446e-07 2: 3.86102158542446e-07 3: 3.86102158542446e-07
+surfaceChargeDensity from Scientific C/mi2 to SI C/m2 (convert): PASS value: 1: 3.86102158542446e-07 2: 3.86102158542446e-07 3: 3.86102158542446e-07
+surfaceChargeDensity from Scientific C/mi2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 3.8610215854244596e-11 2: 3.8610215854244596e-11 3: 3.8610215854244596e-11
+surfaceChargeDensity from Scientific C/mi2 to SI C/cm2 (convert): PASS value: 1: 3.8610215854244596e-11 2: 3.8610215854244596e-11 3: 3.8610215854244596e-11
+surfaceChargeDensity from Scientific C/mi2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 3.8610215854244597e-13 2: 3.8610215854244597e-13 3: 3.8610215854244597e-13
+surfaceChargeDensity from Scientific C/mi2 to SI C/mm2 (convert): PASS value: 1: 3.8610215854244597e-13 2: 3.8610215854244597e-13 3: 3.8610215854244597e-13
+surfaceChargeDensity from Scientific C/mi2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 3.86102158542446e-19 2: 3.86102158542446e-19 3: 3.86102158542446e-19
+surfaceChargeDensity from Scientific C/mi2 to SI C/um2 (convert): PASS value: 1: 3.86102158542446e-19 2: 3.86102158542446e-19 3: 3.86102158542446e-19
+surfaceChargeDensity from Scientific C/mi2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 3.8610215854244597e-25 2: 3.8610215854244597e-25 3: 3.8610215854244597e-25
+surfaceChargeDensity from Scientific C/mi2 to SI C/nm2 (convert): PASS value: 1: 3.8610215854244597e-25 2: 3.8610215854244597e-25 3: 3.8610215854244597e-25
+surfaceChargeDensity from Scientific C/mi2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/mi2 to Scientific C/mi2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/mi2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 3.228305785123969e-07 2: 3.228305785123969e-07 3: 3.228305785123969e-07
+surfaceChargeDensity from Scientific C/mi2 to Scientific C/yd2 (convert): PASS value: 1: 3.228305785123969e-07 2: 3.228305785123969e-07 3: 3.228305785123969e-07
+surfaceChargeDensity from Scientific C/mi2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 3.5870064279155275e-08 2: 3.5870064279155275e-08 3: 3.5870064279155275e-08
+surfaceChargeDensity from Scientific C/mi2 to Scientific C/ft2 (convert): PASS value: 1: 3.5870064279155275e-08 2: 3.5870064279155275e-08 3: 3.5870064279155275e-08
+surfaceChargeDensity from Scientific C/mi2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 2.4909766860524446e-10 2: 2.4909766860524446e-10 3: 2.4909766860524446e-10
+surfaceChargeDensity from Scientific C/mi2 to Scientific C/in2 (convert): PASS value: 1: 2.4909766860524446e-10 2: 2.4909766860524446e-10 3: 2.4909766860524446e-10
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1195990.04630108 2: 1195990.04630108 3: 1195990.04630108
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI C/km2 (convert): PASS value: 1: 1195990.04630108 2: 1195990.04630108 3: 1195990.04630108
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI coulomb-per-square-meter (convert): PASS value: 1: 1.19599004630108 2: 1.19599004630108 3: 1.19599004630108
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI C/m2 (convert): PASS value: 1: 1.19599004630108 2: 1.19599004630108 3: 1.19599004630108
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.000119599004630108 2: 0.000119599004630108 3: 0.000119599004630108
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI C/cm2 (convert): PASS value: 1: 0.000119599004630108 2: 0.000119599004630108 3: 0.000119599004630108
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1.19599004630108e-06 2: 1.19599004630108e-06 3: 1.19599004630108e-06
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI C/mm2 (convert): PASS value: 1: 1.19599004630108e-06 2: 1.19599004630108e-06 3: 1.19599004630108e-06
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.19599004630108e-12 2: 1.19599004630108e-12 3: 1.19599004630108e-12
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI C/um2 (convert): PASS value: 1: 1.19599004630108e-12 2: 1.19599004630108e-12 3: 1.19599004630108e-12
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.19599004630108e-18 2: 1.19599004630108e-18 3: 1.19599004630108e-18
+surfaceChargeDensity from Scientific coulomb-per-square-yard to SI C/nm2 (convert): PASS value: 1: 1.19599004630108e-18 2: 1.19599004630108e-18 3: 1.19599004630108e-18
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific coulomb-per-square-mile (convert): PASS value: 1: 3097599.999999998 2: 3097599.999999998 3: 3097599.999999998
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific C/mi2 (convert): PASS value: 1: 3097599.999999998 2: 3097599.999999998 3: 3097599.999999998
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific coulomb-per-square-yard (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific C/yd2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific coulomb-per-square-foot (convert): PASS value: 1: 0.11111111111111131 2: 0.11111111111111131 3: 0.11111111111111131
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific C/ft2 (convert): PASS value: 1: 0.11111111111111131 2: 0.11111111111111131 3: 0.11111111111111131
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific coulomb-per-square-inch (convert): PASS value: 1: 0.0007716049382716048 2: 0.0007716049382716048 3: 0.0007716049382716048
+surfaceChargeDensity from Scientific coulomb-per-square-yard to Scientific C/in2 (convert): PASS value: 1: 0.0007716049382716048 2: 0.0007716049382716048 3: 0.0007716049382716048
+surfaceChargeDensity from Scientific C/yd2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1195990.04630108 2: 1195990.04630108 3: 1195990.04630108
+surfaceChargeDensity from Scientific C/yd2 to SI C/km2 (convert): PASS value: 1: 1195990.04630108 2: 1195990.04630108 3: 1195990.04630108
+surfaceChargeDensity from Scientific C/yd2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1.19599004630108 2: 1.19599004630108 3: 1.19599004630108
+surfaceChargeDensity from Scientific C/yd2 to SI C/m2 (convert): PASS value: 1: 1.19599004630108 2: 1.19599004630108 3: 1.19599004630108
+surfaceChargeDensity from Scientific C/yd2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.000119599004630108 2: 0.000119599004630108 3: 0.000119599004630108
+surfaceChargeDensity from Scientific C/yd2 to SI C/cm2 (convert): PASS value: 1: 0.000119599004630108 2: 0.000119599004630108 3: 0.000119599004630108
+surfaceChargeDensity from Scientific C/yd2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1.19599004630108e-06 2: 1.19599004630108e-06 3: 1.19599004630108e-06
+surfaceChargeDensity from Scientific C/yd2 to SI C/mm2 (convert): PASS value: 1: 1.19599004630108e-06 2: 1.19599004630108e-06 3: 1.19599004630108e-06
+surfaceChargeDensity from Scientific C/yd2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.19599004630108e-12 2: 1.19599004630108e-12 3: 1.19599004630108e-12
+surfaceChargeDensity from Scientific C/yd2 to SI C/um2 (convert): PASS value: 1: 1.19599004630108e-12 2: 1.19599004630108e-12 3: 1.19599004630108e-12
+surfaceChargeDensity from Scientific C/yd2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.19599004630108e-18 2: 1.19599004630108e-18 3: 1.19599004630108e-18
+surfaceChargeDensity from Scientific C/yd2 to SI C/nm2 (convert): PASS value: 1: 1.19599004630108e-18 2: 1.19599004630108e-18 3: 1.19599004630108e-18
+surfaceChargeDensity from Scientific C/yd2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 3097599.999999998 2: 3097599.999999998 3: 3097599.999999998
+surfaceChargeDensity from Scientific C/yd2 to Scientific C/mi2 (convert): PASS value: 1: 3097599.999999998 2: 3097599.999999998 3: 3097599.999999998
+surfaceChargeDensity from Scientific C/yd2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/yd2 to Scientific C/yd2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/yd2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 0.11111111111111131 2: 0.11111111111111131 3: 0.11111111111111131
+surfaceChargeDensity from Scientific C/yd2 to Scientific C/ft2 (convert): PASS value: 1: 0.11111111111111131 2: 0.11111111111111131 3: 0.11111111111111131
+surfaceChargeDensity from Scientific C/yd2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 0.0007716049382716048 2: 0.0007716049382716048 3: 0.0007716049382716048
+surfaceChargeDensity from Scientific C/yd2 to Scientific C/in2 (convert): PASS value: 1: 0.0007716049382716048 2: 0.0007716049382716048 3: 0.0007716049382716048
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI coulomb-per-square-kilometer (convert): PASS value: 1: 10763910.4167097 2: 10763910.4167097 3: 10763910.4167097
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI C/km2 (convert): PASS value: 1: 10763910.4167097 2: 10763910.4167097 3: 10763910.4167097
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI coulomb-per-square-meter (convert): PASS value: 1: 10.7639104167097 2: 10.7639104167097 3: 10.7639104167097
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI C/m2 (convert): PASS value: 1: 10.7639104167097 2: 10.7639104167097 3: 10.7639104167097
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.00107639104167097 2: 0.00107639104167097 3: 0.00107639104167097
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI C/cm2 (convert): PASS value: 1: 0.00107639104167097 2: 0.00107639104167097 3: 0.00107639104167097
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1.0763910416709701e-05 2: 1.0763910416709701e-05 3: 1.0763910416709701e-05
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI C/mm2 (convert): PASS value: 1: 1.0763910416709701e-05 2: 1.0763910416709701e-05 3: 1.0763910416709701e-05
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.07639104167097e-11 2: 1.07639104167097e-11 3: 1.07639104167097e-11
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI C/um2 (convert): PASS value: 1: 1.07639104167097e-11 2: 1.07639104167097e-11 3: 1.07639104167097e-11
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.0763910416709701e-17 2: 1.0763910416709701e-17 3: 1.0763910416709701e-17
+surfaceChargeDensity from Scientific coulomb-per-square-foot to SI C/nm2 (convert): PASS value: 1: 1.0763910416709701e-17 2: 1.0763910416709701e-17 3: 1.0763910416709701e-17
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific coulomb-per-square-mile (convert): PASS value: 1: 27878399.999999933 2: 27878399.999999933 3: 27878399.999999933
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific C/mi2 (convert): PASS value: 1: 27878399.999999933 2: 27878399.999999933 3: 27878399.999999933
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8.999999999999984 2: 8.999999999999984 3: 8.999999999999984
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific C/yd2 (convert): PASS value: 1: 8.999999999999984 2: 8.999999999999984 3: 8.999999999999984
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific coulomb-per-square-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific C/ft2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific coulomb-per-square-inch (convert): PASS value: 1: 0.006944444444444431 2: 0.006944444444444431 3: 0.006944444444444431
+surfaceChargeDensity from Scientific coulomb-per-square-foot to Scientific C/in2 (convert): PASS value: 1: 0.006944444444444431 2: 0.006944444444444431 3: 0.006944444444444431
+surfaceChargeDensity from Scientific C/ft2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 10763910.4167097 2: 10763910.4167097 3: 10763910.4167097
+surfaceChargeDensity from Scientific C/ft2 to SI C/km2 (convert): PASS value: 1: 10763910.4167097 2: 10763910.4167097 3: 10763910.4167097
+surfaceChargeDensity from Scientific C/ft2 to SI coulomb-per-square-meter (convert): PASS value: 1: 10.7639104167097 2: 10.7639104167097 3: 10.7639104167097
+surfaceChargeDensity from Scientific C/ft2 to SI C/m2 (convert): PASS value: 1: 10.7639104167097 2: 10.7639104167097 3: 10.7639104167097
+surfaceChargeDensity from Scientific C/ft2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.00107639104167097 2: 0.00107639104167097 3: 0.00107639104167097
+surfaceChargeDensity from Scientific C/ft2 to SI C/cm2 (convert): PASS value: 1: 0.00107639104167097 2: 0.00107639104167097 3: 0.00107639104167097
+surfaceChargeDensity from Scientific C/ft2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 1.0763910416709701e-05 2: 1.0763910416709701e-05 3: 1.0763910416709701e-05
+surfaceChargeDensity from Scientific C/ft2 to SI C/mm2 (convert): PASS value: 1: 1.0763910416709701e-05 2: 1.0763910416709701e-05 3: 1.0763910416709701e-05
+surfaceChargeDensity from Scientific C/ft2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.07639104167097e-11 2: 1.07639104167097e-11 3: 1.07639104167097e-11
+surfaceChargeDensity from Scientific C/ft2 to SI C/um2 (convert): PASS value: 1: 1.07639104167097e-11 2: 1.07639104167097e-11 3: 1.07639104167097e-11
+surfaceChargeDensity from Scientific C/ft2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.0763910416709701e-17 2: 1.0763910416709701e-17 3: 1.0763910416709701e-17
+surfaceChargeDensity from Scientific C/ft2 to SI C/nm2 (convert): PASS value: 1: 1.0763910416709701e-17 2: 1.0763910416709701e-17 3: 1.0763910416709701e-17
+surfaceChargeDensity from Scientific C/ft2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 27878399.999999933 2: 27878399.999999933 3: 27878399.999999933
+surfaceChargeDensity from Scientific C/ft2 to Scientific C/mi2 (convert): PASS value: 1: 27878399.999999933 2: 27878399.999999933 3: 27878399.999999933
+surfaceChargeDensity from Scientific C/ft2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 8.999999999999984 2: 8.999999999999984 3: 8.999999999999984
+surfaceChargeDensity from Scientific C/ft2 to Scientific C/yd2 (convert): PASS value: 1: 8.999999999999984 2: 8.999999999999984 3: 8.999999999999984
+surfaceChargeDensity from Scientific C/ft2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/ft2 to Scientific C/ft2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/ft2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 0.006944444444444431 2: 0.006944444444444431 3: 0.006944444444444431
+surfaceChargeDensity from Scientific C/ft2 to Scientific C/in2 (convert): PASS value: 1: 0.006944444444444431 2: 0.006944444444444431 3: 0.006944444444444431
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1550003100.0062 2: 1550003100.0062 3: 1550003100.0062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI C/km2 (convert): PASS value: 1: 1550003100.0062 2: 1550003100.0062 3: 1550003100.0062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI coulomb-per-square-meter (convert): PASS value: 1: 1550.0031000062 2: 1550.0031000062 3: 1550.0031000062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI C/m2 (convert): PASS value: 1: 1550.0031000062 2: 1550.0031000062 3: 1550.0031000062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI C/cm2 (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI coulomb-per-square-millimeter (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI C/mm2 (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.5500031000062e-09 2: 1.5500031000062e-09 3: 1.5500031000062e-09
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI C/um2 (convert): PASS value: 1: 1.5500031000062e-09 2: 1.5500031000062e-09 3: 1.5500031000062e-09
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.5500031000061998e-15 2: 1.5500031000061998e-15 3: 1.5500031000061998e-15
+surfaceChargeDensity from Scientific coulomb-per-square-inch to SI C/nm2 (convert): PASS value: 1: 1.5500031000061998e-15 2: 1.5500031000061998e-15 3: 1.5500031000061998e-15
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific coulomb-per-square-mile (convert): PASS value: 1: 4014489599.9999986 2: 4014489599.9999986 3: 4014489599.9999986
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific C/mi2 (convert): PASS value: 1: 4014489599.9999986 2: 4014489599.9999986 3: 4014489599.9999986
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific coulomb-per-square-yard (convert): PASS value: 1: 1296.0000000000002 2: 1296.0000000000002 3: 1296.0000000000002
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific C/yd2 (convert): PASS value: 1: 1296.0000000000002 2: 1296.0000000000002 3: 1296.0000000000002
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific coulomb-per-square-foot (convert): PASS value: 1: 144.00000000000028 2: 144.00000000000028 3: 144.00000000000028
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific C/ft2 (convert): PASS value: 1: 144.00000000000028 2: 144.00000000000028 3: 144.00000000000028
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific coulomb-per-square-inch (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific coulomb-per-square-inch to Scientific C/in2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/in2 to SI coulomb-per-square-kilometer (convert): PASS value: 1: 1550003100.0062 2: 1550003100.0062 3: 1550003100.0062
+surfaceChargeDensity from Scientific C/in2 to SI C/km2 (convert): PASS value: 1: 1550003100.0062 2: 1550003100.0062 3: 1550003100.0062
+surfaceChargeDensity from Scientific C/in2 to SI coulomb-per-square-meter (convert): PASS value: 1: 1550.0031000062 2: 1550.0031000062 3: 1550.0031000062
+surfaceChargeDensity from Scientific C/in2 to SI C/m2 (convert): PASS value: 1: 1550.0031000062 2: 1550.0031000062 3: 1550.0031000062
+surfaceChargeDensity from Scientific C/in2 to SI coulomb-per-square-centimeter (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+surfaceChargeDensity from Scientific C/in2 to SI C/cm2 (convert): PASS value: 1: 0.15500031000062 2: 0.15500031000062 3: 0.15500031000062
+surfaceChargeDensity from Scientific C/in2 to SI coulomb-per-square-millimeter (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+surfaceChargeDensity from Scientific C/in2 to SI C/mm2 (convert): PASS value: 1: 0.0015500031000062 2: 0.0015500031000062 3: 0.0015500031000062
+surfaceChargeDensity from Scientific C/in2 to SI coulomb-per-square-micrometer (convert): PASS value: 1: 1.5500031000062e-09 2: 1.5500031000062e-09 3: 1.5500031000062e-09
+surfaceChargeDensity from Scientific C/in2 to SI C/um2 (convert): PASS value: 1: 1.5500031000062e-09 2: 1.5500031000062e-09 3: 1.5500031000062e-09
+surfaceChargeDensity from Scientific C/in2 to SI coulomb-per-square-nanometer (convert): PASS value: 1: 1.5500031000061998e-15 2: 1.5500031000061998e-15 3: 1.5500031000061998e-15
+surfaceChargeDensity from Scientific C/in2 to SI C/nm2 (convert): PASS value: 1: 1.5500031000061998e-15 2: 1.5500031000061998e-15 3: 1.5500031000061998e-15
+surfaceChargeDensity from Scientific C/in2 to Scientific coulomb-per-square-mile (convert): PASS value: 1: 4014489599.9999986 2: 4014489599.9999986 3: 4014489599.9999986
+surfaceChargeDensity from Scientific C/in2 to Scientific C/mi2 (convert): PASS value: 1: 4014489599.9999986 2: 4014489599.9999986 3: 4014489599.9999986
+surfaceChargeDensity from Scientific C/in2 to Scientific coulomb-per-square-yard (convert): PASS value: 1: 1296.0000000000002 2: 1296.0000000000002 3: 1296.0000000000002
+surfaceChargeDensity from Scientific C/in2 to Scientific C/yd2 (convert): PASS value: 1: 1296.0000000000002 2: 1296.0000000000002 3: 1296.0000000000002
+surfaceChargeDensity from Scientific C/in2 to Scientific coulomb-per-square-foot (convert): PASS value: 1: 144.00000000000028 2: 144.00000000000028 3: 144.00000000000028
+surfaceChargeDensity from Scientific C/in2 to Scientific C/ft2 (convert): PASS value: 1: 144.00000000000028 2: 144.00000000000028 3: 144.00000000000028
+surfaceChargeDensity from Scientific C/in2 to Scientific coulomb-per-square-inch (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+surfaceChargeDensity from Scientific C/in2 to Scientific C/in2 (convert): PASS value: 1: 1.0 2: 1.0 3: 1.0
+
+
+
+END UnitConversionBasicTest 02/04/2024 12:27:28 Duration: 0:00:00.022938 Version : 1.0
+
+********************************************************************************

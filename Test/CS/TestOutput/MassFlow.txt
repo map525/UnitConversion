@@ -1,0 +1,68 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:11 Version: 1.0
+name: Force type: massFlow valid: True
+To System: SI From System: SI
+MassFlow Types [force, momentum, action, massFlow, quadMoment]
+
+MassFlow All Systems [a.u., CAN, cgs, FPS, Imperial, MKpS, MTS, Scientific, SI, UK, US]
+
+MassFlow All Units [a.u.[au-of-force], a.u.[auf], CAN[ounce-force], CAN[ozf], cgs[dyne], cgs[dyn], FPS[pound-force], 
+                    FPS[lbf], FPS[poundal], FPS[pdl], Imperial[kilopound-force], Imperial[kipf], Imperial[kip-force], 
+                    Imperial[ouncedal], Imperial[odl], Imperial[pound-force], Imperial[lbf], Imperial[tondal], 
+                    Imperial[tdl], MKpS[kilogram-force], MKpS[kgf], MKpS[kgp], MKpS[kilogram-weight], MKpS[kgw], 
+                    MKpS[pond], MKpS[p], MTS[funal], MTS[sthene], MTS[sn], MTS[sth], MTS[ton-force(metric)], 
+                    Scientific[crinal], Scientific[slug-force], SI[newton], SI[N], UK[ounce-force], UK[ozf], 
+                    UK[ton-force(long)], US[ounce-force], US[ozf], US[ton-force(short)], SI[yottanewton], SI[YN], 
+                    SI[zettanewton], SI[ZN], SI[exacnewton], SI[EN], SI[petanewton], SI[PN], SI[teranewton], SI[TN], 
+                    SI[giganewton], SI[GN], SI[meganewton], SI[MN], SI[kilonewton], SI[kN], SI[hectonewton], SI[hN], 
+                    SI[decacnewton], SI[daN], SI[decinewton], SI[dN], SI[centinewton], SI[cN], SI[millinewton], 
+                    SI[NH], SI[micronewton], SI[uN], SI[nanonewton], SI[nN], SI[piconewton], SI[pN], SI[femtonewton], 
+                    SI[fN], SI[attonewton], SI[aN], SI[zeptonewton], SI[zN], SI[yoctonewton], SI[yN], 
+                    a.u.[au-of-linear-momentum], a.u.[aulm], cgs[bole], cgs[gramcentimeter-per-second], cgs[gcm/sec], 
+                    SI[newton-second], SI[N-sec], a.u.[au-of-action], a.u.[aua], a.u.[au-of-angular-momentum], 
+                    a.u.[auam], Scientific[planck], SI[joule-second], SI[J-sec], Scientific[sumner-unit], 
+                    SI[kilogram-per-second], SI[kg/sec], SI[newton-per-meter], SI[N/m], Imperial[bisquare-foot], 
+                    Imperial[ft4], Imperial[bisquare-inch], Imperial[in4], SI[bisquare-meter], SI[m4], 
+                    US[barrel-mile], US[bbl-mi], US[mi4]]
+
+MassFlow Systems [Scientific, SI]
+
+Units MassFlow [Scientific[sumner-unit], SI[kilogram-per-second], SI[kg/sec], SI[newton-per-meter], SI[N/m]]
+
+MassFlow Scientific sumner-unit Scientific True 3.33333333333333E-09 sumner-unit kg/s M/T 0
+MassFlow SI kilogram-per-second SI True 1 kilogram-per-second kg/s M/T 0
+MassFlow SI kg/sec SI True 1 kilogram-per-second kg/s M/T 0
+MassFlow SI newton-per-meter SI True 1 newton-per-meter kg/s M/T 0
+MassFlow SI N/m SI True 1 newton-per-meter kg/s M/T 0
+
+
+name: Force type: massFlow valid: True
+massFlow from Scientific sumner-unit to Scientific sumner-unit (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from Scientific sumner-unit to SI kilogram-per-second (convert): PASS value: 1: 3.333333333333330E-009 2: 3.333333333333330E-009 3: 3.333333333333330E-009
+massFlow from Scientific sumner-unit to SI kg/sec (convert): PASS value: 1: 3.333333333333330E-009 2: 3.333333333333330E-009 3: 3.333333333333330E-009
+massFlow from Scientific sumner-unit to SI newton-per-meter (convert): PASS value: 1: 3.333333333333330E-009 2: 3.333333333333330E-009 3: 3.333333333333330E-009
+massFlow from Scientific sumner-unit to SI N/m (convert): PASS value: 1: 3.333333333333330E-009 2: 3.333333333333330E-009 3: 3.333333333333330E-009
+massFlow from SI kilogram-per-second to Scientific sumner-unit (convert): PASS value: 1: 3.000000000000003E+008 2: 3.000000000000003E+008 3: 3.000000000000003E+008
+massFlow from SI kilogram-per-second to SI kilogram-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kilogram-per-second to SI kg/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kilogram-per-second to SI newton-per-meter (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kilogram-per-second to SI N/m (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kg/sec to Scientific sumner-unit (convert): PASS value: 1: 3.000000000000003E+008 2: 3.000000000000003E+008 3: 3.000000000000003E+008
+massFlow from SI kg/sec to SI kilogram-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kg/sec to SI kg/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kg/sec to SI newton-per-meter (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI kg/sec to SI N/m (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI newton-per-meter to Scientific sumner-unit (convert): PASS value: 1: 3.000000000000003E+008 2: 3.000000000000003E+008 3: 3.000000000000003E+008
+massFlow from SI newton-per-meter to SI kilogram-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI newton-per-meter to SI kg/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI newton-per-meter to SI newton-per-meter (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI newton-per-meter to SI N/m (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI N/m to Scientific sumner-unit (convert): PASS value: 1: 3.000000000000003E+008 2: 3.000000000000003E+008 3: 3.000000000000003E+008
+massFlow from SI N/m to SI kilogram-per-second (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI N/m to SI kg/sec (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI N/m to SI newton-per-meter (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+massFlow from SI N/m to SI N/m (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:11 Duration: 00:00:00.0007325 Version: 1.0

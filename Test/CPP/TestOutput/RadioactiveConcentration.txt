@@ -1,0 +1,75 @@
+
+START UnitConversionUnitsTest February 04, 2024 14:22:44 Version : 1.0
+
+name: Radiation type: radioactiveConcentration valid: 1
+To System: Scientific From System: Scientific
+RadioactiveConcentration Types [exposure, exposureRate, particleFlux, radioactiveConcentration, specificEnergy, 
+                                specificRadioactivity]
+RadioactiveConcentration All Systems [INT, Scientific, German, SI, UK]
+RadioactiveConcentration All Units [INT[sievert-unit], Scientific[B-unit], Scientific[C/kg], Scientific[D-unit], 
+                                    Scientific[R], Scientific[coulomb-per-kilogram], Scientific[e-unit], 
+                                    Scientific[pastille-dose], Scientific[roentgen], German[R-unit(G)], 
+                                    German[R-unit(German)], German[R-unit(S)], German[R-unit(Solomon)], 
+                                    Scientific[E-unit], Scientific[particle-flux-unit], Scientific[pfu], 
+                                    Scientific[rayleigh], SI[Bq/m3], SI[becquerel-per-cubic-meter], Scientific[Ci/l], 
+                                    Scientific[curie-per-liter], Scientific[eman], INT[cal(IT)/g], 
+                                    INT[calorie(IT)-per-gram], SI[EGy], SI[ESv], SI[GGy], SI[GSv], SI[Gy], SI[MGy], 
+                                    SI[MSv], SI[PGy], SI[PSv], SI[Sv], SI[TGy], SI[TSv], SI[YGy], SI[YSv], SI[ZGy], 
+                                    SI[ZSv], SI[aGy], SI[aSv], SI[attogray], SI[attosievert], SI[cGy], SI[cSv], 
+                                    SI[centigray], SI[centisievert], SI[dGy], SI[dSv], SI[daGy], SI[daSv], 
+                                    SI[decacgray], SI[decacsievert], SI[decigray], SI[decisievert], SI[exacgray], 
+                                    SI[exacsievert], SI[fGy], SI[fSv], SI[femtogray], SI[femtosievert], SI[gigagray], 
+                                    SI[gigasievert], SI[gray], SI[hGy], SI[hSv], SI[hectogray], SI[hectosievert], 
+                                    SI[kGy], SI[kSv], SI[kilocgray], SI[kilocsievert], SI[mGy], SI[mSv], SI[megagray], 
+                                    SI[megasievert], SI[microgray], SI[microsievert], SI[milligray], SI[millisievert], 
+                                    SI[nGy], SI[nSv], SI[nanogray], SI[nanosievert], SI[pGy], SI[pSv], SI[petagray], 
+                                    SI[petasievert], SI[picogray], SI[picosievert], SI[sievert], SI[teragray], 
+                                    SI[terasievert], SI[uGy], SI[uSv], SI[yGy], SI[ySv], SI[yoctogray], 
+                                    SI[yoctosievert], SI[yottagray], SI[yottasievert], SI[zGy], SI[zSv], 
+                                    SI[zeptogray], SI[zeptosievert], SI[zettagray], SI[zettasievert], 
+                                    Scientific[gram-rad], Scientific[kerma], Scientific[n-unit], 
+                                    Scientific[rad-equivalent-physical], Scientific[rad], 
+                                    Scientific[radiation-absorbed-dose], Scientific[rd], Scientific[rem], 
+                                    Scientific[rep], UK[Btu(IT)/lb], UK[Btu(therm)/lb], 
+                                    UK[british-thermal-unit(IT)-per-pound], UK[british-thermal-unit(therm)-per-pound], 
+                                    SI[Bq/kg], SI[becquerel-per-kilogram], Scientific[strontium-unit]]
+RadioactiveConcentration Systems [SI, Scientific]
+Units RadioactiveConcentration [Scientific[Ci/l], Scientific[curie-per-liter], Scientific[eman], SI[Bq/m3], 
+                                SI[becquerel-per-cubic-meter]]
+RadioactiveConcentration SI Bq/m3 SI 1 1 becquerel-per-cubic-meter 1/m3.s 1/L3.T 0
+RadioactiveConcentration SI becquerel-per-cubic-meter SI 1 1 becquerel-per-cubic-meter 1/m3.s 1/L3.T 0
+RadioactiveConcentration Scientific Ci/l Scientific 1 3.7e+13 curie-per-liter 1/m3.s 1/L3.T 0
+RadioactiveConcentration Scientific curie-per-liter Scientific 1 3.7e+13 curie-per-liter 1/m3.s 1/L3.T 0
+RadioactiveConcentration Scientific eman Scientific 1 3700 eman 1/m3.s 1/L3.T 0
+
+name: Radiation type: radioactiveConcentration valid: 1
+radioactiveConcentration from SI Bq/m3 to SI Bq/m3 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from SI Bq/m3 to SI becquerel-per-cubic-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from SI Bq/m3 to Scientific Ci/l (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radioactiveConcentration from SI Bq/m3 to Scientific curie-per-liter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radioactiveConcentration from SI Bq/m3 to Scientific eman (convert): PASS value: 1: 0.000270 2: 0.000270 3: 0.000270
+radioactiveConcentration from SI becquerel-per-cubic-meter to SI Bq/m3 (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from SI becquerel-per-cubic-meter to SI becquerel-per-cubic-meter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from SI becquerel-per-cubic-meter to Scientific Ci/l (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radioactiveConcentration from SI becquerel-per-cubic-meter to Scientific curie-per-liter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radioactiveConcentration from SI becquerel-per-cubic-meter to Scientific eman (convert): PASS value: 1: 0.000270 2: 0.000270 3: 0.000270
+radioactiveConcentration from Scientific Ci/l to SI Bq/m3 (convert): PASS value: 1: 37000000000000.000000 2: 37000000000000.000000 3: 37000000000000.000000
+radioactiveConcentration from Scientific Ci/l to SI becquerel-per-cubic-meter (convert): PASS value: 1: 37000000000000.000000 2: 37000000000000.000000 3: 37000000000000.000000
+radioactiveConcentration from Scientific Ci/l to Scientific Ci/l (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from Scientific Ci/l to Scientific curie-per-liter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from Scientific Ci/l to Scientific eman (convert): PASS value: 1: 10000000000.000000 2: 10000000000.000000 3: 10000000000.000000
+radioactiveConcentration from Scientific curie-per-liter to SI Bq/m3 (convert): PASS value: 1: 37000000000000.000000 2: 37000000000000.000000 3: 37000000000000.000000
+radioactiveConcentration from Scientific curie-per-liter to SI becquerel-per-cubic-meter (convert): PASS value: 1: 37000000000000.000000 2: 37000000000000.000000 3: 37000000000000.000000
+radioactiveConcentration from Scientific curie-per-liter to Scientific Ci/l (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from Scientific curie-per-liter to Scientific curie-per-liter (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+radioactiveConcentration from Scientific curie-per-liter to Scientific eman (convert): PASS value: 1: 10000000000.000000 2: 10000000000.000000 3: 10000000000.000000
+radioactiveConcentration from Scientific eman to SI Bq/m3 (convert): PASS value: 1: 3700.000000 2: 3700.000000 3: 3700.000000
+radioactiveConcentration from Scientific eman to SI becquerel-per-cubic-meter (convert): PASS value: 1: 3700.000000 2: 3700.000000 3: 3700.000000
+radioactiveConcentration from Scientific eman to Scientific Ci/l (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radioactiveConcentration from Scientific eman to Scientific curie-per-liter (convert): PASS value: 1: 0.000000 2: 0.000000 3: 0.000000
+radioactiveConcentration from Scientific eman to Scientific eman (convert): PASS value: 1: 1.000000 2: 1.000000 3: 1.000000
+
+
+END UnitConversionUnitsTest February 04, 2024 14:22:44 Duration: 0.016 Version : 1.0
+
+*********************************************************************************

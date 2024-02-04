@@ -1,0 +1,231 @@
+
+START UnitConversionUnitsTest  February 04, 2024 12:47:13 Version: 1.0
+name: Molarity type: quantity valid: True
+To System: SI From System: SI
+Quantity Types [molarity, surfaceMolarity, molarDensity, molarAbsorption, radiochemicalYield, quantity, 
+                enzymaticActivity, molarCharge]
+
+Quantity All Systems [INT, Scientific, US, SI, Imperial]
+
+Quantity All Units [INT[chlorometric-degree], INT[oChl], INT[molar], INT[M], Scientific[amagat(atm)], 
+                    Scientific[amagat(bar)], Scientific[demal], Scientific[D], 
+                    Scientific[mole-per-centicubic-decimeter], Scientific[mol/dm3], 
+                    Scientific[mole-per-centicubic-meter], Scientific[mol/cm3], Scientific[mole-per-cubic-meter], 
+                    Scientific[mol/m3], Scientific[mole-per-cubic-decimeter], Scientific[mole-per-cubic-centimeter], 
+                    Scientific[mole-per-cubic-millimeter], Scientific[mol/mm3], Scientific[mole-per-cubic-yard], 
+                    Scientific[mol/yd3], Scientific[mole-per-cubic-foot], Scientific[mol/ft3], 
+                    Scientific[mole-per-cubic-in], Scientific[mol/in3], Scientific[mole-per-liter], Scientific[mol/l], 
+                    US[american-run], US[Ar], Scientific[gibbs], Scientific[mole-per-square-meter], 
+                    Scientific[mole/m2], Scientific[mole-per-square-centimeter], Scientific[mole/cm2], 
+                    Scientific[mole-per-square-millimeter], Scientific[mole/mm2], Scientific[mole-per-square-yard], 
+                    Scientific[mole/yd2], Scientific[mole-per-square-foot], Scientific[mole/ft2], 
+                    Scientific[mole-per-square-inch], Scientific[mole/in2], SI[cubic-meter-per-mole], SI[m3/mol], 
+                    SI[cubic-centimeter-per-mole], SI[cm3/mol], SI[cubic-millimeter-per-mole], SI[mm3/mol], 
+                    Scientific[cubic-yard-per-mole], Scientific[yd3/mol], Scientific[cubic-foot-per-mole], 
+                    Scientific[ft3/mol], Scientific[cubic-inch-per-mole], Scientific[in3/mol], 
+                    SI[square-meter-per-mole], SI[m2/mol], SI[square-centimeter-per-mole], SI[cm2/mol], 
+                    SI[square-millimeter-per-mole], SI[mm2/mol], Scientific[square-yard-per-mole], 
+                    Scientific[yd2/mol], Scientific[square-foot-per-mole], Scientific[ft2/mol], 
+                    Scientific[square-inch-per-mole], Scientific[in2/mol], INT[G-vaIue(old)], SI[G-value], 
+                    Imperial[pound-mole], Imperial[lbmol], INT[standard-cubic-foot], INT[SCF], INT[ft3(60oF-atm)], 
+                    INT[standard-cubic-meter(bar)], INT[SCM(bar)], INT[m3(STP-bar)], 
+                    Scientific[standard-cubic-meter-(atm)], Scientific[SCM(atm)], Scientific[m3(STP-atm)], SI[mole], 
+                    SI[mol], Scientific[international-unit], Scientific[UI], Scientific[IU], SI[katal], SI[kat], 
+                    Scientific[faraday(12C)], Scientific[F(12C)], Scientific[faraday(chemical)], 
+                    Scientific[F(chemical)], Scientific[faraday(physical)], Scientific[F(physical)]]
+
+Quantity Systems [Imperial, INT, Scientific, SI]
+
+Units Quantity [INT[standard-cubic-foot], INT[SCF], INT[ft3(60oF-atm)], INT[standard-cubic-meter(bar)], INT[SCM(bar)], 
+                INT[m3(STP-bar)], Scientific[standard-cubic-meter-(atm)], Scientific[SCM(atm)], 
+                Scientific[m3(STP-atm)], SI[mole], SI[mol], Imperial[pound-mole], Imperial[lbmol]]
+
+Quantity Imperial pound-mole Imperial True 0.45359237 pound-mole mol N 0
+Quantity Imperial lbmol Imperial True 0.45359237 pound-mole mol N 0
+Quantity INT standard-cubic-foot INT True 1.19528693986188 standard-cubic-foot mol N 0
+Quantity INT SCF INT True 1.19528693986188 standard-cubic-foot mol N 0
+Quantity INT ft3(60oF-atm) INT True 1.19528693986188 standard-cubic-foot mol N 0
+Quantity INT standard-cubic-meter(bar) INT True 44.0316145131708 standard-cubic-meter(bar) mol N 0
+Quantity INT SCM(bar) INT True 44.0316145131708 standard-cubic-meter(bar) mol N 0
+Quantity INT m3(STP-bar) INT True 44.0316145131708 standard-cubic-meter(bar) mol N 0
+Quantity Scientific standard-cubic-meter-(atm) Scientific True 44.6150334054703 standard-cubic-meter-(atm) mol N 0
+Quantity Scientific SCM(atm) Scientific True 44.6150334054703 standard-cubic-meter-(atm) mol N 0
+Quantity Scientific m3(STP-atm) Scientific True 44.6150334054703 standard-cubic-meter-(atm) mol N 0
+Quantity SI mole SI True 1 mole mol N 0
+Quantity SI mol SI True 1 mole mol N 0
+
+
+name: Molarity type: quantity valid: True
+quantity from Imperial pound-mole to Imperial pound-mole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Imperial pound-mole to Imperial lbmol (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Imperial pound-mole to INT standard-cubic-foot (convert): PASS value: 1: 3.794840844261332E-001 2: 3.794840844261332E-001 3: 3.794840844261332E-001
+quantity from Imperial pound-mole to INT SCF (convert): PASS value: 1: 3.794840844261332E-001 2: 3.794840844261332E-001 3: 3.794840844261332E-001
+quantity from Imperial pound-mole to INT ft3(60oF-atm) (convert): PASS value: 1: 3.794840844261332E-001 2: 3.794840844261332E-001 3: 3.794840844261332E-001
+quantity from Imperial pound-mole to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.030151574079394E-002 2: 1.030151574079394E-002 3: 1.030151574079394E-002
+quantity from Imperial pound-mole to INT SCM(bar) (convert): PASS value: 1: 1.030151574079394E-002 2: 1.030151574079394E-002 3: 1.030151574079394E-002
+quantity from Imperial pound-mole to INT m3(STP-bar) (convert): PASS value: 1: 1.030151574079394E-002 2: 1.030151574079394E-002 3: 1.030151574079394E-002
+quantity from Imperial pound-mole to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 1.016680556703079E-002 2: 1.016680556703079E-002 3: 1.016680556703079E-002
+quantity from Imperial pound-mole to Scientific SCM(atm) (convert): PASS value: 1: 1.016680556703079E-002 2: 1.016680556703079E-002 3: 1.016680556703079E-002
+quantity from Imperial pound-mole to Scientific m3(STP-atm) (convert): PASS value: 1: 1.016680556703079E-002 2: 1.016680556703079E-002 3: 1.016680556703079E-002
+quantity from Imperial pound-mole to SI mole (convert): PASS value: 1: 4.535923700000000E-001 2: 4.535923700000000E-001 3: 4.535923700000000E-001
+quantity from Imperial pound-mole to SI mol (convert): PASS value: 1: 4.535923700000000E-001 2: 4.535923700000000E-001 3: 4.535923700000000E-001
+quantity from Imperial lbmol to Imperial pound-mole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Imperial lbmol to Imperial lbmol (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Imperial lbmol to INT standard-cubic-foot (convert): PASS value: 1: 3.794840844261332E-001 2: 3.794840844261332E-001 3: 3.794840844261332E-001
+quantity from Imperial lbmol to INT SCF (convert): PASS value: 1: 3.794840844261332E-001 2: 3.794840844261332E-001 3: 3.794840844261332E-001
+quantity from Imperial lbmol to INT ft3(60oF-atm) (convert): PASS value: 1: 3.794840844261332E-001 2: 3.794840844261332E-001 3: 3.794840844261332E-001
+quantity from Imperial lbmol to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.030151574079394E-002 2: 1.030151574079394E-002 3: 1.030151574079394E-002
+quantity from Imperial lbmol to INT SCM(bar) (convert): PASS value: 1: 1.030151574079394E-002 2: 1.030151574079394E-002 3: 1.030151574079394E-002
+quantity from Imperial lbmol to INT m3(STP-bar) (convert): PASS value: 1: 1.030151574079394E-002 2: 1.030151574079394E-002 3: 1.030151574079394E-002
+quantity from Imperial lbmol to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 1.016680556703079E-002 2: 1.016680556703079E-002 3: 1.016680556703079E-002
+quantity from Imperial lbmol to Scientific SCM(atm) (convert): PASS value: 1: 1.016680556703079E-002 2: 1.016680556703079E-002 3: 1.016680556703079E-002
+quantity from Imperial lbmol to Scientific m3(STP-atm) (convert): PASS value: 1: 1.016680556703079E-002 2: 1.016680556703079E-002 3: 1.016680556703079E-002
+quantity from Imperial lbmol to SI mole (convert): PASS value: 1: 4.535923700000000E-001 2: 4.535923700000000E-001 3: 4.535923700000000E-001
+quantity from Imperial lbmol to SI mol (convert): PASS value: 1: 4.535923700000000E-001 2: 4.535923700000000E-001 3: 4.535923700000000E-001
+quantity from INT standard-cubic-foot to Imperial pound-mole (convert): PASS value: 1: 2.635156627219898E+000 2: 2.635156627219898E+000 3: 2.635156627219898E+000
+quantity from INT standard-cubic-foot to Imperial lbmol (convert): PASS value: 1: 2.635156627219898E+000 2: 2.635156627219898E+000 3: 2.635156627219898E+000
+quantity from INT standard-cubic-foot to INT standard-cubic-foot (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT standard-cubic-foot to INT SCF (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT standard-cubic-foot to INT ft3(60oF-atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT standard-cubic-foot to INT standard-cubic-meter(bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT standard-cubic-foot to INT SCM(bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT standard-cubic-foot to INT m3(STP-bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT standard-cubic-foot to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT standard-cubic-foot to Scientific SCM(atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT standard-cubic-foot to Scientific m3(STP-atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT standard-cubic-foot to SI mole (convert): PASS value: 1: 1.195286939861880E+000 2: 1.195286939861880E+000 3: 1.195286939861880E+000
+quantity from INT standard-cubic-foot to SI mol (convert): PASS value: 1: 1.195286939861880E+000 2: 1.195286939861880E+000 3: 1.195286939861880E+000
+quantity from INT SCF to Imperial pound-mole (convert): PASS value: 1: 2.635156627219898E+000 2: 2.635156627219898E+000 3: 2.635156627219898E+000
+quantity from INT SCF to Imperial lbmol (convert): PASS value: 1: 2.635156627219898E+000 2: 2.635156627219898E+000 3: 2.635156627219898E+000
+quantity from INT SCF to INT standard-cubic-foot (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT SCF to INT SCF (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT SCF to INT ft3(60oF-atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT SCF to INT standard-cubic-meter(bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT SCF to INT SCM(bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT SCF to INT m3(STP-bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT SCF to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT SCF to Scientific SCM(atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT SCF to Scientific m3(STP-atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT SCF to SI mole (convert): PASS value: 1: 1.195286939861880E+000 2: 1.195286939861880E+000 3: 1.195286939861880E+000
+quantity from INT SCF to SI mol (convert): PASS value: 1: 1.195286939861880E+000 2: 1.195286939861880E+000 3: 1.195286939861880E+000
+quantity from INT ft3(60oF-atm) to Imperial pound-mole (convert): PASS value: 1: 2.635156627219898E+000 2: 2.635156627219898E+000 3: 2.635156627219898E+000
+quantity from INT ft3(60oF-atm) to Imperial lbmol (convert): PASS value: 1: 2.635156627219898E+000 2: 2.635156627219898E+000 3: 2.635156627219898E+000
+quantity from INT ft3(60oF-atm) to INT standard-cubic-foot (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT ft3(60oF-atm) to INT SCF (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT ft3(60oF-atm) to INT ft3(60oF-atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT ft3(60oF-atm) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT ft3(60oF-atm) to INT SCM(bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT ft3(60oF-atm) to INT m3(STP-bar) (convert): PASS value: 1: 2.714610747476325E-002 2: 2.714610747476325E-002 3: 2.714610747476325E-002
+quantity from INT ft3(60oF-atm) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT ft3(60oF-atm) to Scientific SCM(atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT ft3(60oF-atm) to Scientific m3(STP-atm) (convert): PASS value: 1: 2.679112506761733E-002 2: 2.679112506761733E-002 3: 2.679112506761733E-002
+quantity from INT ft3(60oF-atm) to SI mole (convert): PASS value: 1: 1.195286939861880E+000 2: 1.195286939861880E+000 3: 1.195286939861880E+000
+quantity from INT ft3(60oF-atm) to SI mol (convert): PASS value: 1: 1.195286939861880E+000 2: 1.195286939861880E+000 3: 1.195286939861880E+000
+quantity from INT standard-cubic-meter(bar) to Imperial pound-mole (convert): PASS value: 1: 9.707309343226122E+001 2: 9.707309343226122E+001 3: 9.707309343226122E+001
+quantity from INT standard-cubic-meter(bar) to Imperial lbmol (convert): PASS value: 1: 9.707309343226122E+001 2: 9.707309343226122E+001 3: 9.707309343226122E+001
+quantity from INT standard-cubic-meter(bar) to INT standard-cubic-foot (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT standard-cubic-meter(bar) to INT SCF (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT standard-cubic-meter(bar) to INT ft3(60oF-atm) (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT standard-cubic-meter(bar) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT standard-cubic-meter(bar) to INT SCM(bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT standard-cubic-meter(bar) to INT m3(STP-bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT standard-cubic-meter(bar) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT standard-cubic-meter(bar) to Scientific SCM(atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT standard-cubic-meter(bar) to Scientific m3(STP-atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT standard-cubic-meter(bar) to SI mole (convert): PASS value: 1: 4.403161451317080E+001 2: 4.403161451317080E+001 3: 4.403161451317080E+001
+quantity from INT standard-cubic-meter(bar) to SI mol (convert): PASS value: 1: 4.403161451317080E+001 2: 4.403161451317080E+001 3: 4.403161451317080E+001
+quantity from INT SCM(bar) to Imperial pound-mole (convert): PASS value: 1: 9.707309343226122E+001 2: 9.707309343226122E+001 3: 9.707309343226122E+001
+quantity from INT SCM(bar) to Imperial lbmol (convert): PASS value: 1: 9.707309343226122E+001 2: 9.707309343226122E+001 3: 9.707309343226122E+001
+quantity from INT SCM(bar) to INT standard-cubic-foot (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT SCM(bar) to INT SCF (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT SCM(bar) to INT ft3(60oF-atm) (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT SCM(bar) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT SCM(bar) to INT SCM(bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT SCM(bar) to INT m3(STP-bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT SCM(bar) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT SCM(bar) to Scientific SCM(atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT SCM(bar) to Scientific m3(STP-atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT SCM(bar) to SI mole (convert): PASS value: 1: 4.403161451317080E+001 2: 4.403161451317080E+001 3: 4.403161451317080E+001
+quantity from INT SCM(bar) to SI mol (convert): PASS value: 1: 4.403161451317080E+001 2: 4.403161451317080E+001 3: 4.403161451317080E+001
+quantity from INT m3(STP-bar) to Imperial pound-mole (convert): PASS value: 1: 9.707309343226122E+001 2: 9.707309343226122E+001 3: 9.707309343226122E+001
+quantity from INT m3(STP-bar) to Imperial lbmol (convert): PASS value: 1: 9.707309343226122E+001 2: 9.707309343226122E+001 3: 9.707309343226122E+001
+quantity from INT m3(STP-bar) to INT standard-cubic-foot (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT m3(STP-bar) to INT SCF (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT m3(STP-bar) to INT ft3(60oF-atm) (convert): PASS value: 1: 3.683769398355413E+001 2: 3.683769398355413E+001 3: 3.683769398355413E+001
+quantity from INT m3(STP-bar) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT m3(STP-bar) to INT SCM(bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT m3(STP-bar) to INT m3(STP-bar) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from INT m3(STP-bar) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT m3(STP-bar) to Scientific SCM(atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT m3(STP-bar) to Scientific m3(STP-atm) (convert): PASS value: 1: 9.869232667160132E-001 2: 9.869232667160132E-001 3: 9.869232667160132E-001
+quantity from INT m3(STP-bar) to SI mole (convert): PASS value: 1: 4.403161451317080E+001 2: 4.403161451317080E+001 3: 4.403161451317080E+001
+quantity from INT m3(STP-bar) to SI mol (convert): PASS value: 1: 4.403161451317080E+001 2: 4.403161451317080E+001 3: 4.403161451317080E+001
+quantity from Scientific standard-cubic-meter-(atm) to Imperial pound-mole (convert): PASS value: 1: 9.835931192023864E+001 2: 9.835931192023864E+001 3: 9.835931192023864E+001
+quantity from Scientific standard-cubic-meter-(atm) to Imperial lbmol (convert): PASS value: 1: 9.835931192023864E+001 2: 9.835931192023864E+001 3: 9.835931192023864E+001
+quantity from Scientific standard-cubic-meter-(atm) to INT standard-cubic-foot (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific standard-cubic-meter-(atm) to INT SCF (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific standard-cubic-meter-(atm) to INT ft3(60oF-atm) (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific standard-cubic-meter-(atm) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific standard-cubic-meter-(atm) to INT SCM(bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific standard-cubic-meter-(atm) to INT m3(STP-bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific standard-cubic-meter-(atm) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific standard-cubic-meter-(atm) to Scientific SCM(atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific standard-cubic-meter-(atm) to Scientific m3(STP-atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific standard-cubic-meter-(atm) to SI mole (convert): PASS value: 1: 4.461503340547030E+001 2: 4.461503340547030E+001 3: 4.461503340547030E+001
+quantity from Scientific standard-cubic-meter-(atm) to SI mol (convert): PASS value: 1: 4.461503340547030E+001 2: 4.461503340547030E+001 3: 4.461503340547030E+001
+quantity from Scientific SCM(atm) to Imperial pound-mole (convert): PASS value: 1: 9.835931192023864E+001 2: 9.835931192023864E+001 3: 9.835931192023864E+001
+quantity from Scientific SCM(atm) to Imperial lbmol (convert): PASS value: 1: 9.835931192023864E+001 2: 9.835931192023864E+001 3: 9.835931192023864E+001
+quantity from Scientific SCM(atm) to INT standard-cubic-foot (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific SCM(atm) to INT SCF (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific SCM(atm) to INT ft3(60oF-atm) (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific SCM(atm) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific SCM(atm) to INT SCM(bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific SCM(atm) to INT m3(STP-bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific SCM(atm) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific SCM(atm) to Scientific SCM(atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific SCM(atm) to Scientific m3(STP-atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific SCM(atm) to SI mole (convert): PASS value: 1: 4.461503340547030E+001 2: 4.461503340547030E+001 3: 4.461503340547030E+001
+quantity from Scientific SCM(atm) to SI mol (convert): PASS value: 1: 4.461503340547030E+001 2: 4.461503340547030E+001 3: 4.461503340547030E+001
+quantity from Scientific m3(STP-atm) to Imperial pound-mole (convert): PASS value: 1: 9.835931192023864E+001 2: 9.835931192023864E+001 3: 9.835931192023864E+001
+quantity from Scientific m3(STP-atm) to Imperial lbmol (convert): PASS value: 1: 9.835931192023864E+001 2: 9.835931192023864E+001 3: 9.835931192023864E+001
+quantity from Scientific m3(STP-atm) to INT standard-cubic-foot (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific m3(STP-atm) to INT SCF (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific m3(STP-atm) to INT ft3(60oF-atm) (convert): PASS value: 1: 3.732579342883621E+001 2: 3.732579342883621E+001 3: 3.732579342883621E+001
+quantity from Scientific m3(STP-atm) to INT standard-cubic-meter(bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific m3(STP-atm) to INT SCM(bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific m3(STP-atm) to INT m3(STP-bar) (convert): PASS value: 1: 1.013250000000000E+000 2: 1.013250000000000E+000 3: 1.013250000000000E+000
+quantity from Scientific m3(STP-atm) to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific m3(STP-atm) to Scientific SCM(atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific m3(STP-atm) to Scientific m3(STP-atm) (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from Scientific m3(STP-atm) to SI mole (convert): PASS value: 1: 4.461503340547030E+001 2: 4.461503340547030E+001 3: 4.461503340547030E+001
+quantity from Scientific m3(STP-atm) to SI mol (convert): PASS value: 1: 4.461503340547030E+001 2: 4.461503340547030E+001 3: 4.461503340547030E+001
+quantity from SI mole to Imperial pound-mole (convert): PASS value: 1: 2.204622621848776E+000 2: 2.204622621848776E+000 3: 2.204622621848776E+000
+quantity from SI mole to Imperial lbmol (convert): PASS value: 1: 2.204622621848776E+000 2: 2.204622621848776E+000 3: 2.204622621848776E+000
+quantity from SI mole to INT standard-cubic-foot (convert): PASS value: 1: 8.366191971574238E-001 2: 8.366191971574238E-001 3: 8.366191971574238E-001
+quantity from SI mole to INT SCF (convert): PASS value: 1: 8.366191971574238E-001 2: 8.366191971574238E-001 3: 8.366191971574238E-001
+quantity from SI mole to INT ft3(60oF-atm) (convert): PASS value: 1: 8.366191971574238E-001 2: 8.366191971574238E-001 3: 8.366191971574238E-001
+quantity from SI mole to INT standard-cubic-meter(bar) (convert): PASS value: 1: 2.271095464148557E-002 2: 2.271095464148557E-002 3: 2.271095464148557E-002
+quantity from SI mole to INT SCM(bar) (convert): PASS value: 1: 2.271095464148557E-002 2: 2.271095464148557E-002 3: 2.271095464148557E-002
+quantity from SI mole to INT m3(STP-bar) (convert): PASS value: 1: 2.271095464148557E-002 2: 2.271095464148557E-002 3: 2.271095464148557E-002
+quantity from SI mole to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 2.241396954501414E-002 2: 2.241396954501414E-002 3: 2.241396954501414E-002
+quantity from SI mole to Scientific SCM(atm) (convert): PASS value: 1: 2.241396954501414E-002 2: 2.241396954501414E-002 3: 2.241396954501414E-002
+quantity from SI mole to Scientific m3(STP-atm) (convert): PASS value: 1: 2.241396954501414E-002 2: 2.241396954501414E-002 3: 2.241396954501414E-002
+quantity from SI mole to SI mole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from SI mole to SI mol (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from SI mol to Imperial pound-mole (convert): PASS value: 1: 2.204622621848776E+000 2: 2.204622621848776E+000 3: 2.204622621848776E+000
+quantity from SI mol to Imperial lbmol (convert): PASS value: 1: 2.204622621848776E+000 2: 2.204622621848776E+000 3: 2.204622621848776E+000
+quantity from SI mol to INT standard-cubic-foot (convert): PASS value: 1: 8.366191971574238E-001 2: 8.366191971574238E-001 3: 8.366191971574238E-001
+quantity from SI mol to INT SCF (convert): PASS value: 1: 8.366191971574238E-001 2: 8.366191971574238E-001 3: 8.366191971574238E-001
+quantity from SI mol to INT ft3(60oF-atm) (convert): PASS value: 1: 8.366191971574238E-001 2: 8.366191971574238E-001 3: 8.366191971574238E-001
+quantity from SI mol to INT standard-cubic-meter(bar) (convert): PASS value: 1: 2.271095464148557E-002 2: 2.271095464148557E-002 3: 2.271095464148557E-002
+quantity from SI mol to INT SCM(bar) (convert): PASS value: 1: 2.271095464148557E-002 2: 2.271095464148557E-002 3: 2.271095464148557E-002
+quantity from SI mol to INT m3(STP-bar) (convert): PASS value: 1: 2.271095464148557E-002 2: 2.271095464148557E-002 3: 2.271095464148557E-002
+quantity from SI mol to Scientific standard-cubic-meter-(atm) (convert): PASS value: 1: 2.241396954501414E-002 2: 2.241396954501414E-002 3: 2.241396954501414E-002
+quantity from SI mol to Scientific SCM(atm) (convert): PASS value: 1: 2.241396954501414E-002 2: 2.241396954501414E-002 3: 2.241396954501414E-002
+quantity from SI mol to Scientific m3(STP-atm) (convert): PASS value: 1: 2.241396954501414E-002 2: 2.241396954501414E-002 3: 2.241396954501414E-002
+quantity from SI mol to SI mole (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+quantity from SI mol to SI mol (convert): PASS value: 1: 1.000000000000000E+000 2: 1.000000000000000E+000 3: 1.000000000000000E+000
+
+
+
+END UnitConversionUnitsTest  February 04, 2024 12:47:13 Duration: 00:00:00.0017691 Version: 1.0
